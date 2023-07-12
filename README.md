@@ -1,3 +1,3 @@
 ## README
 
-Repository for Neuro-iX website
+Repository for Neuro-iX lab website
