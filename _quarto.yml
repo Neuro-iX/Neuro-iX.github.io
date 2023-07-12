@@ -11,7 +11,7 @@ website:
       - about.qmd
 
 format:
-  # html:
+  html:
     theme: sandstone
     css: styles.css
     toc: true
