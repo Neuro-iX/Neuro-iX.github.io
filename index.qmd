@@ -1,27 +1,27 @@
 ---
-title: "Neuro-iX.github.io"
+title: "Neuro-iX"
 jupyter: python3
 
 about: 
   id: hero-heading
-  template: broadside
-  image: images/logos/Neuro-iX-1-transparent.png
+  template: trestles
+  image: images/logos/Neuro-iX-2-transparent.png
   #image-shape: round
-  #image-width: 23em
+  image-width: 15em
   links:
-    - icon: Linkedin
+    - icon: images/icons/linkedin.svg
       text: LinkedIn
       href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAE54G0B9SjSTi14XXga3b5V66C7b9BTXFI&keywords=sylvain%20bouix&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=90ed282e-d341-4c4e-8b36-131ab83ec6ea&sid=nWS
-    - icon: GitHub
+    - icon: images/icons/github.svg
       text: GitHub
       href: https://github.com/Neuro-iX
-    - icon: Email
+    - icon: images/icons/envelope.png
       text: Email
-      href: sylvain.bouix@etsmtl.ca    
-    #- icon:
+      aria-label: email
+      href: "sylvain.bouix@etsmtl.ca"    
+    #- icon: images/icons/twitter.svg
     #  text: Twitter
     #  href: https://twitter.com/SamanthaCsik
-
 ---
   
 
@@ -29,6 +29,9 @@ about:
 :::{#hero-heading}
 
 Neuro-iX is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.
+
+<!-- This content appears below the formatted about page content. -->
+:::
 
 ## Recrutement
 
@@ -39,9 +42,4 @@ We are currently recruiting talented applicants for MSc, PhD, postdocs positions
 ## Software
 
 ## Data
-
-
-<!-- This content appears below the formatted about page content. -->
-:::
-
 ## Lab members

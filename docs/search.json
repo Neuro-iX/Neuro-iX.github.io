@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Neuro-iX.github.io",
+    "title": "Neuro-iX",
     "section": "",
-    "text": "Neuro-iX is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.\n\n\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form.\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    \n     LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email"
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \nNeuro-iX is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy."
   },
   {
     "objectID": "about.html",
@@ -30,15 +30,36 @@
   {
     "objectID": "index.html#recrutement",
     "href": "index.html#recrutement",
-    "title": "Neuro-iX.github.io",
-    "section": "",
-    "text": "We are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
+    "title": "Neuro-iX",
+    "section": "Recrutement",
+    "text": "Recrutement\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
   },
   {
     "objectID": "index.html#lab-members",
     "href": "index.html#lab-members",
-    "title": "Neuro-iX.github.io",
+    "title": "Neuro-iX",
     "section": "Lab members",
     "text": "Lab members"
+  },
+  {
+    "objectID": "index.html#papers",
+    "href": "index.html#papers",
+    "title": "Neuro-iX",
+    "section": "Papers",
+    "text": "Papers"
+  },
+  {
+    "objectID": "index.html#software",
+    "href": "index.html#software",
+    "title": "Neuro-iX",
+    "section": "Software",
+    "text": "Software"
+  },
+  {
+    "objectID": "index.html#data",
+    "href": "index.html#data",
+    "title": "Neuro-iX",
+    "section": "Data",
+    "text": "Data"
   }
 ]
