@@ -12,7 +12,15 @@ website:
 
 format:
   html:
-    theme: sandstone
+    theme: 
+      light: light_config.scss
+      dark: dark_config.scss
+      
+    #maintfont: arial
+    #fontsize: 1rem
+    #fontcolor: "#000000" #Color of text
+    #linkcolor: "#2e97f4" #color of links
+    #monofont: courier new #font of text
     css: styles.css
     toc: true
 
