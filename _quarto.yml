@@ -18,13 +18,13 @@ website:
         
     # your social media handles
     right:    
-      - icon: images/icons/linkedin.svg
+      - icon: images/icons/linkedin.png
         href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAE54G0B9SjSTi14XXga3b5V66C7b9BTXFI&keywords=sylvain%20bouix&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=90ed282e-d341-4c4e-8b36-131ab83ec6ea&sid=nWS
-      - icon: images/icons/github.svg
+      - icon: images/icons/github.png
         href: https://github.com/Neuro-iX
-      - icon: images/icons/envelope.svg
+      - icon: images/icons/envelope.png
         aria-label: email
-        href: "sylvain.bouix@etsmtl.ca"     
+        href: mailto:sylvain.bouix@etsmtl.ca     
       
 format:
   html:

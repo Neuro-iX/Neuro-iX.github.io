@@ -9,19 +9,19 @@ about:
   #image-shape: round
   image-width: 15em
   links:
-    - icon: images/icons/linkedin.svg
+    - icon: images/icons/linkedin.png
       text: LinkedIn
       href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAE54G0B9SjSTi14XXga3b5V66C7b9BTXFI&keywords=sylvain%20bouix&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=90ed282e-d341-4c4e-8b36-131ab83ec6ea&sid=nWS
-    - icon: images/icons/github.svg
+    - icon: images/icons/github.png
       text: GitHub
       href: https://github.com/Neuro-iX
     - icon: images/icons/envelope.png
       text: Email
       aria-label: email
-      href: "sylvain.bouix@etsmtl.ca"    
-    #- icon: images/icons/twitter.svg
+      href: mailto:sylvain.bouix@etsmtl.ca   
+    #- icon: images/icons/twitter.png
     #  text: Twitter
-    #  href: https://twitter.com/SamanthaCsik
+    #  href: https://twitter.com
 ---
   
 
