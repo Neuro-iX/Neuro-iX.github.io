@@ -1,12 +1,47 @@
 ---
 title: "Neuro-iX.github.io"
 jupyter: python3
+
+about: 
+  id: hero-heading
+  template: broadside
+  image: images/logos/Neuro-iX-1-transparent.png
+  #image-shape: round
+  #image-width: 23em
+  links:
+    - icon: Linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAE54G0B9SjSTi14XXga3b5V66C7b9BTXFI&keywords=sylvain%20bouix&origin=RICH_QUERY_TYPEAHEAD_HISTORY&position=0&searchId=90ed282e-d341-4c4e-8b36-131ab83ec6ea&sid=nWS
+    - icon: GitHub
+      text: GitHub
+      href: https://github.com/Neuro-iX
+    - icon: Email
+      text: Email
+      href: sylvain.bouix@etsmtl.ca    
+    #- icon:
+    #  text: Twitter
+    #  href: https://twitter.com/SamanthaCsik
+
 ---
+  
 
-This is a Quarto website.
+<!-- This content appears above the formatted about page content. -->
+:::{#hero-heading}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Neuro-iX is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.
 
-```{python}
-1 + 1
-```
+## Recrutement
+
+We are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form.
+
+## Papers
+
+## Software
+
+## Data
+
+
+<!-- This content appears below the formatted about page content. -->
+:::
+
+## Lab members
