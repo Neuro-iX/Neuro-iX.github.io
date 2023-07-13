@@ -13,8 +13,8 @@ website:
 format:
   html:
     theme: 
-      light: light_config.scss
-      dark: dark_config.scss
+      light: themes/light_config.scss
+      dark: themes/dark_config.scss
     css: styles.css
     toc: true
 
