@@ -19,7 +19,6 @@ about:
       target: _blank
     - icon: envelope
       text: Email
-      #aria-label: email
       href: mailto:sylvain.bouix@etsmtl.ca   
       target: _blank
     #- icon: images/icons/twitter.png
@@ -34,7 +33,7 @@ about:
 
 # Neuro-iX
 
-Neuro-iX is run by [Sylvain Bouix](https://sbouix.github.io/). It is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.
+Neuro-iX is run by [Sylvain Bouix](https://sbouix.github.io/). It is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular [schizophrenia](https://www.ampscz.org/), brain injury and [chronic traumatic encephalopathy](https://diagnosecte.com/). We advocate [open science](https://science.gc.ca/site/science/en/open-science-helping-make-science-accessible-all-canadians) practices and the development of health technologies that are less [biased](https://www.nature.com/articles/s41467-017-00908-7), more inclusive and equitable.
 
 <!-- This content appears below the formatted about page content. -->
 :::
