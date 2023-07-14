@@ -33,14 +33,14 @@ about:
 
 # Neuro-iX
 
-Neuro-iX is run by [Sylvain Bouix](https://sbouix.github.io/). It is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular [schizophrenia](https://www.ampscz.org/), brain injury and [chronic traumatic encephalopathy](https://diagnosecte.com/). We advocate [open science](https://science.gc.ca/site/science/en/open-science-helping-make-science-accessible-all-canadians) practices and the development of health technologies that are less [biased](https://www.nature.com/articles/s41467-017-00908-7), more inclusive and equitable.
+Neuro-iX is run by [Sylvain Bouix](https://sbouix.github.io/){target="_blank"}. It is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular [schizophrenia](https://www.ampscz.org/){target="_blank"}, brain injury and [chronic traumatic encephalopathy](https://diagnosecte.com/){target="_blank"}. We advocate [open science](https://science.gc.ca/site/science/en/open-science-helping-make-science-accessible-all-canadians){target="_blank"} practices and the development of health technologies that are less [biased](https://www.nature.com/articles/s41467-017-00908-7){target="_blank"}, more inclusive and equitable.
 
 <!-- This content appears below the formatted about page content. -->
 :::
 
 ## Recrutement
 
-We are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform).
+We are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform){target="_blank"}.
 
 ## Papers
 
