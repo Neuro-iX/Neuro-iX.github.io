@@ -6,7 +6,8 @@ website:
   title: "Neuro-iX"
   
   favicon: images/logos/Neuro-iX-2-transparent.png
-  
+ 
+  # start of the navigation bar at the top of the website  
   navbar:
     pinned: true
     logo: images/logos/Neuro-iX-2-transparent.png
@@ -25,6 +26,10 @@ website:
       - icon: envelope
         aria-label: email
         href: mailto:sylvain.bouix@etsmtl.ca     
+      
+  search: 
+    location: navbar
+    type: textbox    
       
 format:
   html:
