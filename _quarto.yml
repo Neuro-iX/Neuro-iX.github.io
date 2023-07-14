@@ -14,8 +14,8 @@ website:
     
     # your sub-pages
     left:
-      - text: About
-        href: about.qmd
+      - text: "People"
+        href: people/index.qmd
         
     # your social media handles
     right:    
