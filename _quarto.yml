@@ -16,6 +16,14 @@ website:
     left:
       - text: "People"
         href: people/index.qmd
+      - text: "Research"
+        href: research/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Tools"
+        href: tools/index.qmd
+      - text: "Contact"
+        href: contact/index.qmd
         
     # your social media handles
     right:    
