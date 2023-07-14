@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Neuro-iX",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nNeuro-iX is run by Sylvain Bouix. It is a brand new lab revolving around developing robust software to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy. We advocate open science practices and the development of health technologies that are less biased, more inclusive and equitable."
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nNeuro-iX is run by Sylvain Bouix. This brand new lab revolves around developing robust softwares to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.\nWe advocate open science practices and the development of health technologies that are less biased, more inclusive and equitable."
   },
   {
     "objectID": "about.html",
@@ -65,9 +65,9 @@
   {
     "objectID": "people/index.html",
     "href": "people/index.html",
-    "title": "People",
+    "title": "Principal Investigator",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n2"
+    "text": "je teste\n\n\n\nSylvain Bouix"
   },
   {
     "objectID": "research/index.html",
@@ -96,5 +96,26 @@
     "title": "Contact",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "index.html#recruitment",
+    "href": "index.html#recruitment",
+    "title": "Neuro-iX",
+    "section": "Recruitment",
+    "text": "Recruitment\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
+  },
+  {
+    "objectID": "people/index.html#principal-investigator",
+    "href": "people/index.html#principal-investigator",
+    "title": "Neuro-iX",
+    "section": "",
+    "text": "je teste :{.test}\n\narXiv Preprint | Code"
+  },
+  {
+    "objectID": "people/index.html#research-assistant",
+    "href": "people/index.html#research-assistant",
+    "title": "Neuro-iX",
+    "section": "Research assistant",
+    "text": "Research assistant"
   }
 ]
