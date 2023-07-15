@@ -65,9 +65,9 @@
   {
     "objectID": "people/index.html",
     "href": "people/index.html",
-    "title": "Principal Investigator",
+    "title": "People",
     "section": "",
-    "text": "je teste\n\n\n\nSylvain Bouix"
+    "text": "Sylvain Bouix"
   },
   {
     "objectID": "research/index.html",
@@ -107,15 +107,15 @@
   {
     "objectID": "people/index.html#principal-investigator",
     "href": "people/index.html#principal-investigator",
-    "title": "Neuro-iX",
+    "title": "People",
     "section": "",
-    "text": "je teste :{.test}\n\narXiv Preprint | Code"
+    "text": "Sylvain Bouix"
   },
   {
     "objectID": "people/index.html#research-assistant",
     "href": "people/index.html#research-assistant",
-    "title": "Neuro-iX",
+    "title": "People",
     "section": "Research assistant",
-    "text": "Research assistant"
+    "text": "Research assistant\nBenoît Verreman"
   }
 ]

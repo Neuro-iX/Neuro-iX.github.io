@@ -1,5 +1,11 @@
 /* css styles */
 
-.test h3 {
+/* Not show titles */
+.quarto-title > h1.title {
+  opacity: 0 !important;
+}
+
+/* Center a block */
+.centering {
   text-align: center;
 }

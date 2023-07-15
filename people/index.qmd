@@ -1,13 +1,17 @@
 ---
-#title: false
+title: People
 #template: jolla
-format: html
-css: styles.css
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    css: styles.css
+
 ---
 
-## Principal Investigator
-
-<!--
+## Principal Investigator {.centering}
+[Sylvain Bouix](https://www.etsmtl.ca/recherche/professeurs-chercheurs/sbouix/){target="_blank"} 
+<!-- 
 ![Sylvain Bouix](../images/people_faces/sylvain_bouix.jpg)
 -->
 
@@ -17,4 +21,6 @@ css: styles.css
 
 ----
 
-## Research assistant
+## Research assistant {.centering}
+
+[Benoît Verreman](https://www.linkedin.com/in/benoitverreman/){target="_blank"} 
