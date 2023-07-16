@@ -25,6 +25,12 @@ about:
     #  text: Twitter
     #  href: https://twitter.com
     #  target: _blank
+    
+format:
+  html:
+    toc: true #For table of content
+    html-math-method: katex
+    css: styles.css
 ---
   
 

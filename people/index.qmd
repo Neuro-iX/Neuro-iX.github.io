@@ -3,17 +3,24 @@ title: People
 #template: jolla
 format:
   html:
-    toc: true
+    toc: false #No table of content
     html-math-method: katex
-    css: styles.css
+    css: ../styles.css
 
 ---
 
 ## Principal Investigator {.centering}
-[Sylvain Bouix](https://www.etsmtl.ca/recherche/professeurs-chercheurs/sbouix/){target="_blank"} 
+
 <!-- 
 ![Sylvain Bouix](../images/people_faces/sylvain_bouix.jpg)
 -->
+[Sylvain Bouix](https://www.etsmtl.ca/recherche/professeurs-chercheurs/sbouix/){target="_blank"} 
+
+Professor
+
+Department of Software and IT Engineering
+
+Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 <!--
 <img src="../images/people_faces/sylvain_bouix.jpg" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://sbouix.github.io/', 'blank');"/>
