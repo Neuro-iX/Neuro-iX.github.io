@@ -1,7 +1,6 @@
 ---
 title: Neuro-iX
-subtitle: "Neuro-iX <br> École de Technologie Supérieure"
-subsubtitle: test
+subtitle: "Neuro-iX <br> Lab of Neuro-informatics <br> École de Technologie Supérieure"
 jupyter: python3
 
 about: 
