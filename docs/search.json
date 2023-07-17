@@ -67,7 +67,7 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "Sylvain Bouix\nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
+    "text": "Principal Investigator\n\n\nSylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI\n\n\n\n\n\nResearcher\n\nBenoît Verreman\n \nResearch assistant\nDepartment of Software and IT Engineering\nNeuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
   },
   {
     "objectID": "research/index.html",
@@ -109,7 +109,7 @@
     "href": "people/index.html#principal-investigator",
     "title": "People",
     "section": "",
-    "text": "Sylvain Bouix\nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
+    "text": "Sylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
   },
   {
     "objectID": "people/index.html#research-assistant",
@@ -117,5 +117,19 @@
     "title": "People",
     "section": "Research assistant",
     "text": "Research assistant\nBenoît Verreman"
+  },
+  {
+    "objectID": "people/index.html#researcher",
+    "href": "people/index.html#researcher",
+    "title": "People",
+    "section": "",
+    "text": "Benoît Verreman\n \nResearch assistant\nDepartment of Software and IT Engineering\nNeuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
+  },
+  {
+    "objectID": "people/index.html#section",
+    "href": "people/index.html#section",
+    "title": "People",
+    "section": "",
+    "text": "Principal Investigator \n\nSylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
   }
 ]

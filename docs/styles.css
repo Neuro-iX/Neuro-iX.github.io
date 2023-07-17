@@ -10,8 +10,13 @@
   text-align: center;
 }
 
-/*Center a block 
+/*Center a block */
 .text-style-1 {
-  text-align: center;
-}*/
+  font-size: 2em;
+}
+
+/*Center a block */
+.text-style-2 {
+  font-size: 1em;
+}
 
