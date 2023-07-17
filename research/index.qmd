@@ -19,6 +19,6 @@ Neuroinformatics
 
 Anatomical and Diffusion MRI
 
-# {.centering .unnumbered .unlisted}
+----
 
 [**Research Projects**]{.text-style-1}

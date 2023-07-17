@@ -32,8 +32,6 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 ----
 
-# {.centering}
-
 [**Researcher**]{.text-style-1}
 
 ![](../images/people_faces/BV_round.png){width=200}
