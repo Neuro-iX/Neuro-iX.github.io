@@ -7,6 +7,14 @@ format:
 
 ---
 
+```css
+
+.quarto-title > h1.title {
+  opacity: 0 !important;
+}
+
+```
+
 # {.centering .unnumbered .unlisted}
 
 [**Principal Investigator**]{.text-style-1}
@@ -14,7 +22,7 @@ format:
 <!-- -->
 ![](../images/people_faces/SB_round.png){width=200}
 
-[Sylvain Bouix](https://www.etsmtl.ca/recherche/professeurs-chercheurs/sbouix/){target="_blank"} 
+[Sylvain Bouix](https://sbouix.github.io/){target="_blank"} 
 
 [{{< bi mortarboard size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.etsmtl.ca/recherche/professeurs-chercheurs/sbouix/){target="_blank"} 
 [{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/sbouix){target="_blank"} 

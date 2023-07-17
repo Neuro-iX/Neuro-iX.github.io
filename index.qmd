@@ -5,7 +5,7 @@ jupyter: python3
 about: 
   id: hero-heading
   template: trestles
-  image: images/logos/Neuro-iX-2-transparent.png
+  image: images/logos/Neuro-iX-2-transparent-fluo.png
   #image-shape: round
   image-width: 15em
   links:
