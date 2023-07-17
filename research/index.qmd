@@ -1,10 +1,24 @@
 ---
 title: Research
-jupyter: python3
+#jupyter: python3
+format:
+  html:
+    toc: false #No table of content
+    css: ../styles.css
 ---
 
-About this site
+# {.centering .unnumbered .unlisted}
 
-```{python}
-1 + 1
-```
+[**Research Areas**]{.text-style-1}
+
+Medical Imaging
+
+Neuroimaging
+
+Neuroinformatics
+
+Anatomical and Diffusion MRI
+
+# {.centering .unnumbered .unlisted}
+
+[**Research Projects**]{.text-style-1}

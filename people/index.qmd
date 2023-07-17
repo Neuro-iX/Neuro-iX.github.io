@@ -7,14 +7,6 @@ format:
 
 ---
 
-```css
-
-.quarto-title > h1.title {
-  opacity: 0 !important;
-}
-
-```
-
 # {.centering .unnumbered .unlisted}
 
 [**Principal Investigator**]{.text-style-1}
