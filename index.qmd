@@ -32,8 +32,8 @@ format:
     toc: true #For table of content
     html-math-method: katex
     css: styles.css
+
 ---
-  
 
 <!-- This content appears above the formatted about page content. -->
 :::{#hero-heading}
