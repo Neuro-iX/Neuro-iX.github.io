@@ -1,68 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Neuro-iX",
-    "section": "",
-    "text": "Neuro-iX\nNeuro-iX is run by Sylvain Bouix. This brand new laboratory revolves around developing robust softwares to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.\nWe advocate open science practices and the development of health technologies that are less biased, more inclusive and equitable.\n\n\nRecruitment\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n2"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Neuro-iX.github.io",
-    "section": "",
-    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Neuro-iX.github.io",
-    "section": "",
-    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
-  },
-  {
-    "objectID": "index.html#recrutement",
-    "href": "index.html#recrutement",
-    "title": "Neuro-iX",
-    "section": "Recrutement",
-    "text": "Recrutement\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
-  },
-  {
-    "objectID": "index.html#lab-members",
-    "href": "index.html#lab-members",
-    "title": "Neuro-iX",
-    "section": "Lab members",
-    "text": "Lab members"
-  },
-  {
-    "objectID": "index.html#papers",
-    "href": "index.html#papers",
-    "title": "Neuro-iX",
-    "section": "Papers",
-    "text": "Papers"
-  },
-  {
-    "objectID": "index.html#software",
-    "href": "index.html#software",
-    "title": "Neuro-iX",
-    "section": "Software",
-    "text": "Software"
-  },
-  {
-    "objectID": "index.html#data",
-    "href": "index.html#data",
-    "title": "Neuro-iX",
-    "section": "Data",
-    "text": "Data"
-  },
-  {
     "objectID": "people/index.html",
     "href": "people/index.html",
     "title": "People",
@@ -70,23 +7,9 @@
     "text": "Principal Investigator\n\n\nSylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI\n\n\nResearcher\n\nBenoît Verreman\n \nResearch assistant\nDepartment of Software and IT Engineering\nNeuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
   },
   {
-    "objectID": "research/index.html",
-    "href": "research/index.html",
-    "title": "Research",
-    "section": "",
-    "text": "Research Areas\nMedical Imaging\nNeuroimaging\nNeuroinformatics\nAnatomical and Diffusion MRI\n\nResearch Projects"
-  },
-  {
     "objectID": "publications/index.html",
     "href": "publications/index.html",
     "title": "Puplications",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n2"
-  },
-  {
-    "objectID": "tools/index.html",
-    "href": "tools/index.html",
-    "title": "Tools",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n2"
   },
@@ -98,38 +21,24 @@
     "text": "About this site\n\n1 + 1\n\n2"
   },
   {
-    "objectID": "index.html#recruitment",
-    "href": "index.html#recruitment",
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research Areas\nMedical Imaging\nNeuroimaging\nNeuroinformatics\nAnatomical and Diffusion MRI\n\nResearch Projects"
+  },
+  {
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
+    "title": "Tools",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Neuro-iX",
-    "section": "Recruitment",
-    "text": "Recruitment\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
-  },
-  {
-    "objectID": "people/index.html#principal-investigator",
-    "href": "people/index.html#principal-investigator",
-    "title": "People",
     "section": "",
-    "text": "Sylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
-  },
-  {
-    "objectID": "people/index.html#research-assistant",
-    "href": "people/index.html#research-assistant",
-    "title": "People",
-    "section": "Research assistant",
-    "text": "Research assistant\nBenoît Verreman"
-  },
-  {
-    "objectID": "people/index.html#researcher",
-    "href": "people/index.html#researcher",
-    "title": "People",
-    "section": "",
-    "text": "Benoît Verreman\n \nResearch assistant\nDepartment of Software and IT Engineering\nNeuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
-  },
-  {
-    "objectID": "people/index.html#section",
-    "href": "people/index.html#section",
-    "title": "People",
-    "section": "",
-    "text": "Principal Investigator \n\nSylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI"
+    "text": "Neuro-iX\nNeuro-iX is run by Sylvain Bouix. This brand new lab revolves around developing robust softwares to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.\nWe advocate open science practices and the development of health technologies that are less biased, more inclusive and equitable.\n\n\nRecruitment\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
   }
 ]

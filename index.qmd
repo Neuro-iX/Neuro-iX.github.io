@@ -54,7 +54,7 @@ format:
 
 # Neuro-iX
 
-Neuro-iX is run by [Sylvain Bouix](https://sbouix.github.io/){target="_blank"}. This brand new laboratory revolves around developing robust softwares to analyse brain imaging and behavioral data for the study of mental disorders in particular [schizophrenia](https://www.ampscz.org/){target="_blank"}, brain injury and [chronic traumatic encephalopathy](https://diagnosecte.com/){target="_blank"}. 
+Neuro-iX is run by [Sylvain Bouix](https://sbouix.github.io/){target="_blank"}. This brand new lab revolves around developing robust softwares to analyse brain imaging and behavioral data for the study of mental disorders in particular [schizophrenia](https://www.ampscz.org/){target="_blank"}, brain injury and [chronic traumatic encephalopathy](https://diagnosecte.com/){target="_blank"}. 
 
 We advocate [open science](https://science.gc.ca/site/science/en/open-science-helping-make-science-accessible-all-canadians){target="_blank"} practices and the development of health technologies that are less [biased](https://www.nature.com/articles/s41467-017-00908-7){target="_blank"}, more inclusive and equitable.
 
