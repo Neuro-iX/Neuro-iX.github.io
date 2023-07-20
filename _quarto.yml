@@ -11,7 +11,7 @@ website:
   navbar:
     title: false
     pinned: true
-    logo: images/logos/Neuro-iX-croped-modified.png
+    logo: images/logos/Horizontal.png
     
     # your sub-pages
     left:

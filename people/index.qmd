@@ -46,3 +46,10 @@ Research assistant
 Department of Software and IT Engineering
 
 Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
+----
+[**Collaborators**]{.text-style-1}
+
+* Martha E. Shenton
+* Ofer Pasternak
+* Yogesh Rathi
+* Inga Koerte
