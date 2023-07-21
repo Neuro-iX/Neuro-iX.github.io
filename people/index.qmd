@@ -49,7 +49,22 @@ Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 ----
 [**Collaborators**]{.text-style-1}
 
-* Martha E. Shenton
-* Ofer Pasternak
-* Yogesh Rathi
-* Inga Koerte
+<a href="https://pnl.bwh.harvard.edu/" target="_blank">
+Psychiatry Neuroimaging Laboratory, Brigham and Women's Hospital, Harvard Medical School</a><br>
+<a href="https://cma.mgh.harvard.edu/" target="_blank">
+The Center for Morphometric Analysis,  Massachusetts General Hospital, Harvard Medical School</a>
+
+<a href="https://spl.harvard.edu/" target="_blank">
+Surgical Planning Laboratory, Brigham and Women's Hospital, Harvard Medical School</a>
+
+<a href="https://bakerlab.mclean.harvard.edu/" target="_blank">
+The Functional Neuroimaging & Bioinformatics Lab, McLean Hospital, Harvard Medical School</a>
+
+<a href="https://pediatric-neuroimaging.de/" target="_blank">
+cBRAIN, Ludwig Maximilian University of Munich, Germany</a>
+
+<a href="https://biag.cs.unc.edu/" target="_blank">
+UNC Biomedical Image Analysis Group, University of North Carolina at Chapel Hill</a>
+
+<a href="http://perk.cs.queensu.ca/" target="_blank">
+The Perk Lab, Queen's University</a>
