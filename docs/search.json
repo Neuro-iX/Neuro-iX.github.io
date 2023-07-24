@@ -4,7 +4,7 @@
     "href": "people/index.html",
     "title": "People",
     "section": "",
-    "text": "Principal Investigator\n\n\nSylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI\n\n\nResearcher\n\nBenoît Verreman\n \nResearch assistant\nDepartment of Software and IT Engineering\n\n\nCollaborators\n Psychiatry Neuroimaging Laboratory, Brigham and Women’s Hospital, Harvard Medical School  The Center for Morphometric Analysis, Massachusetts General Hospital, Harvard Medical School\n Surgical Planning Laboratory, Brigham and Women’s Hospital, Harvard Medical School\n The Functional Neuroimaging & Bioinformatics Lab, McLean Hospital, Harvard Medical School\n cBRAIN, Ludwig Maximilian University of Munich, Germany\n UNC Biomedical Image Analysis Group, University of North Carolina at Chapel Hill\n The Perk Lab, Queen’s University"
+    "text": "Principal Investigator\n\n\nSylvain Bouix\n  \nProfessor\nDepartment of Software and IT Engineering\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI\n\n\nResearcher\n\nBenoît Verreman\n \nResearch assistant\nDepartment of Software and IT Engineering\nNeuroimaging, Neuroinformatics, Anatomical and Diffusion MRI\n\nCollaborators\n Psychiatry Neuroimaging Laboratory, Brigham and Women’s Hospital, Harvard Medical School\n The Center for Morphometric Analysis, Massachusetts General Hospital, Harvard Medical School\n Surgical Planning Laboratory, Brigham and Women’s Hospital, Harvard Medical School\n The Functional Neuroimaging & Bioinformatics Lab, McLean Hospital, Harvard Medical School\n cBRAIN, Ludwig Maximilian University of Munich, Germany\n UNC Biomedical Image Analysis Group, University of North Carolina at Chapel Hill\n The Perk Lab, Queen’s University"
   },
   {
     "objectID": "people/index.html#neuroimaging-neuroinformatics-anatomical-and-diffusion-mri",
@@ -16,9 +16,9 @@
   {
     "objectID": "publications/index.html",
     "href": "publications/index.html",
-    "title": "Puplications",
+    "title": "publications",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n2"
+    "text": "No matching items"
   },
   {
     "objectID": "contact/index.html",
@@ -47,5 +47,47 @@
     "title": "Neuro-iX",
     "section": "",
     "text": "Neuro-iX is run by Sylvain Bouix. This brand new lab revolves around developing robust softwares to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.\nWe advocate open science practices and the development of health technologies that are less biased, more inclusive and equitable.\n\n\nRecruitment\nWe are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please fill out this form."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "My Post",
+    "section": "",
+    "text": "Ceci est un test"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\nTitle of post 1\n\n\n\n\n\n\n\nR\n\n\nspatialsample\n\n\ntidymodels\n\n\nR packages\n\n\ngeospatial data\n\n\nTutorials\n\n\n\n\nDescription of post 2\n\n\n\n\n\n\n2023-07-24\n\n\nBenoît Verreman\n\n\n\n\n\n\n  \n\n\n\n\nTitle of post 2\n\n\n\n\n\n\n\nQuarto\n\n\nTutorials\n\n\nData science\n\n\n\n\nDescription of post 2\n\n\n\n\n\n\n2023-07-23\n\n\nBenoît Verreman\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-06-06-spatialsample_splits/index.html",
+    "href": "posts/2023-06-06-spatialsample_splits/index.html",
+    "title": "Title of post 1",
+    "section": "",
+    "text": "I’m testing. Post 1"
+  },
+  {
+    "objectID": "posts/2023-06-06-spatialsample_splits/index.html#footnotes",
+    "href": "posts/2023-06-06-spatialsample_splits/index.html#footnotes",
+    "title": "From the inbox: How can I get fold assignments from spatialsample?",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nI want to mention that I include a link to Yihui Xie’s excellent blog post in replies to help questions sent via email. I love seeing people use my packages, and I love helping people use them, but I don’t always have the time to give 1:1 help via email. If you post a question somewhere publicly, then other people might give an even better answer; if no one answers in a day or two, then email me the link, so I can answer it publicly and have a link to send the next person with the same question as you. That’s also why I turned this into a blog post – so that I can send others with the same question a pre-written answer!↩︎\nAnonymized and heavily paraphrased.↩︎\nSometimes called training and testing, respectively – rsample uses the analysis/assessment terminology to make it clear that all of this data should be in your training set, and doesn’t touch your final held-out test set.↩︎\nThis is how spatialsample’s autoplot() methods do it, for instance.↩︎"
+  },
+  {
+    "objectID": "posts/2023-04-10-quarto_citation_use_count/index.html",
+    "href": "posts/2023-04-10-quarto_citation_use_count/index.html",
+    "title": "Title of post 2",
+    "section": "",
+    "text": "I’m testing. Post 2"
+  },
+  {
+    "objectID": "posts/2023-04-10-quarto_citation_use_count/index.html#footnotes",
+    "href": "posts/2023-04-10-quarto_citation_use_count/index.html#footnotes",
+    "title": "Counting the number of times each citation is used in a Quarto document",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAnd to be clear, these are not 300 citations which are truly core to the paper’s argument. There’s a number of places in the paper where I more or less say “This line of work has been highly influential in later work”, and then cite every single article I read which cited the original study; this made a bit more sense in the context of “candidacy exam” where I was trying to demonstrate that I had comprehensively surveyed the literature, but isn’t something I’d ever do in published work.↩︎\nIs that key new? I could have sworn I used to provide raw TeX to the include-before-body field, but apparently now that needs to be a file name.↩︎"
   }
 ]

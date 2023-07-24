@@ -1,7 +1,16 @@
 ---
 title: Neuro-iX
-#subtitle: "Neuro-iX <br> Lab of Neuro-informatics <br> École de Technologie Supérieure"
+
 jupyter: python3
+    
+format:
+  html:
+    toc: false #Table of content
+    html-math-method: katex
+    css: styles.css
+---
+<!-- 
+#subtitle: "Neuro-iX <br> Lab of Neuro-informatics <br> École de Technologie Supérieure"
 
 #about: 
   #id: hero-heading
@@ -26,15 +35,9 @@ jupyter: python3
     #  text: Twitter
     #  href: https://twitter.com
     #  target: _blank
-    
-format:
-  html:
-    toc: false #Table of content
-    html-math-method: katex
-    css: styles.css
+-->
 
----
-<!-- Commentaries-->
+
 :::{#hero-heading}
 :::
 

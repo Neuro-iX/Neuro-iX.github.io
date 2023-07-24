@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Neuro-iX - People</title>
+<title>Neuro-iX - Publications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/logos/Neuro-iX-2-transparent.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/logos/Neuro-iX-2-transparent.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,20 +63,51 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../styles.css">
-</head>
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
 
-<body class="nav-fixed fullcontent">
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="Neuro-iX" href="blog.xml"></head>
+
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logos/LogoHorizontal.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logos/LogoHorizontal.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -85,23 +117,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../people" rel="" target="">
+    <a class="nav-link" href="./people" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research" rel="" target="">
+    <a class="nav-link" href="./research" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html" rel="" target="">
+    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tools" rel="" target="">
+    <a class="nav-link" href="./tools" rel="" target="">
  <span class="menu-text">Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact" rel="" target="">
+    <a class="nav-link" href="./contact" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -130,16 +162,17 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data science">Data science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarto">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R packages">R packages <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tutorials">Tutorials <span class="quarto-category-count">(2)</span></div><div class="category" data-category="geospatial data">geospatial data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spatialsample">spatialsample <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tidymodels">tidymodels <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">People</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
@@ -154,41 +187,129 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="section" class="level1 centering unnumbered unlisted">
-<h1 class="centering unnumbered unlisted"></h1>
-<p><span class="text-style-1"><strong>Principal Investigator</strong></span></p>
-<!-- -->
-<p><img src="../images/people_faces/SB_round.png" class="img-fluid" width="200"></p>
-<p><a href="https://sbouix.github.io/" target="_blank">Sylvain Bouix</a></p>
-<p><a href="https://www.etsmtl.ca/recherche/professeurs-chercheurs/sbouix/" target="_blank"><i class="bi-mortarboard " style="font-size: 1em;color: cornflowerblue;" role="img" aria-label="Thumbs up"></i></a> <a href="https://github.com/sbouix" target="_blank"><i class="bi-github " style="font-size: 1em;color: cornflowerblue;" role="img" aria-label="Thumbs up"></i></a> <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&amp;heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAAE54G0B9SjSTi14XXga3b5V66C7b9BTXFI&amp;keywords=sylvain%20bouix&amp;origin=RICH_QUERY_TYPEAHEAD_HISTORY&amp;position=0&amp;searchId=90ed282e-d341-4c4e-8b36-131ab83ec6ea&amp;sid=nWS" target="_blank"><i class="bi-linkedin " style="font-size: 1em;color: cornflowerblue;" role="img" aria-label="Thumbs up"></i></a></p>
-<p>Professor</p>
-<p>Department of Software and IT Engineering</p>
-<p>Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI</p>
-<!--
-<img src="../images/people_faces/sylvain_bouix.jpg" style="height: 100%; width: 100%; object-fit: contain" onclick="window.open('https://sbouix.github.io/', 'blank');"/>
--->
-<hr>
-<p><span class="text-style-1"><strong>Researcher</strong></span></p>
-<p><img src="../images/people_faces/BV_round.png" class="img-fluid" width="200"></p>
-<p><a href="https://www.linkedin.com/in/benoitverreman/" target="_blank">Benoît Verreman</a></p>
-<p><a href="https://github.com/bverreman" target="_blank"><i class="bi-github " style="font-size: 1em;color: cornflowerblue;" role="img" aria-label="Thumbs up"></i></a> <a href="https://www.linkedin.com/in/benoitverreman/" target="_blank"><i class="bi-linkedin " style="font-size: 1em;color: cornflowerblue;" role="img" aria-label="Thumbs up"></i></a></p>
-<p>Research assistant</p>
-<p>Department of Software and IT Engineering</p>
-<p>Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI</p>
-<hr>
-<p><span class="text-style-1"><strong>Collaborators</strong></span></p>
-<p><a href="https://pnl.bwh.harvard.edu/" target="_blank"> Psychiatry Neuroimaging Laboratory, Brigham and Women’s Hospital, Harvard Medical School</a><br></p>
-<p><a href="https://cma.mgh.harvard.edu/" target="_blank"> The Center for Morphometric Analysis, Massachusetts General Hospital, Harvard Medical School</a></p>
-<p><a href="https://spl.harvard.edu/" target="_blank"> Surgical Planning Laboratory, Brigham and Women’s Hospital, Harvard Medical School</a></p>
-<p><a href="https://bakerlab.mclean.harvard.edu/" target="_blank"> The Functional Neuroimaging &amp; Bioinformatics Lab, McLean Hospital, Harvard Medical School</a></p>
-<p><a href="https://pediatric-neuroimaging.de/" target="_blank"> cBRAIN, Ludwig Maximilian University of Munich, Germany</a></p>
-<p><a href="https://biag.cs.unc.edu/" target="_blank"> UNC Biomedical Image Analysis Group, University of North Carolina at Chapel Hill</a></p>
-<p><a href="http://perk.cs.queensu.ca/" target="_blank"> The Perk Lab, Queen’s University</a></p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="R,spatialsample,tidymodels,R packages,geospatial data,Tutorials" data-listing-date-sort="1690171200000" data-listing-file-modified-sort="1690229082151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2023-06-06-spatialsample_splits/index.html"> <img src="./posts/2023-06-06-spatialsample_splits/map.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2023-06-06-spatialsample_splits/index.html">
+<h3 class="no-anchor listing-title">
+Title of post 1
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('spatialsample'); return false;">
+spatialsample
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tidymodels'); return false;">
+tidymodels
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R packages'); return false;">
+R packages
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('geospatial data'); return false;">
+geospatial data
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorials'); return false;">
+Tutorials
+</div>
+</div>
+<a href="./posts/2023-06-06-spatialsample_splits/index.html">
+<div class="listing-description">
+<p>Description of post 2</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2023-06-06-spatialsample_splits/index.html">
+<div class="listing-date">
+2023-07-24
+</div>
+<div class="listing-author">
+Benoît Verreman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Quarto,Tutorials,Data science" data-listing-date-sort="1690084800000" data-listing-file-modified-sort="1690229085621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./posts/2023-04-10-quarto_citation_use_count/index.html"> <img src="./posts/2023-04-10-quarto_citation_use_count/books.jpg" class="thumbnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2023-04-10-quarto_citation_use_count/index.html">
+<h3 class="no-anchor listing-title">
+Title of post 2
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Quarto'); return false;">
+Quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tutorials'); return false;">
+Tutorials
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data science'); return false;">
+Data science
+</div>
+</div>
+<a href="./posts/2023-04-10-quarto_citation_use_count/index.html">
+<div class="listing-description">
+<p>Description of post 2</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2023-04-10-quarto_citation_use_count/index.html">
+<div class="listing-date">
+2023-07-23
+</div>
+<div class="listing-author">
+Benoît Verreman
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

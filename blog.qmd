@@ -1,0 +1,21 @@
+---
+title: "Publications"
+listing:
+  contents: posts
+  sort: 
+    - "date desc"
+    - "title desc"
+  type: default
+  categories: true
+  sort-ui: true #Sorting bar
+  filter-ui: false
+  feed: true
+  date-format: "YYYY-MM-DD"
+  
+toc: false
+toc-location: body
+page-layout: full
+title-block-banner: false
+---
+
+

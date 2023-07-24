@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Neuro-iX"
-  
+  site-url: https://neuro-ix.github.io
   favicon: images/logos/Neuro-iX-2-transparent.png
  
   # start of the navigation bar at the top of the website  
@@ -16,15 +16,15 @@ website:
     # your sub-pages
     left:
       - text: "People"
-        href: people/index.qmd
+        href: people
       - text: "Research"
-        href: research/index.qmd
-      - text: "Publications"
-        href: publications/index.qmd
+        href: research
+      - text: "Blog"
+        href: blog.html
       - text: "Tools"
-        href: tools/index.qmd
+        href: tools
       - text: "Contact"
-        href: contact/index.qmd
+        href: contact
         
     # your social media handles
     right:    

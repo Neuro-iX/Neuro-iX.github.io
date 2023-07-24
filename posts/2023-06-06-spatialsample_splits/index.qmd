@@ -1,0 +1,16 @@
+---
+title: "Title of post 1"
+description: "Description of post 2"
+author:
+  - name: Benoît Verreman
+    url: {}
+date: "2023-07-24"
+categories: [R, spatialsample, tidymodels, R packages, geospatial data, Tutorials]
+image: map.jpg
+format: 
+  html:
+    toc: true
+engine: knitr
+---
+
+I'm testing. Post 1

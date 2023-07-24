@@ -46,11 +46,14 @@ Research assistant
 Department of Software and IT Engineering
 
 Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
+
 ----
+
 [**Collaborators**]{.text-style-1}
 
 <a href="https://pnl.bwh.harvard.edu/" target="_blank">
 Psychiatry Neuroimaging Laboratory, Brigham and Women's Hospital, Harvard Medical School</a><br>
+
 <a href="https://cma.mgh.harvard.edu/" target="_blank">
 The Center for Morphometric Analysis,  Massachusetts General Hospital, Harvard Medical School</a>
 
