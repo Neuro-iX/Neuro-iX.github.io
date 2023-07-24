@@ -16,7 +16,7 @@
   {
     "objectID": "publications/index.html",
     "href": "publications/index.html",
-    "title": "publications",
+    "title": "Publications",
     "section": "",
     "text": "No matching items"
   },
@@ -89,5 +89,12 @@
     "title": "Counting the number of times each citation is used in a Quarto document",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nAnd to be clear, these are not 300 citations which are truly core to the paper’s argument. There’s a number of places in the paper where I more or less say “This line of work has been highly influential in later work”, and then cite every single article I read which cited the original study; this made a bit more sense in the context of “candidacy exam” where I was trying to demonstrate that I had comprehensively surveyed the literature, but isn’t something I’d ever do in published work.↩︎\nIs that key new? I could have sworn I used to provide raw TeX to the include-before-body field, but apparently now that needs to be a file name.↩︎"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n\n\n\n\n  \n\n\n\n\nTitle of post 1\n\n\n\n\n\n\n\nR\n\n\nspatialsample\n\n\ntidymodels\n\n\nR packages\n\n\ngeospatial data\n\n\nTutorials\n\n\n\n\nDescription of post 2\n\n\n\n\n\n\n2023-07-24\n\n\nBenoît Verreman\n\n\n\n\n\n\n  \n\n\n\n\nTitle of post 2\n\n\n\n\n\n\n\nQuarto\n\n\nTutorials\n\n\nData science\n\n\n\n\nDescription of post 2\n\n\n\n\n\n\n2023-07-23\n\n\nBenoît Verreman\n\n\n\n\n\n\nNo matching items"
   }
 ]

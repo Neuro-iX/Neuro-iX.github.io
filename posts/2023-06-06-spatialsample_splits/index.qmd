@@ -1,6 +1,6 @@
 ---
 title: "Title of post 1"
-description: "Description of post 2"
+description: "Description of post 1"
 author:
   - name: Benoît Verreman
     url: {}

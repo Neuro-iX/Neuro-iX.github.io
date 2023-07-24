@@ -19,8 +19,8 @@ website:
         href: people
       - text: "Research"
         href: research
-      - text: "Blog"
-        href: blog.html
+      - text: "Publications"
+        href: publications.html
       - text: "Tools"
         href: tools
       - text: "Contact"
