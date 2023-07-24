@@ -10,6 +10,7 @@ format:
     css: styles.css
 ---
 <!-- 
+---
 #subtitle: "Neuro-iX <br> Lab of Neuro-informatics <br> École de Technologie Supérieure"
 
 #about: 
@@ -35,11 +36,13 @@ format:
     #  text: Twitter
     #  href: https://twitter.com
     #  target: _blank
+---
+:::{#hero-heading}
+:::
 -->
 
 
-:::{#hero-heading}
-:::
+
 
 :::{.light-mode}
 ![](images/logos/Neuro-iX-croped.png){fig-align="center" width=200}

@@ -1,13 +1,13 @@
 ---
 title: "Publications"
 listing:
-  contents: posts
+  contents: posts # Directory containing the posts
   sort: 
     - "date desc"
     - "title desc"
-  type: default
-  categories: true
-  sort-ui: true #Sorting bar
+  type: default #Three kinds of display : Default, table or grid
+  categories: true #Enable categories
+  sort-ui: true #Enable sorting bar
   filter-ui: false
   feed: true
   date-format: "YYYY-MM-DD"
@@ -16,6 +16,40 @@ toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
+
+engine: knitr
 ---
 
 
+```{r}
+library(tidyverse)
+library(jsonlite)
+library(httr)
+
+# link to the API output as a JSON file
+url_json <- "https://site.web.api.espn.com/apis/fitt/v3/sports/football/nfl/qbr?region=us&lang=en&qbrType=seasons&seasontype=2&isqualified=true&sort=schedAdjQBR%3Adesc&season=2019"
+
+#https://efetch.fcgi?db=pubmed&id=19393038,30242208,29453458&retmode='json'
+
+# get the raw json into R
+raw_json <- httr::GET(url_json) %>% httr::content()
+
+# get names of the QBR categories
+category_names <- pluck(raw_json, "categories", 1, "labels") %>% tolower()
+
+
+# create the dataframe and tidy it up
+ex_output <- pluck(raw_json, "athletes") %>%
+  enframe() %>%
+  unnest_wider(value) %>% 
+  unnest_wider(athlete) %>% 
+  select(displayName, teamName:teamShortName, headshot, categories) %>% 
+  hoist(categories, 
+    data = list(1, "totals")) %>%
+  mutate(data = map(data, ~set_names(.x, nm = category_names))) %>% 
+  select(-categories) %>% 
+  unnest_wider(data) %>% 
+  mutate(headshot = pluck(headshot, "href"))
+
+glimpse(ex_output)
+```

@@ -1,0 +1,11 @@
+{
+  "hash": "25610b072f2d0e437b92dfef4af1107f",
+  "result": {
+    "markdown": "---\ntitle: Publications\nlisting:\n  contents: ../posts\n  feed: true\n  sort-ui: true\n  sort:\n    - date desc\n    - title desc\n  type: table\n  categories: true\n---\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
