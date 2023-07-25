@@ -22,34 +22,53 @@ engine: knitr
 
 
 ```{r}
+#| include: false
+#| warning: false
+  
+library(conflicted) #Solve conflicts
 library(tidyverse)
-library(jsonlite)
+conflict_prefer("filter", "dplyr")
+conflict_prefer("lag", "dplyr")
+
 library(httr)
 
-# link to the API output as a JSON file
-url_json <- "https://site.web.api.espn.com/apis/fitt/v3/sports/football/nfl/qbr?region=us&lang=en&qbrType=seasons&seasontype=2&isqualified=true&sort=schedAdjQBR%3Adesc&season=2019"
+library("XML")
+library("methods")
 
-#https://efetch.fcgi?db=pubmed&id=19393038,30242208,29453458&retmode='json'
+# Make a research on PubMed using Entrez API
+url_research <- "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&reldate=10&term=Bouix[Author]&usehistory=y"
 
-# get the raw json into R
-raw_json <- httr::GET(url_json) %>% httr::content()
+# Extract Query key and WebEnv of the previous research
+raw_research <- httr::GET(url_research) %>% httr::content()
 
-# get names of the QBR categories
-category_names <- pluck(raw_json, "categories", 1, "labels") %>% tolower()
+parsed_research <- xmlParse(file = raw_research)
+list_research <- xmlToList(parsed_research)
+qk <- toString(list_research[4])
+we <- toString(list_research[5])
 
+# Fetch data from PubMed using Entrez API and previous research
+url <-paste("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=medline&retmode=text&usehistory=y&query_key=",qk,"&WebEnv=",we, sep = "")
 
-# create the dataframe and tidy it up
-ex_output <- pluck(raw_json, "athletes") %>%
-  enframe() %>%
-  unnest_wider(value) %>% 
-  unnest_wider(athlete) %>% 
-  select(displayName, teamName:teamShortName, headshot, categories) %>% 
-  hoist(categories, 
-    data = list(1, "totals")) %>%
-  mutate(data = map(data, ~set_names(.x, nm = category_names))) %>% 
-  select(-categories) %>% 
-  unnest_wider(data) %>% 
-  mutate(headshot = pluck(headshot, "href"))
+raw <- httr::GET(url) %>% httr::content()
+cat(raw)
 
-glimpse(ex_output)
+# Analyse the raw data
+# raw_list <- strsplit(raw,split='\n')
+# 
+# labels <- list() #list of the labels
+# data <- list() #list of the data
+# counter = 0
+# for (i in raw_list){
+#   ifelse(grepl("-", i, fixed = TRUE),next,next)#if there is a '-', the line is a new dataline
+#   counter=counter+1
+#   elements <- strsplit(raw,split=' - ')
+#   labels <- append(labels,elements[1])
+#   data <- append(data,elements[2])
+# }
+# df <- data.frame(labels,data)
+# print(df)
+# for (i in raw_list){
+#   ifelse(nchar(i)<=1,print('aa'),print('bb'))
+# }
+# print(raw_list)
 ```

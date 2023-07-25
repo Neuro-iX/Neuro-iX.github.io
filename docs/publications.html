@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -221,75 +187,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.2     ✔ readr     2.1.4
-✔ forcats   1.0.0     ✔ stringr   1.5.0
-✔ ggplot2   3.4.2     ✔ tibble    3.2.1
-✔ lubridate 1.9.2     ✔ tidyr     1.3.0
-✔ purrr     1.0.1     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(jsonlite)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attachement du package : 'jsonlite'
-
-L'objet suivant est masqué depuis 'package:purrr':
-
-    flatten</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(httr)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># link to the API output as a JSON file</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>url_json <span class="ot">&lt;-</span> <span class="st">"https://site.web.api.espn.com/apis/fitt/v3/sports/football/nfl/qbr?region=us&amp;lang=en&amp;qbrType=seasons&amp;seasontype=2&amp;isqualified=true&amp;sort=schedAdjQBR%3Adesc&amp;season=2019"</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">#https://efetch.fcgi?db=pubmed&amp;id=19393038,30242208,29453458&amp;retmode='json'</span></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># get the raw json into R</span></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>raw_json <span class="ot">&lt;-</span> httr<span class="sc">::</span><span class="fu">GET</span>(url_json) <span class="sc">%&gt;%</span> httr<span class="sc">::</span><span class="fu">content</span>()</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="co"># get names of the QBR categories</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>category_names <span class="ot">&lt;-</span> <span class="fu">pluck</span>(raw_json, <span class="st">"categories"</span>, <span class="dv">1</span>, <span class="st">"labels"</span>) <span class="sc">%&gt;%</span> <span class="fu">tolower</span>()</span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="co"># create the dataframe and tidy it up</span></span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>ex_output <span class="ot">&lt;-</span> <span class="fu">pluck</span>(raw_json, <span class="st">"athletes"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">enframe</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_wider</span>(value) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_wider</span>(athlete) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(displayName, teamName<span class="sc">:</span>teamShortName, headshot, categories) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">hoist</span>(categories, </span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">data =</span> <span class="fu">list</span>(<span class="dv">1</span>, <span class="st">"totals"</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">data =</span> <span class="fu">map</span>(data, <span class="sc">~</span><span class="fu">set_names</span>(.x, <span class="at">nm =</span> category_names))) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>categories) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">unnest_wider</span>(data) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">headshot =</span> <span class="fu">pluck</span>(headshot, <span class="st">"href"</span>))</span>
-<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(ex_output)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 30
-Columns: 13
-$ displayName   &lt;chr&gt; "Lamar Jackson", "Patrick Mahomes", "Drew Brees", "Dak P…
-$ teamName      &lt;chr&gt; "Ravens", "Chiefs", "Saints", "Cowboys", "Seahawks", "Li…
-$ teamShortName &lt;chr&gt; "BAL", "KC", "NO", "DAL", "SEA", "DET", "HOU", "MIA", "T…
-$ tqbr          &lt;chr&gt; "83.0", "77.7", "73.3", "71.9", "71.5", "71.3", "70.5", …
-$ pa            &lt;chr&gt; "66.7", "55.8", "33.7", "48.1", "43.0", "27.0", "42.3", …
-$ qbp           &lt;chr&gt; "613", "585", "419", "690", "674", "353", "662", "620", …
-$ tot           &lt;chr&gt; "103.7", "97.3", "62.6", "93.1", "90.9", "56.1", "91.6",…
-$ pas           &lt;chr&gt; "55.0", "71.6", "53.1", "70.7", "58.3", "44.5", "52.0", …
-$ run           &lt;chr&gt; "39.1", "14.3", "1.6", "10.0", "10.6", "1.6", "19.8", "6…
-$ exp           &lt;chr&gt; "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "0.0", …
-$ pen           &lt;chr&gt; "2.2", "5.0", "1.9", "2.6", "1.5", "1.9", "1.4", "3.7", …
-$ qbr           &lt;chr&gt; "82.3", "79.4", "75.7", "72.8", "71.2", "74.7", "71.2", …
-$ sac           &lt;chr&gt; "-7.4", "-6.5", "-6.0", "-9.7", "-20.6", "-8.0", "-18.5"…</code></pre>
-</div>
-</div>
 
 
 
