@@ -8,7 +8,7 @@ listing:
   type: default #Three kinds of display : Default, table or grid
   categories: true #Enable categories
   sort-ui: true #Enable sorting bar
-  filter-ui: false
+  filter-ui: true
   feed: true
   date-format: "YYYY-MM-DD"
   
@@ -17,58 +17,177 @@ toc-location: body
 page-layout: full
 title-block-banner: false
 
-engine: knitr
+jupyter: python3
 ---
 
 
-```{r}
-#| include: false
-#| warning: false
+```{python}
+#| include: true #display All/Nothing
+#| echo: false #display source code
+
+import pandas as pd #open source data analysis and manipulation tool
+import requests #standard for making HTTP requests 
+from bs4 import BeautifulSoup as bs #library for parsing structured data
+import lxml #Help BeautifulSoup dealing with xml files
+from yattag import indent #Help print xml files
+
+import os
+from unidecode import unidecode #remove accents
+
+###Search the articles of interest on PubMed using specific API Entrez
+url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&reldate=20&term=Bouix[Author]&usehistory=y"
+page = requests.get(url_search)
+soup = bs(page.content, "xml")
+
+qk = soup.find("QueryKey").text
+we = soup.find("WebEnv").text
+
+###Use previous search to fetch the data
+url_fetch="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&usehistory=y&query_key="+qk+"&WebEnv="+we #&rettype=medline&retmode=text
+page = requests.get(url_fetch) 
+soup = bs(page.content, "xml")
+
+# xml_text = indent(str(soup))
+# print(xml_text)
+# print("--------------------\n\n")
+
+###Process the data to create the blog
+
+##Get Title
+title= soup.find('ArticleTitle').text
+
+##Get Abstract
+raw_abstract = soup.find('Abstract')
+raw_abstract_children=raw_abstract.find_all('AbstractText')
+
+if raw_abstract_children==[]: #Test if there are 'AbstractText'
+  abstract=raw_abstract.text
+else:
+  abstract_list=[] #Contain the different paragraphs of the abstract with the labels
+  for i in raw_abstract_children:
+    abstract_list.append(i["Label"]+': '+i.text)
+  abstract='\n'.join(abstract_list)
   
-library(conflicted) #Solve conflicts
-library(tidyverse)
-conflict_prefer("filter", "dplyr")
-conflict_prefer("lag", "dplyr")
+abstract_print='#Abstract:\n\n'+abstract
 
-library(httr)
+##Get Authors
+raw_authors= soup.find_all('Author')
+lastname=[]
+forename=[]
+affiliations=[]
+list_affiliations=[]
 
-library("XML")
-library("methods")
+for i in raw_authors:
+  lastname.append(i.find('LastName').text)
+  forename.append(i.find('ForeName').text)
+  l1=i.find_all('Affiliation') #all affiliations
+  l2=[] #indexes of affiliations
+  for j in l1:
+    j_text=j.text
+    if not(j_text in list_affiliations):
+      list_affiliations.append(j_text)
+    l2.append(list_affiliations.index(j_text))
+  affiliations.append(l2)
 
-# Make a research on PubMed using Entrez API
-url_research <- "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&reldate=10&term=Bouix[Author]&usehistory=y"
+dict={'lastname':lastname,'forename':forename,'affiliations':affiliations}  
+authors_df = pd.DataFrame(dict)
 
-# Extract Query key and WebEnv of the previous research
-raw_research <- httr::GET(url_research) %>% httr::content()
+authors_list=[a+' '+b for a,b in zip(forename,lastname)]
 
-parsed_research <- xmlParse(file = raw_research)
-list_research <- xmlToList(parsed_research)
-qk <- toString(list_research[4])
-we <- toString(list_research[5])
+authors_print=["  - name: "+a+'\n' for a in authors_list]
+authors_print=''.join(authors_print)
+authors_print=authors_print.replace("?", "e")
 
-# Fetch data from PubMed using Entrez API and previous research
-url <-paste("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&rettype=medline&retmode=text&usehistory=y&query_key=",qk,"&WebEnv=",we, sep = "")
+affiliations_print=' | '.join(list_affiliations)
 
-raw <- httr::GET(url) %>% httr::content()
-cat(raw)
+##Get Journal and Date
+raw_journal= soup.find('Journal')
 
-# Analyse the raw data
-# raw_list <- strsplit(raw,split='\n')
+journal=raw_journal.find('Title').text
+
+def mtn(x):
+    months = {
+        'jan': "{:02d}".format(1),
+        'feb': "{:02d}".format(2),
+        'mar': "{:02d}".format(3),
+        'apr': "{:02d}".format(4),
+         'may': "{:02d}".format(5),
+         'jun': "{:02d}".format(6),
+         'jul': "{:02d}".format(7),
+         'aug': "{:02d}".format(8),
+         'sep': "{:02d}".format(9),
+         'oct': "{:02d}".format(10),
+         'nov': "{:02d}".format(11),
+         'dec': "{:02d}".format(12)
+        }
+    a = x.strip()[:3].lower()
+    try:
+        return months[a]
+    except:
+        raise ValueError('Not a month')
+raw_date=raw_journal.find('PubDate')
+date=[raw_date.find('Year').text,mtn(raw_date.find('Month').text),"{:02d}".format(int(raw_date.find('Day').text))]
+
+date_print=date[0]+'-'+date[1]+'-'+date[2]
+
+##Get Publication Type
+publication_type=soup.find('PublicationType').text
+
+##Get Keyword List
+raw_kw=soup.find_all('Keyword')
+kw=[]
+for i in raw_kw:
+    kw.append(i.text)
+
+kw_print="["+', '.join(kw)+"]"
+
+##Get DOI
+doi= soup.find('ELocationID',{"EIdType" : "doi"}).text
+
+##Get PMID
+pmid=soup.find('PMID').text
+
+
+###Use previous search to get links and citation
+
+##Get Citation
+# url_link="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?db=pubmed&cmd=prlinks&retmode=ref&query_key="+qk+"&WebEnv="+we
+# page = requests.get(url_link) 
+# soup0 = bs(page.content, "xml")
 # 
-# labels <- list() #list of the labels
-# data <- list() #list of the data
-# counter = 0
-# for (i in raw_list){
-#   ifelse(grepl("-", i, fixed = TRUE),next,next)#if there is a '-', the line is a new dataline
-#   counter=counter+1
-#   elements <- strsplit(raw,split=' - ')
-#   labels <- append(labels,elements[1])
-#   data <- append(data,elements[2])
-# }
-# df <- data.frame(labels,data)
-# print(df)
-# for (i in raw_list){
-#   ifelse(nchar(i)<=1,print('aa'),print('bb'))
-# }
-# print(raw_list)
+# xml_text = indent(str(soup0))
+# print(xml_text)
+# print("--------------------\n\n")
+
+
+###Create post in 'posts' directory
+# print('pwd= ',os.getcwd())
+title_part='_'.join(title.split()[:6])
+post_name=date[0]+'_'+date[1]+'_'+date[2]+'_'+title_part
+
+path = './posts/'+post_name
+if not os.path.exists(path):
+    os.makedirs(path)
+
+new_post="""---
+title: {title}
+description: {description}
+author:
+{authors}
+date: {date}
+categories: {categories}
+image: map.jpg
+format:
+  html:
+    toc: true
+engine: knitr
+---
+
+{abstract}
+""".format(title='"'+unidecode(title)+'"', description='"'+unidecode(affiliations_print)+'"', authors=unidecode(authors_print), date='"'+unidecode(date_print)+'"', categories=kw_print, abstract=unidecode(abstract_print))
+
+with open(path+"/index.qmd", 'w') as f:
+  f.write(new_post)
+
 ```
+
