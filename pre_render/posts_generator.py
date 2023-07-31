@@ -153,7 +153,7 @@ author:
 {authors}
 date: {date}
 categories: {categories}
-image: map.jpg
+#image: map.jpg
 format:
   html:
     toc: false #No table of content

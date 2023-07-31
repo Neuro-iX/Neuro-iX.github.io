@@ -18,7 +18,7 @@ author:
 
 date: "2023-07-19"
 categories: [cognitive impairment, focal epilepsy, magnetic resonance imaging, white matter tracts]
-image: map.jpg
+#image: map.jpg
 format:
   html:
     toc: false #No table of content
