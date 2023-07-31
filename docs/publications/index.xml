@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Neuro-iX</title>
+<link>https://neuro-ix.github.io/publications/index.html</link>
+<atom:link href="https://neuro-ix.github.io/publications/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.433</generator>
+<lastBuildDate>Wed, 19 Jul 2023 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Exploring the impact of hippocampal sclerosis on white matter tracts memory in individuals with mesial temporal lobe epilepsy</title>
+  <dc:creator>Tamires A Zanao</dc:creator>
+  <dc:creator>Johanna Seitz-Holland</dc:creator>
+  <dc:creator>Lauren J O&#39;Donnell</dc:creator>
+  <dc:creator>Fan Zhang</dc:creator>
+  <dc:creator>Yogesh Rathi</dc:creator>
+  <dc:creator>Tatila M Lopes</dc:creator>
+  <dc:creator>Luciana Ramalho Pimentel-Silva</dc:creator>
+  <dc:creator>Clarissa L Yassuda</dc:creator>
+  <dc:creator>Nikos Makris</dc:creator>
+  <dc:creator>Martha E Shenton</dc:creator>
+  <dc:creator>Sylvain Bouix</dc:creator>
+  <dc:creator>Amanda E Lyall</dc:creator>
+  <dc:creator>Fernando Cendes</dc:creator>
+  <link>https://neuro-ix.github.io/publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="abstract" class="level1">
+<h1>Abstract:</h1>
+<p>OBJECTIVE: To investigate how the presence/side of hippocampal sclerosis (HS) are related to the white matter structure of cingulum bundle (CB), arcuate fasciculus (AF), and inferior longitudinal fasciculus (ILF) in mesial temporal lobe epilepsy (MTLE).</p>
+<p>METHODS: We acquired diffusion-weighted magnetic resonance imaging (MRI) from 86 healthy and 71 individuals with MTLE (22 righ-HS; right-HS, 34 left-HS; left-HS, and 15 nonlesional MTLE). We utilized two-tensor tractography and fiber clustering to compare fractional anisotropy (FA) of each side/tract between groups. Additionally, we examined the association between FA and nonverbal (WMS-R) and verbal (WMS-R, RAVLT codification) memory performance for MTLE individuals.</p>
+<p>RESULTS: White matter abnormalities depended on the side and presence of HS. The left-HS demonstrated widespread abnormalities for all tracts, the right-HS showed lower FA for ipsilateral tracts and the nonlesional MTLE group did not differ from healthy individuals. Results indicate no differences in verbal/nonverbal memory performance between the groups, but trend-level associations between higher FA of visual memory and the left CB (r = 0.286, P = 0.018), verbal memory (RAVLT) and -left CB (r = 0.335, P = 0.005), -right CB (r = 0.286, P = 0.016), and -left AF (r = 0.287, P = 0.017).</p>
+<p>SIGNIFICANCE: Our results highlight that the presence and side of HS are crucial to understand the pathophysiology of MTLE. Specifically, left-sided HS seems to be related to widespread bilateral white matter abnormalities. Future longitudinal studies should focus on developing diagnostic and treatment strategies dependent on HS’s presence/side.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>cognitive impairment</category>
+  <category>focal epilepsy</category>
+  <category>magnetic resonance imaging</category>
+  <category>white matter tracts</category>
+  <guid>https://neuro-ix.github.io/publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html</guid>
+  <pubDate>Wed, 19 Jul 2023 04:00:00 GMT</pubDate>
+  <media:content url="https://neuro-ix.github.io/publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/map.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

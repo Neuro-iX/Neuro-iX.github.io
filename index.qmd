@@ -1,6 +1,7 @@
 ---
 title: Neuro-iX
-
+filters:
+  - remove_title
 jupyter: python3
     
 format:

@@ -1,5 +1,7 @@
 ---
 title: Research
+filters:
+  - remove_title
 #jupyter: python3
 format:
   html:

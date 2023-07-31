@@ -1,0 +1,12 @@
+---
+title: "Remove_title Example"
+filters:
+  - remove_title
+---
+#test 
+
+## Heading
+
+This filter adds formatting to heading text.
+
+

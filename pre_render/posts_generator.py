@@ -1,39 +1,14 @@
----
-title: "Publications"
-listing:
-  contents: posts # Directory containing the posts
-  sort: 
-    - "date desc"
-    - "title desc"
-  type: default #Three kinds of display : Default, table or grid
-  categories: true #Enable categories
-  sort-ui: true #Enable sorting bar
-  filter-ui: true
-  feed: true
-  date-format: "YYYY-MM-DD"
-  
-toc: false
-toc-location: body
-page-layout: full
-title-block-banner: false
-
-jupyter: python3
----
-
-
-```{python}
-#| include: true #display All/Nothing
-#| echo: false #display source code
-
+import os
 import pandas as pd #open source data analysis and manipulation tool
 import requests #standard for making HTTP requests 
 from bs4 import BeautifulSoup as bs #library for parsing structured data
 import lxml #Help BeautifulSoup dealing with xml files
 from yattag import indent #Help print xml files
 
-import os
 from unidecode import unidecode #remove accents
 
+if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
+  exit()
 ###Search the articles of interest on PubMed using specific API Entrez
 url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&reldate=20&term=Bouix[Author]&usehistory=y"
 page = requests.get(url_search)
@@ -55,6 +30,8 @@ soup = bs(page.content, "xml")
 
 ##Get Title
 title= soup.find('ArticleTitle').text
+if title.endswith('.'):
+    title = title[:-1]
 
 ##Get Abstract
 raw_abstract = soup.find('Abstract')
@@ -66,9 +43,9 @@ else:
   abstract_list=[] #Contain the different paragraphs of the abstract with the labels
   for i in raw_abstract_children:
     abstract_list.append(i["Label"]+': '+i.text)
-  abstract='\n'.join(abstract_list)
+  abstract='\n\n'.join(abstract_list)
   
-abstract_print='#Abstract:\n\n'+abstract
+abstract_print='# Abstract:\n\n'+abstract
 
 ##Get Authors
 raw_authors= soup.find_all('Author')
@@ -165,13 +142,13 @@ pmid=soup.find('PMID').text
 title_part='_'.join(title.split()[:6])
 post_name=date[0]+'_'+date[1]+'_'+date[2]+'_'+title_part
 
-path = './posts/'+post_name
+path = './publications/posts/'+post_name
 if not os.path.exists(path):
     os.makedirs(path)
 
 new_post="""---
 title: {title}
-description: {description}
+#description: {description}
 author:
 {authors}
 date: {date}
@@ -179,7 +156,7 @@ categories: {categories}
 image: map.jpg
 format:
   html:
-    toc: true
+    toc: false #No table of content
 engine: knitr
 ---
 
@@ -188,6 +165,3 @@ engine: knitr
 
 with open(path+"/index.qmd", 'w') as f:
   f.write(new_post)
-
-```
-

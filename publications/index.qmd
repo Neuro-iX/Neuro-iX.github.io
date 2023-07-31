@@ -1,0 +1,23 @@
+---
+title: "Publications"
+filters:
+  - remove_title
+listing:
+  contents: posts # Directory containing the posts
+  sort: 
+    - "date desc"
+    - "title desc"
+  type: default #Three kinds of display : Default, table or grid
+  categories: true #Enable categories
+  sort-ui: true #Enable sorting bar
+  filter-ui: true
+  feed: true
+  date-format: "YYYY-MM-DD"
+  
+toc: false
+toc-location: body
+page-layout: full
+title-block-banner: false
+
+jupyter: python3
+---

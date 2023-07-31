@@ -1,5 +1,7 @@
 ---
 title: People
+filters:
+  - remove_title
 format:
   html:
     toc: false #No table of content

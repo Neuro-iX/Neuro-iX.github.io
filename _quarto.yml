@@ -1,5 +1,7 @@
 project:
   type: website
+  pre-render: 
+    - pre_render/posts_generator.py
   output-dir: docs
 
 website:
@@ -20,7 +22,7 @@ website:
       - text: "Research"
         href: research
       - text: "Publications"
-        href: publications.html
+        href: publications
       - text: "Tools"
         href: tools
       - text: "Contact"
