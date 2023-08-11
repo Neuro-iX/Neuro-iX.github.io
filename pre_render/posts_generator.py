@@ -1,3 +1,23 @@
+"""posts_generator.py
+
+This module uses Tkinter GUI to select options as an iput for Entrez API on Pubmed.
+Articles found and aknowledged are added as a new post into './publications/posts'.
+This articles will be added to the 'https://neuro-ix.github.io/publications/' after quarto rendering.
+
+Example:
+  quarto render --cache-refresh 
+
+Todo:
+  * Add an IP selection
+"""
+
+__author__ = "Benoît Verreman"
+__license__ = "MIT"
+__version__ = "1.0.0"
+__maintainer__ = "Benoît Verreman"
+__email__ = "benoit.verreman@etsmtl.ca"
+__status__ = "Production"
+
 import os
 import pandas as pd #open source data analysis and manipulation tool
 import requests #standard for making HTTP requests 
@@ -10,7 +30,7 @@ from unidecode import unidecode #remove accents
 if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
   exit()
 ###Search the articles of interest on PubMed using specific API Entrez
-url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&reldate=20&term=Bouix[Author]&usehistory=y"
+url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&reldate=40&term=Bouix[Author]&usehistory=y"
 page = requests.get(url_search)
 soup = bs(page.content, "xml")
 
@@ -22,14 +42,15 @@ url_fetch="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&u
 page = requests.get(url_fetch) 
 soup = bs(page.content, "xml")
 
-# xml_text = indent(str(soup))
-# print(xml_text)
-# print("--------------------\n\n")
+xml_text = indent(str(soup))
+print(xml_text)
+print("--------------------\n\n")
+
 
 ###Process the data to create the blog
 
 ##Get Title
-title= soup.find('ArticleTitle').text
+title = soup.find('ArticleTitle').text
 if title.endswith('.'):
     title = title[:-1]
 
