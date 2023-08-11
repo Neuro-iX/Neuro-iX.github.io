@@ -5,20 +5,29 @@ Articles found and aknowledged are added as a new post into './publications/post
 This articles will be added to the 'https://neuro-ix.github.io/publications/' after quarto rendering.
 
 Example:
-  quarto render --cache-refresh 
+  quarto render --cache-refresh
+  quarto preview publications/index.qmd
 
 Todo:
-  * Add an IP selection
+  * If category is empty, don't add to url_search
+  * Create functions for the API fetch and text treatment
+  * Add check boxes to select found articles that should be added to website
+  * Try when catch several articles
+  * Add global variables to make the code easier to understand
 """
 
 __author__ = "Benoît Verreman"
 __license__ = "MIT"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
 __status__ = "Production"
 
 import os
+
+from tkinter import *
+from tkinter import ttk
+
 import pandas as pd #open source data analysis and manipulation tool
 import requests #standard for making HTTP requests 
 from bs4 import BeautifulSoup as bs #library for parsing structured data
@@ -29,7 +38,81 @@ from unidecode import unidecode #remove accents
 
 if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
   exit()
+  
+  
+###Create windows
+
+
+class ArticlesFinder:
+
+    def __init__(self, root):
+        root.title("Find articles on Pubmed")
+        
+        # Content Frame
+        mainframe = ttk.Frame(root, padding="3 3 12 12")
+        mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
+        root.columnconfigure(0, weight=1)
+        root.rowconfigure(0, weight=1)
+       
+        # Entry: Maximum articles to find 
+        self.maxi= StringVar() 
+        ttk.Label(mainframe, text="Maximum articles:").grid(column=1, row=1, sticky=W)
+        maxi_entry = ttk.Entry(mainframe, width=10, textvariable=self.maxi)
+        maxi_entry.grid(column=2, row=1, sticky=(W, E))
+        
+        # Entry: Articles PMID to find
+        self.pmid = StringVar() 
+        ttk.Label(mainframe, text="PMIDs:").grid(column=1, row=2, sticky=W)
+        pmid_entry = ttk.Entry(mainframe, width=10, textvariable=self.pmid)
+        pmid_entry.grid(column=2, row=2, sticky=(W, E))
+        
+        # Entry: Date before publishing
+        self.date = StringVar() 
+        ttk.Label(mainframe, text="Days since publishing:").grid(column=1, row=3, sticky=W)
+        date_entry = ttk.Entry(mainframe, width=10, textvariable=self.date)
+        date_entry.grid(column=2, row=3, sticky=(W, E))
+
+        # Entry: Key terms
+        self.terms = StringVar() 
+        ttk.Label(mainframe, text="Key terms:").grid(column=1, row=4, sticky=W)
+        terms_entry = ttk.Entry(mainframe, width=10, textvariable=self.terms)
+        terms_entry.grid(column=2, row=4, sticky=(W, E))
+        
+        # Button: Search 
+        ttk.Button(mainframe, text="Search", command=self.search).grid(column=2, row=5, sticky=N)
+        
+        # Result: Articles found
+        self.results = StringVar() 
+        ttk.Label(mainframe, textvariable=self.results).grid(column=1, row=6, sticky=(N, W, E, S))
+        
+        # Some Polish
+        for child in mainframe.winfo_children(): 
+            child.grid_configure(padx=10, pady=10)
+
+        maxi_entry.focus()
+        root.bind("<Return>", self.search)
+        
+    def search(self, *args):
+        try:
+            url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=" + \
+            self.maxi.get() + \
+            "&reldate=" + \
+            self.date.get() + \
+            "&term=" + \
+            self.terms.get() + \
+            "&usehistory=y"
+            #value = float(self.pmid.get())
+            self.results.set("Search URL:\n" + url_search)
+        except ValueError:
+            pass
+
+root = Tk()
+ArticlesFinder(root)
+root.mainloop()
+
+
 ###Search the articles of interest on PubMed using specific API Entrez
+
 url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&reldate=40&term=Bouix[Author]&usehistory=y"
 page = requests.get(url_search)
 soup = bs(page.content, "xml")
@@ -37,7 +120,9 @@ soup = bs(page.content, "xml")
 qk = soup.find("QueryKey").text
 we = soup.find("WebEnv").text
 
+
 ###Use previous search to fetch the data
+
 url_fetch="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&usehistory=y&query_key="+qk+"&WebEnv="+we #&rettype=medline&retmode=text
 page = requests.get(url_fetch) 
 soup = bs(page.content, "xml")
