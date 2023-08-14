@@ -9,7 +9,12 @@ Example:
   quarto preview publications/index.qmd
 
 Todo:
-  * Create functions for the API fetch and text treatment
+  * Put the URLs in readonly state for copy
+  * Update list of attributes
+  * Only allow certain entries depending on the category (alert message pop up)
+  * Complete the tooltip with more info
+  * Add more buttons depending on Entrez API documentation
+  * Create functions for text treatment
   * Add check boxes to select found articles that should be added to website
   * Try when catch several articles
   * Add global variables to make the code easier to understand
