@@ -9,32 +9,40 @@ Example:
   quarto preview publications/index.qmd
 
 Todo:
-  * If category is empty, don't add to url_search
   * Create functions for the API fetch and text treatment
   * Add check boxes to select found articles that should be added to website
   * Try when catch several articles
   * Add global variables to make the code easier to understand
+
+References:
+  * Example of GUI using TKinter:
+    https://tkdocs.com/tutorial/firstexample.html
+  * For the GUI, choose between grid, pack and place:
+    https://www.pythonguis.com/faq/pack-place-and-grid-in-tkinter/
 """
 
 __author__ = "Benoît Verreman"
 __license__ = "MIT"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
 __status__ = "Production"
 
 import os
+ 
+from tkinter import * # Create GUI
+#import tkinter as tk
+import tkinter.ttk as ttk
+from tktooltip import ToolTip
 
-from tkinter import *
-from tkinter import ttk
+import pandas as pd # Open source data analysis and manipulation tool
+import requests # Standard for making HTTP requests 
+from bs4 import BeautifulSoup as bs # Library for parsing structured data
+import lxml # Helps BeautifulSoup dealing with xml files
+from yattag import indent # Helps print xml files
 
-import pandas as pd #open source data analysis and manipulation tool
-import requests #standard for making HTTP requests 
-from bs4 import BeautifulSoup as bs #library for parsing structured data
-import lxml #Help BeautifulSoup dealing with xml files
-from yattag import indent #Help print xml files
+from unidecode import unidecode # For removing accents
 
-from unidecode import unidecode #remove accents
 
 if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
   exit()
@@ -42,70 +50,193 @@ if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
   
 ###Create windows
 
-
 class ArticlesFinder:
+    """
+    A class used to represent a GUI to search for articles on Pubmed
 
-    def __init__(self, root):
-        root.title("Find articles on Pubmed")
+    ...
+
+    Attributes
+    ----------
+    maxi : str
+        Maximum number of articles to search for
+    pmid : str
+        List of PMID of articles on Pubmed
+    days : str
+        Maximum number of days since publishing date
+    terms : str
+        Key terms (for example: Bouix[Author])
+    results : str
+        List of the title, date, first author and DOI of all the articles found
         
-        # Content Frame
-        mainframe = ttk.Frame(root, padding="3 3 12 12")
-        mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
-        root.columnconfigure(0, weight=1)
-        root.rowconfigure(0, weight=1)
-       
+    Methods
+    -------
+    search(self, *args) -> (str) we, (str) qk
+        Creates the command for Entrez API and gets WebEnv and query_key
+    fetch(self, *args) -> (str) results
+        Creates the command for Entrez API and gets searching data results
+    """
+    
+    # Modules
+    def __init__(self, root):
+        """Initialize a root window with every buttons and entries
+      
+        Parameters
+        ----------
+        root : tkinter
+            Tkinter GUI for searching parameters and creating posts
+      
+        """
+        
+        # Statics
+        n_widget = 0
+        n_frame = 0
+        
+        # Constants
+        WIDTH_ENTRY = 100
+        
+        # Root config
+        root.title("Articles finder")
+        root.columnconfigure(0, weight = 1)
+        root.rowconfigure(0, weight = 1)      
+        
+        # Creating Frames
+        mainframe = ttk.Frame(root, padding = "3 3 12 12")
+        mainframe.grid(column = 0, row = n_frame, sticky = (N, W, E, S))
+        n_frame += 1
+        
+        resultframe = ttk.Frame(root, padding = "3 3 12 12")
+        resultframe.grid(column = 0, row = n_frame, sticky = (N, W, E, S))
+        n_frame += 1
+
         # Entry: Maximum articles to find 
-        self.maxi= StringVar() 
-        ttk.Label(mainframe, text="Maximum articles:").grid(column=1, row=1, sticky=W)
-        maxi_entry = ttk.Entry(mainframe, width=10, textvariable=self.maxi)
-        maxi_entry.grid(column=2, row=1, sticky=(W, E))
+        self.maxi = StringVar() 
+        n_widget += 1
+        maxi_b = Button(mainframe, text = "Maximum articles", disabledforeground = "black")
+        maxi_b["state"]="disable"
+        maxi_b.grid(column = 1, row = n_widget, sticky = (W, E))
+        ToolTip(maxi_b, msg="Maximum number of articles to search for")
+        maxi_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable=self.maxi)
+        maxi_entry.grid(column = 2, row = n_widget, sticky = (W, E))
         
         # Entry: Articles PMID to find
         self.pmid = StringVar() 
-        ttk.Label(mainframe, text="PMIDs:").grid(column=1, row=2, sticky=W)
-        pmid_entry = ttk.Entry(mainframe, width=10, textvariable=self.pmid)
-        pmid_entry.grid(column=2, row=2, sticky=(W, E))
+        n_widget += 1
+        maxi_b = Button(mainframe, text = "PMIDs", disabledforeground = "black")
+        maxi_b["state"]="disable"
+        maxi_b.grid(column = 1, row = n_widget, sticky = (W, E))
+        ToolTip(maxi_b, msg = "List of article PMIDs on Pubmed")
+        pmid_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable = self.pmid)
+        pmid_entry.grid(column = 2, row = n_widget, sticky = (W, E))
         
         # Entry: Date before publishing
         self.date = StringVar() 
-        ttk.Label(mainframe, text="Days since publishing:").grid(column=1, row=3, sticky=W)
-        date_entry = ttk.Entry(mainframe, width=10, textvariable=self.date)
-        date_entry.grid(column=2, row=3, sticky=(W, E))
+        n_widget += 1
+        maxi_b = Button(mainframe, text = "Days", disabledforeground = "black")
+        maxi_b["state"]="disable"
+        maxi_b.grid(column = 1, row = n_widget, sticky = (W, E))
+        ToolTip(maxi_b, msg = "Maximum number of days since publishing date")
+        date_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable = self.date)
+        date_entry.grid(column = 2, row = n_widget, sticky = (W, E))
 
         # Entry: Key terms
         self.terms = StringVar() 
-        ttk.Label(mainframe, text="Key terms:").grid(column=1, row=4, sticky=W)
-        terms_entry = ttk.Entry(mainframe, width=10, textvariable=self.terms)
-        terms_entry.grid(column=2, row=4, sticky=(W, E))
+        n_widget += 1
+        maxi_b = Button(mainframe, text = "Terms", disabledforeground = "black")
+        maxi_b["state"]="disable"
+        maxi_b.grid(column = 1, row = n_widget, sticky = (W, E))
+        ToolTip(maxi_b, msg = "Special terms like Bouix[Author]")
+        terms_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable = self.terms)
+        terms_entry.grid(column = 2, row = n_widget, sticky = (W, E))
         
         # Button: Search 
-        ttk.Button(mainframe, text="Search", command=self.search).grid(column=2, row=5, sticky=N)
-        
-        # Result: Articles found
-        self.results = StringVar() 
-        ttk.Label(mainframe, textvariable=self.results).grid(column=1, row=6, sticky=(N, W, E, S))
+        n_widget += 1
+        ttk.Button(mainframe, text = "Search", command = self.toSearch).grid(column = 2, row = n_widget, sticky = N)
+        root.bind("<Return>", self.toSearch)
         
         # Some Polish
         for child in mainframe.winfo_children(): 
-            child.grid_configure(padx=10, pady=10)
-
-        maxi_entry.focus()
-        root.bind("<Return>", self.search)
+            child.grid_configure(padx = 10, pady = 10)
         
-    def search(self, *args):
-        try:
-            url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=" + \
-            self.maxi.get() + \
-            "&reldate=" + \
-            self.date.get() + \
-            "&term=" + \
-            self.terms.get() + \
-            "&usehistory=y"
-            #value = float(self.pmid.get())
-            self.results.set("Search URL:\n" + url_search)
-        except ValueError:
-            pass
+        # Default widget selection
+        maxi_entry.focus()
+        
+        # Search URL: Use esearch command frome API Entrez
+        self.searched_url = StringVar() 
+        n_widget += 1
+        ttk.Label(resultframe, textvariable = self.searched_url).grid(column = 1, row = n_widget, sticky = (N, W, E, S))
+        
+        """
+        n_widget += 1
+        searched_url_label = ttk.Entry(resultframe, width = WIDTH_ENTRY, textvariable = self.searched_url)
+        
+        new_state = "disabled" if searched_url_label.get() == "" else "normal"
+        searched_url_label.configure(state=new_state)
+        
+        searched_url_label["state"] = "readonly"
+        searched_url_label.grid(column = 1, row = n_widget, sticky = (N, W, E, S))
+        """
+        
+        # Fetch URL: Use efetch command frome API Entrez
+        self.fetched_url = StringVar() 
+        n_widget += 1
+        ttk.Label(resultframe, textvariable = self.fetched_url).grid(column = 1, row = n_widget, sticky = (N, W, E, S))
+        
+        # Results: Found articles 
+        self.resulting_text = StringVar() 
+        n_widget += 1
+        ttk.Label(resultframe, textvariable = self.resulting_text).grid(column = 1, row = n_widget, sticky = (N, W, E, S))
+        
+        self.qk = str() 
+        self.we = str() 
+        
+    def toSearch(self, *args):            
+        url_search = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed"
+        if self.maxi.get() :
+          url_search += "&retmax=" + self.maxi.get()
+        if self.date.get() :
+          url_search += "&reldate=" + self.date.get()
+        if self.terms.get() :
+          url_search += "&term=" + self.terms.get()
+        url_search += "&usehistory=y"
+        
+        self.searched_url.set("Search URL:\n"+url_search)
+      
+        page = requests.get(url_search)
+        
+        if page:
+            soup = bs(page.content, "xml")
+            
+            self.qk = soup.find("QueryKey").text
+            self.we = soup.find("WebEnv").text
+                
+            self.toFetch()
+        else:
+            self.fetched_url.set("No article found")
+        
+    def toFetch(self, *args):
+        url_fetch = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&usehistory=y&query_key="+self.qk+"&WebEnv="+self.we #&rettype=medline&retmode=text
+        page = requests.get(url_fetch) 
+        soup = bs(page.content, "xml")
+        
+        self.fetched_url.set("Fetch URL:\n" + url_fetch)
+        
+        self.soup = soup
+        self.toPresent()
 
+    
+    def toPresent(self, *args):
+        try:
+            title = self.soup.find('ArticleTitle').text
+            if title.endswith('.'):
+                title = title[:-1]
+                
+            self.resulting_text.set("Articles found:\n" + title)
+        except:
+            self.resulting_text.set("No article found")
+            pass
+          
+          
 root = Tk()
 ArticlesFinder(root)
 root.mainloop()
@@ -113,7 +244,7 @@ root.mainloop()
 
 ###Search the articles of interest on PubMed using specific API Entrez
 
-url_search="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&reldate=40&term=Bouix[Author]&usehistory=y"
+url_search = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmax=5&reldate=40&term=Bouix[Author]&usehistory=y"
 page = requests.get(url_search)
 soup = bs(page.content, "xml")
 
@@ -123,14 +254,14 @@ we = soup.find("WebEnv").text
 
 ###Use previous search to fetch the data
 
-url_fetch="https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&usehistory=y&query_key="+qk+"&WebEnv="+we #&rettype=medline&retmode=text
+url_fetch = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&usehistory=y&query_key="+qk+"&WebEnv="+we #&rettype=medline&retmode=text
 page = requests.get(url_fetch) 
 soup = bs(page.content, "xml")
+
 
 xml_text = indent(str(soup))
 print(xml_text)
 print("--------------------\n\n")
-
 
 ###Process the data to create the blog
 
