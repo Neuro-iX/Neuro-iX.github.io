@@ -1,0 +1,114 @@
+---
+title: "Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS"
+#description: ""
+author:
+  - name: Scott W Woods
+  - name: Sophie Parker
+  - name: Melissa J Kerr
+  - name: Barbara C Walsh
+  - name: S Andrea Wijtenburg
+  - name: Nicholas Prunier
+  - name: Angela R Nunez
+  - name: Kate Buccilli
+  - name: Catalina Mourgues-Codern
+  - name: Kali Brummitt
+  - name: Kyle S Kinney
+  - name: Carli Trankler
+  - name: Julia Szacilo
+  - name: Beau-Luke Colton
+  - name: Munaza Ali
+  - name: Anastasia Haidar
+  - name: Tashrif Billah
+  - name: Kevin Huynh
+  - name: Uzair Ahmed
+  - name: Laura L Adery
+  - name: Cheryl M Corcoran
+  - name: Diana O Perkins
+  - name: Jason Schiffman
+  - name: Jesus Perez
+  - name: Daniel Mamah
+  - name: Lauren M Ellman
+  - name: Albert R Powers
+  - name: Michael J Coleman
+  - name: Alan Anticevic
+  - name: Paolo Fusar-Poli
+  - name: John M Kane
+  - name: Rene S Kahn
+  - name: Patrick D McGorry
+  - name: Carrie E Bearden
+  - name: Martha E Shenton
+  - name: Barnaby Nelson
+  - name: Monica E Calkins
+  - name: Larry Hendricks
+  - name: Sylvain Bouix
+  - name: Jean Addington
+  - name: Thomas H McGlashan
+  - name: Alison R Yung
+  - name: NONE NONE
+  - name: NONE NONE
+  - name: Kelly Allott
+  - name: Scott R Clark
+  - name: Tina Kapur
+  - name: S Lavoie
+  - name: Kathryn E Lewandowski
+  - name: Daniel H Mathalon
+  - name: Ofer Pasternak
+  - name: William S Stone
+  - name: John Torous
+  - name: NONE NONE
+  - name: Laura M Rowland
+  - name: Ming Zhan
+  - name: NONE NONE
+  - name: Paul Amminger
+  - name: Celso Arango
+  - name: Matthew R Broome
+  - name: Kristin S Cadenhead
+  - name: Eric Y H Chen
+  - name: Jimmy Choi
+  - name: Kang Ik Kevin Cho
+  - name: Philippe Conus
+  - name: Barbara A Cornblatt
+  - name: Louise Birkedal Glenthoj
+  - name: Leslie E Horton
+  - name: Joseph Kambeitz
+  - name: Matcheri S Keshavan
+  - name: Nikolaos Koutsouleris
+  - name: Kerstin Langbein
+  - name: Covadonga Martinez Diaz-Caneja
+  - name: Vijay A Mittal
+  - name: Merete Nordentoft
+  - name: Pablo A Gaspar Ramos
+  - name: Godfrey D Pearlson
+  - name: Jai L Shah
+  - name: Stefan Smesny
+  - name: Gregory P Strauss
+  - name: Jijun Wang
+  - name: NONE NONE
+  - name: Patricia J Marcy
+  - name: Priya Matneja
+  - name: Christina Phassouliotis
+  - name: Susan Ray
+  - name: Collum Snowball
+  - name: Jessica Spark
+  - name: Sophie Tod
+  - name: NONE NONE
+
+date: "2023-05-02"
+categories: []
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+AIM: To harmonize two ascertainment and severity rating instruments commonly used for the clinical high risk syndrome for psychosis (CHR-P): the Structured Interview for Psychosis-risk Syndromes (SIPS) and the Comprehensive Assessment of At-Risk Mental States (CAARMS).
+
+METHODS: The initial workshop is described in the companion report from Addington et al. After the workshop, lead experts for each instrument continued harmonizing attenuated positive symptoms and criteria for psychosis and CHR-P through an intensive series of joint videoconferences.
+
+RESULTS: Full harmonization was achieved for attenuated positive symptom ratings and psychosis criteria, and partial harmonization for CHR-P criteria. The semi-structured interview, named P ositive SY mptoms and Diagnostic Criteria for the C AARMS H armonized with the S IPS (PSYCHS), generates CHR-P criteria and severity scores for both CAARMS and SIPS.
+
+CONCLUSION: Using the PSYCHS for CHR-P ascertainment, conversion determination, and attenuated positive symptom severity rating will help in comparing findings across studies and in meta-analyses.
+        

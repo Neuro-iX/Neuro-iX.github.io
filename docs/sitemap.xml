@@ -2,30 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://neuro-ix.github.io/tools/index.html</loc>
-    <lastmod>2023-08-14T22:58:50.832Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html</loc>
-    <lastmod>2023-08-14T22:59:47.611Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/people/index.html</loc>
-    <lastmod>2023-08-14T22:59:33.402Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/contact/index.html</loc>
-    <lastmod>2023-08-14T22:58:20.157Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/index.html</loc>
-    <lastmod>2023-08-14T22:59:38.437Z</lastmod>
+    <lastmod>2023-08-15T21:36:11.240Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/index.html</loc>
-    <lastmod>2023-08-14T22:59:43.728Z</lastmod>
+    <lastmod>2023-08-15T21:38:03.770Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/index.html</loc>
+    <lastmod>2023-08-15T21:35:54.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/contact/index.html</loc>
+    <lastmod>2023-08-15T21:35:47.239Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/people/index.html</loc>
+    <lastmod>2023-08-15T21:35:56.031Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/research/index.html</loc>
-    <lastmod>2023-08-14T22:58:43.891Z</lastmod>
+    <lastmod>2023-08-15T21:36:04.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/publications/posts/2023_05_12_the_organization_of_frontostriatal_brain_wiring/index.html</loc>
+    <lastmod>2023-08-15T21:36:47.969Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/publications/posts/2023_05_02_development_of_the_psychs_positive_symptoms/index.html</loc>
+    <lastmod>2023-08-15T21:37:26.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/publications/posts/2023_07_19_exploring_the_impact_of_hippocampal_sclerosis/index.html</loc>
+    <lastmod>2023-08-15T21:36:50.700Z</lastmod>
   </url>
 </urlset>

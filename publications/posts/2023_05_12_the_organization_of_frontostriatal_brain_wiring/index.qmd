@@ -1,0 +1,40 @@
+---
+title: "The organization of frontostriatal brain wiring in non-affective early psychosis compared with healthy subjects using a novel diffusion imaging fiber cluster analysis"
+#description: "Department of Psychiatry, VA Boston Healthcare System, Brockton Division, Brockton, MA, 02301, USA. james_levitt@hms.harvard.edu. | Harvard Medical School, Boston, MA, 02115, USA. james_levitt@hms.harvard.edu. | Psychiatry Neuroimaging Laboratory, Department of Psychiatry, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA. james_levitt@hms.harvard.edu. | Department of Radiology, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA. | Department of Psychiatry, Massachusetts General Hospital, Harvard Medical School, Boston, MA, 02114, USA. | Department of Psychiatry, VA Boston Healthcare System, Brockton Division, Brockton, MA, 02301, USA. | Harvard Medical School, Boston, MA, 02115, USA. | Department of Psychology, University of Massachusetts, Boston, MA, 02125, USA. | Psychiatry Neuroimaging Laboratory, Department of Psychiatry, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, 02115, USA. | McLean Hospital, Harvard Medical School, Belmont, MA, 02478, USA. | Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA, 02215, USA. | Department of Software Engineering and Information Technology, Ecole de technologie superieure, Universite du Quebec, Montreal, QC, H3C 1K3, Canada. | Indiana University School of Medicine, Indianapolis, IN, 46202, USA."
+author:
+  - name: J J Levitt
+  - name: F Zhang
+  - name: M Vangel
+  - name: P G Nestor
+  - name: Y Rathi
+  - name: S Cetin-Karayumak
+  - name: M Kubicki
+  - name: M J Coleman
+  - name: K E Lewandowski
+  - name: D J Holt
+  - name: M Keshavan
+  - name: S Bouix
+  - name: D Ongur
+  - name: A Breier
+  - name: M E Shenton
+  - name: L J O'Donnell
+
+date: "2023-05-12"
+categories: []
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Alterations in brain connectivity may underlie neuropsychiatric conditions such as schizophrenia. We here assessed the degree of convergence of frontostriatal fiber projections in 56 young adult healthy controls (HCs) and 108 matched Early Psychosis-Non-Affective patients (EP-NAs) using our novel fiber cluster analysis of whole brain diffusion magnetic resonance imaging tractography.
+
+METHODS: Using whole brain tractography and our fiber clustering methodology on harmonized diffusion magnetic resonance imaging data from the Human Connectome Project for Early Psychosis we identified 17 white matter fiber clusters that connect frontal cortex (FCtx) and caudate (Cd) per hemisphere in each group. To quantify the degree of convergence and, hence, topographical relationship of these fiber clusters, we measured the inter-cluster mean distances between the endpoints of the fiber clusters at the level of the FCtx and of the Cd, respectively.
+
+RESULTS: We found (1) in both groups, bilaterally, a non-linear relationship, yielding convex curves, between FCtx and Cd distances for FCtx-Cd connecting fiber clusters, driven by a cluster projecting from inferior frontal gyrus; however, in the right hemisphere, the convex curve was more flattened in EP-NAs; (2) that cluster pairs in the right (p = 0.03), but not left (p = 0.13), hemisphere were significantly more convergent in HCs vs EP-NAs; (3) in both groups, bilaterally, similar clusters projected significantly convergently to the Cd; and, (4) a significant group by fiber cluster pair interaction for 2 right hemisphere fiber clusters (numbers 5, 11; p = .00023; p = .00023) originating in selective PFC subregions.
+
+CONCLUSIONS: In both groups, we found the FCtx-Cd wiring pattern deviated from a strictly topographic relationship and that similar clusters projected significantly more convergently to the Cd. Interestingly, we also found a significantly more convergent pattern of connectivity in HCs in the right hemisphere and that 2 clusters from PFC subregions in the right hemisphere significantly differed in their pattern of connectivity between groups.
+        

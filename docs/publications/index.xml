@@ -26,7 +26,7 @@
   <dc:creator>Sylvain Bouix</dc:creator>
   <dc:creator>Amanda E Lyall</dc:creator>
   <dc:creator>Fernando Cendes</dc:creator>
-  <link>https://neuro-ix.github.io/publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html</link>
+  <link>https://neuro-ix.github.io/publications/posts/2023_07_19_exploring_the_impact_of_hippocampal_sclerosis/index.html</link>
   <description><![CDATA[ 
 
 
@@ -46,8 +46,156 @@
   <category>focal epilepsy</category>
   <category>magnetic resonance imaging</category>
   <category>white matter tracts</category>
-  <guid>https://neuro-ix.github.io/publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html</guid>
+  <guid>https://neuro-ix.github.io/publications/posts/2023_07_19_exploring_the_impact_of_hippocampal_sclerosis/index.html</guid>
   <pubDate>Wed, 19 Jul 2023 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The organization of frontostriatal brain wiring in non-affective early psychosis compared with healthy subjects using a novel diffusion imaging fiber cluster analysis</title>
+  <dc:creator>J J Levitt</dc:creator>
+  <dc:creator>F Zhang</dc:creator>
+  <dc:creator>M Vangel</dc:creator>
+  <dc:creator>P G Nestor</dc:creator>
+  <dc:creator>Y Rathi</dc:creator>
+  <dc:creator>S Cetin-Karayumak</dc:creator>
+  <dc:creator>M Kubicki</dc:creator>
+  <dc:creator>M J Coleman</dc:creator>
+  <dc:creator>K E Lewandowski</dc:creator>
+  <dc:creator>D J Holt</dc:creator>
+  <dc:creator>M Keshavan</dc:creator>
+  <dc:creator>S Bouix</dc:creator>
+  <dc:creator>D Ongur</dc:creator>
+  <dc:creator>A Breier</dc:creator>
+  <dc:creator>M E Shenton</dc:creator>
+  <dc:creator>L J O&#39;Donnell</dc:creator>
+  <link>https://neuro-ix.github.io/publications/posts/2023_05_12_the_organization_of_frontostriatal_brain_wiring/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="abstract" class="level1">
+<h1>Abstract:</h1>
+<p>BACKGROUND: Alterations in brain connectivity may underlie neuropsychiatric conditions such as schizophrenia. We here assessed the degree of convergence of frontostriatal fiber projections in 56 young adult healthy controls (HCs) and 108 matched Early Psychosis-Non-Affective patients (EP-NAs) using our novel fiber cluster analysis of whole brain diffusion magnetic resonance imaging tractography.</p>
+<p>METHODS: Using whole brain tractography and our fiber clustering methodology on harmonized diffusion magnetic resonance imaging data from the Human Connectome Project for Early Psychosis we identified 17 white matter fiber clusters that connect frontal cortex (FCtx) and caudate (Cd) per hemisphere in each group. To quantify the degree of convergence and, hence, topographical relationship of these fiber clusters, we measured the inter-cluster mean distances between the endpoints of the fiber clusters at the level of the FCtx and of the Cd, respectively.</p>
+<p>RESULTS: We found (1) in both groups, bilaterally, a non-linear relationship, yielding convex curves, between FCtx and Cd distances for FCtx-Cd connecting fiber clusters, driven by a cluster projecting from inferior frontal gyrus; however, in the right hemisphere, the convex curve was more flattened in EP-NAs; (2) that cluster pairs in the right (p = 0.03), but not left (p = 0.13), hemisphere were significantly more convergent in HCs vs EP-NAs; (3) in both groups, bilaterally, similar clusters projected significantly convergently to the Cd; and, (4) a significant group by fiber cluster pair interaction for 2 right hemisphere fiber clusters (numbers 5, 11; p = .00023; p = .00023) originating in selective PFC subregions.</p>
+<p>CONCLUSIONS: In both groups, we found the FCtx-Cd wiring pattern deviated from a strictly topographic relationship and that similar clusters projected significantly more convergently to the Cd. Interestingly, we also found a significantly more convergent pattern of connectivity in HCs in the right hemisphere and that 2 clusters from PFC subregions in the right hemisphere significantly differed in their pattern of connectivity between groups.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neuro-ix.github.io/publications/posts/2023_05_12_the_organization_of_frontostriatal_brain_wiring/index.html</guid>
+  <pubDate>Fri, 12 May 2023 04:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS</title>
+  <dc:creator>Scott W Woods</dc:creator>
+  <dc:creator>Sophie Parker</dc:creator>
+  <dc:creator>Melissa J Kerr</dc:creator>
+  <dc:creator>Barbara C Walsh</dc:creator>
+  <dc:creator>S Andrea Wijtenburg</dc:creator>
+  <dc:creator>Nicholas Prunier</dc:creator>
+  <dc:creator>Angela R Nunez</dc:creator>
+  <dc:creator>Kate Buccilli</dc:creator>
+  <dc:creator>Catalina Mourgues-Codern</dc:creator>
+  <dc:creator>Kali Brummitt</dc:creator>
+  <dc:creator>Kyle S Kinney</dc:creator>
+  <dc:creator>Carli Trankler</dc:creator>
+  <dc:creator>Julia Szacilo</dc:creator>
+  <dc:creator>Beau-Luke Colton</dc:creator>
+  <dc:creator>Munaza Ali</dc:creator>
+  <dc:creator>Anastasia Haidar</dc:creator>
+  <dc:creator>Tashrif Billah</dc:creator>
+  <dc:creator>Kevin Huynh</dc:creator>
+  <dc:creator>Uzair Ahmed</dc:creator>
+  <dc:creator>Laura L Adery</dc:creator>
+  <dc:creator>Cheryl M Corcoran</dc:creator>
+  <dc:creator>Diana O Perkins</dc:creator>
+  <dc:creator>Jason Schiffman</dc:creator>
+  <dc:creator>Jesus Perez</dc:creator>
+  <dc:creator>Daniel Mamah</dc:creator>
+  <dc:creator>Lauren M Ellman</dc:creator>
+  <dc:creator>Albert R Powers</dc:creator>
+  <dc:creator>Michael J Coleman</dc:creator>
+  <dc:creator>Alan Anticevic</dc:creator>
+  <dc:creator>Paolo Fusar-Poli</dc:creator>
+  <dc:creator>John M Kane</dc:creator>
+  <dc:creator>Rene S Kahn</dc:creator>
+  <dc:creator>Patrick D McGorry</dc:creator>
+  <dc:creator>Carrie E Bearden</dc:creator>
+  <dc:creator>Martha E Shenton</dc:creator>
+  <dc:creator>Barnaby Nelson</dc:creator>
+  <dc:creator>Monica E Calkins</dc:creator>
+  <dc:creator>Larry Hendricks</dc:creator>
+  <dc:creator>Sylvain Bouix</dc:creator>
+  <dc:creator>Jean Addington</dc:creator>
+  <dc:creator>Thomas H McGlashan</dc:creator>
+  <dc:creator>Alison R Yung</dc:creator>
+  <dc:creator>NONE NONE</dc:creator>
+  <dc:creator>NONE NONE</dc:creator>
+  <dc:creator>Kelly Allott</dc:creator>
+  <dc:creator>Scott R Clark</dc:creator>
+  <dc:creator>Tina Kapur</dc:creator>
+  <dc:creator>S Lavoie</dc:creator>
+  <dc:creator>Kathryn E Lewandowski</dc:creator>
+  <dc:creator>Daniel H Mathalon</dc:creator>
+  <dc:creator>Ofer Pasternak</dc:creator>
+  <dc:creator>William S Stone</dc:creator>
+  <dc:creator>John Torous</dc:creator>
+  <dc:creator>NONE NONE</dc:creator>
+  <dc:creator>Laura M Rowland</dc:creator>
+  <dc:creator>Ming Zhan</dc:creator>
+  <dc:creator>NONE NONE</dc:creator>
+  <dc:creator>Paul Amminger</dc:creator>
+  <dc:creator>Celso Arango</dc:creator>
+  <dc:creator>Matthew R Broome</dc:creator>
+  <dc:creator>Kristin S Cadenhead</dc:creator>
+  <dc:creator>Eric Y H Chen</dc:creator>
+  <dc:creator>Jimmy Choi</dc:creator>
+  <dc:creator>Kang Ik Kevin Cho</dc:creator>
+  <dc:creator>Philippe Conus</dc:creator>
+  <dc:creator>Barbara A Cornblatt</dc:creator>
+  <dc:creator>Louise Birkedal Glenthoj</dc:creator>
+  <dc:creator>Leslie E Horton</dc:creator>
+  <dc:creator>Joseph Kambeitz</dc:creator>
+  <dc:creator>Matcheri S Keshavan</dc:creator>
+  <dc:creator>Nikolaos Koutsouleris</dc:creator>
+  <dc:creator>Kerstin Langbein</dc:creator>
+  <dc:creator>Covadonga Martinez Diaz-Caneja</dc:creator>
+  <dc:creator>Vijay A Mittal</dc:creator>
+  <dc:creator>Merete Nordentoft</dc:creator>
+  <dc:creator>Pablo A Gaspar Ramos</dc:creator>
+  <dc:creator>Godfrey D Pearlson</dc:creator>
+  <dc:creator>Jai L Shah</dc:creator>
+  <dc:creator>Stefan Smesny</dc:creator>
+  <dc:creator>Gregory P Strauss</dc:creator>
+  <dc:creator>Jijun Wang</dc:creator>
+  <dc:creator>NONE NONE</dc:creator>
+  <dc:creator>Patricia J Marcy</dc:creator>
+  <dc:creator>Priya Matneja</dc:creator>
+  <dc:creator>Christina Phassouliotis</dc:creator>
+  <dc:creator>Susan Ray</dc:creator>
+  <dc:creator>Collum Snowball</dc:creator>
+  <dc:creator>Jessica Spark</dc:creator>
+  <dc:creator>Sophie Tod</dc:creator>
+  <dc:creator>NONE NONE</dc:creator>
+  <link>https://neuro-ix.github.io/publications/posts/2023_05_02_development_of_the_psychs_positive_symptoms/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="abstract" class="level1">
+<h1>Abstract:</h1>
+<p>AIM: To harmonize two ascertainment and severity rating instruments commonly used for the clinical high risk syndrome for psychosis (CHR-P): the Structured Interview for Psychosis-risk Syndromes (SIPS) and the Comprehensive Assessment of At-Risk Mental States (CAARMS).</p>
+<p>METHODS: The initial workshop is described in the companion report from Addington et al.&nbsp;After the workshop, lead experts for each instrument continued harmonizing attenuated positive symptoms and criteria for psychosis and CHR-P through an intensive series of joint videoconferences.</p>
+<p>RESULTS: Full harmonization was achieved for attenuated positive symptom ratings and psychosis criteria, and partial harmonization for CHR-P criteria. The semi-structured interview, named P ositive SY mptoms and Diagnostic Criteria for the C AARMS H armonized with the S IPS (PSYCHS), generates CHR-P criteria and severity scores for both CAARMS and SIPS.</p>
+<p>CONCLUSION: Using the PSYCHS for CHR-P ascertainment, conversion determination, and attenuated positive symptom severity rating will help in comparing findings across studies and in meta-analyses.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://neuro-ix.github.io/publications/posts/2023_05_02_development_of_the_psychs_positive_symptoms/index.html</guid>
+  <pubDate>Tue, 02 May 2023 04:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
