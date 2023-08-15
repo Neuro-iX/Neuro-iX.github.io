@@ -20,7 +20,7 @@ author:
   - name: L J O'Donnell
 
 date: "2023-05-12"
-categories: []
+categories: [underlie neuropsychiatric conditions, fiber clusters, Human Connectome Project, fiber, diffusion magnetic resonance]
 #image: map.jpg
 format:
   html:

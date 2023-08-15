@@ -94,7 +94,7 @@ author:
   - name: NONE NONE
 
 date: "2023-05-02"
-categories: []
+categories: [At-Risk Mental States, high risk syndrome, Mental States, Comprehensive Assessment, Psychosis-risk Syndromes]
 #image: map.jpg
 format:
   html:

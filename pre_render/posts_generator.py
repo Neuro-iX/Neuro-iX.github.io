@@ -22,11 +22,13 @@ References:
     https://tkdocs.com/tutorial/firstexample.html
   * For the GUI, choose between grid, pack and place:
     https://www.pythonguis.com/faq/pack-place-and-grid-in-tkinter/
+  * Keywords extractor librairies for empty keywords list:
+    https://towardsdatascience.com/keyword-extraction-process-in-python-with-natural-language-processing-nlp-d769a9069d5c
 """
 
 __author__ = "Benoît Verreman"
 __license__ = "MIT"
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
 __status__ = "Production"
@@ -46,6 +48,22 @@ from yattag import indent # Helps print xml files
 
 from unidecode import unidecode # For removing accents
 import re # replacing special characters in titles
+
+#Bonuses
+
+#Find Keywords from the abstract
+"""
+from rake_nltk import Rake # Find keywords in a text 
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+
+r = Rake()
+r.extract_keywords_from_text(self.abstract)
+print(r.get_ranked_phrases())
+kw = r.get_ranked_phrases()[:5]
+"""
+import yake
 
 if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
   exit()
@@ -104,6 +122,10 @@ class Article:
         self.toFindDoi()
         self.toFindPmid()
         
+    # Soup    
+    def toGetSoup(self, *args):
+        return self.soup 
+      
     # Title
     def toFindTitle(self, *args):
         title = self.soup.find('ArticleTitle').text
@@ -237,8 +259,13 @@ class Article:
     def toFindKeywords(self, *args):
         raw_kw = self.soup.find_all('Keyword')
         kw = []
-        for i in raw_kw:
-            kw.append(i.text)
+        if raw_kw == []:
+            custom_kw_extractor = yake.KeywordExtractor(lan="en", n=3, dedupLim=0.9, top=5, features=None)
+            k = custom_kw_extractor.extract_keywords(self.abstract)
+            kw = list(map(lambda x: x[0], k))
+        else:
+            for i in raw_kw:
+                kw.append(i.text)
         self.keywords = "["+', '.join(kw)+"]"
         
     def toGetKeywords(self, *args):
@@ -515,6 +542,10 @@ class ArticlesFinder:
             for key, value in self.button_dict.items():
                 if value.get():
                     self.article_dict[key].toPublish()
+                    
+                    xml_text = indent(str(self.article_dict[key].toGetSoup()))
+                    print(xml_text)
+                    
                     self.published_warning.set("Published !")
         except AttributeError:
             pass
