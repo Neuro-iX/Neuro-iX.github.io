@@ -28,7 +28,7 @@ References:
 
 __author__ = "Benoît Verreman"
 __license__ = "MIT"
-__version__ = "1.0.4"
+__version__ = "1.0.5"
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
 __status__ = "Production"
@@ -96,8 +96,8 @@ class Article:
         Creates the attribute *
     toGet*(self, *args) -> (str) *
         Returns the attribute * for the class ArticlesFinder
-    toFixDate(self, x) -> (str) "{:02d}".format(n)
-        Takes a three letter month x and convert it into a string of two characters
+    toFixMonth(self, x) -> (str) "{:02d}".format(n)
+        Takes a three letter month x and convert it into a string of two digits in str format
     toPublish(self, *args)
         Creates a new post (new file directory into "./publications/posts")
     """
@@ -159,23 +159,28 @@ class Article:
     
     # Authors
     def toFindAuthors(self, *args):
-        raw_authors = self.soup.find_all('Author')
+        raw_authors_list = self.soup.find('AuthorList')
+        raw_authors = raw_authors_list.find_all('Author',{"ValidYN" : "Y"})
         lastname = []
         forename = []
         affiliations = []
         list_affiliations = []
         
+        error = False
         for i in raw_authors:
             try:
                 lastname.append(i.find('LastName').text)
             except AttributeError:
-                lastname.append('NONE')
+                error = True
                 pass                
             try:
                 forename.append(i.find('ForeName').text)
             except AttributeError:
-                forename.append('NONE')
+                error = True
                 pass 
+              
+            if error:  
+                break
               
             l1=i.find_all('Affiliation') #all affiliations
             l2=[] #indexes of affiliations
@@ -220,14 +225,14 @@ class Article:
         except AttributeError:
             i= "{:02d}".format(0)
             pass
-        self.datelist = [raw_date.find('Year').text, self.toFixDate(raw_date.find('Month').text), i]
+        self.datelist = [raw_date.find('Year').text, self.toFixMonth(raw_date.find('Month').text), i]
         
         self.date = self.datelist[0] + '-' + self.datelist[1] + '-' + self.datelist[2]
 
     def toGetDate(self, *args):
         return self.date
       
-    def toFixDate(self, x):
+    def toFixMonth(self, x):
         months = {
             'jan': "{:02d}".format(1),
             'feb': "{:02d}".format(2),
@@ -517,8 +522,6 @@ class ArticlesFinder:
         
     def toSplit(self, *args):
         list_articles = self.soup.find_all("PubmedArticle")
-        #titles = str()
-        #self.resulting_text.set('')
         
         self.published_warning = StringVar() 
         self.n_widget += 1
@@ -534,8 +537,6 @@ class ArticlesFinder:
             c = Checkbutton(self.resultframe, text=t, variable=self.button_dict[str(i)], onvalue=1, offvalue=0)
             self.n_widget += 1
             c.grid(column = 1, row = self.n_widget, sticky = W)
-            #titles = titles + a.toGetTitle() + "\n"  
-        #self.resulting_text.set("Articles found:\n" + titles)
         
     def toCheckButtons(self, *args):
         try:
