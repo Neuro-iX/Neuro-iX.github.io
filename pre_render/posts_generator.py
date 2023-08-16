@@ -1,34 +1,42 @@
 """posts_generator.py
 
-This module implements a class called ArticlesFinder, that manages a GUI (with Tkinter), which simplifies the input creation for the Pubmed API called Entrez.
-Then, the articles found are analyzed one by one using the class Article.
-Finally, each title of the found articles is displayed.
+This module implements a class called ArticlesFinder, that manages a GUI (with Tkinter), which creates a URL input for the Pubmed API called Entrez.
+Then, the found articles are analyzed one by one using the class Article.
+Finally, every titles are displayed.
 A checkbutton can be activated, so that the correponding article be converted into a new post in the folder './publications/posts'.
-These new posts will be added to the website 'https://neuro-ix.github.io/publications/' after quarto rendering.
+These new posts will be added to the website 'https://neuro-ix.github.io/publications/' after quarto rendering and git push.
 
 Example:
+  eval $(ssh-agent -s)
+  ssh-add /c/Users/bverr/.ssh/id_ed25519
+  git fetch origin
+  alias graph='git log --all --decorate --oneline --graph'
+  graph
+  
   quarto render --cache-refresh
+  
   quarto preview publications/index.qmd
+  git push origin main
 
 Todo:
-  * Put the URLs in readonly state for copy
-  * Declare and Reset attributes properly
   * Only allow certain entries depending on the category (alert message pop up)
   * Complete the tooltip with more info
   * Add more buttons depending on Entrez API documentation
 
 References:
-  * Example of GUI using TKinter:
+  * Documentation about Pubmed API called Entrez:
+    https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch 
+  * Example of GUI using Tkinter:
     https://tkdocs.com/tutorial/firstexample.html
-  * For the GUI, choose between grid, pack and place:
+  * How to chose between grid, pack and place:
     https://www.pythonguis.com/faq/pack-place-and-grid-in-tkinter/
-  * Keywords extractor librairies for empty keywords list:
+  * Keywords extractor librairies for empty keywords lists:
     https://towardsdatascience.com/keyword-extraction-process-in-python-with-natural-language-processing-nlp-d769a9069d5c
 """
 
 __author__ = "Benoît Verreman"
 __license__ = "MIT"
-__version__ = "1.0.5"
+__version__ = "1.0.6"
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
 __status__ = "Production"
@@ -49,21 +57,7 @@ from yattag import indent # Helps print xml files
 from unidecode import unidecode # For removing accents
 import re # replacing special characters in titles
 
-#Bonuses
-
-#Find Keywords from the abstract
-"""
-from rake_nltk import Rake # Find keywords in a text 
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
-
-r = Rake()
-r.extract_keywords_from_text(self.abstract)
-print(r.get_ranked_phrases())
-kw = r.get_ranked_phrases()[:5]
-"""
-import yake
+import yake # Find Keywords from the abstract
 
 if not os.getenv("QUARTO_PROJECT_RENDER_ALL"):
   exit()
@@ -391,7 +385,7 @@ class ArticlesFinder:
         # Entry: Maximum articles to find 
         self.maxi = StringVar() 
         self.n_widget += 1
-        maxi_b = Button(mainframe, text = "Maximum articles", disabledforeground = "black")
+        maxi_b = Button(mainframe, text = "Maximum number", disabledforeground = "black")
         maxi_b["state"]="disable"
         maxi_b.grid(column = 1, row = self.n_widget, sticky = (W, E))
         ToolTip(maxi_b, msg="Maximum number of articles to search for")
@@ -430,15 +424,14 @@ class ArticlesFinder:
         
         # Button: Search 
         self.n_widget += 1
-        ttk.Button(mainframe, text = "Search", command = self.toSearch).grid(column = 2, row = self.n_widget, sticky = N)
+        ttk.Button(mainframe, text = "Search", command = self.toSearch).grid(column = 1, row = self.n_widget, sticky = W)
         root.bind("<Return>", self.toSearch)
         
         # Button: Publish
-        """"""
-        self.n_widget += 1
-        Button(mainframe, text='Publish', command=self.toCheckButtons).grid(column = 2, row = self.n_widget, sticky = N)
+        self.button_publish = ttk.Button(mainframe, text='Publish', command=self.toCheckButtons)
+        self.button_publish.grid(column = 2, row = self.n_widget, sticky = W)
         root.bind("<Return>", self.toCheckButtons)
-        
+        self.button_publish['state'] = 'disabled'
         
         # Some Polish
         for child in mainframe.winfo_children(): 
@@ -446,32 +439,11 @@ class ArticlesFinder:
         
         # Default widget selection
         maxi_entry.focus()
-        
-        # Search URL: Use esearch command frome API Entrez
-        self.searched_url = StringVar() 
-        self.n_widget += 1
-        ttk.Label(self.urlframe, textvariable = self.searched_url).grid(column = 1, row = self.n_widget, sticky = (N, W, E, S))
-        
-        #Try to make the URL readable
-        """
-        self.n_widget += 1
-        searched_url_label = ttk.Entry(self.resultframe, width = WIDTH_ENTRY, textvariable = self.searched_url)
-        
-        new_state = "disabled" if searched_url_label.get() == "" else "normal"
-        searched_url_label.configure(state=new_state)
-        
-        searched_url_label["state"] = "readonly"
-        searched_url_label.grid(column = 1, row = self.n_widget, sticky = (N, W, E, S))
-        """
-        
-        # Fetch URL: Use efetch command frome API Entrez
-        self.fetched_url = StringVar() 
-        self.n_widget += 1
-        ttk.Label(self.urlframe, textvariable = self.fetched_url).grid(column = 1, row = self.n_widget, sticky = (N, W, E, S))
-        
-        
+
+    # Methods
     def toSearch(self, *args):  
-        self.toResetFrame()
+        self.toResetFrames()
+        self.toFurnishFrames()
         
         url_search = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed"
         if self.maxi.get() :
@@ -485,39 +457,88 @@ class ArticlesFinder:
         page = requests.get(url_search)
         soup = bs(page.content, "xml")
         
-        self.searched_url.set("Search URL:\n"+url_search)
+        self.label_search.grid()
+        self.searched_url.grid()
+        self.searched_url.insert(END, url_search)
+        self.searched_url['state'] = 'disabled'
         
         article_found = False
         
         try:
-            error = soup.find("ERROR").text
-            self.fetched_url.set(error)
-        except AttributeError:
+            soup.find("eSearchResult").text
             try:
-                message = soup.find("OutputMessage").text
-                self.fetched_url.set(message)
+                error = soup.find("ERROR").text
+                self.stringvar_fetch.set(error)
+                self.label_fetch.grid()
             except AttributeError:
-                self.qk = soup.find("QueryKey").text
-                self.we = soup.find("WebEnv").text
-                article_found = True
+                try:
+                    message = soup.find("OutputMessage").text
+                    self.stringvar_fetch.set(message)
+                    self.label_fetch.grid()
+                except AttributeError:
+                    self.qk = soup.find("QueryKey").text
+                    self.we = soup.find("WebEnv").text
+                    article_found = True
+                    pass
                 pass
+        except AttributeError:
+            self.stringvar_fetch.set("Badly worded entry")
+            self.label_fetch.grid()
             pass
           
         if article_found:
+            self.button_publish['state'] = 'normal'
             self.toFetch()
+            
     
-    def toResetFrame(self, *args):
+    def toResetFrames(self, *args):
+        self.button_publish['state'] = 'disabled'
+        
+        for widget in self.urlframe.winfo_children():
+            widget.destroy()
+            self.n_widget -= 1
+      
         for widget in self.resultframe.winfo_children():
             widget.destroy()
             self.n_widget -= 1
+            
+    def toFurnishFrames(self, *args):
+        # Search URL: Use esearch command frome API Entrez
+        self.n_widget += 1
+        self.label_search=ttk.Label(self.urlframe, text = "Search URL:")
+        self.label_search.grid(column = 1, row = self.n_widget, sticky = (N, W, E, S))
+        self.label_search.grid_remove()
         
+        self.n_widget += 1
+        self.searched_url=Text(self.urlframe, height = 1, width = 120)
+        self.searched_url.configure(font = ("Arial", 8))
+        self.searched_url.grid(column = 1, row = self.n_widget, sticky = (N, W, E, S))
+        self.searched_url.grid_remove()
+
+        # Fetch URL: Use efetch command frome API Entrez
+        self.stringvar_fetch = StringVar() 
+        self.n_widget += 1
+        self.label_fetch=ttk.Label(self.urlframe, textvariable = self.stringvar_fetch)
+        self.label_fetch.grid(column = 1, row = self.n_widget, sticky = (N, W, E, S))
+        self.label_fetch.grid_remove()
+        
+        self.n_widget += 1
+        self.fetched_url=Text(self.urlframe, height = 1, width = 120)
+        self.fetched_url.configure(font = ("Arial", 8))
+        self.fetched_url.grid(column = 1, row = self.n_widget, sticky = (N, W, E, S))
+        self.fetched_url.grid_remove()
+      
     def toFetch(self, *args):
         url_fetch = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&usehistory=y&query_key="+self.qk+"&WebEnv="+self.we #&rettype=medline&retmode=text
         page = requests.get(url_fetch) 
         self.soup = bs(page.content, "xml")
         
-        self.fetched_url.set("Fetch URL:\n" + url_fetch)
-
+        self.stringvar_fetch.set("Fetch URL:")
+        self.label_fetch.grid()
+        self.fetched_url.grid()
+        self.fetched_url.insert(END, url_fetch)
+        self.fetched_url['state'] = 'disabled'
+        
         self.toSplit()
         
     def toSplit(self, *args):
@@ -543,11 +564,11 @@ class ArticlesFinder:
             for key, value in self.button_dict.items():
                 if value.get():
                     self.article_dict[key].toPublish()
-                    
+                    self.published_warning.set("Published !")
+                    """
                     xml_text = indent(str(self.article_dict[key].toGetSoup()))
                     print(xml_text)
-                    
-                    self.published_warning.set("Published !")
+                    """
         except AttributeError:
             pass
 #----------------------
