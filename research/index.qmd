@@ -11,15 +11,12 @@ format:
 
 # {.centering .unnumbered .unlisted}
 
+The availability of multimodal data for the study of the brain in health and disease has exploded in the past decade, with a number of international initiatives to make data more accessible to the scientific community. These large datasets have the potential to address the unreliability of underpowered neuroimaging studies, as well as open new avenues for large sample analyses, including exciting multimodal analyses. Additionally, research data are becoming increasingly more multimodal and longitudinal, with some studies acquiring, over multiple years, a wide range of data types including behavioral measures, neurocognition, neuroimaging, audio/video recordings, smartphone and wearable activity trackers data, and fluid biomarkers. The availability and richness of these datasets provides exciting opportunities in the quest to better understand brain structure and function, but also presents special challenges for researchers without significant computational expertise or resources to analyze this data. 
+Our overarching goal is to build an ecosystem of free open source software and freely available derived data to leverage the power of these source datasets while making analyses more accessible to neuroscientists and clinicians. 
+
 [**Research Areas**]{.text-style-1}
 
-Medical Imaging
-
-Neuroimaging
-
-Neuroinformatics
-
-Anatomical and Diffusion MRI
+Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI, Psychotic disorders, Traumatic Brain Injury, Chronic Traumatic Encephalopathy.
 
 ----
 
