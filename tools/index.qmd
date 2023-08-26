@@ -3,8 +3,11 @@ title: Tools
 jupyter: python3
 ---
 
-About this site
+## Software
+* [Neuroimaging tools](https://github.com/pnlbwh/)
+* [Neuroinformatics for AMP-SCZ](https://github.com/orgs/AMP-SCZ)
+* [SlicerNeuroSegmentation](https://github.com/HOA-2/SlicerNeuroSegmentation)
 
-```{python}
-1 + 1
-```
+## Data
+* [Human Connectome for Early Psychosis](https://nda.nih.gov/general-query.html?q=query=featured-datasets:Connectomes%20Related%20to%20Human%20Disease)
+* [Harvard-Oxford Atlas 2.0: Subcortical parcellations](https://github.com/HOA-2/SubcorticalParcellations)
