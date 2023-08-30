@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://neuro-ix.github.io/people/index.html</loc>
-    <lastmod>2023-08-26T01:56:51.571Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/publications/index.html</loc>
-    <lastmod>2023-08-26T01:56:46.251Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html</loc>
-    <lastmod>2023-08-26T01:30:09.549Z</lastmod>
-  </url>
-  <url>
     <loc>https://neuro-ix.github.io/tools/index.html</loc>
-    <lastmod>2023-08-26T01:57:16.848Z</lastmod>
+    <lastmod>2023-08-30T19:19:31.013Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/research/index.html</loc>
-    <lastmod>2023-08-26T01:57:15.248Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/contact/index.html</loc>
-    <lastmod>2023-08-26T01:56:36.397Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/publications/posts/2023_05_12_the_organization_of_frontostriatal_brain_wiring/index.html</loc>
-    <lastmod>2023-08-26T01:30:08.862Z</lastmod>
+    <loc>https://neuro-ix.github.io/publications/posts/2023_07_19_exploring_the_impact_of_hippocampal_sclerosis/index.html</loc>
+    <lastmod>2023-08-30T19:19:23.521Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2023_05_02_development_of_the_psychs_positive_symptoms/index.html</loc>
-    <lastmod>2023-08-26T01:30:10.290Z</lastmod>
+    <lastmod>2023-08-30T19:19:18.182Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/people/index.html</loc>
+    <lastmod>2023-08-30T19:19:07.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/contact/index.html</loc>
+    <lastmod>2023-08-30T19:19:00.073Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/index.html</loc>
-    <lastmod>2023-08-26T01:57:12.109Z</lastmod>
+    <lastmod>2023-08-30T19:19:06.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/publications/index.html</loc>
+    <lastmod>2023-08-30T19:22:32.007Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/publications/posts/2023_05_12_the_organization_of_frontostriatal_brain_wiring/index.html</loc>
+    <lastmod>2023-08-30T19:19:20.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/research/index.html</loc>
+    <lastmod>2023-08-30T19:19:24.671Z</lastmod>
   </url>
 </urlset>
