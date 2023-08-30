@@ -1,6 +1,6 @@
 ---
 title: "Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS"
-description: "PMID: 37205422    DOI: [10.1101/2023.04.29.23289226](https://doi.org/10.1101/2023.04.29.23289226)"
+description: "PMID: 37641537    DOI: [10.1111/eip.13457](https://doi.org/10.1111/eip.13457)"
 author:
   - name: Scott W Woods
   - name: Sophie Parker
@@ -22,6 +22,36 @@ author:
   - name: Kevin Huynh
   - name: Uzair Ahmed
   - name: Laura L Adery
+  - name: Patricia J Marcy
+  - name: Kelly Allott
+  - name: Paul Amminger
+  - name: Celso Arango
+  - name: Matthew R Broome
+  - name: Kristin S Cadenhead
+  - name: Eric Y H Chen
+  - name: Jimmy Choi
+  - name: Philippe Conus
+  - name: Barbara A Cornblatt
+  - name: Louise Birkedal Glenthoj
+  - name: Leslie E Horton
+  - name: Joseph Kambeitz
+  - name: Tina Kapur
+  - name: Matcheri S Keshavan
+  - name: Nikolaos Koutsouleris
+  - name: Kerstin Langbein
+  - name: Suzie Lavoie
+  - name: Covadonga Martinez Diaz-Caneja
+  - name: Daniel H Mathalon
+  - name: Vijay A Mittal
+  - name: Merete Nordentoft
+  - name: Ofer Pasternak
+  - name: Godfrey D Pearlson
+  - name: Pablo A Gaspar
+  - name: Jai L Shah
+  - name: Stefan Smesny
+  - name: William S Stone
+  - name: Gregory P Strauss
+  - name: Jijun Wang
   - name: Cheryl M Corcoran
   - name: Diana O Perkins
   - name: Jason Schiffman
@@ -45,8 +75,8 @@ author:
   - name: Thomas H McGlashan
   - name: Alison R Yung
 
-date: "2023-05-02"
-categories: [At-Risk Mental States, high risk syndrome, Mental States, Comprehensive Assessment, Psychosis-risk Syndromes]
+date: "2023-08-28"
+categories: [ascertainment, clinical high risk, early detection, psychometrics, severity rating]
 #image: map.jpg
 format:
   html:
@@ -60,7 +90,7 @@ AIM: To harmonize two ascertainment and severity rating instruments commonly use
 
 METHODS: The initial workshop is described in the companion report from Addington et al. After the workshop, lead experts for each instrument continued harmonizing attenuated positive symptoms and criteria for psychosis and CHR-P through an intensive series of joint videoconferences.
 
-RESULTS: Full harmonization was achieved for attenuated positive symptom ratings and psychosis criteria, and partial harmonization for CHR-P criteria. The semi-structured interview, named P ositive SY mptoms and Diagnostic Criteria for the C AARMS H armonized with the S IPS (PSYCHS), generates CHR-P criteria and severity scores for both CAARMS and SIPS.
+RESULTS: Full harmonization was achieved for attenuated positive symptom ratings and psychosis criteria, and modest harmonization for CHR-P criteria. The semi-structured interview, named Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS (PSYCHS), generates CHR-P criteria and severity scores for both CAARMS and SIPS.
 
-CONCLUSION: Using the PSYCHS for CHR-P ascertainment, conversion determination, and attenuated positive symptom severity rating will help in comparing findings across studies and in meta-analyses.
+CONCLUSIONS: Using the PSYCHS for CHR-P ascertainment, conversion determination, and attenuated positive symptom severity rating will help in comparing findings across studies and in meta-analyses.
         

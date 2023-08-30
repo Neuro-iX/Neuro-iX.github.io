@@ -1,0 +1,39 @@
+---
+title: "Adverse Outcome Following Mild Traumatic Brain Injury Is Associated with Microstructure Alterations at the Gray and White Matter Boundary"
+description: "PMID: 37629457    DOI: [10.3390/jcm12165415](https://doi.org/10.3390/jcm12165415)"
+author:
+  - name: Lara Pankatz
+  - name: Philine Rojczyk
+  - name: Johanna Seitz-Holland
+  - name: Sylvain Bouix
+  - name: Leonard B Jung
+  - name: Tim L T Wiegand
+  - name: Elena M Bonke
+  - name: Nico Sollmann
+  - name: Elisabeth Kaufmann
+  - name: Holly Carrington
+  - name: Twishi Puri
+  - name: Yogesh Rathi
+  - name: Michael J Coleman
+  - name: Ofer Pasternak
+  - name: Mark S George
+  - name: Thomas W McAllister
+  - name: Ross Zafonte
+  - name: Murray B Stein
+  - name: Christine E Marx
+  - name: Martha E Shenton
+  - name: Inga K Koerte
+
+date: "2023-08-21"
+categories: [cognitive impairment, diffusion tensor imaging, fractional anisotropy, magnetic resonance imaging, mild traumatic brain injury, post-concussion symptoms]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The gray matter/white matter (GM/WM) boundary of the brain is vulnerable to shear strain associated with mild traumatic brain injury (mTBI). It is, however, unknown whether GM/WM microstructure is associated with long-term outcomes following mTBI. The diffusion and structural MRI data of 278 participants between 18 and 65 years of age with and without military background from the Department of Defense INTRuST study were analyzed. Fractional anisotropy (FA) was extracted at the GM/WM boundary across the brain and for each lobe. Additionally, two conventional analytic approaches were used: whole-brain deep WM FA (TBSS) and whole-brain cortical thickness (FreeSurfer). ANCOVAs were applied to assess differences between the mTBI cohort (n = 147) and the comparison cohort (n = 131). Associations between imaging features and post-concussive symptom severity, and functional and cognitive impairment were investigated using partial correlations while controlling for mental health comorbidities that are particularly common among military cohorts and were present in both the mTBI and comparison group. Findings revealed significantly lower whole-brain and lobe-specific GM/WM boundary FA (p < 0.011), and deep WM FA (p = 0.001) in the mTBI cohort. Whole-brain and lobe-specific GM/WM boundary FA was significantly negatively correlated with post-concussive symptoms (p < 0.039), functional (p < 0.016), and cognitive impairment (p < 0.049). Deep WM FA was associated with functional impairment (p = 0.002). Finally, no significant difference was observed in cortical thickness, nor between cortical thickness and outcome (p > 0.05). Findings from this study suggest that microstructural alterations at the GM/WM boundary may be sensitive markers of adverse long-term outcomes following mTBI.
+        

@@ -1,6 +1,6 @@
 ---
 title: "Exploring the impact of hippocampal sclerosis on white matter tracts memory in individuals with mesial temporal lobe epilepsy"
-#description: "Psychiatry Neuroimaging Laboratory, Department of Psychiatry, Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts, USA. | Neuroimaging Laboratory, School of Medical Sciences, University of Campinas, Campinas, Sao Paulo, Brazil. | Department of Radiology, Brigham and Women's Hospital, Harvard Medical School, Boston, Massachusetts, USA. | Department of Psychiatry, Massachusetts General Hospital, Harvard Medical School, Boston, Massachusetts, USA. | Departement de genie logiciel et TI, Ecole de technologie superieure, Universite du Quebec, Montreal, Quebec, Canada."
+description: "PMID: 37469213    DOI: [10.1002/epi4.12793](https://doi.org/10.1002/epi4.12793)"
 author:
   - name: Tamires A Zanao
   - name: Johanna Seitz-Holland

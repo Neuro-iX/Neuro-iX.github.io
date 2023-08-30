@@ -12,7 +12,7 @@ listing:
   sort-ui: true #Enable sorting bar
   filter-ui: true
   #feed: true
-  fields: [date, title, author, categories] #description
+  fields: [date, title, author, categories, description]
   date-format: "YYYY-MM-DD"
   
 toc: false
