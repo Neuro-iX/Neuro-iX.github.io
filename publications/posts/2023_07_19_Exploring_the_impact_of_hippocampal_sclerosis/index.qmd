@@ -1,21 +1,7 @@
 ---
 title: "Exploring the impact of hippocampal sclerosis on white matter tracts memory in individuals with mesial temporal lobe epilepsy"
 description: "PMID: [37469213](https://pubmed.ncbi.nlm.nih.gov/37469213/){target='_blank'}    DOI: [10.1002/epi4.12793](https://doi.org/10.1002/epi4.12793){target='_blank'}"
-author:
-  - name: Tamires A Zanao
-  - name: Johanna Seitz-Holland
-  - name: Lauren J O'Donnell
-  - name: Fan Zhang
-  - name: Yogesh Rathi
-  - name: Tatila M Lopes
-  - name: Luciana Ramalho Pimentel-Silva
-  - name: Clarissa L Yassuda
-  - name: Nikos Makris
-  - name: Martha E Shenton
-  - name: Sylvain Bouix
-  - name: Amanda E Lyall
-  - name: Fernando Cendes
-
+author: Tamires A Zanao, Johanna Seitz-Holland, Lauren J O'Donnell, Fan Zhang, Yogesh Rathi, Tatila M Lopes, Luciana Ramalho Pimentel-Silva, Clarissa L Yassuda, Nikos Makris, Martha E Shenton, Sylvain Bouix, Amanda E Lyall, Fernando Cendes
 date: "2023-07-19"
 categories: [cognitive impairment, focal epilepsy, magnetic resonance imaging, white matter tracts]
 #image: map.jpg

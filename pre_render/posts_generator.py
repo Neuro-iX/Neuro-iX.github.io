@@ -22,6 +22,8 @@ Todo:
   * Only allow certain entries depending on the category (alert message pop up)
   * Complete the tooltip with more info
   * Add more buttons depending on Entrez API documentation
+  * Indicate which article found is already posted
+  * Check the keywords manually
 
 References:
   * Documentation about Pubmed API called Entrez:
@@ -36,7 +38,7 @@ References:
 
 __author__ = "Benoît Verreman"
 __license__ = "MIT"
-__version__ = "1.0.8" #post_generator.py --version 1.0.8 * ...
+__version__ = "1.0.9" #posts_generator.py --version 1.0.9 * ...
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
 __status__ = "Production"
@@ -202,10 +204,10 @@ class Article:
         
         authors_list = [a+' '+b for a,b in zip(forename,lastname)]
         
-        self.author = authors_list[0]
+        self.author = authors_list[0] #AttributeError: 'Article' object has no attribute 'author'
         
-        authors_print = ["  - name: "+a+'\n' for a in authors_list]
-        authors_print = ''.join(authors_print)
+        #authors_print = ["  - name: "+a+'\n' for a in authors_list] #UnboundLocalError: cannot access local variable 'authors_print' where it is not associated with a value
+        authors_print = ', '.join(authors_list)
         self.authors = authors_print.replace("?", "e")
         
         self.affiliations=' | '.join(list_affiliations)
@@ -327,8 +329,7 @@ class Article:
         new_post="""---
 title: {title}
 description: {description}
-author:
-{authors}
+author: {authors}
 date: {date}
 categories: {categories}
 #image: map.jpg

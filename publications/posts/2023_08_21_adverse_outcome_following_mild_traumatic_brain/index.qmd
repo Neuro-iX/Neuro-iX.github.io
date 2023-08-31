@@ -1,29 +1,7 @@
 ---
 title: "Adverse Outcome Following Mild Traumatic Brain Injury Is Associated with Microstructure Alterations at the Gray and White Matter Boundary"
 description: "PMID: [37629457](https://pubmed.ncbi.nlm.nih.gov/37629457/){target='_blank'}    DOI: [10.3390/jcm12165415](https://doi.org/10.3390/jcm12165415){target='_blank'}"
-author:
-  - name: Lara Pankatz
-  - name: Philine Rojczyk
-  - name: Johanna Seitz-Holland
-  - name: Sylvain Bouix
-  - name: Leonard B Jung
-  - name: Tim L T Wiegand
-  - name: Elena M Bonke
-  - name: Nico Sollmann
-  - name: Elisabeth Kaufmann
-  - name: Holly Carrington
-  - name: Twishi Puri
-  - name: Yogesh Rathi
-  - name: Michael J Coleman
-  - name: Ofer Pasternak
-  - name: Mark S George
-  - name: Thomas W McAllister
-  - name: Ross Zafonte
-  - name: Murray B Stein
-  - name: Christine E Marx
-  - name: Martha E Shenton
-  - name: Inga K Koerte
-
+author: Lara Pankatz, Philine Rojczyk, Johanna Seitz-Holland, Sylvain Bouix, Leonard B Jung, Tim L T Wiegand, Elena M Bonke, Nico Sollmann, Elisabeth Kaufmann, Holly Carrington, Twishi Puri, Yogesh Rathi, Michael J Coleman, Ofer Pasternak, Mark S George, Thomas W McAllister, Ross Zafonte, Murray B Stein, Christine E Marx, Martha E Shenton, Inga K Koerte
 date: "2023-08-21"
 categories: [cognitive impairment, diffusion tensor imaging, fractional anisotropy, magnetic resonance imaging, mild traumatic brain injury, post-concussion symptoms]
 #image: map.jpg

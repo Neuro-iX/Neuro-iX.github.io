@@ -1,34 +1,7 @@
 ---
 title: "Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS"
 description: "PMID: [37641537](https://pubmed.ncbi.nlm.nih.gov/37641537/){target='_blank'}    DOI: [10.1111/eip.13457](https://doi.org/10.1111/eip.13457){target='_blank'}"
-author:
-  - name: Scott W Woods
-  - name: Sophie Parker
-  - name: Melissa J Kerr
-  - name: Barbara C Walsh
-  - name: S Andrea Wijtenburg
-  - name: Nicholas Prunier
-  - name: Angela R Nunez
-  - name: Kate Buccilli
-  - name: Catalina Mourgues-Codern
-  - name: Kali Brummitt
-  - name: Kyle S Kinney
-  - name: Carli Trankler
-  - name: Julia Szacilo
-  - name: Beau-Luke Colton
-  - name: Munaza Ali
-  - name: Anastasia Haidar
-  - name: Tashrif Billah
-  - name: Kevin Huynh
-  - name: Uzair Ahmed
-  - name: Laura L Adery
-  - name: Patricia J Marcy
-  - name: Kelly Allott
-  - name: Paul Amminger
-  - name: Celso Arango
-  - name: Matthew R Broome
-  - name: ... ...
-
+author: Scott W Woods, Sophie Parker, Melissa J Kerr, Barbara C Walsh, S Andrea Wijtenburg, Nicholas Prunier, Angela R Nunez, Kate Buccilli, Catalina Mourgues-Codern, Kali Brummitt, Kyle S Kinney, Carli Trankler, Julia Szacilo, Beau-Luke Colton, Munaza Ali, Anastasia Haidar, Tashrif Billah, Kevin Huynh, Uzair Ahmed, Laura L Adery, Patricia J Marcy, Kelly Allott, Paul Amminger, Celso Arango, Matthew R Broome, ... ...
 date: "2023-08-28"
 categories: [ascertainment, clinical high risk, early detection, psychometrics, severity rating]
 #image: map.jpg
