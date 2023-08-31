@@ -1,6 +1,6 @@
 ---
 title: "Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS"
-description: "PMID: 37641537    DOI: [10.1111/eip.13457](https://doi.org/10.1111/eip.13457)"
+description: "PMID: [37641537](https://pubmed.ncbi.nlm.nih.gov/37641537/){target='_blank'}    DOI: [10.1111/eip.13457](https://doi.org/10.1111/eip.13457){target='_blank'}"
 author:
   - name: Scott W Woods
   - name: Sophie Parker
@@ -27,53 +27,7 @@ author:
   - name: Paul Amminger
   - name: Celso Arango
   - name: Matthew R Broome
-  - name: Kristin S Cadenhead
-  - name: Eric Y H Chen
-  - name: Jimmy Choi
-  - name: Philippe Conus
-  - name: Barbara A Cornblatt
-  - name: Louise Birkedal Glenthoj
-  - name: Leslie E Horton
-  - name: Joseph Kambeitz
-  - name: Tina Kapur
-  - name: Matcheri S Keshavan
-  - name: Nikolaos Koutsouleris
-  - name: Kerstin Langbein
-  - name: Suzie Lavoie
-  - name: Covadonga Martinez Diaz-Caneja
-  - name: Daniel H Mathalon
-  - name: Vijay A Mittal
-  - name: Merete Nordentoft
-  - name: Ofer Pasternak
-  - name: Godfrey D Pearlson
-  - name: Pablo A Gaspar
-  - name: Jai L Shah
-  - name: Stefan Smesny
-  - name: William S Stone
-  - name: Gregory P Strauss
-  - name: Jijun Wang
-  - name: Cheryl M Corcoran
-  - name: Diana O Perkins
-  - name: Jason Schiffman
-  - name: Jesus Perez
-  - name: Daniel Mamah
-  - name: Lauren M Ellman
-  - name: Albert R Powers
-  - name: Michael J Coleman
-  - name: Alan Anticevic
-  - name: Paolo Fusar-Poli
-  - name: John M Kane
-  - name: Rene S Kahn
-  - name: Patrick D McGorry
-  - name: Carrie E Bearden
-  - name: Martha E Shenton
-  - name: Barnaby Nelson
-  - name: Monica E Calkins
-  - name: Larry Hendricks
-  - name: Sylvain Bouix
-  - name: Jean Addington
-  - name: Thomas H McGlashan
-  - name: Alison R Yung
+  - name: ... ...
 
 date: "2023-08-28"
 categories: [ascertainment, clinical high risk, early detection, psychometrics, severity rating]

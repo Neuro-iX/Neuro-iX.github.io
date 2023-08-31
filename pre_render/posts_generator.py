@@ -36,7 +36,7 @@ References:
 
 __author__ = "Benoît Verreman"
 __license__ = "MIT"
-__version__ = "1.0.6"
+__version__ = "1.0.8" #post_generator.py --version 1.0.8 * ...
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
 __status__ = "Production"
@@ -161,8 +161,16 @@ class Article:
         affiliations = []
         list_affiliations = []
         
+        MAX_AUTHORS=25
+        
         error = False
+        n_author = 0
         for i in raw_authors:
+            n_author += 1
+            if n_author>MAX_AUTHORS:
+                lastname.append("...")
+                forename.append("...")
+                break
             try:
                 lastname.append(i.find('LastName').text)
             except AttributeError:
@@ -174,7 +182,7 @@ class Article:
                 error = True
                 pass 
               
-            if error:  
+            if error:
                 break
               
             l1=i.find_all('Affiliation') #all affiliations
@@ -185,8 +193,10 @@ class Article:
                     list_affiliations.append(j_text)
                 l2.append(list_affiliations.index(j_text))
             affiliations.append(l2)
-
         
+        if n_author>MAX_AUTHORS:
+            affiliations.append([])
+      
         dict = {'lastname':lastname,'forename':forename,'affiliations':affiliations}  
         authors_df = pd.DataFrame(dict)
         
@@ -285,7 +295,7 @@ class Article:
     def toGetPmid(self, *args):
         return self.pmid 
 
-    # PMCID
+    # PMCID: no pmcid in xml file
     def toFindPmcid(self, *args):
         try:
             self.pmcid = self.soup.find('PMCID').text
@@ -307,11 +317,12 @@ class Article:
         path = './publications/posts/'+post_name
         if not os.path.exists(path):
             os.makedirs(path)
-        
+            
+            
+        identification = "PMID: [" + self.pmid + "](https://pubmed.ncbi.nlm.nih.gov/" + self.pmid + "/){target='_blank'}" + "    DOI: [" + self.doi + "](https://doi.org/" + self.doi + "){target='_blank'}"
         if self.pmcid: #if self.pmcid is not empty
-            identification = "PMID: " + self.pmid + "    PMCID: " + self.pmcid + "    DOI: [" + self.doi + "](https://doi.org/" + self.doi + ")" #{target=" + '\"' + "_blank" + '\"' + "}"
-        else:
-            identification = "PMID: " + self.pmid + "    DOI: [" + self.doi + "](https://doi.org/" + self.doi + ")" #{target=" + '"' + "_blank" + '"' + "}"
+            identification += "    PMCID: [" + self.pmcid + "](https://www.ncbi.nlm.nih.gov/pmc/articles/" + self.pmcid + "/){target='_blank'}"
+            
         
         new_post="""---
 title: {title}
