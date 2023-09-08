@@ -51,6 +51,55 @@ Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 ----
 
+[**Graduate Students**]{.text-style-1}
+
+![](../images/people_faces/KM_round.png){width=200}
+
+[Kaveh Moradkhani](https://kaveh-moradkhani.github.io){target="_blank"} 
+
+[{{< bi file-earmark-person size=1em color=cornflowerblue label="Thumbs up" >}}](https://orcid.org/0009-0002-4372-073X){target="_blank"} 
+[{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Kaveh-Moradkhani){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/kaveh-moradkhani-4667b317b/){target="_blank"} 
+
+Graduate Researcher, Ph.D.
+
+Department of Software and IT Engineering
+
+Computer Vision, Deep Learning,  Medical Imaging, Neuroimaging, Image Processing
+
+----
+
+<!---->
+![](../images/people_faces/no_image.png){width=200}
+
+
+[Sedigheh Dargahi](https://www.linkedin.com/in/sadaf-dargahi/){target="_blank"} 
+
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/sadaf-dargahi/){target="_blank"} 
+
+Graduate Researcher, Ph.D.
+
+Department of Software and IT Engineering
+
+Medical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI
+
+----
+
+![](../images/people_faces/CB_round.png){width=200}
+
+[Charles Bricout](https://www.linkedin.com/in/charles-bricout/){target="_blank"} 
+
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](bricout.charles@outlook.com){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/charles-bricout/){target="_blank"} 
+
+Graduate Researcher, M.S.
+
+Department of Software and IT Engineering
+
+Medical Imaging, Neuroimaging, Computer Vision, Deep Learning
+
+----
+
 [**Collaborators**]{.text-style-1}
 
 <a href="https://pnl.bwh.harvard.edu/" target="_blank">
