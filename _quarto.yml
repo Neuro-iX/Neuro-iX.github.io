@@ -17,8 +17,8 @@ website:
     
     # your sub-pages
     left:
-      - text: "People"
-        href: people
+      - text: "Members"
+        href: members
       - text: "Research"
         href: research
       - text: "Publications"

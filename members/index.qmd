@@ -1,5 +1,5 @@
 ---
-title: People
+title: Members
 filters:
   - remove_title
 format:
@@ -11,9 +11,9 @@ format:
 
 # {.centering .unnumbered .unlisted}
 
-[**Principal Investigator**]{.text-style-1}
+[**Lab Director**]{.text-style-1} 
 
-<!-- -->
+<!-- Principal Investigator -->
 ![](../images/people_faces/SB_round.png){width=200}
 
 [Sylvain Bouix](https://sbouix.github.io/){target="_blank"} 
@@ -34,7 +34,7 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 ----
 
-[**Researcher**]{.text-style-1}
+[**Research Assistants**]{.text-style-1}
 
 ![](../images/people_faces/BV_round.png){width=200}
 
@@ -51,8 +51,11 @@ Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 ----
 
-[**Graduate Students**]{.text-style-1}
+[**PhD Students**]{.text-style-1}
 
+:::: {.columns}
+
+::: {.column width="45%"}
 ![](../images/people_faces/KM_round.png){width=200}
 
 [Kaveh Moradkhani](https://kaveh-moradkhani.github.io){target="_blank"} 
@@ -66,9 +69,12 @@ Graduate Researcher, Ph.D.
 Department of Software and IT Engineering
 
 Computer Vision, Deep Learning,  Medical Imaging, Neuroimaging, Image Processing
+:::
 
-----
+::: {.column width="10%"}
+:::
 
+::: {.column width="45%"}
 <!---->
 ![](../images/people_faces/no_image.png){width=200}
 
@@ -83,7 +89,13 @@ Department of Software and IT Engineering
 
 Medical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI
 
+:::
+
+::::
+
 ----
+
+[**Master Students**]{.text-style-1}
 
 ![](../images/people_faces/CB_round.png){width=200}
 
