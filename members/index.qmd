@@ -60,8 +60,10 @@ Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 ![](../images/people_faces/KM_round.png){width=200}
 
 [Kaveh Moradkhani](https://kaveh-moradkhani.github.io){target="_blank"} 
+<!--https://jpswalsh.github.io/academicons/-->
 
-[{{< ai orcid size=1em color=cornflowerblue label="Thumbs up" >}}](https://orcid.org/0009-0002-4372-073X){target="_blank"} 
+[{{< ai orcid size=1em color=cornflowerblue label="Thumbs up" >}}](https://orcid.org/0009-0002-4372-073X){target="_blank"}
+[{{< ai researchgate size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.researchgate.net/profile/Kaveh-Moradkhani){target="_blank"} 
 [{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Kaveh-Moradkhani){target="_blank"} 
 [{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/kaveh-moradkhani-4667b317b/){target="_blank"} 
 
@@ -76,7 +78,7 @@ Computer Vision, Deep Learning,  Medical Imaging, Neuroimaging, Image Processing
 :::
 
 ::: {.column width="45%"}
-<!---->
+
 ![](../images/people_faces/no_image.png){width=200}
 
 
