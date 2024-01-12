@@ -25,7 +25,7 @@ format:
 
 Professor
 
-Department of Software and IT Engineering
+Department of Software and IT Engineering, ETS, Montréal
 
 Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
@@ -46,7 +46,7 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 Research assistant
 
-Department of Software and IT Engineering
+Department of Software and IT Engineering, ETS, Montréal
 
 Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
@@ -69,7 +69,7 @@ Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 Graduate Researcher, Ph.D.
 
-Department of Software and IT Engineering
+Department of Software and IT Engineering, ETS, Montréal
 
 Computer Vision, Deep Learning,  Medical Imaging, Neuroimaging, Image Processing
 :::
@@ -88,7 +88,7 @@ Computer Vision, Deep Learning,  Medical Imaging, Neuroimaging, Image Processing
 
 Graduate Researcher, Ph.D.
 
-Department of Software and IT Engineering
+Department of Software and IT Engineering, ETS, Montréal
 
 Medical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI
 
@@ -100,6 +100,28 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI
 
 [**Master Students**]{.text-style-1}
 
+:::: {.columns}
+
+::: {.column width="45%"}
+![](../images/people_faces/no_image.png){width=200}
+
+[Ghazal Danaee](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
+
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](ghazal.danaei99@gmail.com){target="_blank"} 
+[{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Ghazal-Danaei){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
+
+Graduate Researcher, M.S.
+
+Department of Software and IT Engineering, ETS, Montréal
+
+Image processing, Deep learning, Medical image processing, Artificial intelligence
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
 ![](../images/people_faces/CB_round.png){width=200}
 
 [Charles Bricout](https://www.linkedin.com/in/charles-bricout/){target="_blank"} 
@@ -109,9 +131,12 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI
 
 Graduate Researcher, M.S.
 
-Department of Software and IT Engineering
+Department of Software and IT Engineering, ETS, Montréal
 
 Medical Imaging, Neuroimaging, Computer Vision, Deep Learning
+:::
+
+::::
 
 ----
 
