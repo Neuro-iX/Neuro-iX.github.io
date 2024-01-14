@@ -103,7 +103,7 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI
 :::: {.columns}
 
 ::: {.column width="45%"}
-![](../images/people_faces/no_image.png){width=200}
+![](../images/people_faces/GD_round.png){width=200}
 
 [Ghazal Danaee](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
 
