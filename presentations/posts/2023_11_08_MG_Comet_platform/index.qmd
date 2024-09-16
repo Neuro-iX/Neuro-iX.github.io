@@ -1,9 +1,9 @@
 ---
-title: "Presentation of FET-MRQC"
-description: "DOI: [10.48550/arXiv.2304.05879](https://doi.org/10.48550/arXiv.2304.05879){target='_blank'}"
-author: Charles Bricout
-date: "2024-03-11"
-categories: [quality control, fetal brain, MRI, T2w]
+title: "Presentation of Comet"
+description: "Website: [https://www.comet.com/site/](https://www.comet.com/site/){target='_blank'}"
+author: Mélanie Gaillochet
+date: "2023-11-08"
+categories: [platform, machine learning, training]
 #image: map.jpg
 format:
   html:
@@ -11,6 +11,6 @@ format:
 engine: knitr
 ---
 
-# Abstract:
+# Description:
 
-Quality control (QC) has long been considered essential to guarantee the reliability of neuroimaging studies. It is particularly important for fetal brain MRI, where large and unpredictable fetal motion can lead to substantial artifacts in the acquired images. Existing methods for fetal brain quality assessment operate at the slice level, and fail to get a comprehensive picture of the quality of an image, that can only be achieved by looking at the entire brain volume. In this work, we propose FetMRQC, a machine learning framework for automated image quality assessment tailored to fetal brain MRI, which extracts an ensemble of quality metrics that are then used to predict experts’ ratings. Based on the manual ratings of more than 1000 low-resolution stacks acquired across two different institutions, we show that, compared with existing quality metrics, FetMRQC is able to generalize out-of-domain, while being interpretable and data efficient. We also release a novel manual quality rating tool designed to facilitate and optimize quality rating of fetal brain images. Our tool, along with all the code to generate, train and evaluate the model is available at https://github.com/Medical-Image-Analysis-Laboratory/fetal_brain_qc/.
+Comet’s machine learning platform integrates with your existing infrastructure and tools so you can manage, visualize, and optimize models—from training runs to production monitoring.

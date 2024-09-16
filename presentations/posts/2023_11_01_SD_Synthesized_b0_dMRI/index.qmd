@@ -1,9 +1,9 @@
 ---
-title: "Presentation of FET-MRQC"
-description: "DOI: [10.48550/arXiv.2304.05879](https://doi.org/10.48550/arXiv.2304.05879){target='_blank'}"
-author: Charles Bricout
-date: "2024-03-11"
-categories: [quality control, fetal brain, MRI, T2w]
+title: "Presentation of Synb0-DisCo"
+description: "DOI: [10.1016/j.mri.2019.05.008](https://doi.org/10.1016/j.mri.2019.05.008){target='_blank'}"
+author: Sedigheh Dargahi 
+date: "2023-11-01"
+categories: [conditional generative network, diffusion magnetic resonance imaging, distortion correction, echo planar imaging, image synthesis]
 #image: map.jpg
 format:
   html:
@@ -13,4 +13,4 @@ engine: knitr
 
 # Abstract:
 
-Quality control (QC) has long been considered essential to guarantee the reliability of neuroimaging studies. It is particularly important for fetal brain MRI, where large and unpredictable fetal motion can lead to substantial artifacts in the acquired images. Existing methods for fetal brain quality assessment operate at the slice level, and fail to get a comprehensive picture of the quality of an image, that can only be achieved by looking at the entire brain volume. In this work, we propose FetMRQC, a machine learning framework for automated image quality assessment tailored to fetal brain MRI, which extracts an ensemble of quality metrics that are then used to predict experts’ ratings. Based on the manual ratings of more than 1000 low-resolution stacks acquired across two different institutions, we show that, compared with existing quality metrics, FetMRQC is able to generalize out-of-domain, while being interpretable and data efficient. We also release a novel manual quality rating tool designed to facilitate and optimize quality rating of fetal brain images. Our tool, along with all the code to generate, train and evaluate the model is available at https://github.com/Medical-Image-Analysis-Laboratory/fetal_brain_qc/.
+Diffusion magnetic resonance images typically suffer from spatial distortions due to susceptibility induced off-resonance fields, which may affect the geometric fidelity of the reconstructed volume and cause mismatches with anatomical images. State-of-the art susceptibility correction (for example, FSL's TOPUP algorithm) typically requires data acquired twice with reverse phase encoding directions, referred to as blip-up blip-down acquisitions, in order to estimate an undistorted volume. Unfortunately, not all imaging protocols include a blip-up blip-down acquisition, and cannot take advantage of the state-of-the art susceptibility and motion correction capabilities. In this study, we aim to enable TOPUP-like processing with historical and/or limited diffusion imaging data that include only a structural image and single blip diffusion image. We utilize deep learning to synthesize an undistorted non-diffusion weighted image from the structural image, and use the non-distorted synthetic image as an anatomical target for distortion correction. We evaluate the efficacy of this approach (named Synb0-DisCo) and show that our distortion correction process results in better matching of the geometry of undistorted anatomical images, reduces variation in diffusion modeling, and is practically equivalent to having both blip-up and blip-down non-diffusion weighted images. 

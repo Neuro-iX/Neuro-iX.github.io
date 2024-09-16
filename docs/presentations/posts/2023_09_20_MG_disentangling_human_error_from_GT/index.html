@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Benoit Verreman">
-<meta name="dcterms.date" content="2024-04-15">
-<meta name="description" content="DOI: 10.1038/s41593-024-01596-5">
+<meta name="author" content="Mélanie Gaillochet">
+<meta name="dcterms.date" content="2023-09-20">
+<meta name="description" content="DOI: 10.48550/arXiv.2007.15963">
 
-<title>Neuro-iX - Presentation of the MITB functional atlas of the cerebral cortex</title>
+<title>Neuro-iX - Presentation of the article ‘Disentangling Human Error from the Ground Truth in Segmentation of Medical Images’</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -151,17 +151,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentation of the MITB functional atlas of the cerebral cortex</h1>
+<h1 class="title">Presentation of the article ‘Disentangling Human Error from the Ground Truth in Segmentation of Medical Images’</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">functional atlas</div>
-    <div class="quarto-category">cortex parcellation</div>
-    <div class="quarto-category">magnetic resonance imaging</div>
+    <div class="quarto-category">supervised learning</div>
+    <div class="quarto-category">medical image segmentation</div>
+    <div class="quarto-category">convolutional neural network</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    DOI: <a href="https://doi.org/10.1038/s41593-024-01596-5" target="_blank">10.1038/s41593-024-01596-5</a>
+    DOI: <a href="https://doi.org/10.48550/arXiv.2007.15963" target="_blank">10.48550/arXiv.2007.15963</a>
   </div>
 </div>
 
@@ -171,14 +171,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Benoit Verreman </p>
+             <p>Mélanie Gaillochet </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 15, 2024</p>
+      <p class="date">September 20, 2023</p>
     </div>
   </div>
   
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level1">
 <h1>Abstract:</h1>
-<p>Although the general location of functional neural networks is similar across individuals, there is vast person-to-person topographic variability. To capture this, we implemented precision brain mapping functional magnetic resonance imaging methods to establish an open-source, method-flexible set of precision functional network atlases—the Masonic Institute for the Developing Brain (MIDB) Precision Brain Atlas. This atlas is an evolving resource comprising 53,273 individual-specific network maps, from more than 9,900 individuals, across ages and cohorts, including the Adolescent Brain Cognitive Development study, the Developmental Human Connectome Project and others. We also generated probabilistic network maps across multiple ages and integration zones (using a new overlapping mapping technique, Overlapping MultiNetwork Imaging). Using regions of high network invariance improved the reproducibility of executive function statistical maps in brain-wide associations compared to group average-based parcellations. Finally, we provide a potential use case for probabilistic maps for targeted neuromodulation. The atlas is expandable to alternative datasets with an online interface encouraging the scientific community to explore and contribute to understanding the human brain function more precisely.</p>
+<p>Recent years have seen increasing use of supervised learning methods for segmentation tasks. However, the predictive performance of these algorithms depends on the quality of labels. This problem is particularly pertinent in the medical image domain, where both the annotation cost and inter-observer variability are high. In a typical label acquisition process, different human experts provide their estimates of the “true” segmentation labels under the influence of their own biases and competence levels. Treating these noisy labels blindly as the ground truth limits the performance that automatic segmentation algorithms can achieve. In this work, we present a method for jointly learning, from purely noisy observations alone, the reliability of individual annotators and the true segmentation label distributions, using two coupled CNNs. The separation of the two is achieved by encouraging the estimated annotators to be maximally unreliable while achieving high fidelity with the noisy training data. We first define a toy segmentation dataset based on MNIST and study the properties of the proposed algorithm. We then demonstrate the utility of the method on three public medical imaging segmentation datasets with simulated (when necessary) and real diverse annotations: 1) MSLSC (multiple-sclerosis lesions); 2) BraTS (brain tumours); 3) LIDC-IDRI (lung abnormalities). In all cases, our method outperforms competing methods and relevant baselines particularly in cases where the number of annotations is small and the amount of disagreement is large. The experiments also show strong ability to capture the complex spatial characteristics of annotators’ mistakes.</p>
 
 
 </section>

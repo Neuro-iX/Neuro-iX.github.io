@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Benoit Verreman">
-<meta name="dcterms.date" content="2024-04-15">
-<meta name="description" content="DOI: 10.1038/s41593-024-01596-5">
+<meta name="author" content="Sukesh Adiga">
+<meta name="dcterms.date" content="2024-01-15">
+<meta name="description" content="DOI: 10.48550/arXiv.2309.13377">
 
-<title>Neuro-iX - Presentation of the MITB functional atlas of the cerebral cortex</title>
+<title>Neuro-iX - Presentation of the conference paper ‘Learning Invariant Representations with a Nonparametric Nadaraya-Watson Head’</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -151,17 +151,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentation of the MITB functional atlas of the cerebral cortex</h1>
+<h1 class="title">Presentation of the conference paper ‘Learning Invariant Representations with a Nonparametric Nadaraya-Watson Head’</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">functional atlas</div>
-    <div class="quarto-category">cortex parcellation</div>
-    <div class="quarto-category">magnetic resonance imaging</div>
+    <div class="quarto-category">Nadaraya-Watson head</div>
+    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">nonparametric invariant representation</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    DOI: <a href="https://doi.org/10.1038/s41593-024-01596-5" target="_blank">10.1038/s41593-024-01596-5</a>
+    DOI: <a href="https://doi.org/10.48550/arXiv.2309.13377" target="_blank">10.48550/arXiv.2309.13377</a>
   </div>
 </div>
 
@@ -171,14 +171,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Benoit Verreman </p>
+             <p>Sukesh Adiga </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 15, 2024</p>
+      <p class="date">January 15, 2024</p>
     </div>
   </div>
   
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level1">
 <h1>Abstract:</h1>
-<p>Although the general location of functional neural networks is similar across individuals, there is vast person-to-person topographic variability. To capture this, we implemented precision brain mapping functional magnetic resonance imaging methods to establish an open-source, method-flexible set of precision functional network atlases—the Masonic Institute for the Developing Brain (MIDB) Precision Brain Atlas. This atlas is an evolving resource comprising 53,273 individual-specific network maps, from more than 9,900 individuals, across ages and cohorts, including the Adolescent Brain Cognitive Development study, the Developmental Human Connectome Project and others. We also generated probabilistic network maps across multiple ages and integration zones (using a new overlapping mapping technique, Overlapping MultiNetwork Imaging). Using regions of high network invariance improved the reproducibility of executive function statistical maps in brain-wide associations compared to group average-based parcellations. Finally, we provide a potential use case for probabilistic maps for targeted neuromodulation. The atlas is expandable to alternative datasets with an online interface encouraging the scientific community to explore and contribute to understanding the human brain function more precisely.</p>
+<p>Machine learning models will often fail when deployed in an environment with a data distribution that is different than the training distribution. When multiple environments are available during training, many methods exist that learn representations which are invariant across the different distributions, with the hope that these representations will be transportable to unseen domains. In this work, we present a nonparametric strategy for learning invariant representations based on the recently-proposed Nadaraya-Watson (NW) head. The NW head makes a prediction by comparing the learned representations of the query to the elements of a support set that consists of labeled data. We demonstrate that by manipulating the support set, one can encode different causal assumptions. In particular, restricting the support set to a single environment encourages the model to learn invariant features that do not depend on the environment. We present a causally-motivated setup for our modeling and training strategy and validate on three challenging real-world domain generalization tasks in computer vision.</p>
 
 
 </section>

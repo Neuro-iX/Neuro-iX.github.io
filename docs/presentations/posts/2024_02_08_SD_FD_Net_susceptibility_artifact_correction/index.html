@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Benoit Verreman">
-<meta name="dcterms.date" content="2024-09-09">
-<meta name="description" content="DOI: 10.1038/s41592-024-02237-2">
+<meta name="author" content="Sedigheh Dargahi">
+<meta name="dcterms.date" content="2024-02-08">
+<meta name="description" content="DOI: 10.1002/mrm.29851">
 
-<title>Neuro-iX - Presentation of the online platform brainlife.io</title>
+<title>Neuro-iX - Presentation of the FD-NET</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -151,18 +151,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentation of the online platform brainlife.io</h1>
+<h1 class="title">Presentation of the FD-NET</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">magnetic resonance imaging</div>
-    <div class="quarto-category">neuroimaging</div>
-    <div class="quarto-category">online platform</div>
-    <div class="quarto-category">standardization</div>
+    <div class="quarto-category">deep learning</div>
+    <div class="quarto-category">echo planar imaging</div>
+    <div class="quarto-category">reversed phase-encoding</div>
+    <div class="quarto-category">susceptibility artifacts</div>
+    <div class="quarto-category">unsupervised learning</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    DOI: <a href="https://doi.org/10.1038/s41592-024-02237-2" target="_blank">10.1038/s41592-024-02237-2</a>
+    DOI: <a href="https://doi.org/10.1002/mrm.29851" target="_blank">10.1002/mrm.29851</a>
   </div>
 </div>
 
@@ -172,14 +173,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Benoit Verreman </p>
+             <p>Sedigheh Dargahi </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 9, 2024</p>
+      <p class="date">February 8, 2024</p>
     </div>
   </div>
   
@@ -193,7 +194,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level1">
 <h1>Abstract:</h1>
-<p>Neuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants.</p>
+<p>Purpose: To introduce an unsupervised deep-learning method for fast and effective correction of susceptibility artifacts in reversed phase-encode (PE) image pairs acquired with echo planar imaging (EPI).</p>
+<p>Methods: Recent learning-based correction approaches in EPI estimate a displacement field, unwarp the reversed-PE image pair with the estimated field, and average the unwarped pair to yield a corrected image. Unsupervised learning in these unwarping-based methods is commonly attained via a similarity constraint between the unwarped images in reversed-PE directions, neglecting consistency to the acquired EPI images. This work introduces a novel unsupervised deep Forward-Distortion Network (FD-Net) that predicts both the susceptibility-induced displacement field and the underlying anatomically correct image. Unlike previous methods, FD-Net enforces the forward-distortions of the correct image in both PE directions to be consistent with the acquired reversed-PE image pair. FD-Net further leverages a multiresolution architecture to maintain high local and global performance.</p>
+<p>Results: FD-Net performs competitively with a gold-standard reference method (TOPUP) in image quality, while enabling a leap in computational efficiency. Furthermore, FD-Net outperforms recent unwarping-based methods for unsupervised correction in terms of both image and field quality.</p>
+<p>Conclusion: The unsupervised FD-Net method introduces a deep forward-distortion approach to enable fast, high-fidelity correction of susceptibility artifacts in EPI by maintaining consistency to measured data. Therefore, it holds great promise for improving the anatomical accuracy of EPI imaging.</p>
 
 
 </section>

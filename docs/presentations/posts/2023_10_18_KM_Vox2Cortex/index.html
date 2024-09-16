@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Benoit Verreman">
-<meta name="dcterms.date" content="2024-04-15">
-<meta name="description" content="DOI: 10.1038/s41593-024-01596-5">
+<meta name="author" content="Kaveh Moradkhani">
+<meta name="dcterms.date" content="2023-10-18">
+<meta name="description" content="DOI: 10.48550/arXiv.2203.09446">
 
-<title>Neuro-iX - Presentation of the MITB functional atlas of the cerebral cortex</title>
+<title>Neuro-iX - Presentation of Vox2Cortex</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -151,17 +151,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentation of the MITB functional atlas of the cerebral cortex</h1>
+<h1 class="title">Presentation of Vox2Cortex</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">functional atlas</div>
-    <div class="quarto-category">cortex parcellation</div>
+    <div class="quarto-category">reconstruction of cortical surface</div>
     <div class="quarto-category">magnetic resonance imaging</div>
+    <div class="quarto-category">geometric deep neural network</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    DOI: <a href="https://doi.org/10.1038/s41593-024-01596-5" target="_blank">10.1038/s41593-024-01596-5</a>
+    DOI: <a href="https://doi.org/10.48550/arXiv.2203.09446" target="_blank">10.48550/arXiv.2203.09446</a>
   </div>
 </div>
 
@@ -171,14 +171,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Benoit Verreman </p>
+             <p>Kaveh Moradkhani </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 15, 2024</p>
+      <p class="date">October 18, 2023</p>
     </div>
   </div>
   
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level1">
 <h1>Abstract:</h1>
-<p>Although the general location of functional neural networks is similar across individuals, there is vast person-to-person topographic variability. To capture this, we implemented precision brain mapping functional magnetic resonance imaging methods to establish an open-source, method-flexible set of precision functional network atlases—the Masonic Institute for the Developing Brain (MIDB) Precision Brain Atlas. This atlas is an evolving resource comprising 53,273 individual-specific network maps, from more than 9,900 individuals, across ages and cohorts, including the Adolescent Brain Cognitive Development study, the Developmental Human Connectome Project and others. We also generated probabilistic network maps across multiple ages and integration zones (using a new overlapping mapping technique, Overlapping MultiNetwork Imaging). Using regions of high network invariance improved the reproducibility of executive function statistical maps in brain-wide associations compared to group average-based parcellations. Finally, we provide a potential use case for probabilistic maps for targeted neuromodulation. The atlas is expandable to alternative datasets with an online interface encouraging the scientific community to explore and contribute to understanding the human brain function more precisely.</p>
+<p>The reconstruction of cortical surfaces from brain magnetic resonance imaging (MRI) scans is essential for quantitative analyses of cortical thickness and sulcal morphology. Although traditional and deep learning-based algorithmic pipelines exist for this purpose, they have two major drawbacks: lengthy runtimes of multiple hours (traditional) or intricate post-processing, such as mesh extraction and topology correction (deep learning-based). In this work, we address both of these issues and propose Vox2Cortex, a deep learning-based algorithm that directly yields topologically correct, three-dimensional meshes of the boundaries of the cortex. Vox2Cortex leverages convolutional and graph convolutional neural networks to deform an initial template to the densely folded geometry of the cortex represented by an input MRI scan. We show in extensive experiments on three brain MRI datasets that our meshes are as accurate as the ones reconstructed by state-of-the-art methods in the field, without the need for time- and resource-intensive post-processing. To accurately reconstruct the tightly folded cortex, we work with meshes containing about 168,000 vertices at test time, scaling deep explicit reconstruction methods to a new level.</p>
 
 
 </section>

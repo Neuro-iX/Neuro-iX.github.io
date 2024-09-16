@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/presentations/posts/2024_03_11_CB_FetMRQC/index.html</loc>
-    <lastmod>2024-09-16T15:15:20.254Z</lastmod>
+    <lastmod>2024-09-16T15:44:17.188Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/index.html</loc>
@@ -26,11 +26,11 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/presentations/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html</loc>
-    <lastmod>2024-09-16T14:38:28.429Z</lastmod>
+    <lastmod>2024-09-16T15:39:41.924Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/presentations/posts/2024_04_15_BV_midb_atlas/index.html</loc>
-    <lastmod>2024-09-16T14:38:28.428Z</lastmod>
+    <lastmod>2024-09-16T15:44:01.274Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/presentations/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html</loc>
@@ -38,11 +38,11 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/presentations/posts/2024_02_05_BV_MedSAM/index.html</loc>
-    <lastmod>2024-09-16T14:38:28.429Z</lastmod>
+    <lastmod>2024-09-16T15:43:29.819Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/presentations/posts/2024_09_09_BV_brainlife_online_platform/index.html</loc>
-    <lastmod>2024-09-16T14:38:28.429Z</lastmod>
+    <lastmod>2024-09-16T15:43:47.147Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/presentations/index.html</loc>
@@ -59,5 +59,49 @@
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2023_08_21_adverse_outcome_following_mild_traumatic_brain/index.html</loc>
     <lastmod>2024-09-16T14:38:28.434Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_11_15_CB_NeRF/index.html</loc>
+    <lastmod>2024-09-16T18:58:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html</loc>
+    <lastmod>2024-09-16T18:40:13.225Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html</loc>
+    <lastmod>2024-09-16T15:51:31.099Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_11_08_MG_Comet_platform/index.html</loc>
+    <lastmod>2024-09-16T16:03:03.721Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_10_04_CB_DARQ/index.html</loc>
+    <lastmod>2024-09-16T18:51:16.178Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_09_20_MG_disentangling_human_error_from_GT/index.html</loc>
+    <lastmod>2024-09-16T18:57:24.114Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html</loc>
+    <lastmod>2024-09-16T16:05:19.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2024_01_22_MG_robust_t_loss/index.html</loc>
+    <lastmod>2024-09-16T15:47:33.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html</loc>
+    <lastmod>2024-09-16T18:53:58.967Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_10_18_KM_Vox2Cortex/index.html</loc>
+    <lastmod>2024-09-16T18:43:14.408Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/presentations/posts/2023_11_22_BV_FastSurfer_VINN/index.html</loc>
+    <lastmod>2024-09-16T15:56:41.794Z</lastmod>
   </url>
 </urlset>

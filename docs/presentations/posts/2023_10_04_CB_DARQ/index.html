@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Benoit Verreman">
-<meta name="dcterms.date" content="2024-04-15">
-<meta name="description" content="DOI: 10.1038/s41593-024-01596-5">
+<meta name="author" content="Charles Bricout">
+<meta name="dcterms.date" content="2023-10-04">
+<meta name="description" content="DOI: 10.1016/j.neuroimage.2022.119266">
 
-<title>Neuro-iX - Presentation of the MITB functional atlas of the cerebral cortex</title>
+<title>Neuro-iX - Presentation of DARQ</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -151,17 +151,17 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Presentation of the MITB functional atlas of the cerebral cortex</h1>
+<h1 class="title">Presentation of DARQ</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">functional atlas</div>
-    <div class="quarto-category">cortex parcellation</div>
-    <div class="quarto-category">magnetic resonance imaging</div>
+    <div class="quarto-category">deep learning</div>
+    <div class="quarto-category">linear registration</div>
+    <div class="quarto-category">quality control</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    DOI: <a href="https://doi.org/10.1038/s41593-024-01596-5" target="_blank">10.1038/s41593-024-01596-5</a>
+    DOI: <a href="https://doi.org/10.1016/j.neuroimage.2022.119266" target="_blank">10.1016/j.neuroimage.2022.119266</a>
   </div>
 </div>
 
@@ -171,14 +171,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Benoit Verreman </p>
+             <p>Charles Bricout </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 15, 2024</p>
+      <p class="date">October 4, 2023</p>
     </div>
   </div>
   
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level1">
 <h1>Abstract:</h1>
-<p>Although the general location of functional neural networks is similar across individuals, there is vast person-to-person topographic variability. To capture this, we implemented precision brain mapping functional magnetic resonance imaging methods to establish an open-source, method-flexible set of precision functional network atlases—the Masonic Institute for the Developing Brain (MIDB) Precision Brain Atlas. This atlas is an evolving resource comprising 53,273 individual-specific network maps, from more than 9,900 individuals, across ages and cohorts, including the Adolescent Brain Cognitive Development study, the Developmental Human Connectome Project and others. We also generated probabilistic network maps across multiple ages and integration zones (using a new overlapping mapping technique, Overlapping MultiNetwork Imaging). Using regions of high network invariance improved the reproducibility of executive function statistical maps in brain-wide associations compared to group average-based parcellations. Finally, we provide a potential use case for probabilistic maps for targeted neuromodulation. The atlas is expandable to alternative datasets with an online interface encouraging the scientific community to explore and contribute to understanding the human brain function more precisely.</p>
+<p>Linear registration to stereotaxic space is a common first step in many automated image-processing tools for analysis of human brain MRI scans. This step is crucial for the success of the subsequent image-processing steps. Several well-established algorithms are commonly used in the field of neuroimaging for this task, but none have a 100% success rate. Manual assessment of the registration is commonly used as part of quality control. To reduce the burden of this time-consuming step, we propose Deep Automated Registration Qc (DARQ), a fully automatic quality control method based on deep learning that can replace the human rater and accurately perform quality control assessment for stereotaxic registration of T1w brain scans. In a recently published study from our group comparing linear registration methods, we used a database of 9325 MRI scans and 64476 registrations from several publicly available datasets and applied seven linear registration tools to them. In this study, the resulting images that were assessed and labeled by a human rater are used to train a deep neural network to detect cases when registration failed. We further validated the results on an independent dataset of patients with multiple sclerosis, with manual QC labels available (n=1200). In terms of agreement with a manual rater, our automated QC method was able to achieve 89% accuracy and 85% true negative rate (equivalently 15% false positive rate) in detecting scans that should pass quality control in a balanced cross-validation experiments, and 96.1% accuracy and 95.5% true negative rate (or 4.5% FPR) when evaluated in a balanced independent sample, similar to manual QC rater (test-retest accuracy of 93%). The results show that DARQ is robust, fast, accurate, and generalizable in detecting failure in linear stereotaxic registrations and can substantially reduce QC time (by a factor of 20 or more) when processing large datasets.</p>
 
 
 </section>
