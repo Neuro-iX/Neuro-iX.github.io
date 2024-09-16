@@ -1,0 +1,16 @@
+---
+title: "Presentation of the article 'Neural deformation fields for template-based reconstruction of cortical surfaces from MRI'"
+description: "DOI: [10.48550/arXiv.2401.12938](https://doi.org/10.48550/arXiv.2401.12938){target='_blank'}"
+author: Kaveh Moradkhani
+date: "2024-02-26"
+categories: [Geometric Deep Learning, Magnetic Resonance Imaging, Cortical Surface Reconstruction, Brain Segmentation Registration]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The reconstruction of cortical surfaces is a prerequisite for quantitative analyses of the cerebral cortex in magnetic resonance imaging (MRI). Existing segmentation-based methods separate the surface registration from the surface extraction, which is computationally inefficient and prone to distortions. We introduce Vox2Cortex-Flow (V2C-Flow), a deep mesh-deformation technique that learns a deformation field from a brain template to the cortical surfaces of an MRI scan. To this end, we present a geometric neural network that models the deformation-describing ordinary differential equation in a continuous manner. The network architecture comprises convolutional and graph-convolutional layers, which allows it to work with images and meshes at the same time. V2C-Flow is not only very fast, requiring less than two seconds to infer all four cortical surfaces, but also establishes vertex-wise correspondences to the template during reconstruction. In addition, V2C-Flow is the first approach for cortex reconstruction that models white matter and pial surfaces jointly, therefore avoiding intersections between them. Our comprehensive experiments on internal and external test data demonstrate that V2C-Flow results in cortical surfaces that are state-of-the-art in terms of accuracy. Moreover, we show that the established correspondences are more consistent than in FreeSurfer and that they can directly be utilized for cortex parcellation and group analyses of cortical thickness. 

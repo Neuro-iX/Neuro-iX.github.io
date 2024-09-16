@@ -1,9 +1,9 @@
 ---
-title: "Presentation of the online platform brainlife.io"
-description: "DOI: [10.1038/s41592-024-02237-2](https://doi.org/10.1038/s41592-024-02237-2){target='_blank'}"
+title: "Presentation of MedSAM"
+description: "DOI: [10.48550/arXiv.2304.12306](https://doi.org/10.48550/arXiv.2304.12306){target='_blank'}"
 author: Benoit Verreman
-date: "2024-09-09"
-categories: [magnetic resonance imaging, neuroimaging, online platform, standardization]
+date: "2024-02-05"
+categories: [fondation model, medical image segmentation]
 #image: map.jpg
 format:
   html:
@@ -13,4 +13,4 @@ engine: knitr
 
 # Abstract:
 
-Neuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants.
+Medical image segmentation is a critical component in clinical practice, facilitating accurate diagnosis, treatment planning, and disease monitoring. However, existing methods, often tailored to specific modalities or disease types, lack generalizability across the diverse spectrum of medical image segmentation tasks. Here we present MedSAM, a foundation model designed for bridging this gap by enabling universal medical image segmentation. The model is developed on a large-scale medical image dataset with 1,570,263 image-mask pairs, covering 10 imaging modalities and over 30 cancer types. We conduct a comprehensive evaluation on 86 internal validation tasks and 60 external validation tasks, demonstrating better accuracy and robustness than modality-wise specialist models. By delivering accurate and efficient segmentation across a wide spectrum of tasks, MedSAM holds significant potential to expedite the evolution of diagnostic tools and the personalization of treatment plans. 
