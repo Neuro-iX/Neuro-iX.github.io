@@ -1,7 +1,7 @@
 ---
 title: "Presentation of the review article 'Best Practices in Structural Neuroimaging of Neurodevelopmental Disorders'"
 description: "DOI: [ 10.1007/s11065-021-09496-2](https://doi.org/ 10.1007/s11065-021-09496-2){target='_blank'}"
-author: Benoit Verreman
+author: Benoît Verreman
 date: "2023-09-25"
 categories: [children, freesurfer, neurodevelopmental disorders, quality control, structural magnetic resonance imaging, study design]
 #image: map.jpg
@@ -11,6 +11,6 @@ format:
 engine: knitr
 ---
 
-# Abstract:
+# Abstract of the article:
 
 Structural magnetic resonance imaging (sMRI) offers immense potential for increasing our understanding of how anatomical brain development relates to clinical symptoms and functioning in neurodevelopmental disorders. Clinical developmental sMRI may help identify neurobiological risk factors or markers that may ultimately assist in diagnosis and treatment. However, researchers and clinicians aiming to conduct sMRI studies of neurodevelopmental disorders face several methodological challenges. This review offers hands-on guidelines for clinical developmental sMRI. First, we present brain morphometry metrics and review evidence on typical developmental trajectories throughout adolescence, together with atypical trajectories in selected neurodevelopmental disorders. Next, we discuss challenges and good scientific practices in study design, image acquisition and analysis, and recent options to implement quality control. Finally, we discuss choices related to statistical analysis and interpretation of results. We call for greater completeness and transparency in the reporting of methods to advance understanding of structural brain alterations in neurodevelopmental disorders. 

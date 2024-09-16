@@ -11,7 +11,7 @@ format:
 engine: knitr
 ---
 
-# Abstract:
+# Abstract of the article:
 
 Purpose: To introduce an unsupervised deep-learning method for fast and effective correction of susceptibility artifacts in reversed phase-encode (PE) image pairs acquired with echo planar imaging (EPI).
 
