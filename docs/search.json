@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Neuro-iX is run by Sylvain Bouix. This brand new lab revolves around developing robust softwares to analyse brain imaging and behavioral data for the study of mental disorders in particular schizophrenia, brain injury and chronic traumatic encephalopathy.\nWe advocate open science practices and the development of health technologies that are less biased, more inclusive and equitable.\n\n\nNew recruitment phase for 2025 !\nWe are currently recruiting talented PhD applicants for the Winter 2025 or Summer 2025 sessions to work on neuroimaging projects including brain segmentation, diffusion MRI processing and more !\nApplicants are asked to prepare a CV, a cover letter and fill out this online form by October 31st 2024.\nWe will consider outstanding applicants on a rolling basis for MSc and postdoctoral positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment.\nClick here for the online form"
+  },
+  {
+    "objectID": "presentations/posts/2024_03_11_CB_FetMRQC/index.html",
+    "href": "presentations/posts/2024_03_11_CB_FetMRQC/index.html",
+    "title": "Presentation of FET-MRQC",
+    "section": "",
+    "text": "Abstract:\nQuality control (QC) has long been considered essential to guarantee the reliability of neuroimaging studies. It is particularly important for fetal brain MRI, where large and unpredictable fetal motion can lead to substantial artifacts in the acquired images. Existing methods for fetal brain quality assessment operate at the slice level, and fail to get a comprehensive picture of the quality of an image, that can only be achieved by looking at the entire brain volume. In this work, we propose FetMRQC, a machine learning framework for automated image quality assessment tailored to fetal brain MRI, which extracts an ensemble of quality metrics that are then used to predict experts’ ratings. Based on the manual ratings of more than 1000 low-resolution stacks acquired across two different institutions, we show that, compared with existing quality metrics, FetMRQC is able to generalize out-of-domain, while being interpretable and data efficient. We also release a novel manual quality rating tool designed to facilitate and optimize quality rating of fetal brain images. Our tool, along with all the code to generate, train and evaluate the model is available at https://github.com/Medical-Image-Analysis-Laboratory/fetal_brain_qc/."
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Neuro-iX",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDevelopment of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS\n\n\n\n\n\n\nascertainment\n\n\nclinical high risk\n\n\nearly detection\n\n\npsychometrics\n\n\nseverity rating\n\n\n\nPMID: 37641537 DOI: 10.1111/eip.13457\n\n\n\n\n\n2023-08-28\n\n\nScott W Woods, Sophie Parker, Melissa J Kerr, Barbara C Walsh, S Andrea Wijtenburg, Nicholas Prunier, Angela R Nunez, Kate Buccilli, Catalina Mourgues-Codern, Kali Brummitt, Kyle S Kinney, Carli Trankler, Julia Szacilo, Beau-Luke Colton, Munaza Ali, Anastasia Haidar, Tashrif Billah, Kevin Huynh, Uzair Ahmed, Laura L Adery, Patricia J Marcy, Kelly Allott, Paul Amminger, Celso Arango, Matthew R Broome, … …\n\n\n\n\n\n\n\nAdverse Outcome Following Mild Traumatic Brain Injury Is Associated with Microstructure Alterations at the Gray and White Matter Boundary\n\n\n\n\n\n\ncognitive impairment\n\n\ndiffusion tensor imaging\n\n\nfractional anisotropy\n\n\nmagnetic resonance imaging\n\n\nmild traumatic brain injury\n\n\npost-concussion symptoms\n\n\n\nPMID: 37629457 DOI: 10.3390/jcm12165415\n\n\n\n\n\n2023-08-21\n\n\nLara Pankatz, Philine Rojczyk, Johanna Seitz-Holland, Sylvain Bouix, Leonard B Jung, Tim L T Wiegand, Elena M Bonke, Nico Sollmann, Elisabeth Kaufmann, Holly Carrington, Twishi Puri, Yogesh Rathi, Michael J Coleman, Ofer Pasternak, Mark S George, Thomas W McAllister, Ross Zafonte, Murray B Stein, Christine E Marx, Martha E Shenton, Inga K Koerte\n\n\n\n\n\n\n\nExploring the impact of hippocampal sclerosis on white matter tracts memory in individuals with mesial temporal lobe epilepsy\n\n\n\n\n\n\ncognitive impairment\n\n\nfocal epilepsy\n\n\nmagnetic resonance imaging\n\n\nwhite matter tracts\n\n\n\nPMID: 37469213 DOI: 10.1002/epi4.12793\n\n\n\n\n\n2023-07-19\n\n\nTamires A Zanao, Johanna Seitz-Holland, Lauren J O’Donnell, Fan Zhang, Yogesh Rathi, Tatila M Lopes, Luciana Ramalho Pimentel-Silva, Clarissa L Yassuda, Nikos Makris, Martha E Shenton, Sylvain Bouix, Amanda E Lyall, Fernando Cendes\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/posts/2023_08_28_development_of_the_psychs_positive_symptoms/index.html",
+    "href": "publications/posts/2023_08_28_development_of_the_psychs_positive_symptoms/index.html",
+    "title": "Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS",
+    "section": "",
+    "text": "Abstract:\nAIM: To harmonize two ascertainment and severity rating instruments commonly used for the clinical high risk syndrome for psychosis (CHR-P): the Structured Interview for Psychosis-risk Syndromes (SIPS) and the Comprehensive Assessment of At-Risk Mental States (CAARMS).\nMETHODS: The initial workshop is described in the companion report from Addington et al. After the workshop, lead experts for each instrument continued harmonizing attenuated positive symptoms and criteria for psychosis and CHR-P through an intensive series of joint videoconferences.\nRESULTS: Full harmonization was achieved for attenuated positive symptom ratings and psychosis criteria, and modest harmonization for CHR-P criteria. The semi-structured interview, named Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS (PSYCHS), generates CHR-P criteria and severity scores for both CAARMS and SIPS.\nCONCLUSIONS: Using the PSYCHS for CHR-P ascertainment, conversion determination, and attenuated positive symptom severity rating will help in comparing findings across studies and in meta-analyses."
+  },
+  {
+    "objectID": "contact/index.html",
+    "href": "contact/index.html",
+    "title": "Contact",
+    "section": "",
+    "text": "If you’re interested in joining the lab, please fill out this form.\nFor all other enquiries email Sylvain Bouix."
+  },
+  {
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Neuroimaging tools\nNeuroinformatics for AMP-SCZ\nSlicerNeuroSegmentation"
+  },
+  {
+    "objectID": "tools/index.html#software",
+    "href": "tools/index.html#software",
+    "title": "Tools",
+    "section": "",
+    "text": "Neuroimaging tools\nNeuroinformatics for AMP-SCZ\nSlicerNeuroSegmentation"
+  },
+  {
+    "objectID": "tools/index.html#data",
+    "href": "tools/index.html#data",
+    "title": "Tools",
+    "section": "Data",
+    "text": "Data\n\nHuman Connectome for Early Psychosis\nHarvard-Oxford Atlas 2.0: Subcortical parcellations"
+  },
+  {
+    "objectID": "presentations/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html",
+    "href": "presentations/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html",
+    "title": "Presentation of the online platform brainlife.io",
+    "section": "",
+    "text": "Abstract:\nNeuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants."
+  },
+  {
+    "objectID": "presentations/posts/2024_04_15_BV_midb_atlas/index.html",
+    "href": "presentations/posts/2024_04_15_BV_midb_atlas/index.html",
+    "title": "Presentation of the MITB functional atlas of the cerebral cortex",
+    "section": "",
+    "text": "Abstract:\nAlthough the general location of functional neural networks is similar across individuals, there is vast person-to-person topographic variability. To capture this, we implemented precision brain mapping functional magnetic resonance imaging methods to establish an open-source, method-flexible set of precision functional network atlases—the Masonic Institute for the Developing Brain (MIDB) Precision Brain Atlas. This atlas is an evolving resource comprising 53,273 individual-specific network maps, from more than 9,900 individuals, across ages and cohorts, including the Adolescent Brain Cognitive Development study, the Developmental Human Connectome Project and others. We also generated probabilistic network maps across multiple ages and integration zones (using a new overlapping mapping technique, Overlapping MultiNetwork Imaging). Using regions of high network invariance improved the reproducibility of executive function statistical maps in brain-wide associations compared to group average-based parcellations. Finally, we provide a potential use case for probabilistic maps for targeted neuromodulation. The atlas is expandable to alternative datasets with an online interface encouraging the scientific community to explore and contribute to understanding the human brain function more precisely."
+  },
+  {
+    "objectID": "presentations/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html",
+    "href": "presentations/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html",
+    "title": "Presentation of the online platform brainlife.io",
+    "section": "",
+    "text": "Abstract:\nNeuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants."
+  },
+  {
+    "objectID": "presentations/posts/2024_02_05_BV_MedSAM/index.html",
+    "href": "presentations/posts/2024_02_05_BV_MedSAM/index.html",
+    "title": "Presentation of the online platform brainlife.io",
+    "section": "",
+    "text": "Abstract:\nNeuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants."
+  },
+  {
+    "objectID": "presentations/posts/2024_09_09_BV_brainlife_online_platform/index.html",
+    "href": "presentations/posts/2024_09_09_BV_brainlife_online_platform/index.html",
+    "title": "Presentation of the online platform brainlife.io",
+    "section": "",
+    "text": "Abstract:\nNeuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants."
+  },
+  {
+    "objectID": "presentations/index.html",
+    "href": "presentations/index.html",
+    "title": "Neuro-iX",
+    "section": "",
+    "text": "Welcome to the weekly Jounal Club, where relevant articles and tools are presented by the Neuro-iX lab !\nIf you are part of ETS, you can find the powerpoints here.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nPresentation of the online platform brainlife.io\n\n\n\n\n\n\nmagnetic resonance imaging\n\n\nneuroimaging\n\n\nonline platform\n\n\nstandardization\n\n\n\nDOI: 10.1038/s41592-024-02237-2\n\n\n\n\n\n2024-09-09\n\n\nBenoit Verreman\n\n\n\n\n\n\n\nPresentation of the online platform brainlife.io\n\n\n\n\n\n\nmagnetic resonance imaging\n\n\nneuroimaging\n\n\nonline platform\n\n\nstandardization\n\n\n\nDOI: 10.1038/s41592-024-02237-2\n\n\n\n\n\n2024-09-09\n\n\nBenoit Verreman\n\n\n\n\n\n\n\nPresentation of the online platform brainlife.io\n\n\n\n\n\n\nmagnetic resonance imaging\n\n\nneuroimaging\n\n\nonline platform\n\n\nstandardization\n\n\n\nDOI: 10.1038/s41592-024-02237-2\n\n\n\n\n\n2024-09-09\n\n\nBenoit Verreman\n\n\n\n\n\n\n\nPresentation of the online platform brainlife.io\n\n\n\n\n\n\nmagnetic resonance imaging\n\n\nneuroimaging\n\n\nonline platform\n\n\nstandardization\n\n\n\nDOI: 10.1038/s41592-024-02237-2\n\n\n\n\n\n2024-09-09\n\n\nBenoit Verreman\n\n\n\n\n\n\n\nPresentation of FET-MRQC\n\n\n\n\n\n\nquality control\n\n\nfetal brain\n\n\nMRI\n\n\nT2w\n\n\n\nDOI: 10.48550/arXiv.2304.05879\n\n\n\n\n\n2024-09-09\n\n\nCharles Bricout\n\n\n\n\n\n\n\nPresentation of the MITB functional atlas of the cerebral cortex\n\n\n\n\n\n\nfunctional atlas\n\n\ncortex parcellation\n\n\nbrain sMRI\n\n\n\nDOI: 10.1038/s41593-024-01596-5\n\n\n\n\n\n2024-04-15\n\n\nBenoit Verreman\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "members/index.html",
+    "href": "members/index.html",
+    "title": "",
+    "section": "",
+    "text": "Principal Investigator\n\n\nSylvain Bouix\n   \nProfessor\nDepartment of Software and IT Engineering, ETS, Montréal\nMedical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI\n\n\nResearch Assistants\n\nBenoît Verreman\n \nResearch assistant\nDepartment of Software and IT Engineering, ETS, Montréal\nNeuroimaging, Neuroinformatics, Anatomical and Diffusion MRI\n\nPhD Students\n\n\n\nKaveh Moradkhani \n   \nGraduate Researcher, Ph.D.\nDepartment of Software and IT Engineering, ETS, Montréal\nComputer Vision, Deep Learning, Medical Imaging, Neuroimaging, Image Processing\n\n\n\n\nSedigheh Dargahi\n\nGraduate Researcher, Ph.D.\nDepartment of Software and IT Engineering, ETS, Montréal\nMedical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI\n\n\n\nMaster Students\n\n\n\nGhazal Danaee\n  \nGraduate Researcher, M.S.\nDepartment of Software and IT Engineering, ETS, Montréal\nImage processing, Deep learning, Medical image processing, Artificial intelligence\n\n\n\n\nCharles Bricout\n \nGraduate Researcher, M.S.\nDepartment of Software and IT Engineering, ETS, Montréal\nMedical Imaging, Neuroimaging, Computer Vision, Deep Learning\n\n\n\nCollaborators\n Psychiatry Neuroimaging Laboratory, Brigham and Women’s Hospital, Harvard Medical School\n The Center for Morphometric Analysis, Massachusetts General Hospital, Harvard Medical School\n Surgical Planning Laboratory, Brigham and Women’s Hospital, Harvard Medical School\n The Functional Neuroimaging & Bioinformatics Lab, McLean Hospital, Harvard Medical School\n cBRAIN, Ludwig Maximilian University of Munich, Germany\n UNC Biomedical Image Analysis Group, University of North Carolina at Chapel Hill\n The Perk Lab, Queen’s University"
+  },
+  {
+    "objectID": "publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html",
+    "href": "publications/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html",
+    "title": "Exploring the impact of hippocampal sclerosis on white matter tracts memory in individuals with mesial temporal lobe epilepsy",
+    "section": "",
+    "text": "Abstract:\nOBJECTIVE: To investigate how the presence/side of hippocampal sclerosis (HS) are related to the white matter structure of cingulum bundle (CB), arcuate fasciculus (AF), and inferior longitudinal fasciculus (ILF) in mesial temporal lobe epilepsy (MTLE).\nMETHODS: We acquired diffusion-weighted magnetic resonance imaging (MRI) from 86 healthy and 71 individuals with MTLE (22 righ-HS; right-HS, 34 left-HS; left-HS, and 15 nonlesional MTLE). We utilized two-tensor tractography and fiber clustering to compare fractional anisotropy (FA) of each side/tract between groups. Additionally, we examined the association between FA and nonverbal (WMS-R) and verbal (WMS-R, RAVLT codification) memory performance for MTLE individuals.\nRESULTS: White matter abnormalities depended on the side and presence of HS. The left-HS demonstrated widespread abnormalities for all tracts, the right-HS showed lower FA for ipsilateral tracts and the nonlesional MTLE group did not differ from healthy individuals. Results indicate no differences in verbal/nonverbal memory performance between the groups, but trend-level associations between higher FA of visual memory and the left CB (r = 0.286, P = 0.018), verbal memory (RAVLT) and -left CB (r = 0.335, P = 0.005), -right CB (r = 0.286, P = 0.016), and -left AF (r = 0.287, P = 0.017).\nSIGNIFICANCE: Our results highlight that the presence and side of HS are crucial to understand the pathophysiology of MTLE. Specifically, left-sided HS seems to be related to widespread bilateral white matter abnormalities. Future longitudinal studies should focus on developing diagnostic and treatment strategies dependent on HS’s presence/side."
+  },
+  {
+    "objectID": "publications/posts/2023_08_21_adverse_outcome_following_mild_traumatic_brain/index.html",
+    "href": "publications/posts/2023_08_21_adverse_outcome_following_mild_traumatic_brain/index.html",
+    "title": "Adverse Outcome Following Mild Traumatic Brain Injury Is Associated with Microstructure Alterations at the Gray and White Matter Boundary",
+    "section": "",
+    "text": "Abstract:\nThe gray matter/white matter (GM/WM) boundary of the brain is vulnerable to shear strain associated with mild traumatic brain injury (mTBI). It is, however, unknown whether GM/WM microstructure is associated with long-term outcomes following mTBI. The diffusion and structural MRI data of 278 participants between 18 and 65 years of age with and without military background from the Department of Defense INTRuST study were analyzed. Fractional anisotropy (FA) was extracted at the GM/WM boundary across the brain and for each lobe. Additionally, two conventional analytic approaches were used: whole-brain deep WM FA (TBSS) and whole-brain cortical thickness (FreeSurfer). ANCOVAs were applied to assess differences between the mTBI cohort (n = 147) and the comparison cohort (n = 131). Associations between imaging features and post-concussive symptom severity, and functional and cognitive impairment were investigated using partial correlations while controlling for mental health comorbidities that are particularly common among military cohorts and were present in both the mTBI and comparison group. Findings revealed significantly lower whole-brain and lobe-specific GM/WM boundary FA (p &lt; 0.011), and deep WM FA (p = 0.001) in the mTBI cohort. Whole-brain and lobe-specific GM/WM boundary FA was significantly negatively correlated with post-concussive symptoms (p &lt; 0.039), functional (p &lt; 0.016), and cognitive impairment (p &lt; 0.049). Deep WM FA was associated with functional impairment (p = 0.002). Finally, no significant difference was observed in cortical thickness, nor between cortical thickness and outcome (p &gt; 0.05). Findings from this study suggest that microstructural alterations at the GM/WM boundary may be sensitive markers of adverse long-term outcomes following mTBI."
+  }
+]
