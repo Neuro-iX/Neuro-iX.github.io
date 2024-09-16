@@ -66,9 +66,13 @@ We advocate [open science](https://science.gc.ca/site/science/en/open-science-he
 # New recruitment phase for 2025 !
 
 We are currently recruiting talented PhD applicants for the Winter 2025 or Summer 2025 sessions to work on neuroimaging projects including brain segmentation, diffusion MRI processing and more !
+
 Applicants are asked to prepare a CV, a cover letter and fill out this online form by October 31st 2024. 
+
 We will consider outstanding applicants on a rolling basis for MSc and postdoctoral positions.
-Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. [Click here for the online form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform){target="_blank"}.
+Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. 
+
+[Click here for the online form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform){target="_blank"}
 
 <!--
 # Recruitment

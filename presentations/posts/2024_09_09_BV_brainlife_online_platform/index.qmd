@@ -1,0 +1,16 @@
+---
+title: "Presentation of the online platform brainlife.io"
+description: "DOI: [10.1038/s41592-024-02237-2](https://doi.org/10.1038/s41592-024-02237-2){target='_blank'}"
+author: Benoit Verreman
+date: "2024-09-09"
+categories: [magnetic resonance imaging, neuroimaging, online platform, standardization]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Neuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants.

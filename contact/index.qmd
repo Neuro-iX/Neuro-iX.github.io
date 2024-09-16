@@ -4,6 +4,6 @@ jupyter: python3
 ---
 
 
-If you’re interested in joining the lab, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform).
+If you’re interested in joining the lab, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform){target="_blank"}.
 
-For all other enquiries email [Sylvain Bouix](mailto:sylvain.bouix@etsmtl.ca).
+For all other enquiries email [Sylvain Bouix](mailto:sylvain.bouix@etsmtl.ca){target="_blank"}.
