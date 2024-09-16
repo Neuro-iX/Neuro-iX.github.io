@@ -10,10 +10,10 @@
   {
     "listing": "/presentations/index.html",
     "items": [
-      "/presentations/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html",
       "/presentations/posts/2024_09_09_BV_brainlife_online_platform/index.html",
       "/presentations/posts/2024_04_15_BV_midb_atlas/index.html",
       "/presentations/posts/2024_03_11_CB_FetMRQC/index.html",
+      "/presentations/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html",
       "/presentations/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html",
       "/presentations/posts/2024_02_05_BV_MedSAM/index.html",
       "/presentations/posts/2024_01_22_MG_robust_t_loss/index.html",
