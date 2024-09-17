@@ -1,0 +1,22 @@
+---
+title: "Presentation of the article 'Semi-automatic segmentation of the fetal brain from magnetic resonance imaging'"
+description: "DOI: [10.3389/fnins.2022.1027084](https://doi.org/10.3389/fnins.2022.1027084){target='_blank'}"
+author: Ghazal Danaei
+date: "2024-02-12"
+categories: [magnetic resonance imaging, fetal brain, linear registration, nonlinear registration, volumetric reconstruction]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Background: Volumetric measurements of fetal brain maturation in the third trimester of pregnancy are key predictors of developmental outcomes. Improved understanding of fetal brain development trajectories may aid in identifying and clinically managing at-risk fetuses. Currently, fetal brain structures in magnetic resonance images (MRI) are often manually segmented, which requires both time and expertise. To facilitate the targeting and measurement of brain structures in the fetus, we compared the results of five segmentation methods applied to fetal brain MRI data to gold-standard manual tracings.
+
+Methods: Adult women with singleton pregnancies (n = 21), of whom five were scanned twice, approximately 3 weeks apart, were recruited [26 total datasets, median gestational age (GA) = 34.8, IQR = 30.9-36.6]. T2-weighted single-shot fast spin echo images of the fetal brain were acquired on 1.5T and 3T MRI scanners. Images were first combined into a single 3D anatomical volume. Next, a trained tracer manually segmented the thalamus, cerebellum, and total cerebral volumes. The manual segmentations were compared with five automatic methods of segmentation available within Advanced Normalization Tools (ANTs) and FMRIB's Linear Image Registration Tool (FLIRT) toolboxes. The manual and automatic labels were compared using Dice similarity coefficients (DSCs). The DSC values were compared using Friedman's test for repeated measures.
+
+Results: Comparing cerebellum and thalamus masks against the manually segmented masks, the median DSC values for ANTs and FLIRT were 0.72 [interquartile range (IQR) = 0.6-0.8] and 0.54 (IQR = 0.4-0.6), respectively. A Friedman's test indicated that the ANTs registration methods, primarily nonlinear methods, performed better than FLIRT (p < 0.001).
+
+Conclusion: Deformable registration methods provided the most accurate results relative to manual segmentation. Overall, this semi-automatic subcortical segmentation method provides reliable performance to segment subcortical volumes in fetal MR images. This method reduces the costs of manual segmentation, facilitating the measurement of typical and atypical fetal brain development.

@@ -192,8 +192,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="abstract" class="level1">
-<h1>Abstract:</h1>
+<section id="abstract-of-the-article" class="level1">
+<h1>Abstract of the article:</h1>
 <p>Purpose: To introduce an unsupervised deep-learning method for fast and effective correction of susceptibility artifacts in reversed phase-encode (PE) image pairs acquired with echo planar imaging (EPI).</p>
 <p>Methods: Recent learning-based correction approaches in EPI estimate a displacement field, unwarp the reversed-PE image pair with the estimated field, and average the unwarped pair to yield a corrected image. Unsupervised learning in these unwarping-based methods is commonly attained via a similarity constraint between the unwarped images in reversed-PE directions, neglecting consistency to the acquired EPI images. This work introduces a novel unsupervised deep Forward-Distortion Network (FD-Net) that predicts both the susceptibility-induced displacement field and the underlying anatomically correct image. Unlike previous methods, FD-Net enforces the forward-distortions of the correct image in both PE directions to be consistent with the acquired reversed-PE image pair. FD-Net further leverages a multiresolution architecture to maintain high local and global performance.</p>
 <p>Results: FD-Net performs competitively with a gold-standard reference method (TOPUP) in image quality, while enabling a leap in computational efficiency. Furthermore, FD-Net outperforms recent unwarping-based methods for unsupervised correction in terms of both image and field quality.</p>
