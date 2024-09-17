@@ -1,7 +1,7 @@
 ---
 title: "Presentation of the article 'Semi-automatic segmentation of the fetal brain from magnetic resonance imaging'"
 description: "DOI: [10.3389/fnins.2022.1027084](https://doi.org/10.3389/fnins.2022.1027084){target='_blank'}"
-author: Ghazal Danaei
+author: Ghazal Danaee
 date: "2024-02-12"
 categories: [magnetic resonance imaging, fetal brain, linear registration, nonlinear registration, volumetric reconstruction]
 #image: map.jpg
