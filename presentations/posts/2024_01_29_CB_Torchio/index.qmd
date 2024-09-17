@@ -11,7 +11,7 @@ format:
 engine: knitr
 ---
 
-# Abstract of the article:
+# Description:
 
 TorchIO is an open-source Python library for efficient loading, preprocessing, augmentation and patch-based sampling of 3D medical images in deep learning, following the design of PyTorch.
 
