@@ -1,0 +1,17 @@
+---
+title: "Accelerating Medicines Partnership(r) Schizophrenia (AMP(r) SCZ): Rationale and Study Design of the Largest Global Prospective Cohort Study of Clinical High Risk for Psychosis"
+description: "PMID: [38451304](https://pubmed.ncbi.nlm.nih.gov/38451304/){target='_blank'}    DOI: [10.1093/schbul/sbae011](https://doi.org/10.1093/schbul/sbae011){target='_blank'}"
+author: Cassandra M J Wannan, Barnaby Nelson, Jean Addington, Kelly Allott, Alan Anticevic, Celso Arango, Justin T Baker, Carrie E Bearden, Tashrif Billah, Sylvain Bouix, Matthew R Broome, Kate Buccilli, Kristin S Cadenhead, Monica E Calkins, Tyrone D Cannon, Guillermo Cecci, Eric Yu Hai Chen, Kang Ik K Cho, Jimmy Choi, Scott R Clark, Michael J Coleman, Philippe Conus, Cheryl M Corcoran, Barbara A Cornblatt, Covadonga M Diaz-Caneja, ... ...
+date: "2024-04-30"
+categories: [clinical high risk, consortium, early detection, prediction, prevention, psychosis]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+This article describes the rationale, aims, and methodology of the Accelerating Medicines Partnership(r) Schizophrenia (AMP(r) SCZ). This is the largest international collaboration to date that will develop algorithms to predict trajectories and outcomes of individuals at clinical high risk (CHR) for psychosis and to advance the development and use of novel pharmacological interventions for CHR individuals. We present a description of the participating research networks and the data processing analysis and coordination center, their processes for data harmonization across 43 sites from 13 participating countries (recruitment across North America, Australia, Europe, Asia, and South America), data flow and quality assessment processes, data analyses, and the transfer of data to the National Institute of Mental Health (NIMH) Data Archive (NDA) for use by the research community. In an expected sample of approximately 2000 CHR individuals and 640 matched healthy controls, AMP SCZ will collect clinical, environmental, and cognitive data along with multimodal biomarkers, including neuroimaging, electrophysiology, fluid biospecimens, speech and facial expression samples, novel measures derived from digital health technologies including smartphone-based daily surveys, and passive sensing as well as actigraphy. The study will investigate a range of clinical outcomes over a 2-year period, including transition to psychosis, remission or persistence of CHR status, attenuated positive symptoms, persistent negative symptoms, mood and anxiety symptoms, and psychosocial functioning. The global reach of AMP SCZ and its harmonized innovative methods promise to catalyze the development of new treatments to address critical unmet clinical and public health needs in CHR individuals.(c) The Author(s) 2024. Published by Oxford University Press on behalf of the Maryland Psychiatric Research Center.
+        

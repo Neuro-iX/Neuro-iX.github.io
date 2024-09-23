@@ -1,0 +1,23 @@
+---
+title: "Free-Water Diffusion Magnetic Resonance Imaging Differentiates Suicidal Ideation From Suicide Attempt in Treatment-Resistant Depression"
+description: "PMID: [36906445](https://pubmed.ncbi.nlm.nih.gov/36906445/){target='_blank'}    DOI: [10.1016/j.bpsc.2022.12.007](https://doi.org/10.1016/j.bpsc.2022.12.007){target='_blank'}"
+author: Katie L Vandeloo, Patricia Burhunduli, Sylvain Bouix, Kimia Owsia, Kang Ik K Cho, Zhuo Fang, Amanda Van Geel, Ofer Pasternak, Pierre Blier, Jennifer L Phillips
+date: "2023-04-00"
+categories: [Diffusion tensor imaging, Free-water imaging, Suicidal ideation, Suicide attempt, Treatment-resistant depression, White matter]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Suicide attempt is highly prevalent in treatment-resistant depression (TRD); however, the neurobiological profile of suicidal ideation versus suicide attempt is unclear. Neuroimaging methods including diffusion magnetic resonance imaging-based free-water imaging may identify neural correlates underlying suicidal ideation and attempts in individuals with TRD.
+
+METHODS: Diffusion magnetic resonance imaging data were obtained from 64 male and female participants (mean age 44.5 +- 14.2 years), including 39 patients with TRD (n = 21 and lifetime history of suicidal ideation but no attempts [SI group]; n = 18 with lifetime history of suicide attempt [SA group]), and 25 age- and sex-matched healthy control participants. Depression and suicidal ideation severity were examined using clinician-rated and self-report measures. Whole-brain neuroimaging analysis was conducted using tract-based spatial statistics via FSL to identify differences in white matter microstructure in the SI versus SA groups and in patients versus control participants.
+
+RESULTS: Free-water imaging revealed elevated axial diffusivity and extracellular free water in fronto-thalamo-limbic white matter tracts of the SA group compared with the SI group. In a separate comparison, patients with TRD had widespread reductions in fractional anisotropy and axial diffusivity, as well as elevated radial diffusivity compared with control participants (thresholded p < .05, familywise error corrected).
+
+CONCLUSIONS: A unique neural signature consisting of elevated axial diffusivity and free water was identified in patients with TRD and suicide attempt history. Findings of reduced fractional anisotropy, axial diffusivity, and elevated radial diffusivity in patients versus control participants are consistent with previously published studies. Multimodal and prospective investigations are recommended to better understand biological correlates of suicide attempt in TRD.
+        

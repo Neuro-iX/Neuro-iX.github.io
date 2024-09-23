@@ -1,0 +1,23 @@
+---
+title: "Baseline Cortical Thickness Reductions in Clinical High Risk for Psychosis: Brain Regions Associated with Conversion to Psychosis Versus Non-Conversion as Assessed at One-Year Follow-Up in the Shanghai-At-Risk-for-Psychosis (SHARP) Study"
+description: "PMID: [32926141](https://pubmed.ncbi.nlm.nih.gov/32926141/){target='_blank'}    DOI: [10.1093/schbul/sbaa127](https://doi.org/10.1093/schbul/sbaa127){target='_blank'}"
+author: Elisabetta C Del Re, William S Stone, Sylvain Bouix, Johanna Seitz, Victor Zeng, Anthony Guliano, Nathaniel Somes, Tianhong Zhang, Benjamin Reid, Amanda Lyall, Monica Lyons, Huijun Li, Susan Whitfield-Gabrieli, Matcheri Keshavan, Larry J Seidman, Robert W McCarley, Jijun Wang, Yingying Tang, Martha E Shenton, Margaret A Niznikiewicz
+date: "2021-03-16"
+categories: [CT, SA, clinical high risk for psychosis, language network, prediction of conversion]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVE: To assess cortical thickness (CT) and surface area (SA) of frontal, temporal, and parietal brain regions in a large clinical high risk for psychosis (CHR) sample, and to identify cortical brain abnormalities in CHR who convert to psychosis and in the whole CHR sample, compared with the healthy controls (HC).
+
+METHODS: Magnetic resonance imaging, clinical, and cognitive data were acquired at baseline in 92 HC, 130 non-converters, and 22 converters (conversion assessed at 1-year follow-up). CT and SA at baseline were calculated for frontal, temporal, and parietal subregions. Correlations between regions showing group differences and clinical scores and age were also obtained.
+
+RESULTS: CT but not SA was significantly reduced in CHR compared with HC. Two patterns of findings emerged: (1) In converters, CT was significantly reduced relative to non-converters and controls in the banks of superior temporal sulcus, Heschl's gyrus, and pars triangularis and (2) CT in the inferior parietal and supramarginal gyrus, and at trend level in the pars opercularis, fusiform, and middle temporal gyri was significantly reduced in all high-risk individuals compared with HC. Additionally, reduced CT correlated significantly with older age in HC and in non-converters but not in converters.
+
+CONCLUSIONS: These results show for the first time that fronto-temporo-parietal abnormalities characterized all CHR, that is, both converters and non-converters, relative to HC, while CT abnormalities in converters relative to CHR-NC and HC were found in core auditory and language processing regions.
+        

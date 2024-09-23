@@ -1,0 +1,17 @@
+---
+title: "Structure-based design of Trifarotene (CD5789), a potent and selective RARg agonist for the treatment of acne"
+description: "PMID: [29706423](https://pubmed.ncbi.nlm.nih.gov/29706423/){target='_blank'}    DOI: [10.1016/j.bmcl.2018.04.036](https://doi.org/10.1016/j.bmcl.2018.04.036){target='_blank'}"
+author: Etienne Thoreau, Jean-Marie Arlabosse, Claire Bouix-Peter, Sandrine Chambon, Laurent Chantalat, Sebastien Daver, Laurence Dumais, Gwenaelle Duvert, Angelique Feret, Gilles Ouvry, Jonathan Pascau, Catherine Raffin, Nicolas Rodeville, Catherine Soulet, Samuel Tabet, Sandrine Talano, Thibaud Portal
+date: "2018-06-01"
+categories: [Acne, CD437, CD5789, RARγ, Trifarotene]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Retinoids have a dominant role in topical acne therapy and to date, only RARb and RARg dual agonists have reached the market. Given the tissue distribution of RAR isoforms, it was hypothesized that developing RARg -selective agonists could yield a new generation of topical acne treatments that would increase safety margins while maintaining the robust efficacy of previous drugs. Structural knowledge derived from the X-ray structure of known g-selective CD437, suggested the design of a novel triaryl series of agonists which was optimized and ultimately led to the discovery of Trifarotene/CD5789.Copyright (c) 2018 Elsevier Ltd. All rights reserved.
+        

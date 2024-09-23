@@ -1,0 +1,17 @@
+---
+title: "Microstructural alterations in medial forebrain bundle are associated with interindividual pain sensitivity"
+description: "PMID: [33170528](https://pubmed.ncbi.nlm.nih.gov/33170528/){target='_blank'}    DOI: [10.1002/hbm.25281](https://doi.org/10.1002/hbm.25281){target='_blank'}"
+author: Maria Geisler, Elizabeth Rizzoni, Nikolaos Makris, Ofer Pasternak, Yogesh Rathi, Sylvain Bouix, Marco Herbsleb, Karl-Jurgen Bar, Thomas Weiss, Zora Kikinis
+date: "2021-03-00"
+categories: [diffusion magnetic resonance imaging (dMRI), endogenous pain modulation, fractional anisotropy (FA)]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The perception of pain to noxious stimuli, also known as pain sensitivity, varies among individuals. The comprised brain structures and their white matter pathways are complex and elusive. Here, we aimed to investigate whether variation of microstructure of the medial forebrain bundle (MFB), a tract connecting the basal forebrain with the brain stem, is associated with interindividual pain sensitivity. We assessed interindividual pain sensitivity as a rating of pain intensity to heat stimuli (45, 47, and 48.9degC) in 38 healthy men (age: 27.05 +- 5.7 years). We also reconstructed the MFB using multitensor tractography from diffusion magnetic resonance imaging (dMRI) and calculated free-water corrected dMRI measures of fractional anisotropy (FAt ), radial diffusivity (RDt ), and axial diffusivity (ADt ). Lower ratings of interindividual pain intensity correlated with higher FAt and lower RDt of the MFB. As changes in FAt and RDt may reflect abnormalities in myelination, the results might be interpreted as that a lower pain rating is associated with higher degree of myelination of the MFB and could represent an inhibitory pathway of pain. Our results suggest that alteration of microstructure in the MFB contributes to the interindividual variation of pain perception.(c) 2020 The Authors. Human Brain Mapping published by Wiley Periodicals LLC.
+        

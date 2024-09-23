@@ -1,0 +1,25 @@
+---
+title: "White matter hyperintensities in former American football players"
+description: "PMID: [35996231](https://pubmed.ncbi.nlm.nih.gov/35996231/){target='_blank'}    DOI: [10.1002/alz.12779](https://doi.org/10.1002/alz.12779){target='_blank'}"
+author: Michael L Alosco, Yorghos Tripodis, Zachary H Baucom, Charles H Adler, Laura J Balcer, Charles Bernick, Megan L Mariani, Rhoda Au, Sarah J Banks, William B Barr, Jennifer V Wethe, Robert C Cantu, Michael J Coleman, David W Dodick, Michael D McClean, Ann C McKee, Jesse Mez, Joseph N Palmisano, Brett Martin, Kaitlin Hartlage, Alexander P Lin, Inga K Koerte, Jeffrey L Cummings, Eric M Reiman, Robert A Stern, ... ...
+date: "2023-04-00"
+categories: [aging, cerebrovascular disease, concussion, fluid-attenuated inversion recovery, football, microvascular disease, neurodegenerative disease, repetitive head impacts, subconcussion, white matter hyperintensities, white matter injury]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+INTRODUCTION: The presentation, risk factors, and etiologies of white matter hyperintensities (WMH) in people exposed to repetitive head impacts are unknown. We examined the burden and distribution of WMH, and their association with years of play, age of first exposure, and clinical function in former American football players.
+
+METHODS: A total of 149 former football players and 53 asymptomatic unexposed participants (all men, 45-74 years) completed fluid-attenuated inversion recovery magnetic resonance imaging, neuropsychological testing, and self-report neuropsychiatric measures. Lesion Segmentation Toolbox estimated WMH. Analyses were performed in the total sample and stratified by age 60.
+
+RESULTS: In older but not younger participants, former football players had greater total, frontal, temporal, and parietal log-WMH compared to asymptomatic unexposed men. In older but not younger former football players, greater log-WMH was associated with younger age of first exposure to football and worse executive function.
+
+DISCUSSION: In older former football players, WMH may have unique presentations, risk factors, and etiologies.
+
+HIGHLIGHTS: Older but not younger former football players had greater total, frontal, temporal, and parietal lobe white matter hyperintensities (WMH) compared to same-age asymptomatic unexposed men. Younger age of first exposure to football was associated with greater WMH in older but not younger former American football players. In former football players, greater WMH was associated with worse executive function and verbal memory.
+        

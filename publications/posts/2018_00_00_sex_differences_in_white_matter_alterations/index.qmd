@@ -1,0 +1,23 @@
+---
+title: "Sex differences in white matter alterations following repetitive subconcussive head impacts in collegiate ice hockey players"
+description: "PMID: [29204342](https://pubmed.ncbi.nlm.nih.gov/29204342/){target='_blank'}    DOI: [10.1016/j.nicl.2017.11.020](https://doi.org/10.1016/j.nicl.2017.11.020){target='_blank'}"
+author: Nico Sollmann, Paul S Echlin, Vivian Schultz, Petra V Viher, Amanda E Lyall, Yorghos Tripodis, David Kaufmann, Elisabeth Hartl, Philipp Kinzel, Lorie A Forwell, Andrew M Johnson, Elaine N Skopelja, Christian Lepage, Sylvain Bouix, Ofer Pasternak, Alexander P Lin, Martha E Shenton, Inga K Koerte
+date: "2018-00-00"
+categories: [AD, axial diffusivity, CIS, Canadian Interuniversity Sports, CR, corona radiata, Diffusion tensor imaging, EC, external capsule, FA, fractional anisotropy, HCEP, Hockey Concussion Education Project, IC, internal capsule, Ice hockey, ImPACT, Immediate Post-Concussion Assessment and Cognitive Test, LH, left hemisphere, MD, mean diffusivity, MRI, magnetic resonance imaging, NCAA, National Collegiate Athletic Association, RD, radial diffusivity, RH, right hemisphere, RSHI, repetitive subconcussive head impacts, Repetitive subconcussive head impacts, SD, standard deviation, SLF, superior longitudinal fasciculus, Sex difference, TBI, traumatic brain injury, TBSS, tract-based spatial statistics, Traumatic brain injury, WM, white matter, White matter, dMRI, diffusion magnetic resonance imaging, rs, Spearman's rank correlation coefficient]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVE: Repetitive subconcussive head impacts (RSHI) may lead to structural, functional, and metabolic alterations of the brain. While differences between males and females have already been suggested following a concussion, whether there are sex differences following exposure to RSHI remains unknown. The aim of this study was to identify and to characterize sex differences following exposure to RSHI.
+
+METHODS: Twenty-five collegiate ice hockey players (14 males and 11 females, 20.6 +- 2.0 years), all part of the Hockey Concussion Education Project (HCEP), underwent diffusion-weighted magnetic resonance imaging (dMRI) before and after the Canadian Interuniversity Sports (CIS) ice hockey season 2011-2012 and did not experience a concussion during the season. Whole-brain tract-based spatial statistics (TBSS) were used to compare pre- and postseason imaging in both sexes for fractional anisotropy (FA), mean diffusivity (MD), axial diffusivity (AD), and radial diffusivity (RD). Pre- and postseason neurocognitive performance were assessed by the Immediate Post-Concussion Assessment and Cognitive Test (ImPACT).
+
+RESULTS: Significant differences between the sexes were primarily located within the superior longitudinal fasciculus (SLF), the internal capsule (IC), and the corona radiata (CR) of the right hemisphere (RH). In significant voxel clusters (p < 0.05), decreases in FA (absolute difference pre- vs. postseason: 0.0268) and increases in MD (0.0002), AD (0.00008), and RD (0.00005) were observed in females whereas males showed no significant changes. There was no significant correlation between the change in diffusion scalar measures over the course of the season and neurocognitive performance as evidenced from postseason ImPACT scores.
+
+CONCLUSIONS: The results of this study suggest sex differences in structural alterations following exposure to RSHI. Future studies need to investigate further the underlying mechanisms and association with exposure and clinical outcomes.
+        

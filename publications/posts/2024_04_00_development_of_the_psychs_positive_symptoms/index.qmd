@@ -1,0 +1,23 @@
+---
+title: "Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS"
+description: "PMID: [37641537](https://pubmed.ncbi.nlm.nih.gov/37641537/){target='_blank'}    DOI: [10.1111/eip.13457](https://doi.org/10.1111/eip.13457){target='_blank'}"
+author: Scott W Woods, Sophie Parker, Melissa J Kerr, Barbara C Walsh, S Andrea Wijtenburg, Nicholas Prunier, Angela R Nunez, Kate Buccilli, Catalina Mourgues-Codern, Kali Brummitt, Kyle S Kinney, Carli Trankler, Julia Szacilo, Beau-Luke Colton, Munaza Ali, Anastasia Haidar, Tashrif Billah, Kevin Huynh, Uzair Ahmed, Laura L Adery, Patricia J Marcy, Kelly Allott, Paul Amminger, Celso Arango, Matthew R Broome, ... ...
+date: "2024-04-00"
+categories: [ascertainment, clinical high risk, early detection, psychometrics, severity rating]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+AIM: To harmonize two ascertainment and severity rating instruments commonly used for the clinical high risk syndrome for psychosis (CHR-P): the Structured Interview for Psychosis-risk Syndromes (SIPS) and the Comprehensive Assessment of At-Risk Mental States (CAARMS).
+
+METHODS: The initial workshop is described in the companion report from Addington et al. After the workshop, lead experts for each instrument continued harmonizing attenuated positive symptoms and criteria for psychosis and CHR-P through an intensive series of joint videoconferences.
+
+RESULTS: Full harmonization was achieved for attenuated positive symptom ratings and psychosis criteria, and modest harmonization for CHR-P criteria. The semi-structured interview, named Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS (PSYCHS), generates CHR-P criteria and severity scores for both CAARMS and SIPS.
+
+CONCLUSIONS: Using the PSYCHS for CHR-P ascertainment, conversion determination, and attenuated positive symptom severity rating will help in comparing findings across studies and in meta-analyses.
+        

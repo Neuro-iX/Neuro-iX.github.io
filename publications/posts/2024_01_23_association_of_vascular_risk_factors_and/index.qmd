@@ -1,0 +1,23 @@
+---
+title: "Association of Vascular Risk Factors and CSF and Imaging Biomarkers With White Matter Hyperintensities in Former American Football Players"
+description: "PMID: [38165330](https://pubmed.ncbi.nlm.nih.gov/38165330/){target='_blank'}    DOI: [10.1212/WNL.0000000000208030](https://doi.org/10.1212/WNL.0000000000208030){target='_blank'}"
+author: Monica T Ly, Fatima Tuz-Zahra, Yorghos Tripodis, Charles H Adler, Laura J Balcer, Charles Bernick, Henrik Zetterberg, Kaj Blennow, Elaine R Peskind, Rhoda Au, Sarah J Banks, William B Barr, Jennifer V Wethe, Mark W Bondi, Lisa M Delano-Wood, Robert C Cantu, Michael J Coleman, David W Dodick, Michael D McClean, Jesse B Mez, Joseph Palmisano, Brett Martin, Kaitlin Hartlage, Alexander P Lin, Inga K Koerte, ... ...
+date: "2024-01-23"
+categories: [Recent data link, repetitive head impacts, data link exposure, American football players, Recent data]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND AND OBJECTIVES: Recent data link exposure to repetitive head impacts (RHIs) from American football with increased white matter hyperintensity (WMH) burden. WMH might have unique characteristics in the context of RHI beyond vascular risk and normal aging processes. We evaluated biological correlates of WMH in former American football players, including markers of amyloid, tau, inflammation, axonal injury, neurodegeneration, and vascular health.
+
+METHODS: Participants underwent clinical interviews, MRI, and lumbar puncture as part of the Diagnostics, Imaging, and Genetics Network for the Objective Study and Evaluation of Chronic Traumatic Encephalopathy Research Project. Structural equation modeling tested direct and indirect effects between log-transformed total fluid-attenuated inversion recovery (FLAIR) lesion volumes (TLV) and the revised Framingham stroke risk profile (rFSRP), MRI-derived global metrics of cortical thickness and fractional anisotropy (FA), and CSF levels of amyloid b1-42, p-tau181, soluble triggering receptor expressed on myeloid cells 2 (sTREM2), and neurofilament light. Covariates included age, race, education, body mass index, APOE e4 carrier status, and evaluation site. Models were performed separately for former football players and a control group of asymptomatic men unexposed to RHI.
+
+RESULTS: In 180 former football players (mean age = 57.2, 36% Black), higher log(TLV) had direct associations with the following: higher rFSRP score (B = 0.26, 95% CI 0.07-0.40), higher p-tau181 (B = 0.17, 95% CI 0.01-0.43), lower FA (B = -0.28, 95% CI -0.42 to -0.13), and reduced cortical thickness (B = -0.25, 95% CI -0.45 to -0.08). In 60 asymptomatic unexposed men (mean age = 59.3, 40% Black), there were no direct effects on log(TLV) (rFSRP: B = -0.03, 95% CI -0.48 to 0.57; p-tau181: B = -0.30, 95% CI -1.14 to 0.37; FA: B = -0.07, 95% CI -0.48 to 0.42; or cortical thickness: B = -0.28, 95% CI -0.64 to 0.10). The former football players showed stronger associations between log(TLV) and rFSRP (1,069% difference in estimates), p-tau181 (158%), and FA (287%) than the unexposed men.
+
+DISCUSSION: Risk factors and biological correlates of WMH differed between former American football players and asymptomatic unexposed men. In addition to vascular health, p-tau181 and diffusion tensor imaging indices of white matter integrity showed stronger associations with WMH in the former football players. FLAIR WMH may have specific risk factors and pathologic underpinnings in RHI-exposed individuals.
+        

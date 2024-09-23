@@ -1,0 +1,17 @@
+---
+title: "Improving the predictive potential of diffusion MRI in schizophrenia using normative models-Towards subject-level classification"
+description: "PMID: [34322947](https://pubmed.ncbi.nlm.nih.gov/34322947/){target='_blank'}    DOI: [10.1002/hbm.25574](https://doi.org/10.1002/hbm.25574){target='_blank'}"
+author: Doron Elad, Suheyla Cetin-Karayumak, Fan Zhang, Kang Ik K Cho, Amanda E Lyall, Johanna Seitz-Holland, Rami Ben-Ari, Godfrey D Pearlson, Carol A Tamminga, John A Sweeney, Brett A Clementz, David J Schretlen, Petra Verena Viher, Katharina Stegmayer, Sebastian Walther, Jungsun Lee, Tim J Crow, Anthony James, Aristotle N Voineskos, Robert W Buchanan, Philip R Szeszko, Anil K Malhotra, Matcheri S Keshavan, Martha E Shenton, Yogesh Rathi, ... ...
+date: "2021-10-01"
+categories: [diffusion magnetic resonance imaging, machine learning, precision medicine, schizophrenia, white matter]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Diffusion MRI studies consistently report group differences in white matter between individuals diagnosed with schizophrenia and healthy controls. Nevertheless, the abnormalities found at the group-level are often not observed at the individual level. Among the different approaches aiming to study white matter abnormalities at the subject level, normative modeling analysis takes a step towards subject-level predictions by identifying affected brain locations in individual subjects based on extreme deviations from a normative range. Here, we leveraged a large harmonized diffusion MRI dataset from 512 healthy controls and 601 individuals diagnosed with schizophrenia, to study whether normative modeling can improve subject-level predictions from a binary classifier. To this aim, individual deviations from a normative model of standard (fractional anisotropy) and advanced (free-water) dMRI measures, were calculated by means of age and sex-adjusted z-scores relative to control data, in 18 white matter regions. Even though larger effect sizes are found when testing for group differences in z-scores than are found with raw values (p < .001), predictions based on summary z-score measures achieved low predictive power (AUC < 0.63). Instead, we find that combining information from the different white matter tracts, while using multiple imaging measures simultaneously, improves prediction performance (the best predictor achieved AUC = 0.726). Our findings suggest that extreme deviations from a normative model are not optimal features for prediction. However, including the complete distribution of deviations across multiple imaging measures improves prediction, and could aid in subject-level classification.(c) 2021 The Authors. Human Brain Mapping published by Wiley Periodicals LLC.
+        

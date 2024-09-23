@@ -1,0 +1,17 @@
+---
+title: "Neuroprogression across the Early Course of Psychosis"
+description: "PMID: [32258424](https://pubmed.ncbi.nlm.nih.gov/32258424/){target='_blank'}    DOI: [10.20900/jpbs.20200002](https://doi.org/10.20900/jpbs.20200002){target='_blank'}"
+author: Kathryn E Lewandowski, Sylvain Bouix, Dost Ongur, Martha E Shenton
+date: "2020-00-00"
+categories: [cognition, first episode, imaging, longitudinal, psychosis, schizophrenia]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Psychotic disorders are severe, debilitating, and even fatal. The development of targeted and effective interventions for psychosis depends upon on clear understanding of the timing and nature of disease progression to target processes amenable to intervention. Strong evidence suggests early and ongoing neuroprogressive changes, but timing and inflection points remain unclear and likely differ across cognitive, clinical, and brain measures. Additionally, granular evidence across modalities is particularly sparse in the "bridging years" between first episode and established illness-years that may be especially critical for improving outcomes and during which interventions may be maximally effective. Our objective is the systematic, multimodal characterization of neuroprogression through the early course of illness in a cross-diagnostic sample of patients with psychosis. We aim to (1) interrogate neurocognition, structural brain measures, and network connectivity at multiple assessments over the first eight years of illness to map neuroprogressive trajectories, and (2) examine trajectories as predictors of clinical and functional outcomes. We will recruit 192 patients with psychosis and 36 healthy controls. Assessments will occur at baseline and 8- and 16-month follow ups using clinical, cognitive, and imaging measures. We will employ an accelerated longitudinal design (ALD), which permits ascertainment of data across a longer timeframe and at more frequent intervals than would be possible in a single cohort longitudinal study. Results from this study are expected to hasten identification of actionable treatment targets that are closely associated with clinical outcomes, and identify subgroups who share common neuroprogressive trajectories toward the development of individualized treatments.
+        

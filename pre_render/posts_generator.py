@@ -4,18 +4,21 @@ This module implements a class called ArticlesFinder, that manages a GUI (with T
 Then, the found articles are analyzed one by one using the class Article.
 Finally, every titles are displayed.
 A checkbutton can be activated, so that the correponding article be converted into a new post in the folder './publications/posts'.
-These new posts will be added to the website 'https://neuro-ix.github.io/publications/' after quarto rendering and git push.
+These new posts will be added to the website 'https://neuro-ix.github.io/publications/' after quarto rendering, commit, and git push.
 
 Example:
+  #In Terminal:
   eval $(ssh-agent -s)
   ssh-add /c/Users/bverr/.ssh/id_ed25519
   git fetch origin
   alias graph='git log --all --decorate --oneline --graph'
   graph
   
-  quarto render --cache-refresh
+  quarto preview --render all --no-watch-inputs --no-browse #--cache-refresh 
+  quarto preview publications/index.qmd --to html --no-watch-inputs --no-browse
   
-  quarto preview publications/index.qmd
+  
+  #Commit button
   git push origin main
 
 Todo:
@@ -41,7 +44,7 @@ __license__ = "MIT"
 __version__ = "1.0.9" #posts_generator.py --version 1.0.9 * ...
 __maintainer__ = "Benoît Verreman"
 __email__ = "benoit.verreman@etsmtl.ca"
-__status__ = "Production"
+__status__ = "Working"
 
 import os
  
@@ -232,7 +235,12 @@ class Article:
         except AttributeError:
             i= "{:02d}".format(0)
             pass
-        self.datelist = [raw_date.find('Year').text, self.toFixMonth(raw_date.find('Month').text), i]
+        try:
+            j = "{:02d}".format(int(self.toFixMonth(raw_date.find('Month').text)))
+        except AttributeError:
+            j = "{:02d}".format(0)
+            pass
+        self.datelist = [raw_date.find('Year').text, j, i] 
         
         self.date = self.datelist[0] + '-' + self.datelist[1] + '-' + self.datelist[2]
 

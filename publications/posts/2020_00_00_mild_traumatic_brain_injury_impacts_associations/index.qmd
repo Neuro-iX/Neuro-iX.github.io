@@ -1,0 +1,23 @@
+---
+title: "Mild traumatic brain injury impacts associations between limbic system microstructure and post-traumatic stress disorder symptomatology"
+description: "PMID: [32070813](https://pubmed.ncbi.nlm.nih.gov/32070813/){target='_blank'}    DOI: [10.1016/j.nicl.2020.102190](https://doi.org/10.1016/j.nicl.2020.102190){target='_blank'}"
+author: Valerie J Sydnor, Sylvain Bouix, Ofer Pasternak, Elisabeth Hartl, Laura Levin-Gleba, Benjamin Reid, Yorghos Tripodis, Jeffrey P Guenette, David Kaufmann, Nikos Makris, Catherine Fortier, David H Salat, Yogesh Rathi, William P Milberg, Regina E McGlinchey, Martha E Shenton, Inga K Koerte
+date: "2020-00-00"
+categories: [Diffusion MRI, Limbic, Microstructure, Mild traumatic brain injury, Post-traumatic stress disorder]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Post-traumatic stress disorder (PTSD) is a psychiatric disorder that afflicts many individuals, yet the neuropathological mechanisms that contribute to this disorder remain to be fully determined. Moreover, it is unclear how exposure to mild traumatic brain injury (mTBI), a condition that is often comorbid with PTSD, particularly among military personnel, affects the clinical and neurological presentation of PTSD. To address these issues, the present study explores relationships between PTSD symptom severity and the microstructure of limbic and paralimbic gray matter brain regions, as well as the impact of mTBI comorbidity on these relationships.
+
+METHODS: Structural and diffusion MRI data were acquired from 102 male veterans who were diagnosed with current PTSD. Diffusion data were analyzed with free-water imaging to quantify average CSF-corrected fractional anisotropy (FA) and mean diffusivity (MD) in 18 limbic and paralimbic gray matter regions. Associations between PTSD symptom severity and regional average dMRI measures were examined with repeated measures linear mixed models. Associations were studied separately in veterans with PTSD only, and in veterans with PTSD and a history of military mTBI.
+
+RESULTS: Analyses revealed that in the PTSD only cohort, more severe symptoms were associated with higher FA in the right amygdala-hippocampus complex, lower FA in the right cingulate cortex, and lower MD in the left medial orbitofrontal cortex. In the PTSD and mTBI cohort, more severe PTSD symptoms were associated with higher FA bilaterally in the amygdala-hippocampus complex, with higher FA bilaterally in the nucleus accumbens, with lower FA bilaterally in the cingulate cortex, and with higher MD in the right amygdala-hippocampus complex.
+
+CONCLUSIONS: These findings suggest that the microstructure of limbic and paralimbic brain regions may influence PTSD symptomatology. Further, given the additional associations observed between microstructure and symptom severity in veterans with head trauma, we speculate that mTBI may exacerbate the impact of brain microstructure on PTSD symptoms, especially within regions of the brain known to be vulnerable to chronic stress. A heightened sensitivity to the microstructural environment of the brain could partially explain why individuals with PTSD and mTBI comorbidity experience more severe symptoms and poorer illness prognoses than those without a history of brain injury. The relevance of these microstructural findings to the conceptualization of PTSD as being a disorder of stress-induced neuronal connectivity loss is discussed.
+        

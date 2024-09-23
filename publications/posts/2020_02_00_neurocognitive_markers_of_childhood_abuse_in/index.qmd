@@ -1,0 +1,17 @@
+---
+title: "Neurocognitive markers of childhood abuse in individuals with PTSD: Findings from the INTRuST Clinical Consortium"
+description: "PMID: [31809943](https://pubmed.ncbi.nlm.nih.gov/31809943/){target='_blank'}    DOI: [10.1016/j.jpsychires.2019.11.012](https://doi.org/10.1016/j.jpsychires.2019.11.012){target='_blank'}"
+author: Jessica Bomyea, Alan N Simmons, Martha E Shenton, Michael J Coleman, Sylvain Bouix, Yogesh Rathi, Ofer Pasternak, Raul Coimbra, Lori Shutter, Mark S George, Gerald Grant, Ross D Zafonte, Thomas W McAllister, Murray B Stein
+date: "2020-02-00"
+categories: [Childhood maltreatment, Cortical thickness, MRI, Morphology, PTSD]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+To date, few studies have evaluated the contribution of early life experiences to neurocognitive abnormalities observed in posttraumatic stress disorder (PTSD). Childhood maltreatment is common among individuals with PTSD and is thought to catalyze stress-related biobehavioral changes that might impact both brain structure and function in adulthood. The current study examined differences in brain morphology (brain volume, cortical thickness) and neuropsychological performance in individuals with PTSD characterized by low or high self-reported childhood maltreatment, compared with healthy comparison participants. Data were drawn from the INjury and TRaUmatic STress (INTRuST) Clinical Consortium imaging repository, which contains MRI and self-report data for individuals classified as PTSD positive (with and without a history of mild traumatic brain injury [mTBI]), individuals with mTBI only, and healthy comparison participants. The final sample included 36 individuals with PTSD without childhood maltreatment exposure (PTSD, n = 30 with mTBI), 31 individuals with PTSD and childhood maltreatment exposure (PTSD + M, n = 26 with mTBI), and 114 healthy comparison participants without history of childhood maltreatment exposure (HC). The PTSD + M and PTSD groups demonstrated cortical thinning in prefrontal and occipital regions, and poorer verbal memory and processing speed compared to the HC group. PTSD + M participants demonstrated cortical thinning in frontal and cingulate regions, and poorer executive functioning relative to the PTSD and HC groups. Thus, neurocognitive features varied between individuals with PTSD who did versus did not have exposure to childhood maltreatment, highlighting the need to assess developmental history of maltreatment when examining biomarkers in PTSD.Published by Elsevier Ltd.
+        

@@ -1,0 +1,17 @@
+---
+title: "The ENIGMA sports injury working group:- an international collaboration to further our understanding of sport-related brain injury"
+description: "PMID: [32720179](https://pubmed.ncbi.nlm.nih.gov/32720179/){target='_blank'}    DOI: [10.1007/s11682-020-00370-y](https://doi.org/10.1007/s11682-020-00370-y){target='_blank'}"
+author: Inga K Koerte, Carrie Esopenko, Sidney R Hinds, Martha E Shenton, Elena M Bonke, Jeffrey J Bazarian, Kevin C Bickart, Erin D Bigler, Sylvain Bouix, Thomas A Buckley, Meeryo C Choe, Paul S Echlin, Jessica Gill, Christopher C Giza, Jasmeet Hayes, Cooper B Hodges, Andrei Irimia, Paula K Johnson, Kimbra Kenney, Harvey S Levin, Alexander P Lin, Hannah M Lindsey, Michael L Lipton, Jeffrey E Max, Andrew R Mayer, ... ...
+date: "2021-04-00"
+categories: [Concussion, ENIGMA, Repetitive head impacts, Sport-related brain injury]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Sport-related brain injury is very common, and the potential long-term effects include a wide range of neurological and psychiatric symptoms, and potentially neurodegeneration. Around the globe, researchers are conducting neuroimaging studies on primarily homogenous samples of athletes. However, neuroimaging studies are expensive and time consuming, and thus current findings from studies of sport-related brain injury are often limited by small sample sizes. Further, current studies apply a variety of neuroimaging techniques and analysis tools which limit comparability among studies. The ENIGMA Sports Injury working group aims to provide a platform for data sharing and collaborative data analysis thereby leveraging existing data and expertise. By harmonizing data from a large number of studies from around the globe, we will work towards reproducibility of previously published findings and towards addressing important research questions with regard to diagnosis, prognosis, and efficacy of treatment for sport-related brain injury. Moreover, the ENIGMA Sports Injury working group is committed to providing recommendations for future prospective data acquisition to enhance data quality and scientific rigor.
+        

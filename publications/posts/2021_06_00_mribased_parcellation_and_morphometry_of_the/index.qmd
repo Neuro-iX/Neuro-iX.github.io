@@ -1,0 +1,17 @@
+---
+title: "MRI-based Parcellation and Morphometry of the Individual Rhesus Monkey Brain: the macaque Harvard-Oxford Atlas (mHOA), a translational system referencing a standardized ontology"
+description: "PMID: [32960419](https://pubmed.ncbi.nlm.nih.gov/32960419/){target='_blank'}    DOI: [10.1007/s11682-020-00357-9](https://doi.org/10.1007/s11682-020-00357-9){target='_blank'}"
+author: R Jarrett Rushmore, Sylvain Bouix, Marek Kubicki, Yogesh Rathi, Douglas L Rosene, Edward H Yeterian, Nikos Makris
+date: "2021-06-00"
+categories: [HOA, MRI, Ontology, cortical parcellation, mHOA, macaque monkey]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Investigations of the rhesus monkey (Macaca mulatta) brain have shed light on the function and organization of the primate brain at a scale and resolution not yet possible in humans. A cornerstone of the linkage between non-human primate and human studies of the brain is magnetic resonance imaging, which allows for an association to be made between the detailed structural and physiological analysis of the non-human primate and that of the human brain. To further this end, we present a novel parcellation method and system for the rhesus monkey brain, referred to as the macaque Harvard-Oxford Atlas (mHOA), which is based on the human Harvard-Oxford Atlas (HOA) and grounded in an ontological and taxonomic framework. Consistent anatomical features were used to delimit and parcellate brain regions in the macaque, which were then categorized according to functional systems. This system of parcellation will be expanded with advances in technology and, like the HOA, will provide a framework upon which the results from other experimental studies (e.g., functional magnetic resonance imaging (fMRI), physiology, connectivity, graph theory) can be interpreted.(c) 2020. Springer Science+Business Media, LLC, part of Springer Nature.
+        

@@ -1,0 +1,17 @@
+---
+title: "White matter abnormalities in mild traumatic brain injury with and without post-traumatic stress disorder: a subject-specific diffusion tensor imaging study"
+description: "PMID: [28676987](https://pubmed.ncbi.nlm.nih.gov/28676987/){target='_blank'}    DOI: [10.1007/s11682-017-9744-5](https://doi.org/10.1007/s11682-017-9744-5){target='_blank'}"
+author: Christian Lepage, Amicie de Pierrefeu, Inga K Koerte, Michael J Coleman, Ofer Pasternak, Gerald Grant, Christine E Marx, Rajendra A Morey, Laura A Flashman, Mark S George, Thomas W McAllister, Norberto Andaluz, Lori Shutter, Raul Coimbra, Ross D Zafonte, Murray B Stein, Martha E Shenton, Sylvain Bouix
+date: "2018-06-00"
+categories: [Diffusion tensor imaging, Fractional anisotropy, Magnetic resonance imaging, Mild traumatic brain injury, Post-traumatic stress disorder]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Mild traumatic brain injuries (mTBIs) are often associated with posttraumatic stress disorder (PTSD). In cases of chronic mTBI, accurate diagnosis can be challenging due to the overlapping symptoms this condition shares with PTSD. Furthermore, mTBIs are heterogeneous and not easily observed using conventional neuroimaging tools, despite the fact that diffuse axonal injuries are the most common injury. Diffusion tensor imaging (DTI) is sensitive to diffuse axonal injuries and is thus more likely to detect mTBIs, especially when analyses account for the inter-individual variability of these injuries. Using a subject-specific approach, we compared fractional anisotropy (FA) abnormalities between groups with a history of mTBI (n = 35), comorbid mTBI and PTSD (mTBI + PTSD; n = 22), and healthy controls (n = 37). We compared all three groups on the number of abnormal FA clusters derived from subject-specific injury profiles (i.e., individual z-score maps) along a common white matter skeleton. The mTBI + PTSD group evinced a greater number of abnormally low FA clusters relative to both the healthy controls and the mTBI group without PTSD (p < .05). Across the groups with a history of mTBI, increased numbers of abnormally low FA clusters were significantly associated with PTSD symptom severity, depression, post-concussion symptoms, and reduced information processing speed (p < .05). These findings highlight the utility of subject-specific microstructural analyses when searching for mTBI-related brain abnormalities, particularly in patients with PTSD. This study also suggests that patients with a history of mTBI and comorbid PTSD, relative to those without PTSD, are at increased risk of FA abnormalities.
+        

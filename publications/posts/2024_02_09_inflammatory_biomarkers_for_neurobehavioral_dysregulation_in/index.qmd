@@ -1,0 +1,23 @@
+---
+title: "Inflammatory biomarkers for neurobehavioral dysregulation in former American football players: findings from the DIAGNOSE CTE Research Project"
+description: "PMID: [38336728](https://pubmed.ncbi.nlm.nih.gov/38336728/){target='_blank'}    DOI: [10.1186/s12974-024-03034-6](https://doi.org/10.1186/s12974-024-03034-6){target='_blank'}"
+author: Suzan van Amerongen, Surya V Pulukuri, Fatima Tuz-Zahra, Yorghos Tripodis, Jonathan D Cherry, Charles Bernick, Yonas E Geda, Jennifer V Wethe, Douglas I Katz, Michael L Alosco, Charles H Adler, Laura J Balcer, Nicholas J Ashton, Kaj Blennow, Henrik Zetterberg, Daniel H Daneshvar, Elizabeth A Colasurdo, Jeffrey J Iliff, Gail Li, Elaine R Peskind, Martha E Shenton, Eric M Reiman, Jeffrey L Cummings, Robert A Stern
+date: "2024-02-09"
+categories: [Biomarkers, CSF, Chronic traumatic encephalopathy, IL-6, Neurodegeneration, Neurofilament light chain protein, Neuroinflammation, Neuropsychiatric symptoms, Repetitive head impacts, Traumatic encephalopathy syndrome]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Traumatic encephalopathy syndrome (TES) is defined as the clinical manifestation of the neuropathological entity chronic traumatic encephalopathy (CTE). A core feature of TES is neurobehavioral dysregulation (NBD), a neuropsychiatric syndrome in repetitive head impact (RHI)-exposed individuals, characterized by a poor regulation of emotions/behavior. To discover biological correlates for NBD, we investigated the association between biomarkers of inflammation (interleukin (IL)-1b, IL-6, IL-8, IL-10, C-reactive protein (CRP), tumor necrosis factor (TNF)-a) in cerebrospinal fluid (CSF) and NBD symptoms in former American football players and unexposed individuals.
+
+METHODS: Our cohort consisted of former American football players, with (n = 104) or without (n = 76) NBD diagnosis, as well as asymptomatic unexposed individuals (n = 55) from the DIAGNOSE CTE Research Project. Specific measures for NBD were derived (i.e., explosivity, emotional dyscontrol, impulsivity, affective lability, and a total NBD score) from a factor analysis of multiple self-report neuropsychiatric measures. Analyses of covariance tested differences in biomarker concentrations between the three groups. Within former football players, multivariable linear regression models assessed relationships among log-transformed inflammatory biomarkers, proxies for RHI exposure (total years of football, cumulative head impact index), and NBD factor scores, adjusted for relevant confounding variables. Sensitivity analyses tested (1) differences in age subgroups (< 60, >= 60 years); (2) whether associations could be identified with plasma inflammatory biomarkers; (3) associations between neurodegeneration and NBD, using plasma neurofilament light (NfL) chain protein; and (4) associations between biomarkers and cognitive performance to explore broader clinical symptoms related to TES.
+
+RESULTS: CSF IL-6 was higher in former American football players with NBD diagnosis compared to players without NBD. Furthermore, elevated levels of CSF IL-6 were significantly associated with higher emotional dyscontrol, affective lability, impulsivity, and total NBD scores. In older football players, plasma NfL was associated with higher emotional dyscontrol and impulsivity, but also with worse executive function and processing speed. Proxies for RHI exposure were not significantly associated with biomarker concentrations.
+
+CONCLUSION: Specific NBD symptoms in former American football players may result from multiple factors, including neuroinflammation and neurodegeneration. Future studies need to unravel the exact link between NBD and RHI exposure, including the role of other pathophysiological pathways.
+        

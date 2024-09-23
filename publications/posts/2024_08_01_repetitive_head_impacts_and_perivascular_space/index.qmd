@@ -1,0 +1,29 @@
+---
+title: "Repetitive Head Impacts and Perivascular Space Volume in Former American Football Players"
+description: "PMID: [39186275](https://pubmed.ncbi.nlm.nih.gov/39186275/){target='_blank'}    DOI: [10.1001/jamanetworkopen.2024.28687](https://doi.org/10.1001/jamanetworkopen.2024.28687){target='_blank'}"
+author: Leonard B Jung, Tim L T Wiegand, Fatima Tuz-Zahra, Yorghos Tripodis, Jeffrey J Iliff, Juan Piantino, Hector Arciniega, Cara L Kim, Lara Pankatz, Sylvain Bouix, Alexander P Lin, Michael L Alosco, Daniel H Daneshvar, Jesse Mez, Farshid Sepehrband, Yogesh Rathi, Ofer Pasternak, Michael J Coleman, Charles H Adler, Charles Bernick, Laura Balcer, Jeffrey L Cummings, Eric M Reiman, Robert A Stern, Martha E Shenton, ... ...
+date: "2024-08-01"
+categories: [PVS volume, American football players, larger PVS volume, PVS, American football]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+IMPORTANCE: Exposure to repetitive head impacts (RHI) is associated with increased risk for neurodegeneration. Accumulation of toxic proteins due to impaired brain clearance is suspected to play a role.
+
+OBJECTIVE: To investigate whether perivascular space (PVS) volume is associated with lifetime exposure to RHI in individuals at risk for RHI-associated neurodegeneration.
+
+DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study was part of the Diagnostics, Imaging, and Genetics Network for the Objective Study and Evaluation of Chronic Traumatic Encephalopathy (DIAGNOSE CTE) Research Project, a 7-year multicenter study consisting of 4 US study sites. Data were collected from September 2016 to February 2020 and analyses were performed between May 2021 and October 2023. After controlling for magnetic resonance image (MRI) and processing quality, former American football players and unexposed asymptomatic control participants were included in analyses.
+
+EXPOSURE: Prior exposure to RHI while participating in American football was estimated using the 3 cumulative head impact indices (CHII-G, linear acceleration; CHII-R, rotational acceleration; and CHII, number of head impacts).
+
+MAIN OUTCOMES AND MEASURES: Individual PVS volume was calculated in the white matter of structural MRI. Cognitive impairment was based on neuropsychological assessment. Linear regression models were used to assess associations of PVS volume with neuropsychological assessments in former American football players. All analyses were adjusted for confounders associated with PVS volume.
+
+RESULTS: Analyses included 224 participants (median [IQR] age, 57 [51-65] years), with 170 male former football players (114 former professional athletes, 56 former collegiate athletes) and 54 male unexposed control participants. Former football players had larger PVS volume compared with the unexposed group (mean difference, 0.28 [95% CI, 0.00-0.56]; P = .05). Within the football group, PVS volume was associated with higher CHII-R (b = 2.71 x 10-8 [95% CI, 0.50 x 10-8 to 4.93 x 10-8]; P = .03) and CHII-G (b = 2.24 x 10-6 [95% CI, 0.35 x 10-6 to 4.13 x 10-6]; P = .03). Larger PVS volume was also associated with worse performance on cognitive functioning in former American football players (b = -0.74 [95% CI, -1.35 to -0.13]; P = .04).
+
+CONCLUSIONS AND RELEVANCE: These findings suggest that impaired perivascular brain clearance, as indicated by larger PVS volume, may contribute to the association observed between RHI exposure and neurodegeneration.
+        

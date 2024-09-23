@@ -1,0 +1,23 @@
+---
+title: "The organization of frontostriatal brain wiring in non-affective early psychosis compared with healthy subjects using a novel diffusion imaging fiber cluster analysis"
+description: "PMID: [37173451](https://pubmed.ncbi.nlm.nih.gov/37173451/){target='_blank'}    DOI: [10.1038/s41380-023-02031-0](https://doi.org/10.1038/s41380-023-02031-0){target='_blank'}"
+author: J J Levitt, F Zhang, M Vangel, P G Nestor, Y Rathi, S Cetin-Karayumak, M Kubicki, M J Coleman, K E Lewandowski, D J Holt, M Keshavan, S Bouix, D Ongur, A Breier, M E Shenton, L J O'Donnell
+date: "2023-06-00"
+categories: [underlie neuropsychiatric conditions, fiber clusters, Human Connectome Project, fiber, diffusion magnetic resonance]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Alterations in brain connectivity may underlie neuropsychiatric conditions such as schizophrenia. We here assessed the degree of convergence of frontostriatal fiber projections in 56 young adult healthy controls (HCs) and 108 matched Early Psychosis-Non-Affective patients (EP-NAs) using our novel fiber cluster analysis of whole brain diffusion magnetic resonance imaging tractography.
+
+METHODS: Using whole brain tractography and our fiber clustering methodology on harmonized diffusion magnetic resonance imaging data from the Human Connectome Project for Early Psychosis we identified 17 white matter fiber clusters that connect frontal cortex (FCtx) and caudate (Cd) per hemisphere in each group. To quantify the degree of convergence and, hence, topographical relationship of these fiber clusters, we measured the inter-cluster mean distances between the endpoints of the fiber clusters at the level of the FCtx and of the Cd, respectively.
+
+RESULTS: We found (1) in both groups, bilaterally, a non-linear relationship, yielding convex curves, between FCtx and Cd distances for FCtx-Cd connecting fiber clusters, driven by a cluster projecting from inferior frontal gyrus; however, in the right hemisphere, the convex curve was more flattened in EP-NAs; (2) that cluster pairs in the right (p = 0.03), but not left (p = 0.13), hemisphere were significantly more convergent in HCs vs EP-NAs; (3) in both groups, bilaterally, similar clusters projected significantly convergently to the Cd; and, (4) a significant group by fiber cluster pair interaction for 2 right hemisphere fiber clusters (numbers 5, 11; p = .00023; p = .00023) originating in selective PFC subregions.
+
+CONCLUSIONS: In both groups, we found the FCtx-Cd wiring pattern deviated from a strictly topographic relationship and that similar clusters projected significantly more convergently to the Cd. Interestingly, we also found a significantly more convergent pattern of connectivity in HCs in the right hemisphere and that 2 clusters from PFC subregions in the right hemisphere significantly differed in their pattern of connectivity between groups.
+        

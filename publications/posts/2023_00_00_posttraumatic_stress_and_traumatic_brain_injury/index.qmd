@@ -1,0 +1,25 @@
+---
+title: "Posttraumatic Stress and Traumatic Brain Injury: Cognition, Behavior, and Neuroimaging Markers in Vietnam Veterans"
+description: "PMID: [37694363](https://pubmed.ncbi.nlm.nih.gov/37694363/){target='_blank'}    DOI: [10.3233/JAD-221304](https://doi.org/10.3233/JAD-221304){target='_blank'}"
+author: Sofia Marcolini, Philine Rojczyk, Johanna Seitz-Holland, Inga K Koerte, Michael L Alosco, Sylvain Bouix
+date: "2023-00-00"
+categories: [Alzheimer’s Disease Neuroimaging Initiative, Alzheimer’s disease, amyloid-β, diffusion magnetic resonance imaging, follow-up studies, risk factors]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Posttraumatic stress disorder (PTSD) and traumatic brain injury (TBI) are common in Veterans and linked to behavioral disturbances, increased risk of cognitive decline, and Alzheimer's disease.
+
+OBJECTIVE: We studied the synergistic effects of PTSD and TBI on behavioral, cognitive, and neuroimaging measures in Vietnam war Veterans.
+
+METHODS: Data were acquired at baseline and after about one-year from male Veterans categorized into: PTSD, TBI, PTSD+TBI, and Veteran controls without PTSD or TBI. We applied manual tractography to examine white matter microstructure of three fiber tracts: uncinate fasciculus (N = 91), cingulum (N = 87), and inferior longitudinal fasciculus (N = 95). ANCOVAs were used to compare Veterans' baseline behavioral and cognitive functioning (N = 285), white matter microstructure, amyloid-b (N = 230), and tau PET (N = 120). Additional ANCOVAs examined scores' differences from baseline to follow-up.
+
+RESULTS: Veterans with PTSD and PTSD+TBI, but not Veterans with TBI only, exhibited poorer behavioral and cognitive functioning at baseline than controls. The groups did not differ in baseline white matter, amyloid-b, or tau, nor in behavioral and cognitive functioning, and tau accumulation change. Progression of white matter abnormalities of the uncinate fasciculus in Veterans with PTSD compared to controls was observed; analyses in TBI and PTSD+TBI were not run due to insufficient sample size.
+
+CONCLUSIONS: PTSD and PTSD+TBI negatively affect behavioral and cognitive functioning, while TBI does not contribute independently. Whether progressive decline in uncinate fasciculus microstructure in Veterans with PTSD might account for cognitive decline should be further studied. Findings did not support an association between PTSD, TBI, and Alzheimer's disease pathology based on amyloid and tau PET.
+        

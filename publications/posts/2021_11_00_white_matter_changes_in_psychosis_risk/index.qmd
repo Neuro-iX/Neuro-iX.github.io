@@ -1,0 +1,17 @@
+---
+title: "White matter changes in psychosis risk relate to development and are not impacted by the transition to psychosis"
+description: "PMID: [34024906](https://pubmed.ncbi.nlm.nih.gov/34024906/){target='_blank'}    DOI: [10.1038/s41380-021-01128-8](https://doi.org/10.1038/s41380-021-01128-8){target='_blank'}"
+author: Maria A Di Biase, Suheyla Cetin-Karayumak, Amanda E Lyall, Andrew Zalesky, Kang Ik Kevin Cho, Fan Zhang, Marek Kubicki, Yogesh Rathi, Monica G Lyons, Sylvain Bouix, Tashrif Billah, Alan Anticevic, Charlie Schleifer, Brendan D Adkinson, Jie Lisa Ji, Zailyn Tamayo, Jean Addington, Carrie E Bearden, Barbara A Cornblatt, Matcheri S Keshavan, Daniel H Mathalon, Thomas H McGlashan, Diana O Perkins, Kristen S Cadenhead, Ming T Tsuang, ... ...
+date: "2021-11-00"
+categories: [white matter, white matter microstructure, North American Prodrome, Prodrome Longitudinal Study, American Prodrome Longitudinal]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Subtle alterations in white matter microstructure are observed in youth at clinical high risk (CHR) for psychosis. However, the timing of these changes and their relationships to the emergence of psychosis remain unclear. Here, we track the evolution of white matter abnormalities in a large, longitudinal cohort of CHR individuals comprising the North American Prodrome Longitudinal Study (NAPLS-3). Multi-shell diffusion magnetic resonance imaging data were collected across multiple timepoints (1-5 over 1 year) in 286 subjects (aged 12-32 years): 25 CHR individuals who transitioned to psychosis (CHR-P; 61 scans), 205 CHR subjects with unknown transition outcome after the 1-year follow-up period (CHR-U; 596 scans), and 56 healthy controls (195 scans). Linear mixed effects models were fitted to infer the impact of age and illness-onset on variation in the fractional anisotropy of cellular tissue (FAT) and the volume fraction of extracellular free water (FW). Baseline measures of white matter microstructure did not differentiate between HC, CHR-U and CHR-P individuals. However, age trajectories differed between the three groups in line with a developmental effect: CHR-P and CHR-U groups displayed higher FAT in adolescence, and 4% lower FAT by 30 years of age compared to controls. Furthermore, older CHR-P subjects (20+ years) displayed 4% higher FW in the forceps major (p < 0.05). Prospective analysis in CHR-P did not reveal a significant impact of illness onset on regional FAT or FW, suggesting that transition to psychosis is not marked by dramatic change in white matter microstructure. Instead, clinical high risk for psychosis-regardless of transition outcome-is characterized by subtle age-related white matter changes that occur in tandem with development.(c) 2021. The Author(s), under exclusive licence to Springer Nature Limited.
+        

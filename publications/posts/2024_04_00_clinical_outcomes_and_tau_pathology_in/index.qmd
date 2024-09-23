@@ -1,0 +1,23 @@
+---
+title: "Clinical Outcomes and Tau Pathology in Retired Football Players: Associations With Diagnosed and Witnessed Sleep Apnea"
+description: "PMID: [38425491](https://pubmed.ncbi.nlm.nih.gov/38425491/){target='_blank'}    DOI: [10.1212/CPJ.0000000000200263](https://doi.org/10.1212/CPJ.0000000000200263){target='_blank'}"
+author: Sarah J Banks, Eukyung Yhang, Yorghos Tripodis, Yi Su, Hillary Protas, Charles H Adler, Laura J Balcer, Charles Bernick, Jesse B Mez, Joseph Palmisano, William B Barr, Jennifer V Wethe, David W Dodick, Michael D Mcclean, Brett Martin, Kaitlin Hartlage, Arlener Turner, Robert W Turner, Atul Malhotra, Michael Colman, Ofer Pasternak, Alexander P Lin, Inga K Koerte, Sylvain Bouix, Jeffrey L Cummings, ... ...
+date: "2024-04-00"
+categories: [BACKGROUND AND OBJECTIVES, college football players, higher ESS scores, Obstructive sleep apnea, football players]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND AND OBJECTIVES: Obstructive sleep apnea (SA) is common in older men and a contributor to negative cognitive, psychiatric, and brain health outcomes. Little is known about SA in those who played contact sports and are at increased risk of neurodegenerative disease(s) and other neuropathologies associated with repetitive head impacts (RHI). In this study, we investigated the frequency of diagnosed and witnessed SA and its contribution to clinical symptoms and tau pathology using PET imaging among male former college and former professional American football players.
+
+METHODS: The sample included 120 former National Football League (NFL) players, 60 former college players, and 60 asymptomatic men without exposure to RHI (i.e., controls). Diagnosed SA was self-reported, and all participants completed the Mayo Sleep Questionnaire (MSQ, informant version), the Epworth Sleepiness Scale (ESS), neuropsychological testing, and tau (flortaucipir) PET imaging. Associations between sleep indices (diagnosed SA, MSQ items, and the ESS) and derived neuropsychological factor scores, self-reported depression (Beck Depression Inventory-II [BDI-II]), informant-reported neurobehavioral dysregulation (Behavior Rating Inventory of Executive Function-Adult Version [BRIEF-A] Behavioral Regulation Index [BRI]), and tau PET uptake, were tested.
+
+RESULTS: Approximately 36.7% of NFL players had diagnosed SA compared with 30% of the former college football players and 16.7% of the controls. Former NFL players and college football players also had higher ESS scores compared with the controls. Years of football play was not associated with any of the sleep metrics. Among the former NFL players, diagnosed SA was associated with worse Executive Function and Psychomotor Speed factor scores, greater BDI-II scores, and higher flortaucipir PET standard uptake value ratios, independent of age, race, body mass index, and APOE e4 gene carrier status. Higher ESS scores correlated with higher BDI-II and BRIEF-A BRI scores. Continuous positive airway pressure use mitigated all of the abovementioned associations. Among the former college football players, witnessed apnea and higher ESS scores were associated with higher BRIEF-A BRI and BDI-II scores, respectively. No other associations were observed in this subgroup.
+
+DISCUSSION: Former elite American football players are at risk of SA. Our findings suggest that SA might contribute to cognitive, neuropsychiatric, and tau outcomes in this population. Like all neurodegenerative diseases, this study emphasizes the multifactorial contributions to negative brain health outcomes and the importance of sleep for optimal brain health.
+        

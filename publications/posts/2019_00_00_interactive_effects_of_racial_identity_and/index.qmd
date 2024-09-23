@@ -1,0 +1,23 @@
+---
+title: "Interactive Effects of Racial Identity and Repetitive Head Impacts on Cognitive Function, Structural MRI-Derived Volumetric Measures, and Cerebrospinal Fluid Tau and Ab"
+description: "PMID: [31920598](https://pubmed.ncbi.nlm.nih.gov/31920598/){target='_blank'}    DOI: [10.3389/fnhum.2019.00440](https://doi.org/10.3389/fnhum.2019.00440){target='_blank'}"
+author: Michael L Alosco, Yorghos Tripodis, Inga K Koerte, Jonathan D Jackson, Alicia S Chua, Megan Mariani, Olivia Haller, Eimear M Foley, Brett M Martin, Joseph Palmisano, Bhupinder Singh, Katie Green, Christian Lepage, Marc Muehlmann, Nikos Makris, Robert C Cantu, Alexander P Lin, Michael Coleman, Ofer Pasternak, Jesse Mez, Sylvain Bouix, Martha E Shenton, Robert A Stern
+date: "2019-00-00"
+categories: [American football, biomarkers, chronic traumatic encephalopathy, cognitive function, concussion, magnetic resonance imaging, race, subconcussion]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Factors of increased prevalence among individuals with Black racial identity (e.g., cardiovascular disease, CVD) may influence the association between exposure to repetitive head impacts (RHI) from American football and later-life neurological outcomes. Here, we tested the interaction between racial identity and RHI on neurobehavioral outcomes, brain volumetric measures, and cerebrospinal fluid (CSF) total tau (t-tau), phosphorylated tau (p-tau181), and Ab1 - 42 in symptomatic former National Football League (NFL) players.
+
+METHODS: 68 symptomatic male former NFL players (ages 40-69; n = 27 Black, n = 41 White) underwent neuropsychological testing, structural MRI, and lumbar puncture. FreeSurfer derived estimated intracranial volume (eICV), gray matter volume (GMV), white matter volume (WMV), subcortical GMV, hippocampal volume, and white matter (WM) hypointensities. Multivariate generalized linear models examined the main effects of racial identity and its interaction with a cumulative head impact index (CHII) on all outcomes. Age, years of education, Wide Range Achievement Test, Fourth Edition (WRAT-4) scores, CVD risk factors, and APOEe4 were included as covariates; eICV was included for MRI models. P-values were false discovery rate adjusted.
+
+RESULTS: Compared to White former NFL players, Black participants were 4 years younger (p = 0.04), had lower WRAT-4 scores (mean difference = 8.03, p = 0.002), and a higher BMI (mean difference = 3.09, p = 0.01) and systolic blood pressure (mean difference = 8.15, p = 0.03). With regards to group differences on the basis of racial identity, compared to White former NFL players, Black participants had lower GMV (mean adjusted difference = 45649.00, p = 0.001), lower right hippocampal volume (mean adjusted difference = 271.96, p = 0.02), and higher p-tau181/t-tau ratio (mean adjusted difference = -0.25, p = 0.01). There was not a statistically significant association between the CHII with GMV, right hippocampal volume, or p-tau181/t-tau ratio. However, there was a statistically significant Race x CHII interaction for GMV (b = 2206.29, p = 0.001), right hippocampal volume (b = 12.07, p = 0.04), and p-tau181/t-tau ratio concentrations (b = -0.01, p = 0.004).
+
+CONCLUSION: Continued research on racial neurological disparities could provide insight into risk factors for long-term neurological disorders associated with American football play.
+        

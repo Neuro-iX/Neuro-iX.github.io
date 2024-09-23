@@ -1,0 +1,17 @@
+---
+title: "Assessment of bacterial membrane fluidity by flow cytometry"
+description: "PMID: [29045816](https://pubmed.ncbi.nlm.nih.gov/29045816/){target='_blank'}    DOI: [10.1016/j.mimet.2017.10.005](https://doi.org/10.1016/j.mimet.2017.10.005){target='_blank'}"
+author: Bouix Marielle, Ghorbal Sarrah
+date: "2017-12-00"
+categories: [Bacterial membrane, Flow cytometry, Fluorescence anisotropy]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+It can be interesting to evaluate the cytoplasmic membrane fluidity of bacteria in order to understand the impacts of stresses during processing. Traditionally, membrane fluidity was assessed by fluorescence anisotropy measured by spectrofluorimetry, but this method does not make it possible to reveal the heterogeneity of bacterial populations. Flow cytometry, as opposed to spectrofluorimetry, has the ability to simultaneously detect different sub-populations. We developed a new method to measure the fluorescence anisotropy of bacterial membranes using flow cytometry. This technique, coupled with viability/mortality/fluidity co-staining, now allows us to assess the membrane fluidity of viable, damaged and dead cells. Then, we show that membrane of viable bacterial cells becomes more and more rigid during batch culture, culminating in the death of the cells. This new flow cytometric method therefore opens new perspectives to study changes and adaptations in bacterial membranes of viable cells depending on the micro-environment during fermentation or stress applications.Copyright (c) 2017 Elsevier B.V. All rights reserved.
+        

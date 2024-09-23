@@ -1,0 +1,17 @@
+---
+title: "Pairwise, Ordinal Outlier Detection of Traumatic Brain Injuries"
+description: "PMID: [29932171](https://pubmed.ncbi.nlm.nih.gov/29932171/){target='_blank'}    DOI: [10.1007/978-3-319-75238-9_9](https://doi.org/10.1007/978-3-319-75238-9_9){target='_blank'}"
+author: Matt Higger, Martha Shenton, Sylvain Bouix
+date: "2018-00-00"
+categories: [mild Traumatic Brain, Traumatic Brain Injuries, Traumatic Brain, mild Traumatic, classification methods perform]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Because mild Traumatic Brain Injuries (mTBI) are heterogeneous, classification methods perform outlier detection from a model of healthy tissue. Such a model is challenging to construct. Instead, we utilize region-specific pairwise (person-to-person) comparisons. Each person-region is characterized by a distribution of Fractional Anisotropy and comparisons are made via Median, Mean, Bhattacharya and Kullback-Liebler distances. Additionally, we examine an ordinal decision rule which compares a subject's nth most atypical region to a healthy control's. Ordinal comparison is motivated by mTBI's heterogeneity; each mTBI has some set of damaged tissue which is not necessarily spatially consistent. These improvements correctly distinguish Persistent Post-Concussive Symptoms in a small dataset but achieve only a .74 AUC in identifying mTBI subjects with milder symptoms. Finally, we perform subject-specific simulations which characterize which injuries are detected and which are missed.
+        

@@ -1,0 +1,23 @@
+---
+title: "Exploring the impact of hippocampal sclerosis on white matter tracts memory in individuals with mesial temporal lobe epilepsy"
+description: "PMID: [37469213](https://pubmed.ncbi.nlm.nih.gov/37469213/){target='_blank'}    DOI: [10.1002/epi4.12793](https://doi.org/10.1002/epi4.12793){target='_blank'}"
+author: Tamires A Zanao, Johanna Seitz-Holland, Lauren J O'Donnell, Fan Zhang, Yogesh Rathi, Tatila M Lopes, Luciana Ramalho Pimentel-Silva, Clarissa L Yassuda, Nikos Makris, Martha E Shenton, Sylvain Bouix, Amanda E Lyall, Fernando Cendes
+date: "2023-07-19"
+categories: [cognitive impairment, focal epilepsy, magnetic resonance imaging, white matter tracts]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVE: To investigate how the presence/side of hippocampal sclerosis (HS) are related to the white matter structure of cingulum bundle (CB), arcuate fasciculus (AF), and inferior longitudinal fasciculus (ILF) in mesial temporal lobe epilepsy (MTLE).
+
+METHODS: We acquired diffusion-weighted magnetic resonance imaging (MRI) from 86 healthy and 71 individuals with MTLE (22 righ-HS; right-HS, 34 left-HS; left-HS, and 15 nonlesional MTLE). We utilized two-tensor tractography and fiber clustering to compare fractional anisotropy (FA) of each side/tract between groups. Additionally, we examined the association between FA and nonverbal (WMS-R) and verbal (WMS-R, RAVLT codification) memory performance for MTLE individuals.
+
+RESULTS: White matter abnormalities depended on the side and presence of HS. The left-HS demonstrated widespread abnormalities for all tracts, the right-HS showed lower FA for ipsilateral tracts and the nonlesional MTLE group did not differ from healthy individuals. Results indicate no differences in verbal/nonverbal memory performance between the groups, but trend-level associations between higher FA of visual memory and the left CB (r = 0.286, P = 0.018), verbal memory (RAVLT) and -left CB (r = 0.335, P = 0.005), -right CB (r = 0.286, P = 0.016), and -left AF (r = 0.287, P = 0.017).
+
+SIGNIFICANCE: Our results highlight that the presence and side of HS are crucial to understand the pathophysiology of MTLE. Specifically, left-sided HS seems to be related to widespread bilateral white matter abnormalities. Future longitudinal studies should focus on developing diagnostic and treatment strategies dependent on HS's presence/side.
+        

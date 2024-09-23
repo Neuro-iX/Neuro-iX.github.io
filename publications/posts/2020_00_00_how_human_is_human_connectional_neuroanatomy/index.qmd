@@ -1,0 +1,17 @@
+---
+title: "How Human Is Human Connectional Neuroanatomy?"
+description: "PMID: [32351367](https://pubmed.ncbi.nlm.nih.gov/32351367/){target='_blank'}    DOI: [10.3389/fnana.2020.00018](https://doi.org/10.3389/fnana.2020.00018){target='_blank'}"
+author: R Jarrett Rushmore, Sylvain Bouix, Marek Kubicki, Yogesh Rathi, Edward H Yeterian, Nikos Makris
+date: "2020-00-00"
+categories: [DTI, axons, cat, homology, human, monkey, neuroanatomy, rat]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The structure of the human brain has been studied extensively. Despite all the knowledge accrued, direct information about connections, from origin to termination, in the human brain is extremely limited. Yet there is a widespread misperception that human connectional neuroanatomy is well-established and validated. In this article, we consider what is known directly about human structural and connectional neuroanatomy. Information on neuroanatomical connections in the human brain is derived largely from studies in non-human experimental models in which the entire connectional pathway, including origins, course, and terminations, is directly visualized. Techniques to examine structural connectivity in the human brain are progressing rapidly; nevertheless, our present understanding of such connectivity is limited largely to data derived from homological comparisons, particularly with non-human primates. We take the position that an in-depth and more precise understanding of human connectional neuroanatomy will be obtained by a systematic application of this homological approach.Copyright (c) 2020 Rushmore, Bouix, Kubicki, Rathi, Yeterian and Makris.
+        

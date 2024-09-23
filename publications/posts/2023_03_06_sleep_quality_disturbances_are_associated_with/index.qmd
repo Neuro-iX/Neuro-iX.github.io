@@ -1,0 +1,17 @@
+---
+title: "Sleep Quality Disturbances Are Associated with White Matter Alterations in Veterans with Post-Traumatic Stress Disorder and Mild Traumatic Brain Injury"
+description: "PMID: [36902865](https://pubmed.ncbi.nlm.nih.gov/36902865/){target='_blank'}    DOI: [10.3390/jcm12052079](https://doi.org/10.3390/jcm12052079){target='_blank'}"
+author: Philine Rojczyk, Johanna Seitz-Holland, Elisabeth Kaufmann, Valerie J Sydnor, Cara L Kim, Lisa F Umminger, Tim L T Wiegand, Jeffrey P Guenette, Fan Zhang, Yogesh Rathi, Sylvain Bouix, Ofer Pasternak, Catherine B Fortier, David Salat, Sidney R Hinds, Florian Heinen, Lauren J O'Donnell, William P Milberg, Regina E McGlinchey, Martha E Shenton, Inga K Koerte
+date: "2023-03-06"
+categories: [PSQI, PTSD, dMRI, mTBI, military, sleep disturbances]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Sleep disturbances are strongly associated with mild traumatic brain injury (mTBI) and post-traumatic stress disorder (PTSD). PTSD and mTBI have been linked to alterations in white matter (WM) microstructure, but whether poor sleep quality has a compounding effect on WM remains largely unknown. We evaluated sleep and diffusion magnetic resonance imaging (dMRI) data from 180 male post-9/11 veterans diagnosed with (1) PTSD (n = 38), (2) mTBI (n = 25), (3) comorbid PTSD+mTBI (n = 94), and (4) a control group with neither PTSD nor mTBI (n = 23). We compared sleep quality (Pittsburgh Sleep Quality Index, PSQI) between groups using ANCOVAs and calculated regression and mediation models to assess associations between PTSD, mTBI, sleep quality, and WM. Veterans with PTSD and comorbid PTSD+mTBI reported poorer sleep quality than those with mTBI or no history of PTSD or mTBI (p = 0.012 to <0.001). Poor sleep quality was associated with abnormal WM microstructure in veterans with comorbid PTSD+mTBI (p < 0.001). Most importantly, poor sleep quality fully mediated the association between greater PTSD symptom severity and impaired WM microstructure (p < 0.001). Our findings highlight the significant impact of sleep disturbances on brain health in veterans with PTSD+mTBI, calling for sleep-targeted interventions.
+        

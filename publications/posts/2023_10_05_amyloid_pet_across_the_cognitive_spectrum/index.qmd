@@ -1,0 +1,25 @@
+---
+title: "Amyloid PET across the cognitive spectrum in former professional and college American football players: findings from the DIAGNOSE CTE Research Project"
+description: "PMID: [37798671](https://pubmed.ncbi.nlm.nih.gov/37798671/){target='_blank'}    DOI: [10.1186/s13195-023-01315-5](https://doi.org/10.1186/s13195-023-01315-5){target='_blank'}"
+author: Robert A Stern, Diana Trujillo-Rodriguez, Yorghos Tripodis, Surya V Pulukuri, Michael L Alosco, Charles H Adler, Laura J Balcer, Charles Bernick, Zachary Baucom, Kenneth L Marek, Michael D McClean, Keith A Johnson, Ann C McKee, Thor D Stein, Jesse Mez, Joseph N Palmisano, Jeffrey L Cummings, Martha E Shenton, Eric M Reiman
+date: "2023-10-05"
+categories: [Alzheimer’s disease, American Football, Amyloid-β, Chronic traumatic encephalopathy, Cognitive function, Concussion, Dementia, Florbetapir, Neurodegenerative disease, Positron emission tomography, Repetitive head impacts, Subconcussive trauma, Tau, Traumatic brain injury]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Exposure to repetitive head impacts (RHI) in American football players can lead to cognitive impairment and dementia due to neurodegenerative disease, particularly chronic traumatic encephalopathy (CTE). The pathognomonic lesion of CTE consists of perivascular aggregates of hyper-phosphorylated tau in neurons at the depths of cortical sulci. However, it is unclear whether exposure to RHI accelerates amyloid-b (Ab) plaque formation and increases the risk for Alzheimer's disease (AD). Although the Ab neuritic plaques characteristic of AD are observed in a minority of later-stage CTE cases, diffuse plaques are more common. This study examined whether former professional and college American football players, including those with cognitive impairment and dementia, have elevated neuritic Ab plaque density, as measured by florbetapir PET. Regardless of cognitive and functional status, elevated levels of florbetapir uptake were not expected.
+
+METHODS: We examined 237 men ages 45-74, including 119 former professional (PRO) and 60 former college (COL) football players, with and without cognitive impairment and dementia, and 58 same-age men without a history of contact sports or TBI (unexposed; UE) and who denied cognitive or behavioral symptoms at telephone screening. Former players were categorized into four diagnostic groups: normal cognition, subjective memory impairment, mild cognitive impairment, and dementia. Positive florbetapir PET was defined by cortical-cerebellar average SUVR of >= 1.10. Multivariable linear regression and analysis of covariance (ANCOVA) compared florbetapir average SUVR across diagnostic and exposure groups. Multivariable logistic regression compared florbetapir positivity. Race, education, age, and APOE4 were covariates.
+
+RESULTS: There were no diagnostic group differences either in florbetapir average SUVR or the proportion of elevated florbetapir uptake. Average SUVR means also did not differ between exposure groups: PRO-COL (p = 0.94, 95% C.I. = [- 0.033, 0.025]), PRO-UE (p = 0.40, 95% C.I. = [- 0.010, 0.029]), COL-UE (p = 0.36, 95% CI = [0.0004, 0.039]). Florbetapir was not significantly associated with years of football exposure, cognition, or daily functioning.
+
+CONCLUSIONS: Cognitive impairment in former American football players is not associated with PET imaging of neuritic Ab plaque deposition. These findings are inconsistent with a neuropathological diagnosis of AD in individuals with substantial RHI exposure and have both clinical and medico-legal implications.
+
+TRIAL REGISTRATION: NCT02798185.
+        

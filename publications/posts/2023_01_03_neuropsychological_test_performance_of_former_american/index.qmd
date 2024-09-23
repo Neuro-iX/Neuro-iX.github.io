@@ -1,0 +1,23 @@
+---
+title: "Neuropsychological test performance of former American football players"
+description: "PMID: [36597138](https://pubmed.ncbi.nlm.nih.gov/36597138/){target='_blank'}    DOI: [10.1186/s13195-022-01147-9](https://doi.org/10.1186/s13195-022-01147-9){target='_blank'}"
+author: Michael L Alosco, William B Barr, Sarah J Banks, Jennifer V Wethe, Justin B Miller, Surya Vamsi Pulukuri, Julia Culhane, Yorghos Tripodis, Charles H Adler, Laura J Balcer, Charles Bernick, Megan L Mariani, Robert C Cantu, David W Dodick, Michael D McClean, Rhoda Au, Jesse Mez, Robert W Turner, Joseph N Palmisano, Brett Martin, Kaitlin Hartlage, Jeffrey L Cummings, Eric M Reiman, Martha E Shenton, Robert A Stern, ... ...
+date: "2023-01-03"
+categories: [Alzheimer’s disease, American football, Chronic traumatic encephalopathy, Cognitive function, Neuropsychology, Repetitive head impacts]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Patterns of cognitive impairment in former American football players are uncertain because objective neuropsychological data are lacking. This study characterized the neuropsychological test performance of former college and professional football players.
+
+METHODS: One hundred seventy male former football players (n=111 professional, n=59 college; 45-74 years) completed a neuropsychological test battery. Raw scores were converted to T-scores using age, sex, and education-adjusted normative data. A T-score <= 35 defined impairment. A domain was impaired if 2+ scores fell in the impaired range except for the language and visuospatial domains due to the limited number of tests.
+
+RESULTS: Most football players had subjective cognitive concerns. On testing, rates of impairments were greatest for memory (21.2% two tests impaired), especially for recall of unstructured (44.7%) versus structured verbal stimuli (18.8%); 51.8% had one test impaired. 7.1% evidenced impaired executive functions; however, 20.6% had impaired Trail Making Test B. 12.1% evidenced impairments in the attention, visual scanning, and psychomotor speed domain with frequent impairments on Trail Making Test A (18.8%). Other common impairments were on measures of language (i.e., Multilingual Naming Test [21.2%], Animal Fluency [17.1%]) and working memory (Number Span Backward [14.7%]). Impairments on our tasks of visuospatial functions were infrequent.
+
+CONCLUSIONS: In this sample of former football players (most of whom had subjective cognitive concerns), there were diffuse impairments on neuropsychological testing with verbal memory being the most frequently impaired domain.
+        

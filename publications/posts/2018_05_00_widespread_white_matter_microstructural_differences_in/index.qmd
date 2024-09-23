@@ -1,0 +1,17 @@
+---
+title: "Widespread white matter microstructural differences in schizophrenia across 4322 individuals: results from the ENIGMA Schizophrenia DTI Working Group"
+description: "PMID: [29038599](https://pubmed.ncbi.nlm.nih.gov/29038599/){target='_blank'}    DOI: [10.1038/mp.2017.170](https://doi.org/10.1038/mp.2017.170){target='_blank'}"
+author: S Kelly, N Jahanshad, A Zalesky, P Kochunov, I Agartz, C Alloza, O A Andreassen, C Arango, N Banaj, S Bouix, C A Bousman, R M Brouwer, J Bruggemann, J Bustillo, W Cahn, V Calhoun, D Cannon, V Carr, S Catts, J Chen, J-X Chen, X Chen, C Chiapponi, Kl K Cho, V Ciullo, ... ...
+date: "2018-05-00"
+categories: [remains poorly understood, brain vary widely, schizophrenia remains poorly, reported disease effects, schizophrenia patients]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The regional distribution of white matter (WM) abnormalities in schizophrenia remains poorly understood, and reported disease effects on the brain vary widely between studies. In an effort to identify commonalities across studies, we perform what we believe is the first ever large-scale coordinated study of WM microstructural differences in schizophrenia. Our analysis consisted of 2359 healthy controls and 1963 schizophrenia patients from 29 independent international studies; we harmonized the processing and statistical analyses of diffusion tensor imaging (DTI) data across sites and meta-analyzed effects across studies. Significant reductions in fractional anisotropy (FA) in schizophrenia patients were widespread, and detected in 20 of 25 regions of interest within a WM skeleton representing all major WM fasciculi. Effect sizes varied by region, peaking at (d=0.42) for the entire WM skeleton, driven more by peripheral areas as opposed to the core WM where regions of interest were defined. The anterior corona radiata (d=0.40) and corpus callosum (d=0.39), specifically its body (d=0.39) and genu (d=0.37), showed greatest effects. Significant decreases, to lesser degrees, were observed in almost all regions analyzed. Larger effect sizes were observed for FA than diffusivity measures; significantly higher mean and radial diffusivity was observed for schizophrenia patients compared with controls. No significant effects of age at onset of schizophrenia or medication dosage were detected. As the largest coordinated analysis of WM differences in a psychiatric disorder to date, the present study provides a robust profile of widespread WM abnormalities in schizophrenia patients worldwide. Interactive three-dimensional visualization of the results is available at www.enigma-viewer.org.
+        

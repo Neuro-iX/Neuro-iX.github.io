@@ -1,0 +1,23 @@
+---
+title: "Cavum Septum Pellucidum in Former American Football Players: Findings From the DIAGNOSE CTE Research Project"
+description: "PMID: [39161749](https://pubmed.ncbi.nlm.nih.gov/39161749/){target='_blank'}    DOI: [10.1212/CPJ.0000000000200324](https://doi.org/10.1212/CPJ.0000000000200324){target='_blank'}"
+author: Hector Arciniega, Leonard B Jung, Fatima Tuz-Zahra, Yorghos Tripodis, Omar John, Nicholas Kim, Holly W Carrington, Evdokiya E Knyazhanskaya, Arushi Chamaria, Katherine Breedlove, Tim L Wiegand, Daniel Daneshvar, Tashrif Billah, Ofer Pasternak, Michael J Coleman, Charles H Adler, Charles Bernick, Laura J Balcer, Michael L Alosco, Alexander P Lin, Inga K Koerte, Jeffrey L Cummings, Eric M Reiman, Robert A Stern, Sylvain Bouix, ... ...
+date: "2024-10-00"
+categories: [BACKGROUND AND OBJECTIVES, American football players, CSP, greater CSP ratio, American football]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND AND OBJECTIVES: Exposure to repetitive head impacts (RHI) is linked to the development of chronic traumatic encephalopathy (CTE), which can only be diagnosed at post-mortem. The presence of a cavum septum pellucidum (CSP) is a common finding in post-mortem studies of confirmed CTE and in neuroimaging studies of individuals exposed to RHI. This study examines CSP in living former American football players, investigating its association with RHI exposure, traumatic encephalopathy syndrome (TES) diagnosis, and provisional levels of certainty for CTE pathology.
+
+METHODS: Data from the DIAGNOSE CTE Research Project were used to compare the presence and ratio of CSP in former American football players (n = 175), consisting of former college (n = 58) and former professional players (n = 117), and asymptomatic unexposed controls without RHI exposure (n = 55). We further evaluated potential associations between CSP measures and cumulative head impact index (CHII) measures (frequency, linear acceleration, and rotational force), a TES diagnosis (yes/no), and a provisional level of certainty for CTE pathology (suggestive, possible, and probable).
+
+RESULTS: Former American football players exhibited a higher CSP presence and ratio than unexposed asymptomatic controls. Among player subgroups, professional players showed a greater CSP ratio than former college players and unexposed asymptomatic controls. Among all football players, CHII rotational forces correlated with an increased CSP ratio. No significant associations were found between CSP measures and diagnosis of TES or provisional levels of certainty for CTE pathology.
+
+DISCUSSION: This study confirms previous findings, highlighting a greater prevalence of CSP and a greater CSP ratio in former American football players compared with unexposed asymptomatic controls. In addition, former professional players showed a greater CSP ratio than college players. Moreover, the relationship between estimates of CHII rotational forces and CSP measures suggests that cumulative frequency and strength of rotational forces experienced in football are associated with CSP. However, CSP does not directly correlate with TES diagnosis or provisional levels of certainty for CTE, indicating that it may be a consequence of RHI associated with rotational forces. Further research, especially longitudinal studies, is needed for confirmation and to explore changes over time.
+        

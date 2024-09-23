@@ -1,0 +1,23 @@
+---
+title: "An Introduction to the Human Connectome Project for Early Psychosis"
+description: "PMID: [39036958](https://pubmed.ncbi.nlm.nih.gov/39036958/){target='_blank'}    DOI: [10.1093/schbul/sbae123](https://doi.org/10.1093/schbul/sbae123){target='_blank'}"
+author: Grace R Jacobs, Michael J Coleman, Kathryn E Lewandowski, Ofer Pasternak, Suheyla Cetin-Karayumak, Raquelle I Mesholam-Gately, Joanne Wojcik, Leda Kennedy, Evdokiya Knyazhanskaya, Benjamin Reid, Sophia Swago, Monica G Lyons, Elizabeth Rizzoni, Omar John, Holly Carrington, Nicholas Kim, Elana Kotler, Simone Veale, Anastasia Haidar, Nicholas Prunier, Moritz Haaf, James J Levitt, Johanna Seitz-Holland, Yogesh Rathi, Marek Kubicki, ... ...
+date: "2024-07-20"
+categories: [bipolar disorder, cognition, diffusion, neuroimaging, resting-state fMRI, schizophrenia]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: The time following a recent onset of psychosis is a critical period during which intervention may be maximally effective. Studying individuals in this period also offers an opportunity to investigate putative brain biomarkers of illness prior to the long-term effects of chronicity and medication. The Human Connectome Project for Early Psychosis (HCP-EP) was funded by the National Institutes of Mental Health (NIMH) as an extension of the original Human Connectome Project's approach to understanding the human brain and its structural and functional connections.
+
+DESIGN: The HCP-EP data were collected at 3 sites in Massachusetts (Beth Israel Deaconess Medical Center, McLean Hospital, and Massachusetts General Hospital), and one site in Indiana (Indiana University). Brigham and Women's Hospital served as the data coordination center and as an imaging site.
+
+RESULTS: The HCP-EP dataset includes high-quality clinical, cognitive, functional, neuroimaging, and blood specimen data acquired from 303 individuals between the ages of 16-35 years old with affective psychosis (n = 75), non-affective psychosis (n = 148), and healthy controls (n = 80). Participants with early psychosis were within 5 years of illness onset (mean duration = 1.9 years, standard deviation = 1.4 years). All data and novel or modified analytic tools developed as part of the study are publicly available to the research community through the NIMH Data Archive (NDA) or GitHub (https://github.com/pnlbwh).
+
+CONCLUSIONS: This paper provides an overview of the specific HCP-EP procedures, assessments, and protocols, as well as a brief characterization of the study participants to make it easier for researchers to use this rich dataset. Although we focus here on discussing and comparing affective and non-affective psychosis groups, the HCP-EP dataset also provides sufficient information for investigators to group participants differently.
+        

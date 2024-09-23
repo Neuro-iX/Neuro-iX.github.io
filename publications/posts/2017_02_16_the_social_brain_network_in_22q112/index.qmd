@@ -1,0 +1,21 @@
+---
+title: "The social brain network in 22q11.2 deletion syndrome: a diffusion tensor imaging study"
+description: "PMID: [28209179](https://pubmed.ncbi.nlm.nih.gov/28209179/){target='_blank'}    DOI: [10.1186/s12993-017-0122-7](https://doi.org/10.1186/s12993-017-0122-7){target='_blank'}"
+author: Amy K Olszewski, Zora Kikinis, Christie S Gonzalez, Ioana L Coman, Nikolaos Makris, Xue Gong, Yogesh Rathi, Anni Zhu, Kevin M Antshel, Wanda Fremont, Marek R Kubicki, Sylvain Bouix, Martha E Shenton, Wendy R Kates
+date: "2017-02-16"
+categories: [22q11.2 deletion syndrome, Social brain network, Social cognition, Two-tensor tractography, White matter tracts]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Chromosome 22q11.2 deletion syndrome (22q11.2DS) is a neurogenetic disorder that is associated with a 25-fold increase in schizophrenia. Both individuals with 22q11.2DS and those with schizophrenia present with social cognitive deficits, which are putatively subserved by a network of brain regions that are involved in the processing of social cognitive information. This study used two-tensor tractography to examine the white matter tracts believed to underlie the social brain network in a group of 57 young adults with 22q11.2DS compared to 30 unaffected controls.
+
+RESULTS: Results indicated that relative to controls, participants with 22q11.2DS showed significant differences in several DTI metrics within the inferior fronto-occipital fasciculus, cingulum bundle, thalamo-frontal tract, and inferior longitudinal fasciculus. In addition, participants with 22q11.2DS showed significant differences in scores on measures of social cognition, including the Social Responsiveness Scale and Trait Emotional Intelligence Questionnaire. Further analyses among individuals with 22q11.2DS demonstrated an association between DTI metrics and positive and negative symptoms of psychosis, as well as differentiation between individuals with 22q11.2DS and overt psychosis, relative to those with positive prodromal symptoms or no psychosis.
+
+CONCLUSIONS: Findings suggest that white matter disruption, specifically disrupted axonal coherence in the right inferior fronto-occipital fasciculus, may be a biomarker for social cognitive difficulties and psychosis in individuals with 22q11.2DS.
+        

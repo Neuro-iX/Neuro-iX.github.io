@@ -1,0 +1,23 @@
+---
+title: "Diffusion abnormalities in the corpus callosum in first episode schizophrenia: Associated with enlarged lateral ventricles and symptomatology"
+description: "PMID: [30808608](https://pubmed.ncbi.nlm.nih.gov/30808608/){target='_blank'}    DOI: [10.1016/j.psychres.2019.02.038](https://doi.org/10.1016/j.psychres.2019.02.038){target='_blank'}"
+author: Elisabetta C Del Re, Sylvain Bouix, Jennifer Fitzsimmons, Gabriella A M Blokland, Raquelle Mesholam-Gately, Joanne Wojcik, Zora Kikinis, Marek Kubicki, Tracey Petryshen, Ofer Pasternak, Martha E Shenton, Margaret Niznikiewicz
+date: "2019-07-00"
+categories: [Corpus callosum, First episode schizophrenia, Fractional anisotropy, Lateral ventricles]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+INTRODUCTION: Abnormalities in the corpus callosum (CC) and the lateral ventricles (LV) are hallmark features of schizophrenia. These abnormalities have been reported in chronic and in first episode schizophrenia (FESZ). Here we explore further associations between CC and LV in FESZ using diffusion tensor imaging (DTI).
+
+METHODS: . Sixteen FESZ patients and 16 healthy controls (HC), matched on age, gender, and handedness participated in the study. Diffusion and structural imaging scans were acquired on a 3T GE Signa magnet. Volumetric measures for LV and DTI measures for five CC subdivisions were completed in both groups. In addition, two-tensor tractography, the latter corrected for free-water (FAt), was completed for CC. Correlations between LV and DTI measures of the CC were examined in both groups, while correlations between DTI and clinical measures were examined in only FESZ.
+
+RESULTS: Results from two-tensor tractography demonstrated decreased FAt and increased trace and radial diffusivity (RDt) in the five CC subdivisions in FESZ compared to HC. Central CC diffusion measures in FESZ were significantly correlated with volume of the LV, i.e., decreased FAt values were associated with larger LV volume, while increased RDt and trace values were associated with larger LV volume. In controls, correlations were also significant, but they were in the opposite direction from FESZ. In addition, decreased FAt in FESZ was associated with more positive symptoms.
+
+DISCUSSION: Partial volume corrected FAt, RDt, and trace abnormalities in the CC in FESZ suggest possible de- or dys-myelination, or changes in axonal diameters, all compatible with neurodevelopmental theories of schizophrenia. Correlational findings between the volume of LV and diffusion measures in FESZ reinforce the concept of a link between abnormalities in the LV and CC in early stages of schizophrenia and are also compatible with neurodevelopmental abnormalities in this population.
+        

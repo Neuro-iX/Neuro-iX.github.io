@@ -1,0 +1,25 @@
+---
+title: "Posttraumatic survivor guilt is associated with white matter microstructure alterations"
+description: "PMID: [38897303](https://pubmed.ncbi.nlm.nih.gov/38897303/){target='_blank'}    DOI: [10.1016/j.jad.2024.06.047](https://doi.org/10.1016/j.jad.2024.06.047){target='_blank'}"
+author: Philine Rojczyk, Johanna Seitz-Holland, Carina Heller, Sofia Marcolini, Amy D Marshall, Valerie J Sydnor, Elisabeth Kaufmann, Leonard B Jung, Elena M Bonke, Luisa Berger, Lisa F Umminger, Tim L T Wiegand, Kang Ik K Cho, Yogesh Rathi, Sylvain Bouix, Ofer Pasternak, Sidney R Hinds, Catherine B Fortier, David Salat, William P Milberg, Martha E Shenton, Inga K Koerte
+date: "2024-09-15"
+categories: [DTI, Moral injury, Posttraumatic stress disorder, dMRI, veterans]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Military veterans with posttraumatic stress disorder (PTSD) commonly experience posttraumatic guilt. Guilt over commission or omission evolves when responsibility is assumed for an unfortunate outcome (e.g., the death of a fellow combatant). Survivor guilt is a state of intense emotional distress experienced by the weight of knowing that one survived while others did not.
+
+METHODS: This study of the Translational Research Center for TBI and Stress Disorders (TRACTS) analyzed structural and diffusion-weighted magnetic resonance imaging data from 132 male Iraq/Afghanistan veterans with PTSD. The Clinician-Administered PTSD Scale for DSM-IV (CAPS-IV) was employed to classify guilt. Thirty (22.7 %) veterans experienced guilt over acts of commission or omission, 34 (25.8 %) experienced survivor guilt, and 68 (51.5 %) had no posttraumatic guilt. White matter microstructure (fractional anisotropy, FA), cortical thickness, and cortical volume were compared between veterans with guilt over acts of commission or omission, veterans with survivor guilt, and veterans without guilt.
+
+RESULTS: Veterans with survivor guilt had significantly lower white matter FA compared to veterans who did not experience guilt (p < .001), affecting several regions of major white matter fiber bundles. There were no significant differences in white matter FA, cortical thickness, or volumes between veterans with guilt over acts of commission or omission and veterans without guilt (p > .050).
+
+LIMITATIONS: This cross-sectional study with exclusively male veterans precludes inferences of causality between the studied variables and generalizability to the larger veteran population that includes women.
+
+CONCLUSION: Survivor guilt may be a particularly impactful form of posttraumatic guilt that requires specific treatment efforts targeting brain health.
+        

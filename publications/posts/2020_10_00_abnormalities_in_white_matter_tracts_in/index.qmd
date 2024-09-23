@@ -1,0 +1,23 @@
+---
+title: "Abnormalities in white matter tracts in the fronto-striatal-thalamic circuit are associated with verbal performance in 22q11.2DS"
+description: "PMID: [33268158](https://pubmed.ncbi.nlm.nih.gov/33268158/){target='_blank'}    DOI: [10.1016/j.schres.2020.09.008](https://doi.org/10.1016/j.schres.2020.09.008){target='_blank'}"
+author: Carina Heller, Saskia Steinmann, James J Levitt, Nikos Makris, Kevin M Antshel, Wanda Fremont, Ioana L Coman, Stefan R Schweinberger, Thomas Weiss, Sylvain Bouix, Marek R Kubicki, Wendy R Kates, Zora Kikinis
+date: "2020-10-00"
+categories: [22q11.2 deletion syndrome, Diffusion MRI, Prodromal symptoms, Schizophrenia, Verbal IQ, White matter]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Abnormalities in fronto-striatal-thalamic (FST) sub-circuits are present in schizophrenia and are associated with cognitive impairments. However, it remains unknown whether abnormalities in FST sub-circuits are present before psychosis onset. This may be elucidated by investigating 22q11.2 deletion syndrome (22q11DS), a genetic syndrome associated with a 30% risk for developing schizophrenia in adulthood and a decline in Verbal IQ (VIQ) preceding psychosis onset. Here, we examined white matter (WM) tracts in FST sub-circuits, especially those in the dorsolateral (DLPFC) and ventrolateral prefrontal cortex (VLPFC) sub-circuits, and their associations with VIQ in young adults with 22q11DS.
+
+METHODS: Diffusion MRI scans were acquired from 21 individuals with 22q11DS with prodromal symptoms of schizophrenia, 30 individuals with 22q11DS without prodromal symptoms, and 30 healthy controls (mean age: 21 +- 2 years). WM tracts were reconstructed between striatum and thalamus with rostral middle frontal gyrus (rMFG) and inferior frontal gyrus (IFG), representing DLPFC and VLPFC respectively. Fractional anisotropy (FA) and radial diffusivity (RD) were used for group comparisons. VIQ was assessed and associations with the diffusion measures were evaluated.
+
+RESULTS: FA was significantly increased and RD decreased in most tracts of the DLPFC and VLPFC sub-circuits in 22q11DS. Verbal IQ scores correlated negatively with FA and, at trend level, positively with RD in the right thalamus-IFG tract in 22q11DS with prodromal symptoms.
+
+CONCLUSIONS: While abnormalities in FST sub-circuits are associated with schizophrenia, we observed that these abnormalities are also present in 22q11DS individuals with prodromal symptoms and are associated with verbal performance in the right thalamus-IFG tract.
+        

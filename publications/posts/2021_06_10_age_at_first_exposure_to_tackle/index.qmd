@@ -1,0 +1,17 @@
+---
+title: "Age at First Exposure to Tackle Football is Associated with Cortical Thickness in Former Professional American Football Players"
+description: "PMID: [33676369](https://pubmed.ncbi.nlm.nih.gov/33676369/){target='_blank'}    DOI: [10.1093/cercor/bhab021](https://doi.org/10.1093/cercor/bhab021){target='_blank'}"
+author: David Kaufmann, Nico Sollmann, Elisabeth Kaufmann, Rosanna Veggeberg, Yorghos Tripodis, Pawel P Wrobel, Janna Kochsiek, Brett M Martin, Alexander P Lin, Michael J Coleman, Michael L Alosco, Ofer Pasternak, Sylvain Bouix, Robert A Stern, Martha E Shenton, Inga K Koerte
+date: "2021-06-10"
+categories: [cortical thinning, repetitive head impacts, traumatic brain injury, verbal memory, visual memory]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Younger age at first exposure (AFE) to repetitive head impacts while playing American football increases the risk for later-life neuropsychological symptoms and brain alterations. However, it is not known whether AFE is associated with cortical thickness in American football players. Sixty-three former professional National Football League players (55.5 +- 7.7 years) with cognitive, behavioral, and mood symptoms underwent neuroimaging and neuropsychological testing. First, the association between cortical thickness and AFE was tested. Second, the relationship between clusters of decreased cortical thickness and verbal and visual memory, and composite measures of mood/behavior and attention/psychomotor speed was assessed. AFE was positively correlated with cortical thickness in the right superior frontal cortex (cluster-wise P value [CWP] = 0.0006), the left parietal cortex (CWP = 0.0003), and the occipital cortices (right: CWP = 0.0023; left: CWP = 0.0008). A positive correlation was found between cortical thickness of the right superior frontal cortex and verbal memory (R = 0.333, P = 0.019), and the right occipital cortex and visual memory (R = 0.360, P = 0.012). In conclusion, our results suggest an association between younger AFE and decreased cortical thickness, which in turn is associated with worse neuropsychological performance. Furthermore, an association between younger AFE and signs of neurodegeneration later in life in symptomatic former American football players seems likely.(c) The Author(s) 2021. Published by Oxford University Press. All rights reserved. For permissions, please e-mail: journals.permission@oup.com.
+        

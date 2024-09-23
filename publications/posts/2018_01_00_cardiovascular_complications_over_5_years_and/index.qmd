@@ -1,0 +1,23 @@
+---
+title: "Cardiovascular Complications Over 5 Years and Their Association With Survival in the GERODIAB Cohort of Elderly French Patients With Type 2 Diabetes"
+description: "PMID: [29113984](https://pubmed.ncbi.nlm.nih.gov/29113984/){target='_blank'}    DOI: [10.2337/dc17-1437](https://doi.org/10.2337/dc17-1437){target='_blank'}"
+author: Bernard Bauduceau, Jean-Pierre Le Floch, Serge Halimi, Christiane Verny, Jean Doucet
+date: "2018-01-00"
+categories: [French patients aged, prospective observational study, observational study performed, GERODIAB study, multicenter prospective observational]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVE: The GERODIAB study is a multicenter prospective observational study performed over 5 years in French patients aged 70 years or above with type 2 diabetes. This report deals with their cardiovascular complications and their relationship with survival.
+
+RESEARCH DESIGN AND METHODS: Consecutive patients (n = 987, median age = 77 years) were included from 56 diabetes centers over 1 year. Individual characteristics, history and complications of diabetes, geriatric factors, and clinical and biological parameters were recorded. Survival was analyzed using the Kaplan-Meier method and proportional hazards regression models.
+
+RESULTS: The frequency of cardiovascular complications increased from 47% at inclusion to 67% at 5 years. The most frequent complications were coronary heart disease (increasing from 30% to 41%) and vascular disease of the lower limbs (25% to 35%) and of the cerebral vessels (15% to 26%). Heart failure was less common, but its frequency doubled during the follow-up (9% to 20%). It was strongly associated with poor survival (P < 0.0001), as was vascular disease of the lower limbs (P = 0.0004), whereas coronary heart disease (P = 0.0056) and vascular disease of cerebral vessels (P = 0.026) had mild associations. Amputation (P < 0.0001) and foot wounds (P < 0.0001) were strongly associated with survival. In multivariate models, heart failure was the strongest predictor of poor survival (hazard ratio [HR] 1.96 [95% CI 1.45-2.64]; P < 0.0001). It remained significant when other factors were considered simultaneously (HR 1.92 [95% CI 1.43-2.58]; P < 0.0001).
+
+CONCLUSIONS: Cardiovascular complications are associated with poor survival in elderly patients with type 2 diabetes, especially heart failure.
+        

@@ -1,0 +1,23 @@
+---
+title: "Diagnostic value of structural and diffusion imaging measures in schizophrenia"
+description: "PMID: [29876254](https://pubmed.ncbi.nlm.nih.gov/29876254/){target='_blank'}    DOI: [10.1016/j.nicl.2018.02.007](https://doi.org/10.1016/j.nicl.2018.02.007){target='_blank'}"
+author: Jungsun Lee, Myong-Wuk Chon, Harin Kim, Yogesh Rathi, Sylvain Bouix, Martha E Shenton, Marek Kubicki
+date: "2018-00-00"
+categories: [Classification, Diffusion MRI, Random forest, Schizophrenia, Support vector machine]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVES: Many studies have attempted to discriminate patients with schizophrenia from healthy controls by machine learning using structural or functional MRI. We included both structural and diffusion MRI (dMRI) and performed random forest (RF) and support vector machine (SVM) in this study.
+
+METHODS: We evaluated the performance of classifying schizophrenia using RF method and SVM with 504 features (volume and/or fractional anisotropy and trace) from 184 brain regions. We enrolled 47 patients and 23 age- and sex-matched healthy controls and resampled our data into a balanced dataset using a Synthetic Minority Oversampling Technique method. We randomly permuted the classification of all participants as a patient or healthy control 100 times and ran the RF and SVM with leave one out cross validation for each permutation. We then compared the sensitivity and specificity of the original dataset and the permuted dataset.
+
+RESULTS: Classification using RF with 504 features showed a significantly higher rate of performance compared to classification by chance: sensitivity (87.6% vs. 47.0%) and specificity (95.9 vs. 48.4%) performed by RF, sensitivity (89.5% vs. 48.0%) and specificity (94.5% vs. 47.1%) performed by SVM.
+
+CONCLUSIONS: Machine learning using RF and SVM with both volume and diffusion measures can discriminate patients with schizophrenia with a high degree of performance. Further replications are required.
+        

@@ -1,0 +1,17 @@
+---
+title: "3D Exploration of the Brainstem in 50-Micron Resolution MRI"
+description: "PMID: [33071761](https://pubmed.ncbi.nlm.nih.gov/33071761/){target='_blank'}    DOI: [10.3389/fnana.2020.00040](https://doi.org/10.3389/fnana.2020.00040){target='_blank'}"
+author: Richard Jarrett Rushmore, Peter Wilson-Braun, George Papadimitriou, Isaac Ng, Yogesh Rathi, Fan Zhang, Lauren Jean O'Donnell, Marek Kubicki, Sylvain Bouix, Edward Yeterian, Jean-Jacques Lemaire, Evan Calabrese, G Allan Johnson, Ron Kikinis, Nikos Makris
+date: "2020-00-00"
+categories: [brainstem atlas, human brainstem anatomy, neuroimaging, ontology, terminologia anatomica, ultrahigh-resolution MRI]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The brainstem, a structure of vital importance in mammals, is currently becoming a principal focus in cognitive, affective, and clinical neuroscience. Midbrain, pontine and medullary structures serve as the conduit for signals between the forebrain and spinal cord, are the epicenter of cranial nerve-circuits and systems, and subserve such integrative functions as consciousness, emotional processing, pain, and motivation. In this study, we parcellated the nuclear masses and the principal fiber pathways that were visible in a high-resolution T2-weighted MRI dataset of 50-micron isotropic voxels of a postmortem human brainstem. Based on this analysis, we generated a detailed map of the human brainstem. To assess the validity of our maps, we compared our observations with histological maps of traditional human brainstem atlases. Given the unique capability of MRI-based morphometric analysis in generating and preserving the morphology of 3D objects from individual 2D sections, we reconstructed the motor, sensory and integrative neural systems of the brainstem and rendered them in 3D representations. We anticipate the utilization of these maps by the neuroimaging community for applications in basic neuroscience as well as in neurology, psychiatry, and neurosurgery, due to their versatile computational nature in 2D and 3D representations in a publicly available capacity.Copyright (c) 2020 Rushmore, Wilson-Braun, Papadimitriou, Ng, Rathi, Zhang, O'Donnell, Kubicki, Bouix, Yeterian, Lemaire, Calabrese, Johnson, Kikinis and Makris.
+        

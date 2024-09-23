@@ -1,0 +1,23 @@
+---
+title: "Diffusion imaging of mild traumatic brain injury in the impact accelerated rodent model: A pilot study"
+description: "PMID: [28627942](https://pubmed.ncbi.nlm.nih.gov/28627942/){target='_blank'}    DOI: [10.1080/02699052.2017.1318450](https://doi.org/10.1080/02699052.2017.1318450){target='_blank'}"
+author: Zora Kikinis, Marc Muehlmann, Ofer Pasternak, Sharon Peled, Praveen Kulkarni, Craig Ferris, Sylvain Bouix, Yogesh Rathi, Inga K Koerte, Steve Pieper, Alexander Yarmarkovich, Caryn L Porter, Bruce S Kristal, Martha E Shenton
+date: "2017-00-00"
+categories: [Animal model, diffusion tensor magnetic resonance imaging (dMRI), fractional anisotropy (FA), impact acceleration injury, mild traumatic brain injury (mTBI)]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+PRIMARY OBJECTIVE: There is a need to understand pathologic processes of the brain following mild traumatic brain injury (mTBI). Previous studies report axonal injury and oedema in the first week after injury in a rodent model. This study aims to investigate the processes occurring 1 week after injury at the time of regeneration and degeneration using diffusion tensor imaging (DTI) in the impact acceleration rat mTBI model.
+
+RESEARCH DESIGN: Eighteen rats were subjected to impact acceleration injury, and three rats served as sham controls. Seven days post injury, DTI was acquired from fixed rat brains using a 7T scanner. Group comparison of Fractional Anisotropy (FA) values between traumatized and sham animals was performed using Tract-Based Spatial Statistics (TBSS), a method that we adapted for rats.
+
+MAIN OUTCOMES AND RESULTS: TBSS revealed white matter regions of the brain with increased FA values in the traumatized versus sham rats, localized mainly to the contrecoup region. Regions of increased FA included the pyramidal tract, the cerebral peduncle, the superior cerebellar peduncle and to a lesser extent the fibre tracts of the corpus callosum, the anterior commissure, the fimbria of the hippocampus, the fornix, the medial forebrain bundle and the optic chiasm.
+
+CONCLUSION: Seven days post injury, during the period of tissue reparation in the impact acceleration rat model of mTBI, microstructural changes to white matter can be detected using DTI.
+        

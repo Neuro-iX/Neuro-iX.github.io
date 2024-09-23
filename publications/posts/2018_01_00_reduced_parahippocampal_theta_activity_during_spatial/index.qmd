@@ -1,0 +1,23 @@
+---
+title: "Reduced parahippocampal theta activity during spatial navigation in low, but not in high elderly performers"
+description: "PMID: [28661173](https://pubmed.ncbi.nlm.nih.gov/28661173/){target='_blank'}    DOI: [10.1037/neu0000392](https://doi.org/10.1037/neu0000392){target='_blank'}"
+author: Segolene Lithfous, Andre Dufour, Cloe Bouix, Thierry Pebayle, Olivier Despres
+date: "2018-01-00"
+categories: [aging varies widely, Cognitive aging varies, Cognitive, navigation, elderly]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVE: Cognitive aging varies widely among individuals. Whereas optimal cognitive agers show highly preserved cognitive functions throughout life, other subjects experience cognitive deficits in various cognitive domains. Among them, elderly individuals frequently report difficulties in spatial navigation. In this study, we aimed to determine whether elderly participants with different cognitive profiles would perform differently at a navigation task, and explore underlying medial hippocampal activity.
+
+METHOD: Two groups of elderly subjects were selected, high- and low-performing (HP and LP, respectively), based on their performance on a detailed neuropsychological examination. A group of young adults was recruited as controls. Cerebral activity was recorded by electroencephalography (EEG) during a virtual navigation task in which participants had 3 trials to find their way in mazes. We analyzed theta activity during navigation in the mazes and performed source reconstruction analyses.
+
+RESULTS: The LP group was less accurate than the HP group during the navigation task. Theta activity during navigation was greater in HP subjects compared with controls, whereas that theta activity was reduced in LP subjects. Moreover, theta activity in the left parahippocampal gyrus increased across trials in HP, but not in LP, subjects.
+
+CONCLUSION: Elderly participants performed differently at a navigation task according to their cognitive profile: elderly with cognitive deficits seem to have greater difficulties in spatial navigation than HP elderly. Navigational difficulties in elderly with cognitive deficits might be related to functional alteration of the parahippocampal gyrus. (PsycINFO Database Record
+        

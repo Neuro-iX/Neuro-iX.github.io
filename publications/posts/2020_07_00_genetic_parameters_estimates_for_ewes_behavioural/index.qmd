@@ -1,0 +1,17 @@
+---
+title: "Genetic parameters estimates for ewes' behavioural reactivity towards their litter after lambing"
+description: "PMID: [32196784](https://pubmed.ncbi.nlm.nih.gov/32196784/){target='_blank'}    DOI: [10.1111/jbg.12474](https://doi.org/10.1111/jbg.12474){target='_blank'}"
+author: Dominique Hazard, Tiphaine Mace, Amandine Kempeneers, Eric Delval, Didier Foulquie, Jacques Bouix, Alain Boissy
+date: "2020-07-00"
+categories: [arena test, genetic correlations, heritability, maternal reactivity]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+In livestock, improving maternal reactivity towards the litter is an important issue in breeding strategies to promote production and animal welfare. As of yet, no studies have investigated the within-breed genetic variation of maternal reactivity in sheep. The objective of this study was to estimate the genetic parameters of maternal reactivity traits. A total of 1,095 primiparous and 1,441 multiparous Romane ewes were phenotyped 24 hr postlambing using a behavioural test (arena test, AT) over a 10-year experimental period. The test consisted of three successive phases evaluating the ewe's attraction to her litter, reactivity to separation from her litter, and reactivity to a conflict between attraction to her litter and avoidance of a motionless human. The ewes were reared exclusively on rangelands (South of France) and lambed outdoors in the spring. High-pitched bleating and low-pitched bleating in the AT were mostly highly heritable (0.39-0.46). Heritabilities were moderate for proximity to the litter in the presence of a human (0.27) and low for locomotion and vigilance in the AT (0.09-0.15). The measurements of a given behaviour in the three phases of the AT were highly genetically correlated. Few genetic correlations were found between the different behavioural traits in the AT, the highest correlations being between high-pitched bleating and low-pitched bleating (-0.43 to -0.77). In conclusion, our findings demonstrate moderate-to-high heritability for maternal reactivity traits. These traits could be included in genetic selection schemes to enhance maternal attachment provided there is no unfavourable link with other production traits.(c) 2020 Blackwell Verlag GmbH.
+        

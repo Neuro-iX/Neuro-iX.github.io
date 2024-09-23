@@ -1,0 +1,17 @@
+---
+title: "Structural connectivity of cytoarchitectonically distinct human left temporal pole subregions: a diffusion MRI tractography study"
+description: "PMID: [38090110](https://pubmed.ncbi.nlm.nih.gov/38090110/){target='_blank'}    DOI: [10.3389/fnana.2023.1240545](https://doi.org/10.3389/fnana.2023.1240545){target='_blank'}"
+author: Takeshi Sasaki, Nikos Makris, Martha E Shenton, Peter Savadjiev, Yogesh Rathi, Ryan Eckbo, Sylvain Bouix, Edward Yeterian, Bradford C Dickerson, Marek Kubicki
+date: "2023-00-00"
+categories: [cytoarchitecture, default mode network, diffusion tensor imaging, semantic dementia, structural connectivity, temporal pole, tractography]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The temporal pole (TP) is considered one of the major paralimbic cortical regions, and is involved in a variety of functions such as sensory perception, emotion, semantic processing, and social cognition. Based on differences in cytoarchitecture, the TP can be further subdivided into smaller regions (dorsal, ventrolateral and ventromedial), each forming key nodes of distinct functional networks. However, the brain structural connectivity profile of TP subregions is not fully clarified. Using diffusion MRI data in a set of 31 healthy subjects, we aimed to elucidate the comprehensive structural connectivity of three cytoarchitectonically distinct TP subregions. Diffusion tensor imaging (DTI) analysis suggested that major association fiber pathways such as the inferior longitudinal, middle longitudinal, arcuate, and uncinate fasciculi provide structural connectivity to the TP. Further analysis suggested partially overlapping yet still distinct structural connectivity patterns across the TP subregions. Specifically, the dorsal subregion is strongly connected with wide areas in the parietal lobe, the ventrolateral subregion with areas including constituents of the default-semantic network, and the ventromedial subregion with limbic and paralimbic areas. Our results suggest the involvement of the TP in a set of extensive but distinct networks of cortical regions, consistent with its functional roles.Copyright (c) 2023 Sasaki, Makris, Shenton, Savadjiev, Rathi, Eckbo, Bouix, Yeterian, Dickerson and Kubicki.
+        

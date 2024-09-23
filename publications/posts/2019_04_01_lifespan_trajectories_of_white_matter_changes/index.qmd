@@ -1,0 +1,17 @@
+---
+title: "Lifespan Trajectories of White Matter Changes in Rhesus Monkeys"
+description: "PMID: [29701751](https://pubmed.ncbi.nlm.nih.gov/29701751/){target='_blank'}    DOI: [10.1093/cercor/bhy056](https://doi.org/10.1093/cercor/bhy056){target='_blank'}"
+author: M Kubicki, M Baxi, O Pasternak, Y Tang, S Karmacharya, N Chunga, A E Lyall, Y Rathi, R Eckbo, S Bouix, F Mortazavi, G Papadimitriou, M E Shenton, C F Westin, R Killiany, N Makris, D L Rosene
+date: "2019-04-01"
+categories: [diffusion, imaging biomarkers, lifespan trajectories, maturation and aging, white matter]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Progress in neurodevelopmental brain research has been achieved through the use of animal models. Such models not only help understanding biological changes that govern brain development, maturation and aging, but are also essential for identifying possible mechanisms of neurodevelopmental and age-related chronic disorders, and to evaluate possible interventions with potential relevance to human disease. Genetic relationship of rhesus monkeys to humans makes those animals a great candidate for such models. With the typical lifespan of 25 years, they undergo cognitive maturation and aging that is similar to this observed in humans. Quantitative structural neuroimaging has been proposed as one of the candidate in vivo biomarkers for tracking white matter brain maturation and aging. While lifespan trajectories of white matter changes have been mapped in humans, such knowledge is not available for nonhuman primates. Here, we analyze and model lifespan trajectories of white matter microstructure using in vivo diffusion imaging in a sample of 44 rhesus monkeys. We report quantitative parameters (including slopes and peaks) of lifespan trajectories for 8 individual white matter tracts. We show different trajectories for cellular and extracellular microstructural imaging components that are associated with white matter maturation and aging, and discuss similarities and differences between those in humans and rhesus monkeys, the importance of our findings, and future directions for the field. Significance Statement: Quantitative structural neuroimaging has been proposed as one of the candidate in vivo biomarkers for tracking brain maturation and aging. While lifespan trajectories of structural white matter changes have been mapped in humans, such knowledge is not available for rhesus monkeys. We present here results of the analysis and modeling of the lifespan trajectories of white matter microstructure using in vivo diffusion imaging in a sample of 44 rhesus monkeys (age 4-27). We report and anatomically map lifespan changes related to cellular and extracellular microstructural components that are associated with white matter maturation and aging.(c) The Author(s) 2018. Published by Oxford University Press. All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.
+        

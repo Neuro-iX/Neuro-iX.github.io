@@ -1,0 +1,25 @@
+---
+title: "Quantifying and Examining Reserve in Symptomatic Former National Football League Players"
+description: "PMID: [34864657](https://pubmed.ncbi.nlm.nih.gov/34864657/){target='_blank'}    DOI: [10.3233/JAD-210379](https://doi.org/10.3233/JAD-210379){target='_blank'}"
+author: Eimear M Foley, Yorghos Tripodis, Eukyung Yhang, Inga K Koerte, Brett M Martin, Joseph Palmisano, Nikos Makris, Vivian Schultz, Chris Lepage, Marc Muehlmann, Pawel P Wrobel, Jeffrey P Guenette, Robert C Cantu, Alexander P Lin, Michael Coleman, Jesse Mez, Sylvain Bouix, Martha E Shenton, Robert A Stern, Michael L Alosco
+date: "2022-00-00"
+categories: [Chronic traumatic encephalopathy, cognition, cognitive reserve, football, neurodegenerative diseases, repetitive head impacts, resilience]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Repetitive head impacts (RHI) from contact sports have been associated with cognitive and neuropsychiatric disorders. However, not all individuals exposed to RHI develop such disorders. This may be explained by the reserve hypothesis. It remains unclear if the reserve hypothesis accounts for the heterogenous symptom presentation in RHI-exposed individuals. Moreover, optimal measurement of reserve in this population is unclear and likely unique from non-athlete populations.
+
+OBJECTIVE: We examined the association between metrics of reserve and cognitive and neuropsychiatric functioning in 89 symptomatic former National Football League players.
+
+METHODS: Individual-level proxies (e.g., education) defined reserve. We additionally quantified reserve as remaining residual variance in 1) episodic memory and 2) executive functioning performance, after accounting for demographics and brain pathology. Associations between reserve metrics and cognitive and neuropsychiatric functioning were examined.
+
+RESULTS: Higher reading ability was associated with better attention/information processing (b=0.25; 95% CI, 0.05-0.46), episodic memory (b=0.27; 95% CI, 0.06-0.48), semantic and phonemic fluency (b=0.24; 95% CI, 0.02-0.46; b=0.38; 95% CI, 0.17-0.59), and behavioral regulation (b=-0.26; 95% CI, -0.48, -0.03) performance. There were no effects for other individual-level proxies. Residual episodic memory variance was associated with better attention/information processing (b=0.45; 95% CI, 0.25, 0.65), executive functioning (b=0.36; 95% CI, 0.15, 0.57), and semantic fluency (b=0.38; 95% CI, 0.17, 0.59) performance. Residual executive functioning variance was associated with better attention/information processing (b=0.44; 95% CI, 0.24, 0.64) and episodic memory (b=0.37; 95% CI, 0.16, 0.58) performance.
+
+CONCLUSION: Traditional reserve proxies (e.g., years of education, occupational attainment) have limitations and may be unsuitable for use in elite athlete samples. Alternative approaches of reserve quantification may prove more suitable for this population.
+        

@@ -1,0 +1,17 @@
+---
+title: "Brains of endurance athletes differ in the association areas but not in the primary areas"
+description: "PMID: [37950391](https://pubmed.ncbi.nlm.nih.gov/37950391/){target='_blank'}    DOI: [10.1111/psyp.14483](https://doi.org/10.1111/psyp.14483){target='_blank'}"
+author: Maria Geisler, Feliberto de la Cruz, Nikos Makris, Tashrif Billah, Fan Zhang, Yogesh Rathi, Lauren J O'Donnell, Sylvain Bouix, Marco Herbsleb, Karl-Jurgen Bar, Zora Kikinis, Thomas Weiss
+date: "2024-04-00"
+categories: [association brain areas, cardiorespiratory fitness (CRF), diffusion magnetic resonance imaging (dMRI), enduring-training related brain changes, fractional anisotropy (FA), radial diffusivity (RD), sport, structural magnetic resonance imaging (sMRI)]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Regular participation in sports results in a series of physiological adaptations. However, little is known about the brain adaptations to physical activity. Here we aimed to investigate whether young endurance athletes and non-athletes differ in the gray and white matter of the brain and whether cardiorespiratory fitness (CRF) is associated with these differences. We assessed the CRF, volumes of the gray and white matter of the brain using structural magnetic resonance imaging (sMRI), and brain white matter connections using diffusion magnetic resonance imaging (dMRI) in 20 young male endurance athletes and 21 healthy non-athletes. While total brain volume was similar in both groups, the white matter volume was larger and the gray matter volume was smaller in the athletes compared to non-athletes. The reduction of gray matter was located in the association areas of the brain that are specialized in processing of sensory stimuli. In the microstructure analysis, significant group differences were found only in the association tracts, for example, the inferior occipito-frontal fascicle (IOFF) showing higher fractional anisotropy and lower radial diffusivity, indicating stronger myelination in this tract. Additionally, gray and white matter brain volumes, as well as association tracts correlated with CRF. No changes were observed in other brain areas or tracts. In summary, the brain signature of the endurance athlete is characterized by changes in the integration of sensory and motor information in the association areas.(c) 2023 The Authors. Psychophysiology published by Wiley Periodicals LLC on behalf of Society for Psychophysiological Research.
+        

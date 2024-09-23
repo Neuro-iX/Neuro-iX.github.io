@@ -1,0 +1,23 @@
+---
+title: "Isolation of Distinct Networks Driving Action and Cognition in Psychomotor Processes"
+description: "PMID: [38452884](https://pubmed.ncbi.nlm.nih.gov/38452884/){target='_blank'}    DOI: [10.1016/j.biopsych.2024.02.1013](https://doi.org/10.1016/j.biopsych.2024.02.1013){target='_blank'}"
+author: Alexandra B Moussa-Tooks, Adam Beermann, Karlos Manzanarez Felix, Michael Coleman, Sylvain Bouix, Daphne Holt, Kathryn E Lewandowski, Dost Ongur, Alan Breier, Martha E Shenton, Stephan Heckers, Sebastian Walther, Roscoe O Brady, Heather Burrell Ward
+date: "2024-09-01"
+categories: [Cerebellum, Pegboard, Processing speed, Psychomotor, Resting-state connectivity, Supplementary motor area, Task switching]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Psychomotor disturbances are observed across psychiatric disorders and often manifest as psychomotor slowing, agitation, disorganized behavior, or catatonia. Psychomotor function includes both cognitive and motor components, but the neural circuits driving these subprocesses and how they relate to symptoms have remained elusive for centuries.
+
+METHODS: We analyzed data from the HCP-EP (Human Connectome Project for Early Psychosis), a multisite study of 125 participants with early psychosis and 58 healthy participants with resting-state functional magnetic resonance imaging and clinical characterization. Psychomotor function was assessed using the 9-hole pegboard task, a timed motor task that engages mechanical and psychomotor components of action, and tasks assessing processing speed and task switching. We used multivariate pattern analysis of whole-connectome data to identify brain correlates of psychomotor function.
+
+RESULTS: We identified discrete brain circuits driving the cognitive and motor components of psychomotor function. In our combined sample of participants with psychosis (n = 89) and healthy control participants (n = 52), the strongest correlates of psychomotor function (pegboard performance) (p < .005) were between a midline cerebellar region and left frontal region and presupplementary motor area. Psychomotor function was correlated with both cerebellar-frontal connectivity (r = 0.33) and cerebellar-presupplementary motor area connectivity (r = 0.27). However, the cognitive component of psychomotor performance (task switching) was correlated only with cerebellar-frontal connectivity (r = 0.19), whereas the motor component (processing speed) was correlated only with cerebellar-presupplementary motor area connectivity (r = 0.15), suggesting distinct circuits driving unique subprocesses of psychomotor function.
+
+CONCLUSIONS: We identified cerebellar-cortical circuits that drive distinct subprocesses of psychomotor function. Future studies should probe relationships between cerebellar connectivity and psychomotor performance using neuromodulation.
+        

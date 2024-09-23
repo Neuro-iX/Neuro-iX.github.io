@@ -1,0 +1,17 @@
+---
+title: "Serum Neurosteroid Levels Are Associated With Cortical Thickness in Individuals Diagnosed With Posttraumatic Stress Disorder and History of Mild Traumatic Brain Injury"
+description: "PMID: [32186207](https://pubmed.ncbi.nlm.nih.gov/32186207/){target='_blank'}    DOI: [10.1177/1550059420909676](https://doi.org/10.1177/1550059420909676){target='_blank'}"
+author: Philipp Kinzel, Christine E Marx, Nico Sollmann, Elisabeth Hartl, Jeffrey P Guenette, David Kaufmann, Sylvain Bouix, Ofer Pasternak, Yogesh Rathi, Michael J Coleman, Andre van der Kouwe, Karl Helmer, Jason D Kilts, Jennifer C Naylor, Rajendra A Morey, Lori Shutter, Norberto Andaluz, Raul Coimbra, Ariel J Lang, Mark S George, Thomas W McAllister, Ross Zafonte, Murray B Stein, Martha E Shenton, Inga K Koerte
+date: "2020-07-00"
+categories: [cortical thickness, mild traumatic brain injury, neurosteroids, posttraumatic stress disorder]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Posttraumatic stress disorder (PTSD) co-occurring with mild traumatic brain injury (mTBI) is common in veterans. Worse clinical outcome in those with PTSD has been associated with decreased serum neurosteroid levels. Furthermore, decreased cortical thickness has been associated with both PTSD and mTBI. However, it is not known whether decreased neurosteroids are associated with decreased cortical thickness in PTSD co-occurring with mTBI. This study included 141 individuals divided into the following groups: (a) mTBI group (n = 32 [10 female, 22 male] veterans with a history of mTBI); (b) PTSD + mTBI group (n = 41 [6 female, 35 male] veterans with current PTSD with a history of mTBI); and (c) control group (n = 68 [35 female, 33 male] control participants), which were acquired through the Injury and Traumatic Stress (INTRuST) Clinical Consortium. Subjects underwent clinical assessment, magnetic resonance imaging at 3 T, and serum neurosteroid quantifications of allopregnanolone (ALLO) and pregnenolone (PREGN). Group differences in cortical thickness and associations between serum neurosteroid levels and cortical thickness were investigated. Cortical thickness was decreased in the PTSD + mTBI group compared with the other groups. In the PTSD + mTBI group, decreased cortical thickness was also associated with lower serum ALLO (right superior frontal cortex) and lower serum PREGN (left middle temporal and right orbitofrontal cortex). Cortical thickness in the middle temporal and orbitofrontal cortex was associated with PTSD symptom severity. There were no significant associations between neurosteroids and cortical thickness in the mTBI or control groups. Decreased cortical thickness in individuals with PTSD + mTBI is associated with decreased serum neurosteroid levels and greater PTSD symptom severity. Causality is unclear. However, future studies might investigate whether treatment with neurosteroids could counteract stress-induced neural atrophy in PTSD + mTBI by potentially preserving cortical thickness.
+        

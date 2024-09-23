@@ -1,0 +1,17 @@
+---
+title: "Multi-site harmonization of diffusion MRI data in a registration framework"
+description: "PMID: [28176263](https://pubmed.ncbi.nlm.nih.gov/28176263/){target='_blank'}    DOI: [10.1007/s11682-016-9670-y](https://doi.org/10.1007/s11682-016-9670-y){target='_blank'}"
+author: Hengameh Mirzaalian, Lipeng Ning, Peter Savadjiev, Ofer Pasternak, Sylvain Bouix, Oleg Michailovich, Sarina Karmacharya, Gerald Grant, Christine E Marx, Rajendra A Morey, Laura A Flashman, Mark S George, Thomas W McAllister, Norberto Andaluz, Lori Shutter, Raul Coimbra, Ross D Zafonte, Mike J Coleman, Marek Kubicki, Carl-Fredrik Westin, Murray B Stein, Martha E Shenton, Yogesh Rathi
+date: "2018-02-00"
+categories: [Diffusion MRI, Harmonization, Inter-scanner, Intra-site, Multi-site]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Diffusion MRI (dMRI) data acquired on different scanners varies significantly in its content throughout the brain even if the acquisition parameters are nearly identical. Thus, proper harmonization of such data sets is necessary to increase the sample size and thereby the statistical power of neuroimaging studies. In this paper, we present a novel approach to harmonize dMRI data (the raw signal, instead of dMRI derived measures such as fractional anisotropy) using rotation invariant spherical harmonic (RISH) features embedded within a multi-modal image registration framework. All dMRI data sets from all sites are registered to a common template and voxel-wise differences in RISH features between sites at a group level are used to harmonize the signal in a subject-specific manner. We validate our method on diffusion data acquired from seven different sites (two GE, three Philips, and two Siemens scanners) on a group of age-matched healthy subjects. We demonstrate the efficacy of our method by statistically comparing diffusion measures such as fractional anisotropy, mean diffusivity and generalized fractional anisotropy across these sites before and after data harmonization. Validation was also done on a group oftest subjects, which were not used to "learn" the harmonization parameters. We also show results using TBSS before and after harmonization for independent validation of the proposed methodology. Using synthetic data, we show that any abnormality in diffusion measures due to disease is preserved during the harmonization process. Our experimental results demonstrate that, for nearly identical acquisition protocol across sites, scanner-specific differences in the signal can be removed using the proposed method in a model independent manner.
+        

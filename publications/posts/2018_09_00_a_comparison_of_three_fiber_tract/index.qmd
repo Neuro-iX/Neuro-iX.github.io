@@ -1,0 +1,17 @@
+---
+title: "A comparison of three fiber tract delineation methods and their impact on white matter analysis"
+description: "PMID: [29787865](https://pubmed.ncbi.nlm.nih.gov/29787865/){target='_blank'}    DOI: [10.1016/j.neuroimage.2018.05.044](https://doi.org/10.1016/j.neuroimage.2018.05.044){target='_blank'}"
+author: Valerie J Sydnor, Ana Maria Rivas-Grajales, Amanda E Lyall, Fan Zhang, Sylvain Bouix, Sarina Karmacharya, Martha E Shenton, Carl-Fredrik Westin, Nikos Makris, Demian Wassermann, Lauren J O'Donnell, Marek Kubicki
+date: "2018-09-00"
+categories: [Automatic classification of white matter tracts, Diffusion MRI, Fiber tract, Tractography, White matter]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Diffusion magnetic resonance imaging (dMRI) is an important method for studying white matter connectivity in the brain in vivo in both healthy and clinical populations. Improvements in dMRI tractography algorithms, which reconstruct macroscopic three-dimensional white matter fiber pathways, have allowed for methodological advances in the study of white matter; however, insufficient attention has been paid to comparing post-tractography methods that extract white matter fiber tracts of interest from whole-brain tractography. Here we conduct a comparison of three representative and conceptually distinct approaches to fiber tract delineation: 1) a manual multiple region of interest-based approach, 2) an atlas-based approach, and 3) a groupwise fiber clustering approach, by employing methods that exemplify these approaches to delineate the arcuate fasciculus, the middle longitudinal fasciculus, and the uncinate fasciculus in 10 healthy male subjects. We enable qualitative comparisons across methods, conduct quantitative evaluations of tract volume, tract length, mean fractional anisotropy, and true positive and true negative rates, and report measures of intra-method and inter-method agreement. We discuss methodological similarities and differences between the three approaches and the major advantages and drawbacks of each, and review research and clinical contexts for which each method may be most apposite. Emphasis is given to the means by which different white matter fiber tract delineation approaches may systematically produce variable results, despite utilizing the same input tractography and reliance on similar anatomical knowledge.Copyright (c) 2018. Published by Elsevier Inc.
+        

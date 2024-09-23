@@ -1,0 +1,17 @@
+---
+title: "Characterizing white matter changes in chronic schizophrenia: A free-water imaging multi-site study"
+description: "PMID: [28190639](https://pubmed.ncbi.nlm.nih.gov/28190639/){target='_blank'}    DOI: [10.1016/j.schres.2017.02.006](https://doi.org/10.1016/j.schres.2017.02.006){target='_blank'}"
+author: Lena K L Oestreich, Amanda E Lyall, Ofer Pasternak, Zora Kikinis, Dominick T Newell, Peter Savadjiev, Sylvain Bouix, Martha E Shenton, Marek Kubicki
+date: "2017-11-00"
+categories: [Diffusion MRI, ENIGMA, Free-water, Neurodegeneration, Tract-based spatial statistics (TBSS)]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Diffusion tensor imaging (DTI) studies in chronic schizophrenia have found widespread but often inconsistent patterns of white matter abnormalities. These studies have typically used the conventional measure of fractional anisotropy, which can be contaminated by extracellular free-water. A recent free-water imaging study reported reduced free-water corrected fractional anisotropy (FAT) in chronic schizophrenia across several brain regions, but limited changes in the extracellular volume. The present study set out to validate these findings in a substantially larger sample. Tract-based spatial statistics (TBSS) was performed in 188 healthy controls and 281 chronic schizophrenia patients. Forty-two regions of interest (ROIs), as well as average whole-brain FAT and FW were extracted from free-water corrected diffusion tensor maps. Compared to healthy controls, reduced FAT was found in the chronic schizophrenia group in the anterior limb of the internal capsule bilaterally, the posterior thalamic radiation bilaterally, as well as the genu and body of the corpus callosum. While a significant main effect of group was observed for FW, none of the follow-up contrasts survived correction for multiple comparisons. The observed FAT reductions in the absence of extracellular FW changes, in a large, multi-site sample of chronic schizophrenia patients, validate the pattern of findings reported by a previous, smaller free-water imaging study of a similar sample. The limited number of regions in which FAT was reduced in the schizophrenia group suggests that actual white matter tissue degeneration in chronic schizophrenia, independent of extracellular FW, might be more localized than suggested previously.Copyright (c) 2017 Elsevier B.V. All rights reserved.
+        

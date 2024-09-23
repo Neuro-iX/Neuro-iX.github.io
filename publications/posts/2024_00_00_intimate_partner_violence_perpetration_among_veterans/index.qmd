@@ -1,0 +1,23 @@
+---
+title: "Intimate partner violence perpetration among veterans: associations with neuropsychiatric symptoms and limbic microstructure"
+description: "PMID: [38882690](https://pubmed.ncbi.nlm.nih.gov/38882690/){target='_blank'}    DOI: [10.3389/fneur.2024.1360424](https://doi.org/10.3389/fneur.2024.1360424){target='_blank'}"
+author: Philine Rojczyk, Carina Heller, Johanna Seitz-Holland, Elisabeth Kaufmann, Valerie J Sydnor, Luisa Berger, Lara Pankatz, Yogesh Rathi, Sylvain Bouix, Ofer Pasternak, David Salat, Sidney R Hinds, Carrie Esopenko, Catherine B Fortier, William P Milberg, Martha E Shenton, Inga K Koerte
+date: "2024-00-00"
+categories: [diffusion magnetic resonance imaging, intimate partner violence, limbic system, perpetration and victimization, perpetration of violence, psychiatric disorders, traumatic brain injury, veterans]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Intimate partner violence (IPV) perpetration is highly prevalent among veterans. Suggested risk factors of IPV perpetration include combat exposure, post-traumatic stress disorder (PTSD), depression, alcohol use, and mild traumatic brain injury (mTBI). While the underlying brain pathophysiological characteristics associated with IPV perpetration remain largely unknown, previous studies have linked aggression and violence to alterations of the limbic system. Here, we investigate whether IPV perpetration is associated with limbic microstructural abnormalities in military veterans. Further, we test the effect of potential risk factors (i.e., PTSD, depression, substance use disorder, mTBI, and war zone-related stress) on the prevalence of IPV perpetration.
+
+METHODS: Structural and diffusion-weighted magnetic resonance imaging (dMRI) data were acquired from 49 male veterans of the Iraq and Afghanistan wars (Operation Enduring Freedom/Operation Iraqi Freedom; OEF/OIF) of the Translational Research Center for TBI and Stress Disorders (TRACTS) study. IPV perpetration was assessed using the psychological aggression and physical assault sub-scales of the Revised Conflict Tactics Scales (CTS2). Odds ratios were calculated to assess the likelihood of IPV perpetration in veterans with either of the following diagnoses: PTSD, depression, substance use disorder, or mTBI. Fractional anisotropy tissue (FA) measures were calculated for limbic gray matter structures (amygdala-hippocampus complex, cingulate, parahippocampal gyrus, entorhinal cortex). Partial correlations were calculated between IPV perpetration, neuropsychiatric symptoms, and FA.
+
+RESULTS: Veterans with a diagnosis of PTSD, depression, substance use disorder, or mTBI had higher odds of perpetrating IPV. Greater war zone-related stress, and symptom severity of PTSD, depression, and mTBI were significantly associated with IPV perpetration. CTS2 (psychological aggression), a measure of IPV perpetration, was associated with higher FA in the right amygdala-hippocampus complex (r = 0.400, p = 0.005).
+
+CONCLUSION: Veterans with psychiatric disorders and/or mTBI exhibit higher odds of engaging in IPV perpetration. Further, the more severe the symptoms of PTSD, depression, or TBI, and the greater the war zone-related stress, the greater the frequency of IPV perpetration. Moreover, we report a significant association between psychological aggression against an intimate partner and microstructural alterations in the right amygdala-hippocampus complex. These findings suggest the possibility of a structural brain correlate underlying IPV perpetration that requires further research.
+        

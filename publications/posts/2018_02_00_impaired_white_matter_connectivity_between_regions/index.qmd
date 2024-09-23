@@ -1,0 +1,17 @@
+---
+title: "Impaired white matter connectivity between regions containing mirror neurons, and relationship to negative symptoms and social cognition, in patients with first-episode schizophrenia"
+description: "PMID: [28247157](https://pubmed.ncbi.nlm.nih.gov/28247157/){target='_blank'}    DOI: [10.1007/s11682-017-9685-z](https://doi.org/10.1007/s11682-017-9685-z){target='_blank'}"
+author: Yukiko Saito, Marek Kubicki, Inga Koerte, Tatsui Otsuka, Yogesh Rathi, Ofer Pasternak, Sylvain Bouix, Ryan Eckbo, Zora Kikinis, Christian Clemm von Hohenberg, Tomohide Roppongi, Elisabetta Del Re, Takeshi Asami, Sang-Hyuk Lee, Sarina Karmacharya, Raquelle I Mesholam-Gately, Larry J Seidman, James Levitt, Robert W McCarley, Martha E Shenton, Margaret A Niznikiewicz
+date: "2018-02-00"
+categories: [Diffusion tensor imaging, First-episode schizophrenia, Mirror neuron, White matter connectivity]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+In schizophrenia, abnormalities in structural connectivity between brain regions known to contain mirror neurons and their relationship to negative symptoms related to a domain of social cognition are not well understood. Diffusion tensor imaging (DTI) scans were acquired in 16 patients with first episode schizophrenia and 16 matched healthy controls. FA and Trace of the tracts interconnecting regions known to be rich in mirror neurons, i.e., anterior cingulate cortex (ACC), inferior parietal lobe (IPL) and premotor cortex (PMC) were evaluated. A significant group effect for Trace was observed in IPL-PMC white matter fiber tract (F (1, 28) = 7.13, p = .012), as well as in the PMC-ACC white matter fiber tract (F (1, 28) = 4.64, p = .040). There were no group differences in FA. In addition, patients with schizophrenia showed a significant positive correlation between the Trace of the left IPL-PMC white matter fiber tract, and the Ability to Feel Intimacy and Closeness score (rho = .57, p = 0.034), and a negative correlation between the Trace of the left PMC-ACC and the Relationships with Friends and Peers score (rho = remove -.54, p = 0.049). We have demonstrated disrupted white mater microstructure within the white matter tracts subserving brain regions containing mirror neurons. We further showed that such structural disruptions might impact negative symptoms and, more specifically, contribute to the inability to feel intimacy (a measure conceptually related to theory of mind) in first episode schizophrenia. Further studies are needed to understand the potential of our results for diagnosis, prognosis and therapeutic interventions.
+        

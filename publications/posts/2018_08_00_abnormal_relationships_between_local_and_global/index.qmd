@@ -1,0 +1,17 @@
+---
+title: "Abnormal relationships between local and global brain measures in subjects at clinical high risk for psychosis: a pilot study"
+description: "PMID: [28815390](https://pubmed.ncbi.nlm.nih.gov/28815390/){target='_blank'}    DOI: [10.1007/s11682-017-9758-z](https://doi.org/10.1007/s11682-017-9758-z){target='_blank'}"
+author: Jun Konishi, Elisabetta C Del Re, Sylvain Bouix, Gabriella A M Blokland, Raquelle Mesholam-Gately, Kristen Woodberry, Margaret Niznikiewicz, Jill Goldstein, Yoshio Hirayasu, Tracey L Petryshen, Larry J Seidman, Martha E Shenton, Robert W McCarley
+date: "2018-08-00"
+categories: [Amygdala, Clinical high risk to develop psychosis, Hippocampus, MABS, Temporal horns of lateral ventricles, Ventricles/Brain volume ratio (VBR), Verbal fluency, White matter, Wisconsin card test]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+We examined whether abnormal volumes of several brain regions as well as their mutual associations that have been observed in patients with schizophrenia, are also present in individuals at clinical high-risk (CHR) for developing psychosis. 3T magnetic resonance imaging was acquired in 19 CHR and 20 age- and handedness-matched controls. Volumes were measured for the body and temporal horns of the lateral ventricles, hippocampus and amygdala as well as total brain, cortical gray matter, white matter, and subcortical gray matter volumes. Relationships between volumes as well as correlations between volumes and cognitive and clinical measures were explored. Ratios of lateral ventricular volume to total brain volume and temporal horn volume to total brain volume were calculated. Volumetric abnormalities were lateralized to the left hemisphere. Volumes of the left temporal horn, and marginally, of the body of the left lateral ventricle were larger, while left amygdala but not hippocampal volume was significantly smaller in CHR participants compared to controls. Total brain volume was also significantly smaller and the ratio of the temporal horn/total brain volume was significantly higher in CHR than in controls. White matter volume correlated positively with higher verbal fluency score while temporal horn volume correlated positively with a greater number of perseverative errors. Together with the finding of larger temporal horns and smaller amygdala volumes in the left hemisphere, these results indicate that the ratio of temporal horns volume to brain volume is abnormal in CHR compared to controls. These abnormalities present in CHR individuals may constitute the biological basis for at least some of the CHR syndrome.
+        

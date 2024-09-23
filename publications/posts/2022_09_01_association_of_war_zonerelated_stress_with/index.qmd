@@ -1,0 +1,29 @@
+---
+title: "Association of War Zone-Related Stress With Alterations in Limbic Gray Matter Microstructure"
+description: "PMID: [36112375](https://pubmed.ncbi.nlm.nih.gov/36112375/){target='_blank'}    DOI: [10.1001/jamanetworkopen.2022.31891](https://doi.org/10.1001/jamanetworkopen.2022.31891){target='_blank'}"
+author: Elisabeth Kaufmann, Philine Rojczyk, Valerie J Sydnor, Jeffrey P Guenette, Yorghos Tripodis, David Kaufmann, Lisa Umminger, Johanna Seitz-Holland, Nico Sollmann, Yogesh Rathi, Sylvain Bouix, Catherine B Fortier, David Salat, Ofer Pasternak, Sidney R Hinds, William P Milberg, Regina E McGlinchey, Martha E Shenton, Inga K Koerte
+date: "2022-09-01"
+categories: [partial, medial orbitofrontal cortex, war zone-related stress, orbitofrontal cortex, medial orbitofrontal]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+IMPORTANCE: Military service members returning from theaters of war are at increased risk for mental illness, but despite high prevalence and substantial individual and societal burden, the underlying pathomechanisms remain largely unknown. Exposure to high levels of emotional stress in theaters of war and mild traumatic brain injury (mTBI) are presumed factors associated with risk for the development of mental disorders.
+
+OBJECTIVE: To investigate (1) whether war zone-related stress is associated with microstructural alterations in limbic gray matter (GM) independent of mental disorders common in this population, (2) whether associations between war zone-related stress and limbic GM microstructure are modulated by a history of mTBI, and (3) whether alterations in limbic GM microstructure are associated with neuropsychological functioning.
+
+DESIGN, SETTING, AND PARTICIPANTS: This cohort study was part of the TRACTS (Translational Research Center for TBI and Stress Disorders) study, which took place in 2010 to 2014 at the Veterans Affair Rehabilitation Research and Development TBI National Network Research Center. Participants included male veterans (aged 18-65 years) with available diffusion tensor imaging data enrolled in the TRACTS study. Data analysis was performed between December 2017 to September 2021.
+
+EXPOSURES: The Deployment Risk and Resilience Inventory (DRRI) was used to measure exposure to war zone-related stress. The Boston Assessment of TBI-Lifetime was used to assess history of mTBI. Stroop Inhibition (Stroop-IN) and Inhibition/Switching (Stroop-IS) Total Error Scaled Scores were used to assess executive or attentional control functions.
+
+MAIN OUTCOMES AND MEASURES: Diffusion characteristics (fractional anisotropy of tissue [FAT]) of 16 limbic and paralimbic GM regions and measures of functional outcome.
+
+RESULTS: Among 384 male veterans recruited, 168 (mean [SD] age, 31.4 [7.4] years) were analyzed. Greater war zone-related stress was associated with lower FAT in the cingulate (DRRI-combat left: P = .002, partial r = -0.289; DRRI-combat right: P = .02, partial r = -0.216; DRRI-aftermath left: P = .004, partial r = -0.281; DRRI-aftermath right: P = .02, partial r = -0.219), orbitofrontal (DRRI-combat left medial orbitofrontal cortex: P = .02, partial r = -0.222; DRRI-combat right medial orbitofrontal cortex: P = .005, partial r = -0.256; DRRI-aftermath left medial orbitofrontal cortex: P = .02, partial r = -0.214; DRRI-aftermath right medial orbitofrontal cortex: P = .005, partial r = -0.260; DRRI-aftermath right lateral orbitofrontal cortex: P = .03, partial r = -0.196), and parahippocampal (DRRI-aftermath right: P = .03, partial r = -0.191) gyrus, as well as with higher FAT in the amygdala-hippocampus complex (DRRI-combat: P = .005, partial r = 0.254; DRRI-aftermath: P = .02, partial r = 0.223). Lower FAT in the cingulate-orbitofrontal gyri was associated with impaired response inhibition (Stroop-IS left cingulate: P < .001, partial r = -0.440; Stroop-IS right cingulate: P < .001, partial r = -0.372; Stroop-IS left medial orbitofrontal cortex: P < .001, partial r = -0.304; Stroop-IS right medial orbitofrontal cortex: P < .001, partial r = -0.340; Stroop-IN left cingulate: P < .001, partial r = -0.421; Stroop-IN right cingulate: P < .001, partial r = -0.300; Stroop-IN left medial orbitofrontal cortex: P = .01, partial r = -0.223; Stroop-IN right medial orbitofrontal cortex: P < .001, partial r = -0.343), whereas higher FAT in the mesial temporal regions was associated with improved short-term memory and processing speed (left amygdala-hippocampus complex: P < .001, partial r = -0.574; right amygdala-hippocampus complex: P < .001, partial r = 0.645; short-term memory left amygdala-hippocampus complex: P < .001, partial r = 0.570; short-term memory right amygdala-hippocampus complex: P < .001, partial r = 0.633). A history of mTBI did not modulate the association between war zone-related stress and GM diffusion.
+
+CONCLUSIONS AND RELEVANCE: This study revealed an association between war zone-related stress and alteration of limbic GM microstructure, which was associated with cognitive functioning. These results suggest that altered limbic GM microstructure may underlie the deleterious outcomes of war zone-related stress on brain health. Military service members may benefit from early therapeutic interventions after deployment to a war zone.
+        

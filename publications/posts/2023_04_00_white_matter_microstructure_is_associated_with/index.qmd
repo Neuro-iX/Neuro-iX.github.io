@@ -1,0 +1,17 @@
+---
+title: "White Matter Microstructure Is Associated with Serum Neuroactive Steroids and Psychological Functioning"
+description: "PMID: [36324218](https://pubmed.ncbi.nlm.nih.gov/36324218/){target='_blank'}    DOI: [10.1089/neu.2022.0111](https://doi.org/10.1089/neu.2022.0111){target='_blank'}"
+author: Lisa F Umminger, Philine Rojczyk, Johanna Seitz-Holland, Nico Sollmann, Elisabeth Kaufmann, Philipp Kinzel, Fan Zhang, Janna Kochsiek, Mina Langhein, Cara L Kim, Tim L T Wiegand, Jason D Kilts, Jennifer C Naylor, Gerald A Grant, Yogesh Rathi, Michael J Coleman, Sylvain Bouix, Yorghos Tripodis, Ofer Pasternak, Mark S George, Thomas W McAllister, Ross Zafonte, Murray B Stein, Lauren J O'Donnell, Christine E Marx, ... ...
+date: "2023-04-00"
+categories: [diffusion tensor imaging, mild traumatic brain injury, military service members, neuroactive steroids, post-traumatic stress disorder, psychological functioning]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Military service members are at increased risk for mental health issues, and comorbidity with mild traumatic brain injury (mTBI) is common. Largely overlapping symptoms between conditions suggest a shared pathophysiology. The present work investigates the associations among white matter microstructure, psychological functioning, and serum neuroactive steroids that are part of the stress-response system. Diffusion-weighted brain imaging was acquired from 163 participants (with and without military affiliation) and free-water-corrected fractional anisotropy (FAT) was extracted. Associations between serum neurosteroid levels of allopregnanolone (ALLO) and pregnenolone (PREGNE), psychological functioning, and whole-brain white matter microstructure were assessed using regression models. Moderation models tested the effect of mTBI and comorbid post-traumatic stress disorder (PTSD) and mTBI on these associations. ALLO is associated with whole-brain white matter FAT (b = 0.24, t = 3.05, p = 0.006). This association is significantly modulated by PTSD+mTBI comorbidity (b = 0.00, t = 2.50, p = 0.027), although an mTBI diagnosis alone did not significantly impact this association (p = 0.088). There was no significant association between PREGNE and FAT (p = 0.380). Importantly, lower FAT is associated with poor psychological functioning (b = -0.19, t = -2.35, p = 0.020). This study provides novel insight into a potential common pathophysiological mechanism of neurosteroid dysregulation underlying the high risk for mental health issues in military service members. Further, comorbidity of PTSD and mTBI may bring the compensatory effects of the brain's stress response to their limit. Future research is needed to investigate whether neurosteroid regulation may be a promising tool for restoring brain health and improving psychological functioning.
+        

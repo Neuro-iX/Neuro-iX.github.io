@@ -1,0 +1,35 @@
+---
+title: "Exposure to Repetitive Head Impacts Is Associated With Corpus Callosum Microstructure and Plasma Total Tau in Former Professional American Football Players"
+description: "PMID: [34137112](https://pubmed.ncbi.nlm.nih.gov/34137112/){target='_blank'}    DOI: [10.1002/jmri.27774](https://doi.org/10.1002/jmri.27774){target='_blank'}"
+author: Janna Kochsiek, Lauren J O'Donnell, Fan Zhang, Elena M Bonke, Nico Sollmann, Yorghos Tripodis, Tim L T Wiegand, David Kaufmann, Lisa Umminger, Maria A Di Biase, Elisabeth Kaufmann, Vivian Schultz, Michael L Alosco, Brett M Martin, Alexander P Lin, Michael J Coleman, Yogesh Rathi, Ofer Pasternak, Sylvain Bouix, Robert A Stern, Martha E Shenton, Inga K Koerte
+date: "2021-12-00"
+categories: [Sport-related brain injury, chronic traumatic encephalopathy, diffusion MR imaging, neurodegeneration, neuropsychological testing, tractography]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Exposure to repetitive head impacts (RHI) is associated with an increased risk of later-life neurobehavioral dysregulation and neurodegenerative disease. The underlying pathomechanisms are largely unknown.
+
+PURPOSE: To investigate whether RHI exposure is associated with later-life corpus callosum (CC) microstructure and whether CC microstructure is associated with plasma total tau and neuropsychological/neuropsychiatric functioning.
+
+STUDY TYPE: Retrospective cohort study.
+
+POPULATION: Seventy-five former professional American football players (age 55.2 +- 8.0 years) with cognitive, behavioral, and mood symptoms.
+
+FIELD STRENGTH/SEQUENCE: Diffusion-weighted echo-planar MRI at 3 T.
+
+ASSESSMENT: Subjects underwent diffusion MRI, venous puncture, neuropsychological testing, and completed self-report measures of neurobehavioral dysregulation. RHI exposure was assessed using the Cumulative Head Impact Index (CHII). Diffusion MRI measures of CC microstructure (i.e., free-water corrected fractional anisotropy (FA), trace, radial diffusivity (RD), and axial diffusivity (AD)) were extracted from seven segments of the CC (CC1-7), using a tractography clustering algorithm. Neuropsychological tests were selected: Trail Making Test Part A (TMT-A) and Part B (TMT-B), Controlled Oral Word Association Test (COWAT), Stroop Interference Test, and the Behavioral Regulation Index (BRI) from the Behavior Rating Inventory of Executive Function, Adult version (BRIEF-A).
+
+STATISTICAL TESTS: Diffusion MRI metrics were tested for associations with RHI exposure, plasma total tau, neuropsychological performance, and neurobehavioral dysregulation using generalized linear models for repeated measures.
+
+RESULTS: RHI exposure was associated with increased AD of CC1 (correlation coefficient (r) = 0.32, P < 0.05) and with increased plasma total tau (r = 0.34, P < 0.05). AD of the anterior CC1 was associated with increased plasma total tau (CC1: r = 0.30, P < 0.05; CC2: r = 0.29, P < 0.05). Higher trace, AD, and RD of CC1 were associated with better performance (P < 0.05) in TMT-A (trace, r = 0.33; AD, r = 0.31; and RD, r = 0.28) and TMT-B (trace, r = 0.31; RD, r = 0.34). Higher FA and AD of CC2 were associated with better performance (P < 0.05) in TMT-A (FA, r = 0.36; AD, r = 0.28), TMT-B (FA, r = 0.36; AD, r = 0.27), COWAT (FA, r = 0.36; AD, r = 0.32), and BRI (AD, r = 0.29).
+
+DATA CONCLUSION: These results suggest an association among RHI exposure, CC microstructure, plasma total tau, and clinical functioning in former professional American football players.
+
+LEVEL OF EVIDENCE: 3 Technical Efficacy Stage: 1.
+        

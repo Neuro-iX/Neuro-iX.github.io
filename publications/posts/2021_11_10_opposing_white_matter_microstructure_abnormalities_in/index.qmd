@@ -1,0 +1,17 @@
+---
+title: "Opposing white matter microstructure abnormalities in 22q11.2 deletion and duplication carriers"
+description: "PMID: [34759270](https://pubmed.ncbi.nlm.nih.gov/34759270/){target='_blank'}    DOI: [10.1038/s41398-021-01703-1](https://doi.org/10.1038/s41398-021-01703-1){target='_blank'}"
+author: Johanna Seitz-Holland, Monica Lyons, Leila Kushan, Amy Lin, Julio E Villalon-Reina, Kang Ik Kevin Cho, Fan Zhang, Tashrif Billah, Sylvain Bouix, Marek Kubicki, Carrie E Bearden, Ofer Pasternak
+date: "2021-11-10"
+categories: [psychiatric morbidity, significant neurodevelopmental, neurodevelopmental and psychiatric, Abstract, deletion carriers]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Deletions and duplications at the 22q11.2 locus are associated with significant neurodevelopmental and psychiatric morbidity. Previous diffusion-weighted magnetic resonance imaging (MRI) studies in 22q11.2 deletion carriers (22q-del) found nonspecific white matter (WM) abnormalities, characterized by higher fractional anisotropy. Here, utilizing novel imaging and processing methods that allow separation of signal contribution from different tissue properties, we investigate whether higher anisotropy is driven by (1) extracellular changes, (2) selective degeneration of secondary fibers, or (3) volumetric differences. We further, for the first time, investigate WM microstructure in 22q11.2 duplication carriers (22q-dup). Multi-shell diffusion-weighted images were acquired from 26 22q-del, 19 22q-dup, and 18 healthy individuals (HC). Images were fitted with the free-water model to estimate anisotropy following extracellular free-water elimination and with the novel BedpostX model to estimate fractional volumes of primary and secondary fiber populations. Outcome measures were compared between groups, with and without correction for WM and cerebrospinal fluid (CSF) volumes. In 22q-del, anisotropy following free-water elimination remained significantly higher compared with controls. BedpostX did not identify selective secondary fiber degeneration. Higher anisotropy diminished when correcting for the higher CSF and lower WM volumes. In contrast, 22q-dup had lower anisotropy and greater extracellular space than HC, not influenced by macrostructural volumes. Our findings demonstrate opposing effects of reciprocal 22q11.2 copy-number variation on WM, which may arise from distinct pathologies. In 22q-del, microstructural abnormalities may be secondary to enlarged CSF space and more densely packed WM. In 22q-dup, we see evidence for demyelination similar to what is commonly observed in neuropsychiatric disorders.(c) 2021. The Author(s).
+        

@@ -1,0 +1,23 @@
+---
+title: "Evaluation of intravenous lidocaine in head and neck cancer surgery: study protocol for a randomized controlled trial"
+description: "PMID: [30987664](https://pubmed.ncbi.nlm.nih.gov/30987664/){target='_blank'}    DOI: [10.1186/s13063-019-3303-x](https://doi.org/10.1186/s13063-019-3303-x){target='_blank'}"
+author: Edris Omar, Gregoire Wallon, Christian Bauer, Gregory Axiotis, Cecile Bouix, Jean-Luc Soubirou, Frederic Aubrun
+date: "2019-04-15"
+categories: [chronic postsurgical pain, neck cancer surgery, head and neck, major head, neck cancer]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Pain after major head and neck cancer surgery is underestimated and has both nociceptive and neuropathic characteristics. Extended resection, flap coverage, nerve lesions, inflammation, and high-dose opioid administration can also lead to hyperalgesia and chronic postoperative pain. Opioids are frequently associated with adverse events such as dizziness, drowsiness, nausea and vomiting, or constipation disturbing postoperative recovery and extending the length of hospital stay. Patients eligible for major head and neck cancer surgery cannot benefit from full multimodal pain management with locoregional anesthesia. Intravenous lidocaine, investigated in several studies, has been found to decrease acute pain and morphine consumption. Some data suggest also that it can prevent chronic postsurgical pain. Evidence supporting its use varies between surgical procedures, and there is no published study regarding systemic lidocaine administration in major head and neck cancer surgery. We hypothesized that intravenous lidocaine infused in the perioperative period would lead to opioid sparing and chronic postsurgical pain reduction.
+
+METHODS/DESIGN: A total of 128 patients undergoing major head and neck surgery will be included in this prospective two-center, double-blind, randomized controlled trial. Patients will be randomly assigned to lidocaine or placebo treatment. After induction of general anesthesia, an intravenous lidocaine bolus will be administered (1.5 mg.kg- 1), followed by a continuous infusion (2 mg.kg- 1.h- 1) which will be reduced in the postanesthesia care unit (1 mg.kg- 1.h- 1). The primary outcome measure is morphine consumption 48 h after surgery. The secondary outcomes include intraoperative remifentanil consumption, morphine consumption 24 h after surgery, and chronic postsurgical pain that will be assessed 3-6 months after surgery.
+
+DISCUSSION: Recent evidence suggests that intravenous lidocaine can lead to opioid sparing and chronic postsurgical pain reduction for certain types of surgery. This is the first trial to prospectively investigate the efficacy and safety of intravenous lidocaine in major head and neck cancer surgery.
+
+TRIAL REGISTRATION: ClinicalTrials.gov, NCT02894710 . Registered on 11 August 2016.
+        

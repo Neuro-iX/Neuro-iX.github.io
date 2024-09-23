@@ -1,0 +1,17 @@
+---
+title: "Cell type-specific manifestations of cortical thickness heterogeneity in schizophrenia"
+description: "PMID: [35145230](https://pubmed.ncbi.nlm.nih.gov/35145230/){target='_blank'}    DOI: [10.1038/s41380-022-01460-7](https://doi.org/10.1038/s41380-022-01460-7){target='_blank'}"
+author: Maria A Di Biase, Michael P Geaghan, William R Reay, Jakob Seidlitz, Cynthia Shannon Weickert, Alice Pebay, Melissa J Green, Yann Quide, Joshua R Atkins, Michael J Coleman, Sylvain Bouix, Evdokiya E Knyazhanskaya, Amanda E Lyall, Ofer Pasternak, Marek Kubicki, Yogesh Rathi, Andrew Visco, Megan Gaunnac, Jinglei Lv, Raquelle I Mesholam-Gately, Kathryn E Lewandowski, Daphne J Holt, Matcheri S Keshavan, Christos Pantelis, Dost Ongur, ... ...
+date: "2022-04-00"
+categories: [morphology differs markedly, Brain morphology differs, poorly understood, morphology differs, differs markedly]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Brain morphology differs markedly between individuals with schizophrenia, but the cellular and genetic basis of this heterogeneity is poorly understood. Here, we sought to determine whether cortical thickness (CTh) heterogeneity in schizophrenia relates to interregional variation in distinct neural cell types, as inferred from established gene expression data and person-specific genomic variation. This study comprised 1849 participants in total, including a discovery (140 cases and 1267 controls) and a validation cohort (335 cases and 185 controls). To characterize CTh heterogeneity, normative ranges were established for 34 cortical regions and the extent of deviation from these ranges was measured for each individual with schizophrenia. CTh deviations were explained by interregional gene expression levels of five out of seven neural cell types examined: (1) astrocytes; (2) endothelial cells; (3) oligodendrocyte progenitor cells (OPCs); (4) excitatory neurons; and (5) inhibitory neurons. Regional alignment between CTh alterations with cell type transcriptional maps distinguished broad patient subtypes, which were validated against genomic data drawn from the same individuals. In a predominantly neuronal/endothelial subtype (22% of patients), CTh deviations covaried with polygenic risk for schizophrenia (sczPRS) calculated specifically from genes marking neuronal and endothelial cells (r = -0.40, p = 0.010). Whereas, in a predominantly glia/OPC subtype (43% of patients), CTh deviations covaried with sczPRS calculated from glia and OPC-linked genes (r = -0.30, p = 0.028). This multi-scale analysis of genomic, transcriptomic, and brain phenotypic data may indicate that CTh heterogeneity in schizophrenia relates to inter-individual variation in cell-type specific functions. Decomposing heterogeneity in relation to cortical cell types enables prioritization of schizophrenia subsets for future disease modeling efforts.(c) 2022. The Author(s).
+        

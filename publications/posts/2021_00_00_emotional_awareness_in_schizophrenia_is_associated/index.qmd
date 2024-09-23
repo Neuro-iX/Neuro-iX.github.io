@@ -1,0 +1,17 @@
+---
+title: "Emotional Awareness in Schizophrenia Is Associated With Gray Matter Volume of Right Precuneus"
+description: "PMID: [33868042](https://pubmed.ncbi.nlm.nih.gov/33868042/){target='_blank'}    DOI: [10.3389/fpsyt.2021.601742](https://doi.org/10.3389/fpsyt.2021.601742){target='_blank'}"
+author: Martin Jani, Zora Kikinis, Jan Losak, Ofer Pasternak, Filip Szczepankiewicz, Carina Heller, Sophia Swago, Annelise Silva, Sylvain Bouix, Marek Kubicki, Libor Ustohal, Petr Kudlicka, Lubomir Vojtisek, Carl-Frederik Westin, Tomas Kasparek
+date: "2021-00-00"
+categories: [MRI, alexithymia, emotional awareness, psychopathology, schizophrenia]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Objectives: We assessed the relationship between emotional awareness (e.g., the ability to identify and differentiate our own feelings and feelings of others) and regional brain volumes in healthy and in schizophrenia groups. Methods: Magnetic resonance images of 29 subjects with schizophrenia and 33 matched healthy controls were acquired. Brain gray matter was parcellated using FreeSurfer and 28 regions of interest associated with emotional awareness were analyzed. All participants were assessed using the Levels of Emotional Awareness Scale (LEAS) of Self and of Other. LEAS scores were correlated with gray matter volume for each hemisphere on the 14 brain regions of the emotional awareness network. Results: Individuals with schizophrenia showed decreased emotional awareness on both LEAS Self and LEAS Other compared to healthy controls. There were no statistically significant between-group differences in gray matter volumes of the emotional awareness network. The performance on LEAS Other correlated negatively with right precuneus gray matter volume only in the schizophrenia group. Conclusion: Our findings suggest a relationship between gray matter volume of the right precuneus and deficits in understanding of emotional states of others in schizophrenia.Copyright (c) 2021 Jani, Kikinis, Losak, Pasternak, Szczepankiewicz, Heller, Swago, Silva, Bouix, Kubicki, Ustohal, Kudlicka, Vojtisek, Westin and Kasparek.
+        

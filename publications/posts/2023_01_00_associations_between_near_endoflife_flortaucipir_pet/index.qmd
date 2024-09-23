@@ -1,0 +1,23 @@
+---
+title: "Associations between near end-of-life flortaucipir PET and postmortem CTE-related tau neuropathology in six former American football players"
+description: "PMID: [36152064](https://pubmed.ncbi.nlm.nih.gov/36152064/){target='_blank'}    DOI: [10.1007/s00259-022-05963-x](https://doi.org/10.1007/s00259-022-05963-x){target='_blank'}"
+author: Michael L Alosco, Yi Su, Thor D Stein, Hillary Protas, Jonathan D Cherry, Charles H Adler, Laura J Balcer, Charles Bernick, Surya Vamsi Pulukuri, Bobak Abdolmohammadi, Michael J Coleman, Joseph N Palmisano, Yorghos Tripodis, Jesse Mez, Gil D Rabinovici, Kenneth L Marek, Thomas G Beach, Keith A Johnson, Bertrand Russell Huber, Inga Koerte, Alexander P Lin, Sylvain Bouix, Jeffrey L Cummings, Martha E Shenton, Eric M Reiman, ... ...
+date: "2023-01-00"
+categories: [Biomarkers, Chronic traumatic encephalopathy, Flortaucipir, Football, Neurodegenerative disease, Positron emission tomography imaging, Repetitive head impacts, Tau]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+PURPOSE: Flourine-18-flortaucipir tau positron emission tomography (PET) was developed for the detection for Alzheimer's disease. Human imaging studies have begun to investigate its use in chronic traumatic encephalopathy (CTE). Flortaucipir-PET to autopsy correlation studies in CTE are needed for diagnostic validation. We examined the association between end-of-life flortaucipir PET and postmortem neuropathological measurements of CTE-related tau in six former American football players.
+
+METHODS: Three former National Football League players and three former college football players who were part of the DIAGNOSE CTE Research Project died and agreed to have their brains donated. The six players had flortaucipir (tau) and florbetapir (amyloid) PET prior to death. All brains from the deceased participants were neuropathologically evaluated for the presence of CTE. On average, the participants were 59.0 (SD = 9.32) years of age at time of PET. PET scans were acquired 20.33 (SD = 13.08) months before their death. Using Spearman correlation analyses, we compared flortaucipir standard uptake value ratios (SUVRs) to digital slide-based AT8 phosphorylated tau (p-tau) density in a priori selected composite cortical, composite limbic, and thalamic regions-of-interest (ROIs).
+
+RESULTS: Four brain donors had autopsy-confirmed CTE, all with high stage disease (n = 3 stage III, n = 1 stage IV). Three of these four met criteria for the clinical syndrome of CTE, known as traumatic encephalopathy syndrome (TES). Two did not have CTE at autopsy and one of these met criteria for TES. Concomitant pathology was only present in one of the non-CTE cases (Lewy body) and one of the CTE cases (motor neuron disease). There was a strong association between flortaucipir SUVRs and p-tau density in the composite cortical (r = 0.71) and limbic (r = 0.77) ROIs. Although there was a strong association in the thalamic ROI (r = 0.83), this is a region with known off-target binding. SUVRs were modest and CTE and non-CTE cases had overlapping SUVRs and discordant p-tau density for some regions.
+
+CONCLUSIONS: Flortaucipir-PET could be useful for detecting high stage CTE neuropathology, but specificity to CTE p-tau is uncertain. Off-target flortaucipir binding in the hippocampus and thalamus complicates interpretation of these associations. In vivo biomarkers that can detect the specific p-tau of CTE across the disease continuum are needed.
+        

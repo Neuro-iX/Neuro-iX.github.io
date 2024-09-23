@@ -1,0 +1,17 @@
+---
+title: "More organized white matter is associated with positivity bias in older adults"
+description: "PMID: [38270836](https://pubmed.ncbi.nlm.nih.gov/38270836/){target='_blank'}    DOI: [10.1007/s11682-024-00850-5](https://doi.org/10.1007/s11682-024-00850-5){target='_blank'}"
+author: Petra V Viher, Johanna Seitz-Holland, Marc S Schulz, Elizabeth A Kensinger, Sarina Karmacharya, Talis Swisher, Amanda E Lyall, Nikos Makris, Sylvain Bouix, Martha E Shenton, Marek Kubicki, Robert J Waldinger
+date: "2024-06-00"
+categories: [Aging, Brain structure, Executive functioning, Memory, Positivity bias]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+On average, healthy older adults prefer positive over neutral or negative stimuli. This positivity bias is related to memory and attention processes and is linked to the function and structure of several interconnected brain areas. However, the relationship between the positivity bias and white matter integrity remains elusive. The present study examines how white matter organization relates to the degree of the positivity bias among older adults. We collected imaging and behavioral data from 25 individuals (12 females, 13 males, and a mean age of 77.32). Based on a functional memory task, we calculated a Pos-Neg score, reflecting the memory for positively valenced information over negative information, and a Pos-Neu score, reflecting the memory for positively valenced information over neutral information. Diffusion-weighted magnetic resonance imaging data were processed using Tract-Based Spatial Statistics. We performed two non-parametric permutation tests to correlate whole brain white matter integrity and the Pos-Neg and Pos-Neu scores while controlling for age, sex, and years of education. We observed a statistically significant positive association between the Pos-Neu score and white matter integrity in multiple brain connections, mostly frontal. The results did not remain significant when including verbal episodic memory as an additional covariate. Our study indicates that the positivity bias in memory in older adults is associated with more organized white matter in the connections of the frontal brain. While these frontal areas are critical for memory and executive processes and have been related to pathological aging, more extensive studies are needed to fully understand their role in the positivity bias and the potential for therapeutic interventions.(c) 2024. The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.
+        

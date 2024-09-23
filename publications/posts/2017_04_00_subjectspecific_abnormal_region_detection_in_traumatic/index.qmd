@@ -1,0 +1,17 @@
+---
+title: "Subject-specific abnormal region detection in traumatic brain injury using sparse model selection on high dimensional diffusion data"
+description: "PMID: [28160691](https://pubmed.ncbi.nlm.nih.gov/28160691/){target='_blank'}    DOI: [10.1016/j.media.2017.01.005](https://doi.org/10.1016/j.media.2017.01.005){target='_blank'}"
+author: Matineh Shaker, Deniz Erdogmus, Jennifer Dy, Sylvain Bouix
+date: "2017-04-00"
+categories: [DTI, Graphical lasso, Sparse learning, TBI]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+We present a method to estimate a multivariate Gaussian distribution of diffusion tensor features in a set of brain regions based on a small sample of healthy individuals, and use this distribution to identify imaging abnormalities in subjects with mild traumatic brain injury. The multivariate model receives apriori knowledge in the form of a neighborhood graph imposed on the precision matrix, which models brain region interactions, and an additional L1 sparsity constraint. The model is then estimated using the graphical LASSO algorithm and the Mahalanobis distance of healthy and TBI subjects to the distribution mean is used to evaluate the discriminatory power of the model. Our experiments show that the addition of the apriori neighborhood graph results in significant improvements in classification performance compared to a model which does not take into account the brain region interactions or one which uses a fully connected prior graph. In addition, we describe a method, using our model, to detect the regions that contribute the most to the overall abnormality of the DTI profile of a subject's brain.Copyright (c) 2017 Elsevier B.V. All rights reserved.
+        

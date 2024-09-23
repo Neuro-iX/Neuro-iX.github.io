@@ -1,0 +1,17 @@
+---
+title: "Smaller subcortical volumes and enlarged lateral ventricles are associated with higher global functioning in young adults with 22q11.2 deletion syndrome with prodromal symptoms of schizophrenia"
+description: "PMID: [33993037](https://pubmed.ncbi.nlm.nih.gov/33993037/){target='_blank'}    DOI: [10.1016/j.psychres.2021.113979](https://doi.org/10.1016/j.psychres.2021.113979){target='_blank'}"
+author: Carina Heller, Thomas Weiss, Elisabetta C Del Re, Sophia Swago, Ioana L Coman, Kevin M Antshel, Wanda Fremont, Sylvain Bouix, Wendy R Kates, Marek R Kubicki, Zora Kikinis
+date: "2021-07-00"
+categories: [22q11.2 deletion syndrome, Global functioning, Lateral ventricles, Premorbid adjustment, Prodromal symptoms, Schizophrenia, Subcortical structures]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The 22q11.2 deletion syndrome (22q11DS) is a developmental genetic syndrome associated with a 30% risk for developing schizophrenia. Lateral ventricles and subcortical structures are abnormal in this syndrome as well as in schizophrenia. Here, we investigated whether these structures are related in young adults with 22q11DS with and without prodromal symptoms (PS) for schizophrenia and whether abnormalities in volumes are associated with global functioning. MR images were acquired on a 3T scanner from 51 individuals with 22q11DS and 30 healthy controls (mean age: 21+-2 years). Correlations were performed to evaluate the relationship between ventricular and subcortical volumes, with Global Assessment of Functioning (GAF) and Premorbid Adjustment Scale (PAS) in each group. Lateral ventricular volumes correlated negatively with subcortical volumes in individuals with 22q11DS. In individuals with 22q11DS with PS only, GAF correlated positively with volumes of the lateral ventricles and negatively with subcortical volumes. PAS correlated negatively with lateral ventricle volumes, and positively with volumes of subcortical structures. The results suggest a common neurodevelopmental mechanism related to the growth of these brain structures. Further, the ratio between the volumes and clinical measures could potentially be used to characterize individuals with 22q11DS and those from the general population for the risk of the development of schizophrenia.Copyright (c) 2021 Elsevier B.V. All rights reserved.
+        

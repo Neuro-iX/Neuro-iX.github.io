@@ -1,0 +1,17 @@
+---
+title: "Retrospective harmonization of multi-site diffusion MRI data acquired with different acquisition parameters"
+description: "PMID: [30205206](https://pubmed.ncbi.nlm.nih.gov/30205206/){target='_blank'}    DOI: [10.1016/j.neuroimage.2018.08.073](https://doi.org/10.1016/j.neuroimage.2018.08.073){target='_blank'}"
+author: Suheyla Cetin Karayumak, Sylvain Bouix, Lipeng Ning, Anthony James, Tim Crow, Martha Shenton, Marek Kubicki, Yogesh Rathi
+date: "2019-01-01"
+categories: [Harmonization, Inter-scanner, dMRI]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+A joint and integrated analysis of multi-site diffusion MRI (dMRI) datasets can dramatically increase the statistical power of neuroimaging studies and enable comparative studies pertaining to several brain disorders. However, dMRI data sets acquired on multiple scanners cannot be naively pooled for joint analysis due to scanner specific nonlinear effects as well as differences in acquisition parameters. Consequently, for joint analysis, the dMRI data has to be harmonized, which involves removing scanner-specific differences from the raw dMRI signal. In this work, we propose a dMRI harmonization method that is capable of removing scanner-specific effects, while accounting for minor differences in acquisition parameters such as b-value, spatial resolution and number of gradient directions. We validate our algorithm on dMRI data acquired from two sites: Philadelphia Neurodevelopmental Cohort (PNC) with 800 healthy adolescents (ages 8-22 years) and Brigham and Women's Hospital (BWH) with 70 healthy subjects (ages 14-54 years). In particular, we show that gender and age-related maturation differences in different age groups are preserved after harmonization, as measured using effect sizes (small, medium and large), irrespective of the test sample size. Since we use matched control subjects from different scanners to estimate scanner-specific effects, our goal in this work is also to determine the minimum number of well-matched subjects needed from each site to achieve best harmonization results. Our results indicate that at-least 16 to 18 well-matched healthy controls from each site are needed to reliably capture scanner related differences. The proposed method can thus be used for retrospective harmonization of raw dMRI data across sites despite differences in acquisition parameters, while preserving inter-subject anatomical variability.Copyright (c) 2018. Published by Elsevier Inc.
+        
