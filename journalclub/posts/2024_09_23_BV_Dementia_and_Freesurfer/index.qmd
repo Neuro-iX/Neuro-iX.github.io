@@ -1,0 +1,24 @@
+---
+title: "Presentation of the review article 'Automated brain segmentation and volumetry in dementia diagnostics: a narrative review with emphasis on FreeSurfer'"
+description: "DOI: [10.3389/fnagi.2024.1459652](https://doi.org/10.3389/fnagi.2024.1459652){target='_blank'}"
+author: Benoît Verreman
+date: "2024-09-23"
+categories: [magnetic resonance imaging, brain segmentation, volumetry, dementia, alzheimer, freesurfer]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Background: Dementia can be caused by numerous different diseases that present variable clinical courses and reveal multiple patterns of brain atrophy, making its accurate early diagnosis by conventional examinative means challenging. Although highly accurate and powerful, magnetic resonance imaging (MRI) currently plays only a supportive role in dementia diagnosis, largely due to the enormous volume and diversity of data it generates. AI-based software solutions/algorithms that can perform automated segmentation and volumetry analyses of MRI data are being increasingly used to address this issue. Numerous commercial and non-commercial software solutions for automated brain segmentation and volumetry exist, with FreeSurfer being the most frequently used.
+
+Objectives: This Review is an account of the current situation regarding the application of automated brain segmentation and volumetry to dementia diagnosis.
+
+Methods: We performed a PubMed search for “FreeSurfer AND Dementia” and obtained 493 results. Based on these search results, we conducted an in-depth source analysis to identify additional publications, software tools, and methods. Studies were analyzed for design, patient collective, and for statistical evaluation (mathematical methods, correlations).
+
+Results: In the studies identified, the main diseases and cohorts represented were Alzheimer’s disease (n = 276), mild cognitive impairment (n = 157), frontotemporal dementia (n = 34), Parkinson’s disease (n = 29), dementia with Lewy bodies (n = 20), and healthy controls (n = 356). The findings and methods of a selection of the studies identified were summarized and discussed.
+
+Conclusion: Our evaluation showed that, while a large number of studies and software solutions are available, many diseases are underrepresented in terms of their incidence. There is therefore plenty of scope for targeted research.

@@ -23,8 +23,8 @@ website:
         href: research
       - text: "Publications"
         href: publications
-      - text: "Presentations"
-        href: presentations
+      - text: "Journal Club"
+        href: journalclub
       - text: "Tools"
         href: tools
       - text: "Contact"
