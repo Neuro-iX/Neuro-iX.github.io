@@ -1,5 +1,41 @@
 [
   {
+    "listing": "/publications_old/index.html",
+    "items": [
+      "/publications_old/posts/2023_08_28_development_of_the_psychs_positive_symptoms/index.html",
+      "/publications_old/posts/2023_08_21_adverse_outcome_following_mild_traumatic_brain/index.html",
+      "/publications_old/posts/2023_07_19_Exploring_the_impact_of_hippocampal_sclerosis/index.html"
+    ]
+  },
+  {
+    "listing": "/journalclub/index.html",
+    "items": [
+      "/journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html",
+      "/journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html",
+      "/journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html",
+      "/journalclub/posts/2024_06_10_MG_Visual_prompting/index.html",
+      "/journalclub/posts/2024_05_06_GD_SimpleClick/index.html",
+      "/journalclub/posts/2024_04_15_BV_midb_atlas/index.html",
+      "/journalclub/posts/2024_03_11_CB_FetMRQC/index.html",
+      "/journalclub/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html",
+      "/journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html",
+      "/journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html",
+      "/journalclub/posts/2024_02_05_BV_MedSAM/index.html",
+      "/journalclub/posts/2024_01_29_CB_Torchio/index.html",
+      "/journalclub/posts/2024_01_22_MG_robust_t_loss/index.html",
+      "/journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html",
+      "/journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html",
+      "/journalclub/posts/2023_11_15_CB_NeRF/index.html",
+      "/journalclub/posts/2023_11_08_MG_Comet_platform/index.html",
+      "/journalclub/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html",
+      "/journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html",
+      "/journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html",
+      "/journalclub/posts/2023_10_04_CB_DARQ/index.html",
+      "/journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html",
+      "/journalclub/posts/2023_09_20_MG_disentangling_human_error_from_GT/index.html"
+    ]
+  },
+  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/posts/2024_09_15_posttraumatic_survivor_guilt_is_associated_with/index.html",
