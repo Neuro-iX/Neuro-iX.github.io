@@ -22,3 +22,6 @@ TorchIO is part of the official PyTorch Ecosystem, and was featured at the PyTor
 Many groups have used TorchIO for their research. The complete list of citations is available on Google Scholar, and the dependents list is available on GitHub.
 
 The code is available on GitHub. If you like TorchIO, please go to the repository and star it!
+
+
+![](../../pdfs/2024_01_29_Charles_TORCHIO.pdf){width=100% height=400}

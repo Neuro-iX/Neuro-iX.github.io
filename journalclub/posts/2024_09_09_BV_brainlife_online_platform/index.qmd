@@ -14,3 +14,6 @@ engine: knitr
 # Abstract of the article:
 
 Neuroscience is advancing standardization and tool development to support rigor and transparency. Consequently, data pipeline complexity has increased, hindering FAIR (findable, accessible, interoperable and reusable) access. brainlife.io was developed to democratize neuroimaging research. The platform provides data standardization, management, visualization and processing and automatically tracks the provenance history of thousands of data objects. Here, brainlife.io is described and evaluated for validity, reliability, reproducibility, replicability and scientific utility using four data modalities and 3,200 participants.
+
+
+![](../../pdfs/2024_09_09_Benoit_brainlife_io.pdf){width=100% height=400}

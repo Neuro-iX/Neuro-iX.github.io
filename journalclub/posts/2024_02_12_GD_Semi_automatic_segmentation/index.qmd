@@ -20,3 +20,6 @@ Methods: Adult women with singleton pregnancies (n = 21), of whom five were scan
 Results: Comparing cerebellum and thalamus masks against the manually segmented masks, the median DSC values for ANTs and FLIRT were 0.72 [interquartile range (IQR) = 0.6-0.8] and 0.54 (IQR = 0.4-0.6), respectively. A Friedman's test indicated that the ANTs registration methods, primarily nonlinear methods, performed better than FLIRT (p < 0.001).
 
 Conclusion: Deformable registration methods provided the most accurate results relative to manual segmentation. Overall, this semi-automatic subcortical segmentation method provides reliable performance to segment subcortical volumes in fetal MR images. This method reduces the costs of manual segmentation, facilitating the measurement of typical and atypical fetal brain development.
+
+
+![](../../pdfs/2024_02_12_Ghazal_semi automatic segmentation of fetal brain.pdf){width=100% height=400}
