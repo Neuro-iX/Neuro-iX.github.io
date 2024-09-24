@@ -19,7 +19,7 @@ Objectives: This Review is an account of the current situation regarding the app
 
 Methods: We performed a PubMed search for “FreeSurfer AND Dementia” and obtained 493 results. Based on these search results, we conducted an in-depth source analysis to identify additional publications, software tools, and methods. Studies were analyzed for design, patient collective, and for statistical evaluation (mathematical methods, correlations).
 
-Results: In the studies identified, the main diseases and cohorts represented were Alzheimer’s disease (n = 276), mild cognitive impairment (n = 157), frontotemporal dementia (n = 34), Parkinson’s disease (n = 29), dementia with Lewy bodies (n = 20), and healthy controls (n = 356). The findings and methods of a selection of the studies identified were summarized and discussed.
+Results: In the studies identified, the main diseases and cohorts represented were Alzheimer’s disease (n = 276), mild cognitive impairment (n = 157), frontotemporal dementia (n = 34), Parkinson’s disease (n = 29), dementia with Lewy bodies (n = 20), and healthy controls (n = 356). The findings and methods of a selection of the studies identified were summarized and discussed.
 
 Conclusion: Our evaluation showed that, while a large number of studies and software solutions are available, many diseases are underrepresented in terms of their incidence. There is therefore plenty of scope for targeted research.
 

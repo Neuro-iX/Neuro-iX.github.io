@@ -24,5 +24,3 @@ jupyter: python3
 ---
 
 Welcome to the weekly Jounal Club, where relevant articles and tools are presented by the Neuro-iX lab !
-
-If you are part of ETS, you can find the powerpoints [here](https://etsmtl365-my.sharepoint.com/personal/melanie_gaillochet_1_ens_etsmtl_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelanie_gaillochet_1_ens_etsmtl_ca%2FDocuments%2FJournalClub){target="_blank"}.
