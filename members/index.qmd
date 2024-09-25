@@ -90,7 +90,7 @@ Graduate Researcher, Ph.D.
 
 Department of Software and IT Engineering, ETS, Montréal
 
-Computer vision, Medical imaging processing, Deep learning, Diffusion MRI, Neuroimaging
+Computer vision, Medical image processing, Deep learning, Diffusion MRI, Neuroimaging
 
 :::
 
