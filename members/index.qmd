@@ -79,7 +79,7 @@ Computer Vision, Deep Learning,  Medical Imaging, Neuroimaging, Image Processing
 
 ::: {.column width="45%"}
 
-![](../images/people_faces/no_image.png){width=200}
+![](../images/people_faces/SD_round.png){width=200}
 
 
 [Sedigheh Dargahi](https://www.linkedin.com/in/sadaf-dargahi/){target="_blank"} 
@@ -90,7 +90,7 @@ Graduate Researcher, Ph.D.
 
 Department of Software and IT Engineering, ETS, Montréal
 
-Medical Imaging, Neuroimaging, Neuroinformatics, Diffusion MRI
+Computer vision, Medical imaging processing, Deep learning, Diffusion MRI, Neuroimaging
 
 :::
 
