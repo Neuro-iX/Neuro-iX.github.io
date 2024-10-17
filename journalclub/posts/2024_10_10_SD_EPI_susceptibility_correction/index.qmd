@@ -1,0 +1,25 @@
+---
+title: "Presentation of the review article 'EPI susceptibility correction introduces significant differences far from local areas of high distortion'"
+description: "DOI: [10.1016/j.mri.2022.05.016](https://doi.org/10.1016/j.mri.2022.05.016){target='_blank'}"
+author: Sedigheh Dargahi
+date: "2024-10-10"
+categories: [diffusion weighted imaging, preprocessing, distortion correction, quality assurance]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Purpose: In echo-planar diffusion-weighted imaging, correcting for susceptibility-induced artifacts typically requires acquiring pairs of images, known as blip-up blip-down acquisitions, to create an undistorted volume as a target to correct distortions that are often focal where regions with differences in magnetic susceptibility interface, such as the frontal and temporal areas. However, blip-up blip-down acquisitions are not always available, and distortion effects may not be specifically localized to such areas, with subtle effects potentially extending throughout the brain. Here, we apply a deep learning technique to generate an undistorted volume to correct susceptibility-induced artifacts and demonstrate implications for image fidelity and diffusion-based inference outside of areas where high focal distortion is present.
+
+Methods: To demonstrate differences due to susceptibility artifact correction, uncorrected baseline images were compared to identical images where correction was performed using an undistorted target volume produced by the deep learning tool “PreQual”. Widespread geometric distortion was assessed visually by referencing diffusion-weighted images to T1-weighted images. Tract-based spatial statistics (TBSS) were utilized to perform whole brain analysis of fractional anisotropy (FA) values to assess differences between subject groups (depressed vs. non-depressed) via permutation-based, voxel-wise testing. Multivariate regression models were then used to contrast TBSS results between corrected and non-corrected diffusion images.
+
+Results: Susceptibility artifact correction resulted in visible, widespread improvement in image fidelity when referenced to T1-weighted images. TBSS results were dependent on susceptibility artifact correction with correction resulting in widespread structural alterations of the mean FA skeleton, changes in skeletal FA, and additional positive tests of significance of regression coefficients in subsequent regression models.
+
+Conclusion: Our results indicated that EPI distortion effects are not purely focal, and that reducing distortion can result in significant differences in the interpretation of diffusion data, even in areas remote from high distortion.
+
+
+![](../../../docs/journalclub/pdfs/2024_10_10_Sadaf_EPI_susceptibility_correction.pdf){width=100% height=400}

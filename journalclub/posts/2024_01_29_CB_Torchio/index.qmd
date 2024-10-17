@@ -24,4 +24,4 @@ Many groups have used TorchIO for their research. The complete list of citations
 The code is available on GitHub. If you like TorchIO, please go to the repository and star it!
 
 
-![](../../pdfs/2024_01_29_Charles_TORCHIO.pdf){width=100% height=400}
+![](../../../docs/journalclub/pdfs/2024_01_29_Charles_TORCHIO.pdf){width=100% height=400}

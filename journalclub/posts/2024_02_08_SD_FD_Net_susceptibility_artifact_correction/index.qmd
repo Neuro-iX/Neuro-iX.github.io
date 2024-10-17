@@ -22,4 +22,4 @@ Results: FD-Net performs competitively with a gold-standard reference method (TO
 Conclusion: The unsupervised FD-Net method introduces a deep forward-distortion approach to enable fast, high-fidelity correction of susceptibility artifacts in EPI by maintaining consistency to measured data. Therefore, it holds great promise for improving the anatomical accuracy of EPI imaging.
 
 
-![](../../pdfs/2024_02_08-Sadaf-FDNet.pdf){width=100% height=400}
+![](../../../docs/journalclub/pdfs/2024_02_08-Sadaf-FDNet.pdf){width=100% height=400}

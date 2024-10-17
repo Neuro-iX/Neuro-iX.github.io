@@ -17,4 +17,4 @@ Neural network prediction probabilities and accuracy are often only weakly-corre
 
 
 
-![](../../pdfs/2023_10_25_Sukesh_LogitConsistency.pdf){width=100% height=400}
+![](../../../docs/journalclub/pdfs/2023_10_25_Sukesh_LogitConsistency.pdf){width=100% height=400}

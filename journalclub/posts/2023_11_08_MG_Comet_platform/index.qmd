@@ -16,4 +16,4 @@ engine: knitr
 Comet’s machine learning platform integrates with your existing infrastructure and tools so you can manage, visualize, and optimize models—from training runs to production monitoring.
 
 
-![](../../pdfs/2023_11_08_Melanie_CometTutorial.pdf){width=100% height=400}
+![](../../../docs/journalclub/pdfs/2023_11_08_Melanie_CometTutorial.pdf){width=100% height=400}

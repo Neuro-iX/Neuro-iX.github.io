@@ -24,4 +24,4 @@ Results: In the studies identified, the main diseases and cohorts represented we
 Conclusion: Our evaluation showed that, while a large number of studies and software solutions are available, many diseases are underrepresented in terms of their incidence. There is therefore plenty of scope for targeted research.
 
 
-![](../../pdfs/2024_09_23_Benoit_Freesurfer_in_dementia_diagnostics.pdf){width=100% height=400}
+![](../../../docs/journalclub/pdfs/2024_09_23_Benoit_Freesurfer_in_dementia_diagnostics.pdf){width=100% height=400}
