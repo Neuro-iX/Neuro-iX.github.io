@@ -1,0 +1,18 @@
+---
+title: "Presentation of the article 'Semi-supervised few-shot learning for medical image segmentation'"
+description: "DOI: [10.48550/arXiv.2003.08462](https://doi.org/10.48550/arXiv.2003.08462){target='_blank'}"
+author: Kaveh Moradkhani
+date: "2024-10-28"
+categories: [segmentation model, few-shot learning, unlabeled surrogate tasks]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Recent years have witnessed the great progress of deep neural networks on semantic segmentation, particularly in medical imaging. Nevertheless, training high-performing models require large amounts of pixel-level ground truth masks, which can be prohibitive to obtain in the medical domain. Furthermore, training such models in a low-data regime highly increases the risk of overfitting. Recent attempts to alleviate the need for large annotated datasets have developed training strategies under the few-shot learning paradigm, which addresses this shortcoming by learning a novel class from only a few labeled examples. In this context, a segmentation model is trained on episodes, which represent different segmentation problems, each of them trained with a very small labeled dataset. In this work, we propose a novel few-shot learning framework for semantic segmentation, where unlabeled images are also made available at each episode. To handle this new learning paradigm, we propose to include surrogate tasks that can leverage very powerful supervisory signals --derived from the data itself-- for semantic feature learning. We show that including unlabeled surrogate tasks in the episodic training leads to more powerful feature representations, which ultimately results in better generability to unseen tasks. We demonstrate the efficiency of our method in the task of skin lesion segmentation in two publicly available datasets. Furthermore, our approach is general and model-agnostic, which can be combined with different deep architectures. 
+
+![](../../../docs/journalclub/pdfs/2024_10_28_Kaveh_Few-Shot.pdf){width=100% height=400}
