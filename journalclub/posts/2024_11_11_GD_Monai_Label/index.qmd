@@ -1,0 +1,18 @@
+---
+title: "Presentation of MONAI Label"
+description: "DOI: [10.1016/j.media.2024.103207](https://doi.org/10.1016/j.media.2024.103207){target='_blank'}"
+author: Ghazal Danaee
+date: "2024-11-11"
+categories: [3D medical imaging, interactive 3D image segmentation, active learning, deep learning]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+The lack of annotated datasets is a major bottleneck for training new task-specific supervised machine learning models, considering that manual annotation is extremely expensive and time-consuming. To address this problem, we present MONAI Label, a free and open-source framework that facilitates the development of applications based on artificial intelligence (AI) models that aim at reducing the time required to annotate radiology datasets. Through MONAI Label, researchers can develop AI annotation applications focusing on their domain of expertise. It allows researchers to readily deploy their apps as services, which can be made available to clinicians via their preferred user interface. Currently, MONAI Label readily supports locally installed (3D Slicer) and web-based (OHIF) frontends and offers two active learning strategies to facilitate and speed up the training of segmentation algorithms. MONAI Label allows researchers to make incremental improvements to their AI-based annotation application by making them available to other researchers and clinicians alike. Additionally, MONAI Label provides sample AI-based interactive and non-interactive labeling applications, that can be used directly off the shelf, as plug-and-play to any given dataset. Significant reduced annotation times using the interactive model can be observed on two public datasets.
+
+![](../../../docs/journalclub/pdfs/2024_11_11_Ghazal_monai_label.pdf){width=100% height=400}
