@@ -61,7 +61,7 @@ Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 ::: {.column width="45%"}
 
-![](../images/people_faces/no_image.png){width=200}
+![](../images/people_faces/AS_round.png){width=200}
 
 [Ayoub Sassi](https://www.linkedin.com/in/ayoubsassi){target="_blank"} 
 
