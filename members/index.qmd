@@ -75,7 +75,7 @@ Research assistant
 
 Department of Software and IT Engineering, ETS, Montréal
 
-Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
+Generative AI, Computer Vision, Medical Imaging, Neuroimaging
 :::
 
 ::::
