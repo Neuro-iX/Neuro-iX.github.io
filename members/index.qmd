@@ -37,11 +37,15 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 [**Research Assistants**]{.text-style-1}
 
+:::: {.columns}
+
+::: {.column width="45%"}
+
 ![](../images/people_faces/BV_round.png){width=200}
 
 [Benoît Verreman](https://www.linkedin.com/in/benoitverreman/){target="_blank"} 
 
-[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](benverreman@gmail.com){target="_blank"}
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](benoit.verreman@etsmtl.ca){target="_blank"}
 [{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/bverreman){target="_blank"} 
 [{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/benoitverreman/){target="_blank"} 
 
@@ -50,6 +54,31 @@ Research assistant
 Department of Software and IT Engineering, ETS, Montréal
 
 Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](../images/people_faces/no_image.png){width=200}
+
+[Ayoub Sassi](https://www.linkedin.com/in/ayoubsassi/){target="_blank"} 
+
+[{{< ai orcid size=1em color=cornflowerblue label="Thumbs up" >}}](https://orcid.org/0009-0004-8107-1296){target="_blank"}
+[{{< ai researchgate size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.researchgate.net/profile/Ayoub-Sassi-2){target="_blank"}
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](ayoub.sassi@etsmtl.ca){target="_blank"}
+[{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Ayuobsassi){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/ayoubsassi/){target="_blank"} 
+
+Research assistant
+
+Department of Software and IT Engineering, ETS, Montréal
+
+Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
+:::
+
+::::
 
 ----
 
