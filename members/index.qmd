@@ -45,7 +45,7 @@ Medical Imaging, Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 [Benoît Verreman](https://www.linkedin.com/in/benoitverreman/){target="_blank"} 
 
-[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](benoit.verreman@etsmtl.ca){target="_blank"}
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:benoit.verreman@etsmtl.ca){target="_blank"}
 [{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/bverreman){target="_blank"} 
 [{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/benoitverreman/){target="_blank"} 
 
@@ -63,13 +63,13 @@ Neuroimaging, Neuroinformatics, Anatomical and Diffusion MRI
 
 ![](../images/people_faces/no_image.png){width=200}
 
-[Ayoub Sassi](https://www.linkedin.com/in/ayoubsassi/){target="_blank"} 
+[Ayoub Sassi](https://www.linkedin.com/in/ayoubsassi){target="_blank"} 
 
 [{{< ai orcid size=1em color=cornflowerblue label="Thumbs up" >}}](https://orcid.org/0009-0004-8107-1296){target="_blank"}
 [{{< ai researchgate size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.researchgate.net/profile/Ayoub-Sassi-2){target="_blank"}
-[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](ayoub.sassi@etsmtl.ca){target="_blank"}
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:ayoub.sassi@etsmtl.ca){target="_blank"}
 [{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Ayuobsassi){target="_blank"} 
-[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/ayoubsassi/){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/ayoubsassi){target="_blank"} 
 
 Research assistant
 
@@ -114,7 +114,7 @@ Computer Vision, Deep Learning,  Medical Imaging, Neuroimaging, Image Processing
 
 [Sedigheh Dargahi](https://www.linkedin.com/in/sadaf-dargahi/){target="_blank"} 
 
-[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](sedigheh.dargahi.1@ens.etsmtl.ca){target="_blank"} 
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:sedigheh.dargahi.1@ens.etsmtl.ca){target="_blank"} 
 [{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/sadaf-dargahi/){target="_blank"} 
 
 Graduate Researcher, Ph.D.
@@ -138,7 +138,7 @@ Computer vision, Medical image processing, Deep learning, Diffusion MRI, Neuroim
 
 [Ghazal Danaee](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
 
-[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](ghazal.danaei99@gmail.com){target="_blank"} 
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:ghazal.danaei99@gmail.com){target="_blank"} 
 [{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Ghazal-Danaei){target="_blank"} 
 [{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
 
@@ -157,7 +157,7 @@ Image processing, Deep learning, Medical image processing, Artificial intelligen
 
 [Charles Bricout](https://www.linkedin.com/in/charles-bricout/){target="_blank"} 
 
-[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](bricout.charles@outlook.com){target="_blank"} 
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:bricout.charles@outlook.com){target="_blank"} 
 [{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/charles-bricout/){target="_blank"} 
 [{{< bi globe size=1em color=cornflowerblue label="Thumbs up" >}}](https://chbricout.github.io/){target="_blank"} 
 
