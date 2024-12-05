@@ -1,0 +1,18 @@
+---
+title: "Presentation of the review article 'Addressing fairness issues in deep learning-based medical image analysis: a systematic review'"
+description: "DOI: [10.48550/arXiv.2209.13177](https://doi.org/10.48550/arXiv.2209.13177){target='_blank'}"
+author: Benoit Verreman
+date: "2024-11-18"
+categories: [3D medical imaging, fairness, deep learning, sensitive attributes]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the review article:
+
+Deep learning algorithms have demonstrated remarkable efficacy in various medical image analysis (MedIA) applications. However, recent research highlights a performance disparity in these algorithms when applied to specific subgroups, such as exhibiting poorer predictive performance in elderly females. Addressing this fairness issue has become a collaborative effort involving AI scientists and clinicians seeking to understand its origins and develop solutions for mitigation within MedIA. In this survey, we thoroughly examine the current advancements in addressing fairness issues in MedIA, focusing on methodological approaches. We introduce the basics of group fairness and subsequently categorize studies on fair MedIA into fairness evaluation and unfairness mitigation. Detailed methods employed in these studies are presented too. Our survey concludes with a discussion of existing challenges and opportunities in establishing a fair MedIA and healthcare system. By offering this comprehensive review, we aim to foster a shared understanding of fairness among AI researchers and clinicians, enhance the development of unfairness mitigation methods, and contribute to the creation of an equitable MedIA society.
+
+![](../../../docs/journalclub/pdfs/2024_11_18_BV_Fairness.pdf){width=100% height=400}
