@@ -82,10 +82,10 @@ Generative AI, Computer Vision, Medical Imaging, Neuroimaging
 
 ![](../images/people_faces/no_image.png){width=200}
 
-[Tina Nantenaina](www.linkedin.com/in/tinanantenaina/){target="_blank"} 
+[Tina Nantenaina](https://www.linkedin.com/in/tinanantenaina/){target="_blank"} 
 
 [{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:tina-nomena-herimino.nantenaina@etsmtl.ca){target="_blank"}
-[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](www.linkedin.com/in/tinanantenaina/){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/tinanantenaina/){target="_blank"} 
 
 Research assistant
 
@@ -186,7 +186,7 @@ Medical Imaging, Neuroimaging, Computer Vision, Deep Learning
 :::
 
 ::: {.column width="45%"}
-![](../images/people_faces/no_image.png){width=200}
+![](../images/people_faces/AR_round.png){width=200}
 
 [Ahmed Rekik](https://www.linkedin.com/in/ahmed-rekik/){target="_blank"} 
 
