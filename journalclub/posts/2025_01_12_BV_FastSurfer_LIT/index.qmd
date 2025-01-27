@@ -1,0 +1,18 @@
+---
+title: "Presentation of FastSurfer LIT"
+description: "DOI: [10.48550/arXiv.2209.13177](https://doi.org/10.1162/imag_a_00446){target='_blank'}"
+author: Benoît Verreman
+date: "2025-01-12"
+categories: [deep learning framework, lesion inpainting tool, tumor, brain segmentation]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Resection cavities, tumors, and other lesions can fundamentally alter brain structure and present as abnormalities in brain MRI. Specifically, quantifying subtle neuroanatomical changes in other, not directly affected regions of the brain is essential to assess the impact of tumors, surgery, chemo/radiotherapy, or drugtreatments. However, only a limited number of solutions addresses this important task while many standard analysis pipelines simply do not support abnormal brain images at all. In this paper, we present a method to perform sensitive neuroanatomical analysis of healthy brain regions in the presence of large lesions and cavities. Our approach called “FastSurfer Lesion Inpainting Tool” (FastSurfer-LIT) leverages the recently emerged Denoising Diffusion Probabilistic Models (DDPM) to fill lesion areas with healthy tissue that matches and extends the surrounding tissue. This enables subsequent processing with established MRI analysis methods such as the calculation of adjusted volume and surface measurements using FastSurfer or FreeSurfer. FastSurfer-LIT significantly outperforms previously proposed solutions on a large dataset of simulated brain tumors (N=100) and synthetic multiple sclerosis lesions (N=39) with improved Dice and Hausdorff measures, and also on a highly heterogeneous dataset with lesions and cavities in a manual assessment (N=100). Finally, we demonstrate increased reliability to reproduce pre-operative cortical thickness estimates from corresponding post-operative temporo-mesial resection surgery MRIs. The method is publicly available at https://github.com/Deep-MI/LIT and will be integrated into the FastSurfer toolbox.
+
+![](../../../docs/journalclub/pdfs/2025_01_12_Benoit_FastSurfer_LIT.pdf){width=100% height=400}
