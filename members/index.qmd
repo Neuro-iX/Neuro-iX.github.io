@@ -80,7 +80,7 @@ Generative AI, Computer Vision, Medical Imaging, Neuroimaging
 
 ::: {.column width="45%"}
 
-![](../images/people_faces/no_image.png){width=200}
+![](../images/people_faces/TN_round.png){width=200}
 
 [Tina Nantenaina](https://www.linkedin.com/in/tinanantenaina/){target="_blank"} 
 
