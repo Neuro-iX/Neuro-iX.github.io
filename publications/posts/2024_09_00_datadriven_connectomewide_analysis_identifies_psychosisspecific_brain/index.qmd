@@ -1,0 +1,17 @@
+---
+title: "Data-driven, connectome-wide analysis identifies psychosis-specific brain correlates of fear and anxiety"
+description: "PMID: [38503924](https://pubmed.ncbi.nlm.nih.gov/38503924/){target='_blank'}    DOI: [10.1038/s41380-024-02512-w](https://doi.org/10.1038/s41380-024-02512-w){target='_blank'}"
+author: Brandee Feola, Adam Beermann, Karlos Manzanarez Felix, Michael Coleman, Sylvain Bouix, Daphne J Holt, Kathryn E Lewandowski, Dost Ongur, Alan Breier, Martha E Shenton, Stephan Heckers, Roscoe O Brady, Jennifer Urbano Blackford, Heather Burrell Ward
+date: "2024-09-00"
+categories: [fear and anxiety, psychosis research highlight, fear, anxiety, Fear-Affect scores]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Decades of psychosis research highlight the prevalence and the clinical significance of negative emotions, such as fear and anxiety. Translational evidence demonstrates the pivotal role of the amygdala in fear and anxiety. However, most of these approaches have used hypothesis-driven analyses with predefined regions of interest. A data-driven analysis may provide a complimentary, unbiased approach to identifying brain correlates of fear and anxiety. The aim of the current study was to identify the brain basis of fear and anxiety in early psychosis and controls using a data-driven approach. We analyzed data from the Human Connectome Project for Early Psychosis, a multi-site study of 125 people with psychosis and 58 controls with resting-state fMRI and clinical characterization. Multivariate pattern analysis of whole-connectome data was used to identify shared and psychosis-specific brain correlates of fear and anxiety using the NIH Toolbox Fear-Affect and Fear-Somatic Arousal scales. We then examined clinical correlations of Fear-Affect scores and connectivity patterns. Individuals with psychosis had higher levels of Fear-Affect scores than controls (p < 0.05). The data-driven analysis identified a cluster encompassing the amygdala and hippocampus where connectivity was correlated with Fear-Affect score (p < 0.005) in the entire sample. The strongest correlate of Fear-Affect was between this cluster and the anterior insula and stronger connectivity was associated with higher Fear-Affect scores (r = 0.31, p = 0.0003). The multivariate pattern analysis also identified a psychosis-specific correlate of Fear-Affect score between the amygdala/hippocampus cluster and a cluster in the ventromedial prefrontal cortex (VMPFC). Higher Fear-Affect scores were correlated with stronger amygdala/hippocampal-VMPFC connectivity in the early psychosis group (r = 0.33, p = 0.002), but not in controls (r = -0.15, p = 0.28). The current study provides evidence for the transdiagnostic role of the amygdala, hippocampus, and anterior insula in the neural basis of fear and anxiety and suggests a psychosis-specific relationship between fear and anxiety symptoms and amygdala/hippocampal-VMPFC connectivity. Our novel data-driven approach identifies novel, psychosis-specific treatment targets for fear and anxiety symptoms and provides complimentary evidence to decades of hypothesis-driven approaches examining the brain basis of threat processing.(c) 2024. The Author(s), under exclusive licence to Springer Nature Limited.
+        

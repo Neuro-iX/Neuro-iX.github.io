@@ -1,0 +1,23 @@
+---
+title: "Robust Brain Correlates of Cognitive Performance in Psychosis and Its Prodrome"
+description: "PMID: [39032726](https://pubmed.ncbi.nlm.nih.gov/39032726/){target='_blank'}    DOI: [10.1016/j.biopsych.2024.07.012](https://doi.org/10.1016/j.biopsych.2024.07.012){target='_blank'}"
+author: Heather Burrell Ward, Adam Beermann, Jing Xie, Gulcan Yildiz, Karlos Manzanarez Felix, Jean Addington, Carrie E Bearden, Kristin Cadenhead, Tyrone D Cannon, Barbara Cornblatt, Matcheri Keshavan, Daniel Mathalon, Diana O Perkins, Larry Seidman, William S Stone, Ming T Tsuang, Elaine F Walker, Scott Woods, Michael J Coleman, Sylvain Bouix, Daphne J Holt, Dost Ongur, Alan Breier, Martha E Shenton, Stephan Heckers, ... ...
+date: "2025-01-15"
+categories: [Auditory, Clinical high risk, Cognitive performance, Early psychosis, Psychosis, Resting-state fMRI]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: Neurocognitive impairment is a well-known phenomenon in schizophrenia that begins prior to psychosis onset. Connectome-wide association studies have inconsistently linked cognitive performance to resting-state functional magnetic resonance imaging. We hypothesized that a carefully selected cognitive instrument and refined population would allow identification of reliable brain-behavior associations with connectome-wide association studies. To test this hypothesis, we first identified brain-cognition correlations via a connectome-wide association study in early psychosis. We then asked, in an independent dataset, if these brain-cognition relationships would generalize to individuals who develop psychosis in the future.
+
+METHODS: The Seidman Auditory Continuous Performance Task (ACPT) effectively differentiates healthy participants from those with psychosis. Our connectome-wide association study used the HCP-EP (Human Connectome Project for Early Psychosis) (n = 183) to identify links between connectivity and ACPT performance. We then analyzed data from the NAPLS2 (North American Prodrome Longitudinal Study 2) (n = 345), a multisite prospective study of individuals at risk for psychosis. We tested the connectome-wide association study-identified cognition-connectivity relationship in both individuals at risk for psychosis and control participants.
+
+RESULTS: Our connectome-wide association study in early-course psychosis identified robust associations between better ACPT performance and higher prefrontal-somatomotor connectivity (p < .005). Prefrontal-somatomotor connectivity was also related to ACPT performance in at-risk individuals who would develop psychosis (n = 17). This finding was not observed in nonconverters (n = 196) or control participants (n = 132).
+
+CONCLUSIONS: This connectome-wide association study identified reproducible links between connectivity and cognition in separate samples of individuals with psychosis and at-risk individuals who would later develop psychosis. A carefully selected task and population improves the ability of connectome-wide association studies to identify reliable brain-phenotype relationships.
+        

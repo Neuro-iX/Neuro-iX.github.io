@@ -1,7 +1,7 @@
 ---
 title: "Cavum Septum Pellucidum in Former American Football Players: Findings From the DIAGNOSE CTE Research Project"
 description: "PMID: [39161749](https://pubmed.ncbi.nlm.nih.gov/39161749/){target='_blank'}    DOI: [10.1212/CPJ.0000000000200324](https://doi.org/10.1212/CPJ.0000000000200324){target='_blank'}"
-author: Hector Arciniega, Leonard B Jung, Fatima Tuz-Zahra, Yorghos Tripodis, Omar John, Nicholas Kim, Holly W Carrington, Evdokiya E Knyazhanskaya, Arushi Chamaria, Katherine Breedlove, Tim L Wiegand, Daniel Daneshvar, Tashrif Billah, Ofer Pasternak, Michael J Coleman, Charles H Adler, Charles Bernick, Laura J Balcer, Michael L Alosco, Alexander P Lin, Inga K Koerte, Jeffrey L Cummings, Eric M Reiman, Robert A Stern, Sylvain Bouix, ... ...
+author: Hector Arciniega, Leonard B Jung, Fatima Tuz-Zahra, Yorghos Tripodis, Omar John, Nicholas Kim, Holly W Carrington, Evdokiya E Knyazhanskaya, Arushi Chamaria, Katherine Breedlove, Tim L T Wiegand, Daniel Daneshvar, Tashrif Billah, Ofer Pasternak, Michael J Coleman, Charles H Adler, Charles Bernick, Laura J Balcer, Michael L Alosco, Alexander P Lin, Inga K Koerte, Jeffrey L Cummings, Eric M Reiman, Robert A Stern, Sylvain Bouix, ... ...
 date: "2024-10-00"
 categories: [BACKGROUND AND OBJECTIVES, American football players, CSP, greater CSP ratio, American football]
 #image: map.jpg

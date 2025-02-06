@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2024_07_20_an_introduction_to_the_human_connectome/index.html</loc>
-    <lastmod>2024-09-23T21:32:10.244Z</lastmod>
+    <lastmod>2025-02-06T15:08:35.333Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2023_09_00_exploring_the_impact_of_hippocampal_sclerosis/index.html</loc>
@@ -114,7 +114,7 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2024_09_01_isolation_of_distinct_networks_driving_action/index.html</loc>
-    <lastmod>2024-09-23T21:32:10.250Z</lastmod>
+    <lastmod>2025-02-06T15:08:35.341Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2023_04_00_freewater_diffusion_magnetic_resonance_imaging_differentiates/index.html</loc>
@@ -130,7 +130,7 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2024_04_30_accelerating_medicines_partnership_schizophrenia_amp_scz/index.html</loc>
-    <lastmod>2024-09-23T21:32:10.250Z</lastmod>
+    <lastmod>2025-02-06T15:08:35.342Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2021_10_01_improving_the_predictive_potential_of_diffusion/index.html</loc>
@@ -169,40 +169,56 @@
     <lastmod>2024-10-17T19:42:57.898Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html</loc>
-    <lastmod>2024-10-17T19:42:32.085Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html</loc>
+    <lastmod>2024-10-17T19:45:20.899Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html</loc>
-    <lastmod>2024-10-17T19:46:33.644Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_11_04_CB_Green_AI/index.html</loc>
+    <lastmod>2024-11-06T18:56:54.597Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html</loc>
-    <lastmod>2024-10-17T19:44:19.614Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html</loc>
+    <lastmod>2024-10-17T19:46:24.455Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_04_15_BV_midb_atlas/index.html</loc>
-    <lastmod>2024-10-17T19:43:27.771Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2023_11_15_CB_NeRF/index.html</loc>
+    <lastmod>2024-10-17T19:45:29.345Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html</loc>
+    <lastmod>2024-10-17T19:42:49.841Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html</loc>
+    <lastmod>2024-10-17T19:46:52.921Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/journalclub/posts/2024_05_06_GD_SimpleClick/index.html</loc>
     <lastmod>2024-10-17T19:43:06.866Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html</loc>
-    <lastmod>2024-10-17T19:45:03.191Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html</loc>
+    <lastmod>2024-10-17T19:44:01.289Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2023_11_08_MG_Comet_platform/index.html</loc>
-    <lastmod>2024-10-17T19:45:40.550Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_03_11_CB_FetMRQC/index.html</loc>
+    <lastmod>2024-10-17T19:43:36.553Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_02_05_BV_MedSAM/index.html</loc>
-    <lastmod>2024-10-17T19:44:28.054Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2025_01_29_AS_NeRF_brain_MRI/index.html</loc>
+    <lastmod>2025-01-29T19:23:34.790Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_01_29_CB_Torchio/index.html</loc>
-    <lastmod>2024-10-17T19:44:43.476Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_01_22_MG_robust_t_loss/index.html</loc>
+    <lastmod>2024-10-17T19:44:52.615Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html</loc>
+    <lastmod>2024-10-17T19:42:39.735Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_12_02_CB_Pytorch_Lightning/index.html</loc>
+    <lastmod>2024-12-05T19:21:42.743Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/journalclub/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html</loc>
@@ -221,40 +237,56 @@
     <lastmod>2024-10-17T19:43:48.219Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html</loc>
-    <lastmod>2024-10-17T19:42:39.735Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_01_29_CB_Torchio/index.html</loc>
+    <lastmod>2024-10-17T19:44:43.476Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_01_22_MG_robust_t_loss/index.html</loc>
-    <lastmod>2024-10-17T19:44:52.615Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_02_05_BV_MedSAM/index.html</loc>
+    <lastmod>2024-10-17T19:44:28.054Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_03_11_CB_FetMRQC/index.html</loc>
-    <lastmod>2024-10-17T19:43:36.553Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2023_11_08_MG_Comet_platform/index.html</loc>
+    <lastmod>2024-10-17T19:45:40.550Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html</loc>
-    <lastmod>2024-10-17T19:44:01.289Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_11_18_BV_Fairness/index.html</loc>
+    <lastmod>2024-12-05T18:01:19.411Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html</loc>
-    <lastmod>2024-10-17T19:46:52.921Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html</loc>
+    <lastmod>2024-10-17T19:45:03.191Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html</loc>
-    <lastmod>2024-10-17T19:42:49.841Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_10_10_SD_EPI_susceptibility_correction/index.html</loc>
+    <lastmod>2024-10-17T19:37:37.022Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2023_11_15_CB_NeRF/index.html</loc>
-    <lastmod>2024-10-17T19:45:29.345Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_10_29_KM_few_shots/index.html</loc>
+    <lastmod>2024-10-29T15:16:01.846Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html</loc>
-    <lastmod>2024-10-17T19:46:24.455Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_04_15_BV_midb_atlas/index.html</loc>
+    <lastmod>2024-10-17T19:43:27.771Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html</loc>
-    <lastmod>2024-10-17T19:45:20.899Z</lastmod>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html</loc>
+    <lastmod>2024-10-17T19:44:19.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html</loc>
+    <lastmod>2024-10-17T19:46:33.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html</loc>
+    <lastmod>2024-10-17T19:42:32.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2025_01_12_BV_FastSurfer_LIT/index.html</loc>
+    <lastmod>2025-01-27T20:16:23.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://neuro-ix.github.io/journalclub/posts/2024_11_11_GD_Monai_Label/index.html</loc>
+    <lastmod>2024-11-14T15:26:13.299Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/journalclub/index.html</loc>
@@ -294,7 +326,7 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2024_09_15_posttraumatic_survivor_guilt_is_associated_with/index.html</loc>
-    <lastmod>2024-09-23T21:32:10.246Z</lastmod>
+    <lastmod>2025-02-06T15:08:35.336Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2019_01_01_retrospective_harmonization_of_multisite_diffusion_mri/index.html</loc>
@@ -326,7 +358,7 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2024_10_00_cavum_septum_pellucidum_in_former_american/index.html</loc>
-    <lastmod>2024-09-23T21:32:10.244Z</lastmod>
+    <lastmod>2025-02-06T15:08:35.332Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2022_09_01_association_of_war_zonerelated_stress_with/index.html</loc>
@@ -362,7 +394,7 @@
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2024_08_01_repetitive_head_impacts_and_perivascular_space/index.html</loc>
-    <lastmod>2024-09-23T21:32:10.243Z</lastmod>
+    <lastmod>2025-02-06T15:08:35.331Z</lastmod>
   </url>
   <url>
     <loc>https://neuro-ix.github.io/publications/posts/2023_10_05_amyloid_pet_across_the_cognitive_spectrum/index.html</loc>
@@ -421,35 +453,23 @@
     <lastmod>2024-09-16T14:38:28.432Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_10_10_SD_EPI_susceptibility_correction/index.html</loc>
-    <lastmod>2024-10-17T19:37:37.022Z</lastmod>
+    <loc>https://neuro-ix.github.io/publications/posts/2025_01_26_dispersionbased_cognitive_intraindividual_variability_in_former/index.html</loc>
+    <lastmod>2025-02-06T15:08:35.321Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_10_29_KM_few_shots/index.html</loc>
-    <lastmod>2024-10-29T15:16:01.846Z</lastmod>
+    <loc>https://neuro-ix.github.io/publications/posts/2024_09_00_datadriven_connectomewide_analysis_identifies_psychosisspecific_brain/index.html</loc>
+    <lastmod>2025-02-06T15:08:35.339Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_11_04_CB_Green_AI/index.html</loc>
-    <lastmod>2024-11-06T18:56:54.597Z</lastmod>
+    <loc>https://neuro-ix.github.io/publications/posts/2025_01_15_robust_brain_correlates_of_cognitive_performance/index.html</loc>
+    <lastmod>2025-02-06T15:08:35.335Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_11_11_GD_Monai_Label/index.html</loc>
-    <lastmod>2024-11-14T15:26:13.299Z</lastmod>
+    <loc>https://neuro-ix.github.io/publications/posts/2024_10_03_brain_morphometry_in_former_american_football/index.html</loc>
+    <lastmod>2025-02-06T15:08:35.338Z</lastmod>
   </url>
   <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_12_02_CB_Pytorch_Lightning/index.html</loc>
-    <lastmod>2024-12-05T19:21:42.743Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2024_11_18_BV_Fairness/index.html</loc>
-    <lastmod>2024-12-05T18:01:19.411Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2025_01_12_BV_FastSurfer_LIT/index.html</loc>
-    <lastmod>2025-01-27T20:16:23.671Z</lastmod>
-  </url>
-  <url>
-    <loc>https://neuro-ix.github.io/journalclub/posts/2025_01_29_AS_NeRF_brain_MRI/index.html</loc>
-    <lastmod>2025-01-29T19:23:34.790Z</lastmod>
+    <loc>https://neuro-ix.github.io/publications/posts/2025_01_20_single_versus_twotest_criteria_for_cognitive/index.html</loc>
+    <lastmod>2025-02-06T15:08:35.326Z</lastmod>
   </url>
 </urlset>

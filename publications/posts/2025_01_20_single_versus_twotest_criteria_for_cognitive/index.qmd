@@ -1,0 +1,17 @@
+---
+title: "Single- versus two-test criteria for cognitive impairment: associations with CSF and imaging markers in former American football players"
+description: "PMID: [39834028](https://pubmed.ncbi.nlm.nih.gov/39834028/){target='_blank'}    DOI: [10.1080/13854046.2025.2451828](https://doi.org/10.1080/13854046.2025.2451828){target='_blank'}"
+author: Monica T Ly, Caroline Altaras, Yorghos Tripodis, Charles H Adler, Laura J Balcer, Charles Bernick, Henrik Zetterberg, Kaj Blennow, Elaine R Peskind, Sarah J Banks, William B Barr, Jennifer V Wethe, Steve Lenio, Mark W Bondi, Lisa M Delano-Wood, Robert C Cantu, Michael J Coleman, David W Dodick, Jesse Mez, Daniel H Daneshvar, Joseph N Palmisano, Brett Martin, Alexander P Lin, Inga K Koerte, Sylvain Bouix, ... ...
+date: "2025-01-20"
+categories: [axonal injury, cognitive impairment, neurodegeneration, repeated head trauma, repetitive head impact, traumatic encephalopathy syndrome]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Objective: Cognitive impairment is a core feature of traumatic encephalopathy syndrome (TES), the putative clinical syndrome of chronic traumatic encephalopathy-a neuropathological disease associated with repetitive head impacts (RHI). Careful operationalization of cognitive impairment is essential to improving the diagnostic specificity and accuracy of TES criteria. We compared single- versus two-test criteria for cognitive impairment in their associations with CSF and imaging biomarkers in male former American football players. Method: 169 participants from the DIAGNOSE CTE Research Project completed neuropsychological tests of memory and executive functioning. Cognitive impairment was identified by single-test criteria (z<=-1.5 on one test) and two-test criteria (z<-1 on two tests within a domain). ANCOVAs adjusting for age, race, education, body mass index, word-reading score, and APOE e4 status assessed whether single- or two-test criteria predicted CSF markers (Ab1-42, p-tau181, p-tau181/Ab1-42, total tau, neurofilament light [NfL], glial fibrillary acidic protein [GFAP]) and MRI markers (hippocampal volume, cortical thickness, white matter hyperintensities). Results: Ninety-nine participants met single-test criteria for cognitive impairment. Sixty-six met two-test criteria. Participants who met two-test criteria had greater exposure to RHI than those who did not (p=.04). Two-test criteria were -associated with higher CSF p-tau181/Ab1-42 (q=.02) and CSF NfL (q=.02). The association between two-test criteria and CSF NfL remained after excluding amyloid-positive participants (q=.04). Single-test criteria were not associated with any biomarkers (q's>.05). Conclusions: Two-test but not single-test criteria for cognitive impairment were associated with markers of neurodegeneration. Future clinical research in TES may benefit from applying two-test criteria to operationalize cognitive impairment.
+        

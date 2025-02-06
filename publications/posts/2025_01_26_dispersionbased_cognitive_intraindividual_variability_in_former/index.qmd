@@ -1,0 +1,17 @@
+---
+title: "Dispersion-based cognitive intra-individual variability in former American football players: Association with traumatic encephalopathy syndrome, repetitive head impacts, and biomarkers"
+description: "PMID: [39865747](https://pubmed.ncbi.nlm.nih.gov/39865747/){target='_blank'}    DOI: [10.1080/13854046.2025.2453103](https://doi.org/10.1080/13854046.2025.2453103){target='_blank'}"
+author: Caroline Altaras, Monica T Ly, Olivia Schultz, William B Barr, Sarah J Banks, Jennifer V Wethe, Yorghos Tripodis, Charles H Adler, Laura J Balcer, Charles Bernick, Henrik Zetterberg, Kaj Blennow, Nicholas Ashton, Elaine Peskind, Robert C Cantu, Michael J Coleman, Alexander P Lin, Inga K Koerte, Sylvain Bouix, Daniel Daneshvar, David W Dodick, Yonas E Geda, Douglas L Katz, Jason L Weller, Jesse Mez, ... ...
+date: "2025-01-26"
+categories: [Repetitive head impacts, chronic traumatic encephalopathy, cognitive dysfunction, cognitive intra-individual variability, traumatic encephalopathy syndrome]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Background: Exposure to repetitive head impacts (RHI), such as those experienced in American football, is linked to cognitive dysfunction later in life. Traumatic encephalopathy syndrome (TES) is a proposed clinical syndrome thought to be linked to neuropath-ology of chronic traumatic encephalopathy (CTE), a condition associated with RHI from football. Cognitive intra-individual variability (d-CIIV) measures test-score dispersion, indicating cognitive dysfunction. This study examined d-CIIV in former football players and its associations with TES diagnosis, RHI exposure, and DTI and CSF biomarkers. Methods: Data included 237 males (45-74 years) from DIAGNOSE CTE Research Project, including former professional and college football players (COL) (n = 173) and asymptomatic men without RHI or TBI (n = 55). Participants completed neuropsychological tests. TES diagnosis was based on 2021 NINDS TES criteria. Years of football play and a cumulative head impact index (CHII) measured RHI exposure. Lumipulse technology was used for CSF assays. DTI fractional anisotropy assessed white matter integrity. Coefficient of variation (CoV) measured d-CIIV. ANCOVA compared d-CIIV among groups (football versus control; TES-status). Pearson correlations and linear regressions tested associations between d-CIIV, RHI exposure, and CSF and DTI biomarkers. Results: Former professional players had higher d-CIIV than controls (F(7, 194) = 2.87, p = .007). d-CIIV was associated with TES diagnosis (F(8, 146) = 9.063, p < .001), with highest d-CIIV in TES Possible/Probable-CTE. Higher d-CIIV correlated with higher CHII scores (r = 0.19), reduced CSF Ab1-42 (b = -0.302), increased p-tau181 (b = 0.374), and reduced DTI FA (b = -0.202). Conclusion: d-CIIV is linked to RHI exposure and TES diagnosis in former football players, with associated changes in CSF biomarkers and white matter integrity.
+        
