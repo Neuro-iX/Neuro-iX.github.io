@@ -1,0 +1,18 @@
+---
+title: "Presentation of the accepted article 'Improving quality control of mri images using synthetic motion data'"
+description: "DOI: [10.48550/arXiv.2502.00160](https://doi.org/10.48550/arXiv.2502.00160){target='_blank'}"
+author: Charles Bricout
+date: "2025-02-05"
+categories: [Deep learning, Quality control, MRI]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+MRI quality control (QC) is challenging due to unbalanced and limited datasets, as well as subjective scoring, which hinder the development of reliable automated QC systems. To address these issues, we introduce an approach that pretrains a model on synthetically generated motion artifacts before applying transfer learning for QC classification. This method not only improves the accuracy in identifying poor-quality scans but also reduces training time and resource requirements compared to training from scratch. By leveraging synthetic data, we provide a more robust and resource-efficient solution for QC automation in MRI, paving the way for broader adoption in diverse research settings. 
+
+![](../../../journalclub/pdfs/2025_02_05_Charles_Improving_Quality_Control_MRI_Synth_Motion.pdf){width=100% height=400}
