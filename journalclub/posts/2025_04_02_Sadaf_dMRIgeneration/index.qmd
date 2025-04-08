@@ -1,0 +1,18 @@
+---
+title: "When Diffusion MRI Meets Diffusion Model: A Novel Deep Generative Model for Diffusion MRI Generation"
+description: "DOI: [10.1007/978-3-031-72069-7_50](https://doi.org/10.1007/978-3-031-72069-7_50){target='_blank'}"
+author: Sedigheh Dargahi
+date: "2025-04-02"
+categories: [Diffusion model, Diffusion MRI, RISH feature]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Diffusion MRI (dMRI) is an advanced imaging technique characterizing tissue microstructure and white matter structural connectivity of the human brain. The demand for high-quality dMRI data is growing, driven by the need for better resolution and improved tissue contrast. However, acquiring high-quality dMRI data is expensive and time-consuming. In this context, deep generative modeling emerges as a promising solution to enhance image quality while minimizing acquisition costs and scanning time. In this study, we propose a novel generative approach to perform dMRI generation using deep diffusion models. It can generate high dimension (4D) and high resolution data preserving the gradients information and brain structure. We demonstrated our method through an image mapping task aimed at enhancing the quality of dMRI images from 3T to 7T. Our approach demonstrates highly enhanced performance in generating dMRI images when compared to the current state-of-the-art (SOTA) methods. This achievement underscores a substantial progression in enhancing dMRI quality, highlighting the potential of our novel generative approach to revolutionize dMRI imaging standards.
+
+![](../../../journalclub/pdfs/2025_04_02_Sadaf_dMRIgeneration.pdf){width=100% height=400}
