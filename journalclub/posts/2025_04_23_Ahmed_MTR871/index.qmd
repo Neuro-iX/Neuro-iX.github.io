@@ -1,0 +1,18 @@
+---
+title: "Ten articles about automatic Landmark Detection"
+description: "DOI: [10.1109/TMI.2020.3009002](https://doi.org/10.1109/TMI.2020.3009002){target='_blank'}"
+author: Ahmed Rekik
+date: "2025-04-23"
+categories: [Automatic Landmark Detection, fully convolutional neural networks]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article 'Deep Learning-Based Regression and Classification for Automatic Landmark Localization in Medical Images':
+
+In this study, we propose a fast and accurate method to automatically localize anatomical landmarks in medical images. We employ a global-to-local localization approach using fully convolutional neural networks (FCNNs). First, a global FCNN localizes multiple landmarks through the analysis of image patches, performing regression and classification simultaneously. In regression, displacement vectors pointing from the center of image patches towards landmark locations are determined. In classification, presence of landmarks of interest in the patch is established. Global landmark locations are obtained by averaging the predicted displacement vectors, where the contribution of each displacement vector is weighted by the posterior classification probability of the patch that it is pointing from. Subsequently, for each landmark localized with global localization, local analysis is performed. Specialized FCNNs refine the global landmark locations by analyzing local sub-images in a similar manner, i.e. by performing regression and classification simultaneously and combining the results. Evaluation was performed through localization of 8 anatomical landmarks in CCTA scans, 2 landmarks in olfactory MR scans, and 19 landmarks in cephalometric X-rays. We demonstrate that the method performs similarly to a second observer and is able to localize landmarks in a diverse set of medical images, differing in image modality, image dimensionality, and anatomical coverage.
+
+![](../../../journalclub/pdfs/2025_04_23_Ahmed_MTR871.pdf){width=100% height=400}
