@@ -1,0 +1,18 @@
+---
+title: "Presentation of the DeepPrep: an accelerated, scalable and robust pipeline for neuroimaging preprocessing empowered by deep learning"
+description: "DOI: [10.1038/s41592-025-02599-1](https://doi.org/10.1038/s41592-025-02599-1){target='_blank'}"
+author: Benoît Verreman
+date: "2025-05-05"
+categories: [scalability, neuroimaging pipeline, container, workflow manager]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Neuroimaging has entered the era of big data. However, the advancement of preprocessing pipelines falls behind the rapid expansion of data volume, causing substantial computational challenges. Here we present DeepPrep, a pipeline empowered by deep learning and a workflow manager. Evaluated on over 55,000 scans, DeepPrep demonstrates tenfold acceleration, scalability and robustness compared to the state-of-the-art pipeline, thereby meeting the scalability requirements of neuroimaging.
+
+![](../../../journalclub/pdfs/2025_05_05_BV_DeepPrep.pdf){width=100% height=400}
