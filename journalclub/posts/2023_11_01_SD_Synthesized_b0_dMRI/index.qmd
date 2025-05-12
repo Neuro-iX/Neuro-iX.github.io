@@ -3,7 +3,7 @@ title: "Presentation of Synb0-DisCo"
 description: "DOI: [10.1016/j.mri.2019.05.008](https://doi.org/10.1016/j.mri.2019.05.008){target='_blank'}"
 author: Sedigheh Dargahi 
 date: "2023-11-01"
-categories: [conditional generative network, diffusion magnetic resonance imaging, distortion correction, echo planar imaging, image synthesis]
+categories: [diffusion imaging & features, echo planar imaging & artifacts, generative models, image synthesis & inpainting]
 #image: map.jpg
 format:
   html:

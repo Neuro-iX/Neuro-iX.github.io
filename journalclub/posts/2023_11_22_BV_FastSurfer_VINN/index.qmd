@@ -3,7 +3,7 @@ title: "Presentation of FastSurferVINN"
 description: "DOI: [10.1016/j.neuroimage.2022.118933](https://doi.org/10.1016/j.neuroimage.2022.118933){target='_blank'}"
 author: Benoît Verreman
 date: "2023-11-22"
-categories: [brain segmentation, magnetic resonance imaging, resolution independence]
+categories: [brain segmentation, mri techniques & modalities, resolution & distortion correction]
 #image: map.jpg
 format:
   html:

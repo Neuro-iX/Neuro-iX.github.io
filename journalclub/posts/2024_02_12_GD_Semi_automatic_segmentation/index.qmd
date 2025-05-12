@@ -3,7 +3,7 @@ title: "Presentation of the article 'Semi-automatic segmentation of the fetal br
 description: "DOI: [10.3389/fnins.2022.1027084](https://doi.org/10.3389/fnins.2022.1027084){target='_blank'}"
 author: Ghazal Danaee
 date: "2024-02-12"
-categories: [magnetic resonance imaging, fetal brain, linear registration, nonlinear registration, volumetric reconstruction]
+categories: [developmental brain imaging, mri techniques & modalities, registration techniques, structure-from-motion & volumetric modeling]
 #image: map.jpg
 format:
   html:

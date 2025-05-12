@@ -3,7 +3,7 @@ title: "Presentation of the article '3D Reconstructions of Brain from MRI Scans 
 description: "DOI: [10.1007/978-3-031-42508-0_19](https://doi.org/10.1007/978-3-031-42508-0_19){target='_blank'}"
 author: Ayoub Sassi
 date: "2025-01-29"
-categories: [3D reconstruction, MRI scans, neural radiance fields, structure from motion]
+categories: [mri techniques & modalities, neural radiance & view synthesis, structure-from-motion & volumetric modeling]
 #image: map.jpg
 format:
   html:

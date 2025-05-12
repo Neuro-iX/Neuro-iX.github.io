@@ -3,7 +3,7 @@ title: "Presentation of the review article 'Automated brain segmentation and vol
 description: "DOI: [10.3389/fnagi.2024.1459652](https://doi.org/10.3389/fnagi.2024.1459652){target='_blank'}"
 author: Benoît Verreman
 date: "2024-09-23"
-categories: [magnetic resonance imaging, brain segmentation, volumetry, dementia, alzheimer, freesurfer]
+categories: [brain segmentation, disease-focused imaging, freesurfer & ecosystem tools, mri techniques & modalities, volumetry]
 #image: map.jpg
 format:
   html:

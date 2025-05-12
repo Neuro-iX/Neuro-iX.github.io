@@ -3,7 +3,7 @@ title: "Presentation of the article 'Neural deformation fields for template-base
 description: "DOI: [10.48550/arXiv.2401.12938](https://doi.org/10.48550/arXiv.2401.12938){target='_blank'}"
 author: Kaveh Moradkhani
 date: "2024-02-26"
-categories: [geometric deep learning, magnetic resonance imaging, cortical surface reconstruction, brain segmentation, registration]
+categories: [brain segmentation, cortical surface reconstruction, geometric deep learning, mri techniques & modalities, registration techniques]
 #image: map.jpg
 format:
   html:

@@ -3,7 +3,7 @@ title: "Presentation of MedSAM"
 description: "DOI: [10.48550/arXiv.2304.12306](https://doi.org/10.48550/arXiv.2304.12306){target='_blank'}"
 author: Benoît Verreman
 date: "2024-02-05"
-categories: [fondation model, medical image segmentation]
+categories: [generative models, medical image segmentation]
 #image: map.jpg
 format:
   html:

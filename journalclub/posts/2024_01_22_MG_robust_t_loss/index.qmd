@@ -3,7 +3,7 @@ title: "Presentation of the article 'Robust T-Loss for Medical Image Segmentatio
 description: "DOI: [10.48550/arXiv.2306.00753](https://doi.org/10.48550/arXiv.2306.00753){target='_blank'}"
 author: Mélanie Gaillochet
 date: "2024-01-22"
-categories: [robust loss, medical image segmentation, noisy labels]
+categories: [label quality & robustness, medical image segmentation]
 #image: map.jpg
 format:
   html:

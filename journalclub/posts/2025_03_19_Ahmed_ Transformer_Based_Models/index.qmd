@@ -3,7 +3,7 @@ title: "Nested Hierarchical Transformer: Towards Accurate, Data-Efficient and In
 description: "DOI: [10.48550/arXiv.2105.12723](https://doi.org/10.48550/arXiv.2105.12723){target='_blank'}"
 author: Ahmed Rekik
 date: "2025-03-19"
-categories: [Vision transformer, nested hierarchy, image segmentation]
+categories: [functional & nested atlases, medical image segmentation, vision transformers]
 #image: map.jpg
 format:
   html:

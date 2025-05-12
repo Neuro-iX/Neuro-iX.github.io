@@ -3,7 +3,7 @@ title: "Presentation of the FD-NET"
 description: "DOI: [10.1002/mrm.29851](https://doi.org/10.1002/mrm.29851){target='_blank'}"
 author: Sedigheh Dargahi
 date: "2024-02-08"
-categories: [deep learning, echo planar imaging, reversed phase-encoding, susceptibility artifacts, unsupervised learning]
+categories: [echo planar imaging & artifacts, general deep learning, unsupervised learning]
 #image: map.jpg
 format:
   html:

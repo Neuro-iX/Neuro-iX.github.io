@@ -3,7 +3,7 @@ title: "Presentation of the MITB functional atlas of the cerebral cortex"
 description: "DOI: [10.1038/s41593-024-01596-5](https://doi.org/10.1038/s41593-024-01596-5){target='_blank'}"
 author: Benoît Verreman
 date: "2024-04-15"
-categories: [functional atlas, cortex parcellation, magnetic resonance imaging]
+categories: [cortex parcellation, functional & nested atlases, mri techniques & modalities]
 #image: map.jpg
 format:
   html:

@@ -3,7 +3,7 @@ title: "Presentation of the article 'Boundary-weighted logit consistency improve
 description: "DOI: [10.48550/arXiv.2307.08163](https://doi.org/10.48550/arXiv.2307.08163){target='_blank'}"
 author: Sukesh Adiga
 date: "2023-10-25"
-categories: [calibration, consistency regularization, segmentation]
+categories: [calibration & standardization, consistency regularization techniques, medical image segmentation]
 #image: map.jpg
 format:
   html:

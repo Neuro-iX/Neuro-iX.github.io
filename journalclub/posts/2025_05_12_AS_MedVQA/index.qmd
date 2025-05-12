@@ -3,7 +3,7 @@ title: "Presentation of MedVQA: a Vision–Language Model for Visual Question An
 description: "DOI: [10.3390/bioengineering10030380](https://doi.org/10.3390/bioengineering10030380){target='_blank'}"
 author: Ayoub Sassi
 date: "2025-05-12"
-categories: [medical visual question answering, vision–language encoders, transformer]
+categories: [computational vision & language, medical visual question answering, transformers & attention models]
 #image: map.jpg
 format:
   html:

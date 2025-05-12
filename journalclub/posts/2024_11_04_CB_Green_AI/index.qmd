@@ -3,7 +3,7 @@ title: "Presentation of the article 'Green AI'"
 description: "DOI: [10.48550/arXiv.1907.10597](https://doi.org/10.48550/arXiv.1907.10597){target='_blank'}"
 author: Charles Bricout
 date: "2024-11-04"
-categories: [computers and society, computation and language, computer vision and pattern recognition, machine learning, methodology]
+categories: [computational vision & language, ethics & fairness & societal impact, machine learning, study design & methodology & scalability]
 #image: map.jpg
 format:
   html:

@@ -3,7 +3,7 @@ title: "Presentation of MONAI Label"
 description: "DOI: [10.1016/j.media.2024.103207](https://doi.org/10.1016/j.media.2024.103207){target='_blank'}"
 author: Ghazal Danaee
 date: "2024-11-11"
-categories: [3D medical imaging, interactive 3D image segmentation, active learning, deep learning]
+categories: [3d medical imaging, few-shot & active learning, general deep learning, interactive segmentation methods]
 #image: map.jpg
 format:
   html:

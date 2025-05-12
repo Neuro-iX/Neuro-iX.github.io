@@ -3,7 +3,7 @@ title: "Presentation of the review article 'Best Practices in Structural Neuroim
 description: "DOI: [ 10.1007/s11065-021-09496-2](https://doi.org/ 10.1007/s11065-021-09496-2){target='_blank'}"
 author: Benoît Verreman
 date: "2023-09-25"
-categories: [children, freesurfer, neurodevelopmental disorders, quality control, structural magnetic resonance imaging, study design]
+categories: [developmental brain imaging, freesurfer & ecosystem tools, mri techniques & modalities, neurodevelopmental disorders, quality assurance & control, study design & methodology & scalability]
 #image: map.jpg
 format:
   html:

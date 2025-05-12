@@ -3,7 +3,7 @@ title: "Presentation of NeRF"
 description: "DOI: [10.48550/arXiv.2003.08934](https://doi.org/10.48550/arXiv.2003.08934){target='_blank'}"
 author: Charles Bricout
 date: "2023-11-15"
-categories: [scene representation, view synthesis, image-based rendering, volume rendering, 3D deep learning]
+categories: [3d medical imaging, image-based rendering, neural radiance & view synthesis, structure-from-motion & volumetric modeling, volume rendering]
 #image: map.jpg
 format:
   html:

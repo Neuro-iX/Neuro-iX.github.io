@@ -3,7 +3,7 @@ title: "When Diffusion MRI Meets Diffusion Model: A Novel Deep Generative Model 
 description: "DOI: [10.1007/978-3-031-72069-7_50](https://doi.org/10.1007/978-3-031-72069-7_50){target='_blank'}"
 author: Sedigheh Dargahi
 date: "2025-04-02"
-categories: [Diffusion model, Diffusion MRI, RISH feature]
+categories: [diffusion imaging & features]
 #image: map.jpg
 format:
   html:

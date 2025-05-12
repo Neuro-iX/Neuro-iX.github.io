@@ -3,7 +3,7 @@ title: "Presentation of the article 'Multi-Atlas Segmentation with Joint Label F
 description: "DOI: [10.1109/TPAMI.2012.143](https://doi.org/10.1109/TPAMI.2012.143){target='_blank'}"
 author: Ghazal Danaee
 date: "2024-09-16"
-categories: [multi-atlas, magnetic resonance imaging, segmentation, joint label fusion]
+categories: [atlas-based methods & fusion, medical image segmentation, mri techniques & modalities]
 #image: map.jpg
 format:
   html:

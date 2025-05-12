@@ -3,7 +3,7 @@ title: "Presentation of the article 'Disentangling Human Error from the Ground T
 description: "DOI: [10.48550/arXiv.2007.15963](https://doi.org/10.48550/arXiv.2007.15963){target='_blank'}"
 author: Mélanie Gaillochet
 date: "2023-09-20"
-categories: [supervised learning, medical image segmentation, convolutional neural network]
+categories: [cnns & fully convolutional networks, medical image segmentation, supervised learning]
 #image: map.jpg
 format:
   html:

@@ -3,7 +3,7 @@ title: "Presentation of the review article 'Addressing fairness issues in deep l
 description: "DOI: [10.48550/arXiv.2209.13177](https://doi.org/10.48550/arXiv.2209.13177){target='_blank'}"
 author: Benoit Verreman
 date: "2024-11-18"
-categories: [3D medical imaging, fairness, deep learning, sensitive attributes]
+categories: [3d medical imaging, ethics & fairness & societal impact, general deep learning]
 #image: map.jpg
 format:
   html:

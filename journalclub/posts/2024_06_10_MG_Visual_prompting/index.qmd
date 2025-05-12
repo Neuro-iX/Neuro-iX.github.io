@@ -3,7 +3,7 @@ title: "Presentation of the article 'Visual Prompting for Generalized Few-shot S
 description: "DOI: [10.48550/arXiv.2404.11732](https://doi.org/10.48550/arXiv.2404.11732){target='_blank'}"
 author: Mélanie Gaillochet
 date: "2024-06-10"
-categories: [multiscale transformer decoder, unidirectional causal attention mechanism]
+categories: [transformers & attention models]
 #image: map.jpg
 format:
   html:

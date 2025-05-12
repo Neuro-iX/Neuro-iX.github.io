@@ -3,7 +3,7 @@ title: "Presentation of the article 'Semi-supervised few-shot learning for medic
 description: "DOI: [10.48550/arXiv.2003.08462](https://doi.org/10.48550/arXiv.2003.08462){target='_blank'}"
 author: Kaveh Moradkhani
 date: "2024-10-28"
-categories: [segmentation model, few-shot learning, unlabeled surrogate tasks]
+categories: [few-shot & active learning, medical image segmentation, unlabeled surrogate tasks]
 #image: map.jpg
 format:
   html:

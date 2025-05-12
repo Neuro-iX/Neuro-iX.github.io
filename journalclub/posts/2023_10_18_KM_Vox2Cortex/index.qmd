@@ -3,7 +3,7 @@ title: "Presentation of Vox2Cortex"
 description: "DOI: [10.48550/arXiv.2203.09446](https://doi.org/10.48550/arXiv.2203.09446){target='_blank'}"
 author: Kaveh Moradkhani
 date: "2023-10-18"
-categories: [reconstruction of cortical surface, magnetic resonance imaging, geometric deep neural network]
+categories: [cortical surface reconstruction, geometric deep learning, mri techniques & modalities]
 #image: map.jpg
 format:
   html:

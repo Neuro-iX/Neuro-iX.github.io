@@ -3,7 +3,7 @@ title: "Conditional Temporal Attention Networks for Neonatal Cortical Surface Re
 description: "DOI: [10.48550/arXiv.2307.11870](https://doi.org/10.48550/arXiv.2307.11870){target='_blank'}"
 author: Kaveh Moradkhani
 date: "2025-04-09"
-categories: [diffeomorphic neonatal, cortical surface reconstruction, structural MRI]
+categories: [cortical surface reconstruction, diffeomorphic neonatal, mri techniques & modalities]
 #image: map.jpg
 format:
   html:

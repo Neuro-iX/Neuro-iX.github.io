@@ -3,7 +3,7 @@ title: "Presentation of the review article 'EPI susceptibility correction introd
 description: "DOI: [10.1016/j.mri.2022.05.016](https://doi.org/10.1016/j.mri.2022.05.016){target='_blank'}"
 author: Sedigheh Dargahi
 date: "2024-10-10"
-categories: [diffusion weighted imaging, preprocessing, distortion correction, quality assurance]
+categories: [diffusion imaging & features, echo planar imaging & artifacts, preprocessing & data sampling, quality assurance & control]
 #image: map.jpg
 format:
   html:

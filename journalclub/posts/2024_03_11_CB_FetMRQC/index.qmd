@@ -3,7 +3,7 @@ title: "Presentation of FET-MRQC"
 description: "DOI: [10.48550/arXiv.2304.05879](https://doi.org/10.48550/arXiv.2304.05879){target='_blank'}"
 author: Charles Bricout
 date: "2024-03-11"
-categories: [quality control, fetal brain, magnetic resonance imaging, T2w]
+categories: [developmental brain imaging, mri techniques & modalities, quality assurance & control]
 #image: map.jpg
 format:
   html:

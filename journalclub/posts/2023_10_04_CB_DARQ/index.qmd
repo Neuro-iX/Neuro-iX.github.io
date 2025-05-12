@@ -3,7 +3,7 @@ title: "Presentation of DARQ"
 description: "DOI: [10.1016/j.neuroimage.2022.119266](https://doi.org/10.1016/j.neuroimage.2022.119266){target='_blank'}"
 author: Charles Bricout
 date: "2023-10-04"
-categories: [deep learning, linear registration, quality control]
+categories: [general deep learning, quality assurance & control, registration techniques]
 #image: map.jpg
 format:
   html:

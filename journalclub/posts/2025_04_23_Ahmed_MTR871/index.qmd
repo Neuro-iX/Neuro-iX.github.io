@@ -3,7 +3,7 @@ title: "Ten articles about automatic Landmark Detection"
 description: "DOI: [10.1109/TMI.2020.3009002](https://doi.org/10.1109/TMI.2020.3009002){target='_blank'}"
 author: Ahmed Rekik
 date: "2025-04-23"
-categories: [Automatic Landmark Detection, fully convolutional neural networks]
+categories: [automatic landmark detection, cnns & fully convolutional networks]
 #image: map.jpg
 format:
   html:

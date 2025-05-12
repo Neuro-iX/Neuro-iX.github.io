@@ -3,7 +3,7 @@ title: "Presentation of the DeepPrep: an accelerated, scalable and robust pipeli
 description: "DOI: [10.1038/s41592-025-02599-1](https://doi.org/10.1038/s41592-025-02599-1){target='_blank'}"
 author: Benoît Verreman
 date: "2025-05-05"
-categories: [scalability, neuroimaging pipeline, container, workflow manager]
+categories: [container, neuroimaging pipeline, study design & methodology & scalability, workflow management & platforms]
 #image: map.jpg
 format:
   html:

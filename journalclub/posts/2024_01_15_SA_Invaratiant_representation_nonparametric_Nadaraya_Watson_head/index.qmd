@@ -3,7 +3,7 @@ title: "Presentation of the conference paper 'Learning Invariant Representations
 description: "DOI: [10.48550/arXiv.2309.13377](https://doi.org/10.48550/arXiv.2309.13377){target='_blank'}"
 author: Sukesh Adiga
 date: "2024-01-15"
-categories: [Nadaraya-Watson head, machine learning, nonparametric invariant representation]
+categories: [diffusion imaging & features, machine learning, nonparametric invariant representation]
 #image: map.jpg
 format:
   html:

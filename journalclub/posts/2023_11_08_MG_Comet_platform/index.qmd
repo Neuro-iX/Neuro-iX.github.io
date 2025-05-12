@@ -3,7 +3,7 @@ title: "Presentation of Comet"
 description: "Website: [https://www.comet.com/site/](https://www.comet.com/site/){target='_blank'}"
 author: Mélanie Gaillochet
 date: "2023-11-08"
-categories: [platform, machine learning, training]
+categories: [machine learning, supervised learning, workflow management & platforms]
 #image: map.jpg
 format:
   html:

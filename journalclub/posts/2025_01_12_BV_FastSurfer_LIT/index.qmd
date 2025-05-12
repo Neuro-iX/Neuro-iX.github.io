@@ -3,7 +3,7 @@ title: "Presentation of FastSurfer LIT"
 description: "DOI: [10.48550/arXiv.2209.13177](https://doi.org/10.1162/imag_a_00446){target='_blank'}"
 author: Benoît Verreman
 date: "2025-01-12"
-categories: [deep learning framework, lesion inpainting tool, tumor, brain segmentation]
+categories: [brain segmentation, deep learning framework, disease-focused imaging, image synthesis & inpainting]
 #image: map.jpg
 format:
   html:
