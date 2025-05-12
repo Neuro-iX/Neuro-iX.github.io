@@ -1,0 +1,18 @@
+---
+title: "Presentation of MedVQA: a Vision–Language Model for Visual Question Answering in Medical Imagery "
+description: "DOI: [10.3390/bioengineering10030380](https://doi.org/10.3390/bioengineering10030380){target='_blank'}"
+author: Ayoub Sassi
+date: "2025-05-12"
+categories: [medical visual question answering, vision–language encoders, transformer]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+In the clinical and healthcare domains, medical images play a critical role. A mature medical visual question answering system (VQA) can improve diagnosis by answering clinical questions presented with a medical image. Despite its enormous potential in the healthcare industry and services, this technology is still in its infancy and is far from practical use. This paper introduces an approach based on a transformer encoder–decoder architecture. Specifically, we extract image features using the vision transformer (ViT) model, and we embed the question using a textual encoder transformer. Then, we concatenate the resulting visual and textual representations and feed them into a multi-modal decoder for generating the answer in an autoregressive way. In the experiments, we validate the proposed model on two VQA datasets for radiology images termed VQA-RAD and PathVQA. The model shows promising results compared to existing solutions. It yields closed and open accuracies of 84.99% and 72.97%, respectively, for VQA-RAD, and 83.86% and 62.37%, respectively, for PathVQA. Other metrics such as the BLUE score showing the alignment between the predicted and true answer sentences are also reported.
+
+![](../../../journalclub/pdfs/2025_05_12_AS_MedVQA.pdf){width=100% height=400}
