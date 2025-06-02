@@ -1,0 +1,18 @@
+---
+title: "Presentation of several management and computing tools"
+description: "Neuro-iX github: [neuro-ix-tools](https://github.com/Neuro-iX/neuro-ix-tools){target='_blank'}"
+author: Charles Bricout
+date: "2025-06-02"
+categories: [tools, python librairies]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Summary:
+Tools suggested: Lightning, Comet and Click.
+Python libraries recommended: Formatting (black, ruff), pylint, pytest, pydocstyle.
+
+![](../../../journalclub/pdfs/2025_06_02_CB_Tools_and_Best_Practices.pdf){width=100% height=400}
