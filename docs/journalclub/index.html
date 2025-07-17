@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Neuro-iX - Journal Club</title>
+<title>quarto-inputbc5083365f8d7d64 – Neuro-iX</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,17 +32,20 @@ ul.task-list li input[type="checkbox"] {
 <link href="../images/logos/Neuro-iX-2-transparent.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c15e6de9c5e5abff0fa06ed11ae8115b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-11dba558dbfbdf923103db26946ed564.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c15e6de9c5e5abff0fa06ed11ae8115b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -100,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -133,7 +136,169 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -145,7 +310,7 @@ window.Quarto = {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -193,7 +358,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -204,9 +369,10 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(40)</span></div><div class="category" data-category="3d medical imaging">3d medical imaging <span class="quarto-category-count">(4)</span></div><div class="category" data-category="atlas-based methods &amp; fusion">atlas-based methods &amp; fusion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="automatic landmark detection">automatic landmark detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="brain segmentation">brain segmentation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="calibration &amp; standardization">calibration &amp; standardization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cnns &amp; fully convolutional networks">cnns &amp; fully convolutional networks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="computational vision &amp; language">computational vision &amp; language <span class="quarto-category-count">(2)</span></div><div class="category" data-category="consistency regularization techniques">consistency regularization techniques <span class="quarto-category-count">(1)</span></div><div class="category" data-category="container">container <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cortex parcellation">cortex parcellation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cortical surface reconstruction">cortical surface reconstruction <span class="quarto-category-count">(3)</span></div><div class="category" data-category="deep learning framework">deep learning framework <span class="quarto-category-count">(2)</span></div><div class="category" data-category="developmental brain imaging">developmental brain imaging <span class="quarto-category-count">(3)</span></div><div class="category" data-category="diffeomorphic neonatal">diffeomorphic neonatal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="diffusion imaging &amp; features">diffusion imaging &amp; features <span class="quarto-category-count">(4)</span></div><div class="category" data-category="disease-focused imaging">disease-focused imaging <span class="quarto-category-count">(2)</span></div><div class="category" data-category="echo planar imaging &amp; artifacts">echo planar imaging &amp; artifacts <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ethics &amp; fairness &amp; societal impact">ethics &amp; fairness &amp; societal impact <span class="quarto-category-count">(2)</span></div><div class="category" data-category="few-shot &amp; active learning">few-shot &amp; active learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="freesurfer &amp; ecosystem tools">freesurfer &amp; ecosystem tools <span class="quarto-category-count">(2)</span></div><div class="category" data-category="functional &amp; nested atlases">functional &amp; nested atlases <span class="quarto-category-count">(2)</span></div><div class="category" data-category="general deep learning">general deep learning <span class="quarto-category-count">(5)</span></div><div class="category" data-category="generative models">generative models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="geometric deep learning">geometric deep learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="image synthesis &amp; inpainting">image synthesis &amp; inpainting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="image-based rendering">image-based rendering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="interactive segmentation methods">interactive segmentation methods <span class="quarto-category-count">(2)</span></div><div class="category" data-category="label quality &amp; robustness">label quality &amp; robustness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="masked autoencoder">masked autoencoder <span class="quarto-category-count">(1)</span></div><div class="category" data-category="medical image segmentation">medical image segmentation <span class="quarto-category-count">(7)</span></div><div class="category" data-category="medical visual question answering">medical visual question answering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mri techniques &amp; modalities">mri techniques &amp; modalities <span class="quarto-category-count">(13)</span></div><div class="category" data-category="natural user interface-enabled volume rendering system">natural user interface-enabled volume rendering system <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neural radiance &amp; view synthesis">neural radiance &amp; view synthesis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="neurodevelopmental disorders">neurodevelopmental disorders <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neuroimaging">neuroimaging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neuroimaging pipeline">neuroimaging pipeline <span class="quarto-category-count">(1)</span></div><div class="category" data-category="nonparametric invariant representation">nonparametric invariant representation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open-source">open-source <span class="quarto-category-count">(1)</span></div><div class="category" data-category="preprocessing &amp; data sampling">preprocessing &amp; data sampling <span class="quarto-category-count">(2)</span></div><div class="category" data-category="programming libraries &amp; frameworks">programming libraries &amp; frameworks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="python librairies">python librairies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quality assurance &amp; control">quality assurance &amp; control <span class="quarto-category-count">(5)</span></div><div class="category" data-category="registration techniques">registration techniques <span class="quarto-category-count">(3)</span></div><div class="category" data-category="resolution &amp; distortion correction">resolution &amp; distortion correction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="structure-from-motion &amp; volumetric modeling">structure-from-motion &amp; volumetric modeling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="study design &amp; methodology &amp; scalability">study design &amp; methodology &amp; scalability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="supervised learning">supervised learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="tools">tools <span class="quarto-category-count">(1)</span></div><div class="category" data-category="transformers &amp; attention models">transformers &amp; attention models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="unlabeled surrogate tasks">unlabeled surrogate tasks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="unsupervised learning">unsupervised learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="virtual reality">virtual reality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vision transformers">vision transformers <span class="quarto-category-count">(2)</span></div><div class="category" data-category="volume rendering">volume rendering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="volumetry">volumetry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workflow management &amp; platforms">workflow management &amp; platforms <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(43)</span></div><div class="category" data-category="M2QlMjBtZWRpY2FsJTIwaW1hZ2luZw==">3d medical imaging <span class="quarto-category-count">(4)</span></div><div class="category" data-category="YWklMjBhZ2VudA==">ai agent <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXJ0aWZhY3QlMjBkZXRlY3Rpb24=">artifact detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXRsYXMtYmFzZWQlMjBtZXRob2RzJTIwJTI2JTIwZnVzaW9u">atlas-based methods &amp; fusion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXV0b21hdGljJTIwbGFuZG1hcmslMjBkZXRlY3Rpb24=">automatic landmark detection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YnJhaW4lMjBzZWdtZW50YXRpb24=">brain segmentation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Y2FsaWJyYXRpb24lMjAlMjYlMjBzdGFuZGFyZGl6YXRpb24=">calibration &amp; standardization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y25ucyUyMCUyNiUyMGZ1bGx5JTIwY29udm9sdXRpb25hbCUyMG5ldHdvcmtz">cnns &amp; fully convolutional networks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29tcHV0YXRpb25hbCUyMHZpc2lvbiUyMCUyNiUyMGxhbmd1YWdl">computational vision &amp; language <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29uc2lzdGVuY3klMjByZWd1bGFyaXphdGlvbiUyMHRlY2huaXF1ZXM=">consistency regularization techniques <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29udGFpbmVy">container <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29ydGV4JTIwcGFyY2VsbGF0aW9u">cortex parcellation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29ydGljYWwlMjBzdXJmYWNlJTIwcmVjb25zdHJ1Y3Rpb24=">cortical surface reconstruction <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGVlcCUyMGxlYXJuaW5nJTIwZnJhbWV3b3Jr">deep learning framework <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGVtb2dyYXBoaWMlMjBiaWFz">demographic bias <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGV2ZWxvcG1lbnRhbCUyMGJyYWluJTIwaW1hZ2luZw==">developmental brain imaging <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZGlmZmVvbW9ycGhpYyUyMG5lb25hdGFs">diffeomorphic neonatal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVz">diffusion imaging &amp; features <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZGlzZWFzZS1mb2N1c2VkJTIwaW1hZ2luZw==">disease-focused imaging <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZE1SSQ==">dMRI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWNobyUyMHBsYW5hciUyMGltYWdpbmclMjAlMjYlMjBhcnRpZmFjdHM=">echo planar imaging &amp; artifacts <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ZXRoaWNzJTIwJTI2JTIwZmFpcm5lc3MlMjAlMjYlMjBzb2NpZXRhbCUyMGltcGFjdA==">ethics &amp; fairness &amp; societal impact <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZmV3LXNob3QlMjAlMjYlMjBhY3RpdmUlMjBsZWFybmluZw==">few-shot &amp; active learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZnJlZXN1cmZlciUyMCUyNiUyMGVjb3N5c3RlbSUyMHRvb2xz">freesurfer &amp; ecosystem tools <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZnVuY3Rpb25hbCUyMCUyNiUyMG5lc3RlZCUyMGF0bGFzZXM=">functional &amp; nested atlases <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZw==">general deep learning <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Z2VuZXJhdGl2ZSUyMG1vZGVscw==">generative models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Z2VvbWV0cmljJTIwZGVlcCUyMGxlYXJuaW5n">geometric deep learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aW1hZ2UlMjBzeW50aGVzaXMlMjAlMjYlMjBpbnBhaW50aW5n">image synthesis &amp; inpainting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aW1hZ2UtYmFzZWQlMjByZW5kZXJpbmc=">image-based rendering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24=">interactive segmentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24lMjBtZXRob2Rz">interactive segmentation methods <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bGFiZWwlMjBxdWFsaXR5JTIwJTI2JTIwcm9idXN0bmVzcw==">label quality &amp; robustness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bWFza2VkJTIwYXV0b2VuY29kZXI=">masked autoencoder <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u">medical image segmentation <span class="quarto-category-count">(7)</span></div><div class="category" data-category="bWVkaWNhbCUyMHZpc3VhbCUyMHF1ZXN0aW9uJTIwYW5zd2VyaW5n">medical visual question answering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM=">mri techniques &amp; modalities <span class="quarto-category-count">(13)</span></div><div class="category" data-category="bmF0dXJhbCUyMHVzZXIlMjBpbnRlcmZhY2UtZW5hYmxlZCUyMHZvbHVtZSUyMHJlbmRlcmluZyUyMHN5c3RlbQ==">natural user interface-enabled volume rendering system <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cmFsJTIwcmFkaWFuY2UlMjAlMjYlMjB2aWV3JTIwc3ludGhlc2lz">neural radiance &amp; view synthesis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV1cm9kZXZlbG9wbWVudGFsJTIwZGlzb3JkZXJz">neurodevelopmental disorders <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cm9pbWFnaW5n">neuroimaging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cm9pbWFnaW5nJTIwcGlwZWxpbmU=">neuroimaging pipeline <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm9ucGFyYW1ldHJpYyUyMGludmFyaWFudCUyMHJlcHJlc2VudGF0aW9u">nonparametric invariant representation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="b3Blbi1zb3VyY2U=">open-source <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJlcHJvY2Vzc2luZyUyMCUyNiUyMGRhdGElMjBzYW1wbGluZw==">preprocessing &amp; data sampling <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHJvZ3JhbW1pbmclMjBsaWJyYXJpZXMlMjAlMjYlMjBmcmFtZXdvcmtz">programming libraries &amp; frameworks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cHl0aG9uJTIwbGlicmFpcmllcw==">python librairies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w=">quality assurance &amp; control <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cmVnaXN0cmF0aW9uJTIwdGVjaG5pcXVlcw==">registration techniques <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cmVzb2x1dGlvbiUyMCUyNiUyMGRpc3RvcnRpb24lMjBjb3JyZWN0aW9u">resolution &amp; distortion correction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3RydWN0dXJlLWZyb20tbW90aW9uJTIwJTI2JTIwdm9sdW1ldHJpYyUyMG1vZGVsaW5n">structure-from-motion &amp; volumetric modeling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3R1ZHklMjBkZXNpZ24lMjAlMjYlMjBtZXRob2RvbG9neSUyMCUyNiUyMHNjYWxhYmlsaXR5">study design &amp; methodology &amp; scalability <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3VwZXJ2aXNlZCUyMGxlYXJuaW5n">supervised learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dG9vbHM=">tools <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhbnNmb3JtZXJzJTIwJTI2JTIwYXR0ZW50aW9uJTIwbW9kZWxz">transformers &amp; attention models <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dW5sYWJlbGVkJTIwc3Vycm9nYXRlJTIwdGFza3M=">unlabeled surrogate tasks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dW5zdXBlcnZpc2VkJTIwbGVhcm5pbmc=">unsupervised learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlydHVhbCUyMHJlYWxpdHk=">virtual reality <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dmlzaW9uJTIwdHJhbnNmb3JtZXJz">vision transformers <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dm9sdW1lJTIwcmVuZGVyaW5n">volume rendering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dm9sdW1ldHJ5">volumetry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dnI=">vr <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d29ya2Zsb3clMjBtYW5hZ2VtZW50JTIwJTI2JTIwcGxhdGZvcm1z">workflow management &amp; platforms <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
 
 
 
@@ -219,23 +385,23 @@ window.Quarto = {
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
   </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
@@ -243,24 +409,101 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="tools,python librairies" data-listing-date-sort="1748836800000" data-listing-file-modified-sort="1748897365208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="0" data-categories="dnIlMkNhaSUyMGFnZW50JTJDaW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24=" data-listing-date-sort="1752465600000" data-listing-file-modified-sort="1752776346057" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../journalclub/posts/2025_07_14_Tina_SAMIRA/index.html" class="no-external">Presentation of the article ‘Towards user-centered interactive medical image segmentation in VR with an assistive AI agent’</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dnI='); return false;">vr</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWklMjBhZ2VudA=='); return false;">ai agent</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24='); return false;">interactive segmentation</div>
+
+</div>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_07_14_Tina_SAMIRA/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_07_14_Tina_SAMIRA/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2505.07214" target="_blank">10.48550/arXiv.2505.07214</a></p>
+</div>
+</div>
+<div class="metadata">
+<a href="../journalclub/posts/2025_07_14_Tina_SAMIRA/index.html" class="no-external">
+<div class="listing-date">
+2025-07-14
+</div>
+<div class="listing-author">
+Tina Nantenaina
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="ZGVtb2dyYXBoaWMlMjBiaWFz" data-listing-date-sort="1750046400000" data-listing-file-modified-sort="1752781704385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../journalclub/posts/2025_06_16_GD_demographic_bias/index.html" class="no-external">Presentation of submitted article ‘Investigating Demographic Bias in Brain MRI Segmentation: A Comparative Study of Deep-Learning and Non-Deep-Learning Methods’</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGVtb2dyYXBoaWMlMjBiaWFz'); return false;">demographic bias</div>
+
+</div>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_06_16_GD_demographic_bias/index.html" class="no-external">
+<p>Submitted article</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../journalclub/posts/2025_06_16_GD_demographic_bias/index.html" class="no-external">
+<div class="listing-date">
+2025-06-16
+</div>
+<div class="listing-author">
+Ghazal Danaee
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="ZE1SSSUyQ2FydGlmYWN0JTIwZGV0ZWN0aW9u" data-listing-date-sort="1749441600000" data-listing-file-modified-sort="1752775668828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../journalclub/posts/2025_06_09_Sadaf_3DQCNet/index.html" class="no-external">Presentation of 3D-QCNet – A pipeline for automated artifact detection in diffusion MRI images</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZE1SSQ=='); return false;">dMRI</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXJ0aWZhY3QlMjBkZXRlY3Rpb24='); return false;">artifact detection</div>
+
+</div>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_06_09_Sadaf_3DQCNet/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_06_09_Sadaf_3DQCNet/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1016/j.compmedimag.2022.102151" target="_blank">10.1016/j.compmedimag.2022.102151</a></p>
+</div>
+</div>
+<div class="metadata">
+<a href="../journalclub/posts/2025_06_09_Sadaf_3DQCNet/index.html" class="no-external">
+<div class="listing-date">
+2025-06-09
+</div>
+<div class="listing-author">
+Sedigheh Dargahi
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="dG9vbHMlMkNweXRob24lMjBsaWJyYWlyaWVz" data-listing-date-sort="1748836800000" data-listing-file-modified-sort="1748897365208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_06_02_CB_tools/index.html" class="no-external">Presentation of several management and computing tools</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_06_02_CB_tools/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tools'); return false;">
-tools
+
+<div class="listing-category" onclick="window.quartoListingCategory('dG9vbHM='); return false;">tools</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9uJTIwbGlicmFpcmllcw=='); return false;">python librairies</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('python librairies'); return false;">
-python librairies
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_06_02_CB_tools/index.html" class="no-external">Neuro-iX github: <span>neuro-ix-tools</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_06_02_CB_tools/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_06_02_CB_tools/index.html" class="no-external">Neuro-iX github: </a><a href="https://github.com/Neuro-iX/neuro-ix-tools" target="_blank">neuro-ix-tools</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -274,27 +517,22 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="computational vision &amp; language,medical visual question answering,transformers &amp; attention models" data-listing-date-sort="1747022400000" data-listing-file-modified-sort="1747083104807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
+<div class="quarto-post image-right" data-index="4" data-categories="Y29tcHV0YXRpb25hbCUyMHZpc2lvbiUyMCUyNiUyMGxhbmd1YWdlJTJDbWVkaWNhbCUyMHZpc3VhbCUyMHF1ZXN0aW9uJTIwYW5zd2VyaW5nJTJDdHJhbnNmb3JtZXJzJTIwJTI2JTIwYXR0ZW50aW9uJTIwbW9kZWxz" data-listing-date-sort="1747022400000" data-listing-file-modified-sort="1747083104807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_05_12_AS_MedVQA/index.html" class="no-external">Presentation of MedVQA: a Vision–Language Model for Visual Question Answering in Medical Imagery</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_05_12_AS_MedVQA/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('computational vision &amp; language'); return false;">
-computational vision &amp; language
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tcHV0YXRpb25hbCUyMHZpc2lvbiUyMCUyNiUyMGxhbmd1YWdl'); return false;">computational vision &amp; language</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMHZpc3VhbCUyMHF1ZXN0aW9uJTIwYW5zd2VyaW5n'); return false;">medical visual question answering</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmb3JtZXJzJTIwJTI2JTIwYXR0ZW50aW9uJTIwbW9kZWxz'); return false;">transformers &amp; attention models</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical visual question answering'); return false;">
-medical visual question answering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('transformers &amp; attention models'); return false;">
-transformers &amp; attention models
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_05_12_AS_MedVQA/index.html" class="no-external">DOI: <span>10.3390/bioengineering10030380</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_05_12_AS_MedVQA/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_05_12_AS_MedVQA/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.3390/bioengineering10030380" target="_blank">10.3390/bioengineering10030380</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -308,30 +546,24 @@ Ayoub Sassi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="container,neuroimaging pipeline,study design &amp; methodology &amp; scalability,workflow management &amp; platforms" data-listing-date-sort="1746417600000" data-listing-file-modified-sort="1747083104801" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<div class="quarto-post image-right" data-index="5" data-categories="Y29udGFpbmVyJTJDbmV1cm9pbWFnaW5nJTIwcGlwZWxpbmUlMkNzdHVkeSUyMGRlc2lnbiUyMCUyNiUyMG1ldGhvZG9sb2d5JTIwJTI2JTIwc2NhbGFiaWxpdHklMkN3b3JrZmxvdyUyMG1hbmFnZW1lbnQlMjAlMjYlMjBwbGF0Zm9ybXM=" data-listing-date-sort="1746417600000" data-listing-file-modified-sort="1747083104801" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_05_05_BV_DeepPrep/index.html" class="no-external">Presentation of the DeepPrep: an accelerated, scalable and robust pipeline for neuroimaging preprocessing empowered by deep learning</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_05_05_BV_DeepPrep/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('container'); return false;">
-container
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29udGFpbmVy'); return false;">container</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cm9pbWFnaW5nJTIwcGlwZWxpbmU='); return false;">neuroimaging pipeline</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3R1ZHklMjBkZXNpZ24lMjAlMjYlMjBtZXRob2RvbG9neSUyMCUyNiUyMHNjYWxhYmlsaXR5'); return false;">study design &amp; methodology &amp; scalability</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya2Zsb3clMjBtYW5hZ2VtZW50JTIwJTI2JTIwcGxhdGZvcm1z'); return false;">workflow management &amp; platforms</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('neuroimaging pipeline'); return false;">
-neuroimaging pipeline
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('study design &amp; methodology &amp; scalability'); return false;">
-study design &amp; methodology &amp; scalability
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('workflow management &amp; platforms'); return false;">
-workflow management &amp; platforms
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_05_05_BV_DeepPrep/index.html" class="no-external">DOI: <span>10.1038/s41592-025-02599-1</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_05_05_BV_DeepPrep/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_05_05_BV_DeepPrep/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1038/s41592-025-02599-1" target="_blank">10.1038/s41592-025-02599-1</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -345,24 +577,20 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="natural user interface-enabled volume rendering system,virtual reality" data-listing-date-sort="1745985600000" data-listing-file-modified-sort="1747083104818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<div class="quarto-post image-right" data-index="6" data-categories="bmF0dXJhbCUyMHVzZXIlMjBpbnRlcmZhY2UtZW5hYmxlZCUyMHZvbHVtZSUyMHJlbmRlcmluZyUyMHN5c3RlbSUyQ3ZpcnR1YWwlMjByZWFsaXR5" data-listing-date-sort="1745985600000" data-listing-file-modified-sort="1747083104818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_04_30_Tina_NUIVR2/index.html" class="no-external">Presentation of the article ‘A VR-based volumetric medical image segmentation and visualization system with natural human interaction’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_04_30_Tina_NUIVR2/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('natural user interface-enabled volume rendering system'); return false;">
-natural user interface-enabled volume rendering system
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmF0dXJhbCUyMHVzZXIlMjBpbnRlcmZhY2UtZW5hYmxlZCUyMHZvbHVtZSUyMHJlbmRlcmluZyUyMHN5c3RlbQ=='); return false;">natural user interface-enabled volume rendering system</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlydHVhbCUyMHJlYWxpdHk='); return false;">virtual reality</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('virtual reality'); return false;">
-virtual reality
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_04_30_Tina_NUIVR2/index.html" class="no-external">DOI: <span>10.1007/s10055-021-00577-4</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_04_30_Tina_NUIVR2/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_04_30_Tina_NUIVR2/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1007/s10055-021-00577-4" target="_blank">10.1007/s10055-021-00577-4</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -376,24 +604,20 @@ Tina Nantenaina
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="automatic landmark detection,cnns &amp; fully convolutional networks" data-listing-date-sort="1745380800000" data-listing-file-modified-sort="1747083104822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<div class="quarto-post image-right" data-index="7" data-categories="YXV0b21hdGljJTIwbGFuZG1hcmslMjBkZXRlY3Rpb24lMkNjbm5zJTIwJTI2JTIwZnVsbHklMjBjb252b2x1dGlvbmFsJTIwbmV0d29ya3M=" data-listing-date-sort="1745380800000" data-listing-file-modified-sort="1747083104822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_04_23_Ahmed_MTR871/index.html" class="no-external">Ten articles about automatic Landmark Detection</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_04_23_Ahmed_MTR871/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('automatic landmark detection'); return false;">
-automatic landmark detection
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXV0b21hdGljJTIwbGFuZG1hcmslMjBkZXRlY3Rpb24='); return false;">automatic landmark detection</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y25ucyUyMCUyNiUyMGZ1bGx5JTIwY29udm9sdXRpb25hbCUyMG5ldHdvcmtz'); return false;">cnns &amp; fully convolutional networks</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('cnns &amp; fully convolutional networks'); return false;">
-cnns &amp; fully convolutional networks
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_04_23_Ahmed_MTR871/index.html" class="no-external">DOI: <span>10.1109/TMI.2020.3009002</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_04_23_Ahmed_MTR871/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_04_23_Ahmed_MTR871/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1109/TMI.2020.3009002" target="_blank">10.1109/TMI.2020.3009002</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -407,27 +631,22 @@ Ahmed Rekik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="cortical surface reconstruction,diffeomorphic neonatal,mri techniques &amp; modalities" data-listing-date-sort="1744171200000" data-listing-file-modified-sort="1747083104808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<div class="quarto-post image-right" data-index="8" data-categories="Y29ydGljYWwlMjBzdXJmYWNlJTIwcmVjb25zdHJ1Y3Rpb24lMkNkaWZmZW9tb3JwaGljJTIwbmVvbmF0YWwlMkNtcmklMjB0ZWNobmlxdWVzJTIwJTI2JTIwbW9kYWxpdGllcw==" data-listing-date-sort="1744171200000" data-listing-file-modified-sort="1747083104808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_04_09_Kaveh_CoTAN/index.html" class="no-external">Conditional Temporal Attention Networks for Neonatal Cortical Surface Reconstruction</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_04_09_Kaveh_CoTAN/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cortical surface reconstruction'); return false;">
-cortical surface reconstruction
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29ydGljYWwlMjBzdXJmYWNlJTIwcmVjb25zdHJ1Y3Rpb24='); return false;">cortical surface reconstruction</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlmZmVvbW9ycGhpYyUyMG5lb25hdGFs'); return false;">diffeomorphic neonatal</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('diffeomorphic neonatal'); return false;">
-diffeomorphic neonatal
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_04_09_Kaveh_CoTAN/index.html" class="no-external">DOI: <span>10.48550/arXiv.2307.11870</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_04_09_Kaveh_CoTAN/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_04_09_Kaveh_CoTAN/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2307.11870" target="_blank">10.48550/arXiv.2307.11870</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -441,21 +660,18 @@ Kaveh Moradkhani
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="diffusion imaging &amp; features" data-listing-date-sort="1743566400000" data-listing-file-modified-sort="1747083104819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+<div class="quarto-post image-right" data-index="9" data-categories="ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVz" data-listing-date-sort="1743566400000" data-listing-file-modified-sort="1747083104819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_04_02_Sadaf_dMRIgeneration/index.html" class="no-external">When Diffusion MRI Meets Diffusion Model: A Novel Deep Generative Model for Diffusion MRI Generation</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_04_02_Sadaf_dMRIgeneration/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('diffusion imaging &amp; features'); return false;">
-diffusion imaging &amp; features
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVz'); return false;">diffusion imaging &amp; features</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_04_02_Sadaf_dMRIgeneration/index.html" class="no-external">DOI: <span>10.1007/978-3-031-72069-7_50</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_04_02_Sadaf_dMRIgeneration/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_04_02_Sadaf_dMRIgeneration/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1007/978-3-031-72069-7_50" target="_blank">10.1007/978-3-031-72069-7_50</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -469,27 +685,22 @@ Sedigheh Dargahi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="functional &amp; nested atlases,medical image segmentation,vision transformers" data-listing-date-sort="1742356800000" data-listing-file-modified-sort="1747083104826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="quarto-post image-right" data-index="10" data-categories="ZnVuY3Rpb25hbCUyMCUyNiUyMG5lc3RlZCUyMGF0bGFzZXMlMkNtZWRpY2FsJTIwaW1hZ2UlMjBzZWdtZW50YXRpb24lMkN2aXNpb24lMjB0cmFuc2Zvcm1lcnM=" data-listing-date-sort="1742356800000" data-listing-file-modified-sort="1747083104826" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_03_19_Ahmed_ Transformer_Based_Models/index.html" class="no-external">Nested Hierarchical Transformer: Towards Accurate, Data-Efficient and Interpretable Visual Understanding</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_03_19_Ahmed_ Transformer_Based_Models/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('functional &amp; nested atlases'); return false;">
-functional &amp; nested atlases
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZnVuY3Rpb25hbCUyMCUyNiUyMG5lc3RlZCUyMGF0bGFzZXM='); return false;">functional &amp; nested atlases</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u'); return false;">medical image segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlzaW9uJTIwdHJhbnNmb3JtZXJz'); return false;">vision transformers</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical image segmentation'); return false;">
-medical image segmentation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('vision transformers'); return false;">
-vision transformers
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_03_19_Ahmed_ Transformer_Based_Models/index.html" class="no-external">DOI: <span>10.48550/arXiv.2105.12723</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_03_19_Ahmed_ Transformer_Based_Models/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_03_19_Ahmed_ Transformer_Based_Models/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2105.12723" target="_blank">10.48550/arXiv.2105.12723</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -503,27 +714,22 @@ Ahmed Rekik
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="general deep learning,mri techniques &amp; modalities,quality assurance &amp; control" data-listing-date-sort="1738731600000" data-listing-file-modified-sort="1747083104791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<div class="quarto-post image-right" data-index="11" data-categories="Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZyUyQ21yaSUyMHRlY2huaXF1ZXMlMjAlMjYlMjBtb2RhbGl0aWVzJTJDcXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w=" data-listing-date-sort="1738731600000" data-listing-file-modified-sort="1747083104791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_02_05_CB_quality_control_using_T1_with_generated_motion/index.html" class="no-external">Presentation of the accepted article ‘Improving quality control of mri images using synthetic motion data’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_02_05_CB_quality_control_using_T1_with_generated_motion/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('general deep learning'); return false;">
-general deep learning
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZw=='); return false;">general deep learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w='); return false;">quality assurance &amp; control</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('quality assurance &amp; control'); return false;">
-quality assurance &amp; control
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_02_05_CB_quality_control_using_T1_with_generated_motion/index.html" class="no-external">DOI: <span>10.48550/arXiv.2502.00160</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_02_05_CB_quality_control_using_T1_with_generated_motion/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_02_05_CB_quality_control_using_T1_with_generated_motion/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2502.00160" target="_blank">10.48550/arXiv.2502.00160</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -537,27 +743,22 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="mri techniques &amp; modalities,neural radiance &amp; view synthesis,structure-from-motion &amp; volumetric modeling" data-listing-date-sort="1738126800000" data-listing-file-modified-sort="1747083104804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
+<div class="quarto-post image-right" data-index="12" data-categories="bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXMlMkNuZXVyYWwlMjByYWRpYW5jZSUyMCUyNiUyMHZpZXclMjBzeW50aGVzaXMlMkNzdHJ1Y3R1cmUtZnJvbS1tb3Rpb24lMjAlMjYlMjB2b2x1bWV0cmljJTIwbW9kZWxpbmc=" data-listing-date-sort="1738126800000" data-listing-file-modified-sort="1747083104804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="205">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_01_29_AS_NeRF_brain_MRI/index.html" class="no-external">Presentation of the article ‘3D Reconstructions of Brain from MRI Scans Using Neural Radiance Fields’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_01_29_AS_NeRF_brain_MRI/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cmFsJTIwcmFkaWFuY2UlMjAlMjYlMjB2aWV3JTIwc3ludGhlc2lz'); return false;">neural radiance &amp; view synthesis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RydWN0dXJlLWZyb20tbW90aW9uJTIwJTI2JTIwdm9sdW1ldHJpYyUyMG1vZGVsaW5n'); return false;">structure-from-motion &amp; volumetric modeling</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('neural radiance &amp; view synthesis'); return false;">
-neural radiance &amp; view synthesis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('structure-from-motion &amp; volumetric modeling'); return false;">
-structure-from-motion &amp; volumetric modeling
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_01_29_AS_NeRF_brain_MRI/index.html" class="no-external">DOI: <span>10.1007/978-3-031-42508-0_19</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_01_29_AS_NeRF_brain_MRI/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_01_29_AS_NeRF_brain_MRI/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1007/978-3-031-42508-0_19" target="_blank">10.1007/978-3-031-42508-0_19</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -571,30 +772,24 @@ Ayoub Sassi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="brain segmentation,deep learning framework,disease-focused imaging,image synthesis &amp; inpainting" data-listing-date-sort="1736658000000" data-listing-file-modified-sort="1747083104827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
+<div class="quarto-post image-right" data-index="13" data-categories="YnJhaW4lMjBzZWdtZW50YXRpb24lMkNkZWVwJTIwbGVhcm5pbmclMjBmcmFtZXdvcmslMkNkaXNlYXNlLWZvY3VzZWQlMjBpbWFnaW5nJTJDaW1hZ2UlMjBzeW50aGVzaXMlMjAlMjYlMjBpbnBhaW50aW5n" data-listing-date-sort="1736658000000" data-listing-file-modified-sort="1747083104827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="224">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2025_01_12_BV_FastSurfer_LIT/index.html" class="no-external">Presentation of FastSurfer LIT</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2025_01_12_BV_FastSurfer_LIT/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('brain segmentation'); return false;">
-brain segmentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('YnJhaW4lMjBzZWdtZW50YXRpb24='); return false;">brain segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5nJTIwZnJhbWV3b3Jr'); return false;">deep learning framework</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlzZWFzZS1mb2N1c2VkJTIwaW1hZ2luZw=='); return false;">disease-focused imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW1hZ2UlMjBzeW50aGVzaXMlMjAlMjYlMjBpbnBhaW50aW5n'); return false;">image synthesis &amp; inpainting</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('deep learning framework'); return false;">
-deep learning framework
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('disease-focused imaging'); return false;">
-disease-focused imaging
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('image synthesis &amp; inpainting'); return false;">
-image synthesis &amp; inpainting
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2025_01_12_BV_FastSurfer_LIT/index.html" class="no-external">DOI: <span>10.48550/arXiv.2209.13177</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2025_01_12_BV_FastSurfer_LIT/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2025_01_12_BV_FastSurfer_LIT/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1162/imag_a_00446" target="_blank">10.48550/arXiv.2209.13177</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -608,24 +803,20 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="deep learning framework,programming libraries &amp; frameworks" data-listing-date-sort="1733115600000" data-listing-file-modified-sort="1747083104796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<div class="quarto-post image-right" data-index="14" data-categories="ZGVlcCUyMGxlYXJuaW5nJTIwZnJhbWV3b3JrJTJDcHJvZ3JhbW1pbmclMjBsaWJyYXJpZXMlMjAlMjYlMjBmcmFtZXdvcmtz" data-listing-date-sort="1733115600000" data-listing-file-modified-sort="1747083104796" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_12_02_CB_Pytorch_Lightning/index.html" class="no-external">Presentation of Pytorch Lightning</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_12_02_CB_Pytorch_Lightning/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('deep learning framework'); return false;">
-deep learning framework
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5nJTIwZnJhbWV3b3Jr'); return false;">deep learning framework</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJvZ3JhbW1pbmclMjBsaWJyYXJpZXMlMjAlMjYlMjBmcmFtZXdvcmtz'); return false;">programming libraries &amp; frameworks</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('programming libraries &amp; frameworks'); return false;">
-programming libraries &amp; frameworks
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_12_02_CB_Pytorch_Lightning/index.html" class="no-external">Website: <span>https://lightning.ai/docs/pytorch/stable/</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_12_02_CB_Pytorch_Lightning/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_12_02_CB_Pytorch_Lightning/index.html" class="no-external">Website: </a><a href="https://lightning.ai/docs/pytorch/stable/" target="_blank">https://lightning.ai/docs/pytorch/stable/</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -639,27 +830,22 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="3d medical imaging,ethics &amp; fairness &amp; societal impact,general deep learning" data-listing-date-sort="1731906000000" data-listing-file-modified-sort="1747083104804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+<div class="quarto-post image-right" data-index="15" data-categories="M2QlMjBtZWRpY2FsJTIwaW1hZ2luZyUyQ2V0aGljcyUyMCUyNiUyMGZhaXJuZXNzJTIwJTI2JTIwc29jaWV0YWwlMjBpbXBhY3QlMkNnZW5lcmFsJTIwZGVlcCUyMGxlYXJuaW5n" data-listing-date-sort="1731906000000" data-listing-file-modified-sort="1747083104804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_11_18_BV_Fairness/index.html" class="no-external">Presentation of the review article ‘Addressing fairness issues in deep learning-based medical image analysis: a systematic review’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_11_18_BV_Fairness/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('3d medical imaging'); return false;">
-3d medical imaging
+
+<div class="listing-category" onclick="window.quartoListingCategory('M2QlMjBtZWRpY2FsJTIwaW1hZ2luZw=='); return false;">3d medical imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXRoaWNzJTIwJTI2JTIwZmFpcm5lc3MlMjAlMjYlMjBzb2NpZXRhbCUyMGltcGFjdA=='); return false;">ethics &amp; fairness &amp; societal impact</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZw=='); return false;">general deep learning</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ethics &amp; fairness &amp; societal impact'); return false;">
-ethics &amp; fairness &amp; societal impact
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('general deep learning'); return false;">
-general deep learning
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_11_18_BV_Fairness/index.html" class="no-external">DOI: <span>10.48550/arXiv.2209.13177</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_11_18_BV_Fairness/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_11_18_BV_Fairness/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2209.13177" target="_blank">10.48550/arXiv.2209.13177</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -673,30 +859,24 @@ Benoit Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="3d medical imaging,few-shot &amp; active learning,general deep learning,interactive segmentation methods" data-listing-date-sort="1731301200000" data-listing-file-modified-sort="1747083104830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<div class="quarto-post image-right" data-index="16" data-categories="M2QlMjBtZWRpY2FsJTIwaW1hZ2luZyUyQ2Zldy1zaG90JTIwJTI2JTIwYWN0aXZlJTIwbGVhcm5pbmclMkNnZW5lcmFsJTIwZGVlcCUyMGxlYXJuaW5nJTJDaW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24lMjBtZXRob2Rz" data-listing-date-sort="1731301200000" data-listing-file-modified-sort="1747083104830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_11_11_GD_Monai_Label/index.html" class="no-external">Presentation of MONAI Label</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_11_11_GD_Monai_Label/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('3d medical imaging'); return false;">
-3d medical imaging
+
+<div class="listing-category" onclick="window.quartoListingCategory('M2QlMjBtZWRpY2FsJTIwaW1hZ2luZw=='); return false;">3d medical imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZmV3LXNob3QlMjAlMjYlMjBhY3RpdmUlMjBsZWFybmluZw=='); return false;">few-shot &amp; active learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZw=='); return false;">general deep learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24lMjBtZXRob2Rz'); return false;">interactive segmentation methods</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('few-shot &amp; active learning'); return false;">
-few-shot &amp; active learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('general deep learning'); return false;">
-general deep learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('interactive segmentation methods'); return false;">
-interactive segmentation methods
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_11_11_GD_Monai_Label/index.html" class="no-external">DOI: <span>10.1016/j.media.2024.103207</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_11_11_GD_Monai_Label/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_11_11_GD_Monai_Label/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1016/j.media.2024.103207" target="_blank">10.1016/j.media.2024.103207</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -710,30 +890,24 @@ Ghazal Danaee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="computational vision &amp; language,ethics &amp; fairness &amp; societal impact,machine learning,study design &amp; methodology &amp; scalability" data-listing-date-sort="1730696400000" data-listing-file-modified-sort="1747083104825" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<div class="quarto-post image-right" data-index="17" data-categories="Y29tcHV0YXRpb25hbCUyMHZpc2lvbiUyMCUyNiUyMGxhbmd1YWdlJTJDZXRoaWNzJTIwJTI2JTIwZmFpcm5lc3MlMjAlMjYlMjBzb2NpZXRhbCUyMGltcGFjdCUyQ21hY2hpbmUlMjBsZWFybmluZyUyQ3N0dWR5JTIwZGVzaWduJTIwJTI2JTIwbWV0aG9kb2xvZ3klMjAlMjYlMjBzY2FsYWJpbGl0eQ==" data-listing-date-sort="1730696400000" data-listing-file-modified-sort="1747083104825" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_11_04_CB_Green_AI/index.html" class="no-external">Presentation of the article ‘Green AI’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_11_04_CB_Green_AI/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('computational vision &amp; language'); return false;">
-computational vision &amp; language
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29tcHV0YXRpb25hbCUyMHZpc2lvbiUyMCUyNiUyMGxhbmd1YWdl'); return false;">computational vision &amp; language</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXRoaWNzJTIwJTI2JTIwZmFpcm5lc3MlMjAlMjYlMjBzb2NpZXRhbCUyMGltcGFjdA=='); return false;">ethics &amp; fairness &amp; societal impact</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">machine learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3R1ZHklMjBkZXNpZ24lMjAlMjYlMjBtZXRob2RvbG9neSUyMCUyNiUyMHNjYWxhYmlsaXR5'); return false;">study design &amp; methodology &amp; scalability</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('ethics &amp; fairness &amp; societal impact'); return false;">
-ethics &amp; fairness &amp; societal impact
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('study design &amp; methodology &amp; scalability'); return false;">
-study design &amp; methodology &amp; scalability
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_11_04_CB_Green_AI/index.html" class="no-external">DOI: <span>10.48550/arXiv.1907.10597</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_11_04_CB_Green_AI/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_11_04_CB_Green_AI/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.1907.10597" target="_blank">10.48550/arXiv.1907.10597</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -747,27 +921,22 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="few-shot &amp; active learning,medical image segmentation,unlabeled surrogate tasks" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1747083104812" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
+<div class="quarto-post image-right" data-index="18" data-categories="ZmV3LXNob3QlMjAlMjYlMjBhY3RpdmUlMjBsZWFybmluZyUyQ21lZGljYWwlMjBpbWFnZSUyMHNlZ21lbnRhdGlvbiUyQ3VubGFiZWxlZCUyMHN1cnJvZ2F0ZSUyMHRhc2tz" data-listing-date-sort="1730088000000" data-listing-file-modified-sort="1747083104812" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_10_29_KM_few_shots/index.html" class="no-external">Presentation of the article ‘Semi-supervised few-shot learning for medical image segmentation’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_10_29_KM_few_shots/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('few-shot &amp; active learning'); return false;">
-few-shot &amp; active learning
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZmV3LXNob3QlMjAlMjYlMjBhY3RpdmUlMjBsZWFybmluZw=='); return false;">few-shot &amp; active learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u'); return false;">medical image segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dW5sYWJlbGVkJTIwc3Vycm9nYXRlJTIwdGFza3M='); return false;">unlabeled surrogate tasks</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical image segmentation'); return false;">
-medical image segmentation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('unlabeled surrogate tasks'); return false;">
-unlabeled surrogate tasks
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_10_29_KM_few_shots/index.html" class="no-external">DOI: <span>10.48550/arXiv.2003.08462</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_10_29_KM_few_shots/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_10_29_KM_few_shots/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2003.08462" target="_blank">10.48550/arXiv.2003.08462</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -781,30 +950,24 @@ Kaveh Moradkhani
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="diffusion imaging &amp; features,echo planar imaging &amp; artifacts,preprocessing &amp; data sampling,quality assurance &amp; control" data-listing-date-sort="1728532800000" data-listing-file-modified-sort="1747083104809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
+<div class="quarto-post image-right" data-index="19" data-categories="ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVzJTJDZWNobyUyMHBsYW5hciUyMGltYWdpbmclMjAlMjYlMjBhcnRpZmFjdHMlMkNwcmVwcm9jZXNzaW5nJTIwJTI2JTIwZGF0YSUyMHNhbXBsaW5nJTJDcXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w=" data-listing-date-sort="1728532800000" data-listing-file-modified-sort="1747083104809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_10_10_SD_EPI_susceptibility_correction/index.html" class="no-external">Presentation of the review article ‘EPI susceptibility correction introduces significant differences far from local areas of high distortion’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_10_10_SD_EPI_susceptibility_correction/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('diffusion imaging &amp; features'); return false;">
-diffusion imaging &amp; features
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVz'); return false;">diffusion imaging &amp; features</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWNobyUyMHBsYW5hciUyMGltYWdpbmclMjAlMjYlMjBhcnRpZmFjdHM='); return false;">echo planar imaging &amp; artifacts</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJlcHJvY2Vzc2luZyUyMCUyNiUyMGRhdGElMjBzYW1wbGluZw=='); return false;">preprocessing &amp; data sampling</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w='); return false;">quality assurance &amp; control</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('echo planar imaging &amp; artifacts'); return false;">
-echo planar imaging &amp; artifacts
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('preprocessing &amp; data sampling'); return false;">
-preprocessing &amp; data sampling
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('quality assurance &amp; control'); return false;">
-quality assurance &amp; control
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_10_10_SD_EPI_susceptibility_correction/index.html" class="no-external">DOI: <span>10.1016/j.mri.2022.05.016</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_10_10_SD_EPI_susceptibility_correction/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_10_10_SD_EPI_susceptibility_correction/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1016/j.mri.2022.05.016" target="_blank">10.1016/j.mri.2022.05.016</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -818,33 +981,26 @@ Sedigheh Dargahi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="brain segmentation,disease-focused imaging,freesurfer &amp; ecosystem tools,mri techniques &amp; modalities,volumetry" data-listing-date-sort="1727064000000" data-listing-file-modified-sort="1747083104823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
+<div class="quarto-post image-right" data-index="20" data-categories="YnJhaW4lMjBzZWdtZW50YXRpb24lMkNkaXNlYXNlLWZvY3VzZWQlMjBpbWFnaW5nJTJDZnJlZXN1cmZlciUyMCUyNiUyMGVjb3N5c3RlbSUyMHRvb2xzJTJDbXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXMlMkN2b2x1bWV0cnk=" data-listing-date-sort="1727064000000" data-listing-file-modified-sort="1747083104823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="254">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html" class="no-external">Presentation of the review article ‘Automated brain segmentation and volumetry in dementia diagnostics: a narrative review with emphasis on FreeSurfer’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('brain segmentation'); return false;">
-brain segmentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('YnJhaW4lMjBzZWdtZW50YXRpb24='); return false;">brain segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlzZWFzZS1mb2N1c2VkJTIwaW1hZ2luZw=='); return false;">disease-focused imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZnJlZXN1cmZlciUyMCUyNiUyMGVjb3N5c3RlbSUyMHRvb2xz'); return false;">freesurfer &amp; ecosystem tools</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dm9sdW1ldHJ5'); return false;">volumetry</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('disease-focused imaging'); return false;">
-disease-focused imaging
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('freesurfer &amp; ecosystem tools'); return false;">
-freesurfer &amp; ecosystem tools
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('volumetry'); return false;">
-volumetry
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html" class="no-external">DOI: <span>10.3389/fnagi.2024.1459652</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_09_23_BV_Dementia_and_Freesurfer/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.3389/fnagi.2024.1459652" target="_blank">10.3389/fnagi.2024.1459652</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -858,27 +1014,22 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="atlas-based methods &amp; fusion,medical image segmentation,mri techniques &amp; modalities" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1747083104799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
+<div class="quarto-post image-right" data-index="21" data-categories="YXRsYXMtYmFzZWQlMjBtZXRob2RzJTIwJTI2JTIwZnVzaW9uJTJDbWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9uJTJDbXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM=" data-listing-date-sort="1726459200000" data-listing-file-modified-sort="1747083104799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="208">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html" class="no-external">Presentation of the article ‘Multi-Atlas Segmentation with Joint Label Fusion’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('atlas-based methods &amp; fusion'); return false;">
-atlas-based methods &amp; fusion
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXRsYXMtYmFzZWQlMjBtZXRob2RzJTIwJTI2JTIwZnVzaW9u'); return false;">atlas-based methods &amp; fusion</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u'); return false;">medical image segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical image segmentation'); return false;">
-medical image segmentation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html" class="no-external">DOI: <span>10.1109/TPAMI.2012.143</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_09_16_GD_multi_atlas_joint_label_fusion/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1109/TPAMI.2012.143" target="_blank">10.1109/TPAMI.2012.143</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -892,30 +1043,24 @@ Ghazal Danaee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="calibration &amp; standardization,mri techniques &amp; modalities,neuroimaging,workflow management &amp; platforms" data-listing-date-sort="1725854400000" data-listing-file-modified-sort="1747083104816" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<div class="quarto-post image-right" data-index="22" data-categories="Y2FsaWJyYXRpb24lMjAlMjYlMjBzdGFuZGFyZGl6YXRpb24lMkNtcmklMjB0ZWNobmlxdWVzJTIwJTI2JTIwbW9kYWxpdGllcyUyQ25ldXJvaW1hZ2luZyUyQ3dvcmtmbG93JTIwbWFuYWdlbWVudCUyMCUyNiUyMHBsYXRmb3Jtcw==" data-listing-date-sort="1725854400000" data-listing-file-modified-sort="1747083104816" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html" class="no-external">Presentation of the online platform brainlife.io</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('calibration &amp; standardization'); return false;">
-calibration &amp; standardization
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2FsaWJyYXRpb24lMjAlMjYlMjBzdGFuZGFyZGl6YXRpb24='); return false;">calibration &amp; standardization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cm9pbWFnaW5n'); return false;">neuroimaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya2Zsb3clMjBtYW5hZ2VtZW50JTIwJTI2JTIwcGxhdGZvcm1z'); return false;">workflow management &amp; platforms</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('neuroimaging'); return false;">
-neuroimaging
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('workflow management &amp; platforms'); return false;">
-workflow management &amp; platforms
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html" class="no-external">DOI: <span>10.1038/s41592-024-02237-2</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_09_09_BV_brainlife_online_platform/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1038/s41592-024-02237-2" target="_blank">10.1038/s41592-024-02237-2</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -929,21 +1074,18 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="transformers &amp; attention models" data-listing-date-sort="1717992000000" data-listing-file-modified-sort="1747083104831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
+<div class="quarto-post image-right" data-index="23" data-categories="dHJhbnNmb3JtZXJzJTIwJTI2JTIwYXR0ZW50aW9uJTIwbW9kZWxz" data-listing-date-sort="1717992000000" data-listing-file-modified-sort="1747083104831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_06_10_MG_Visual_prompting/index.html" class="no-external">Presentation of the article ‘Visual Prompting for Generalized Few-shot Segmentation: A Multi-scale Approach’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_06_10_MG_Visual_prompting/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('transformers &amp; attention models'); return false;">
-transformers &amp; attention models
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmb3JtZXJzJTIwJTI2JTIwYXR0ZW50aW9uJTIwbW9kZWxz'); return false;">transformers &amp; attention models</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_06_10_MG_Visual_prompting/index.html" class="no-external">DOI: <span>10.48550/arXiv.2404.11732</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_06_10_MG_Visual_prompting/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_06_10_MG_Visual_prompting/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2404.11732" target="_blank">10.48550/arXiv.2404.11732</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -957,27 +1099,22 @@ Mélanie Gaillochet
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="interactive segmentation methods,masked autoencoder,vision transformers" data-listing-date-sort="1714968000000" data-listing-file-modified-sort="1747083104810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="quarto-post image-right" data-index="24" data-categories="aW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24lMjBtZXRob2RzJTJDbWFza2VkJTIwYXV0b2VuY29kZXIlMkN2aXNpb24lMjB0cmFuc2Zvcm1lcnM=" data-listing-date-sort="1714968000000" data-listing-file-modified-sort="1747083104810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_05_06_GD_SimpleClick/index.html" class="no-external">Presentation of SimpleClick</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_05_06_GD_SimpleClick/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('interactive segmentation methods'); return false;">
-interactive segmentation methods
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW50ZXJhY3RpdmUlMjBzZWdtZW50YXRpb24lMjBtZXRob2Rz'); return false;">interactive segmentation methods</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFza2VkJTIwYXV0b2VuY29kZXI='); return false;">masked autoencoder</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dmlzaW9uJTIwdHJhbnNmb3JtZXJz'); return false;">vision transformers</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('masked autoencoder'); return false;">
-masked autoencoder
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('vision transformers'); return false;">
-vision transformers
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_05_06_GD_SimpleClick/index.html" class="no-external">DOI: <span>10.48550/arXiv.2210.11006</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_05_06_GD_SimpleClick/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_05_06_GD_SimpleClick/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2210.11006" target="_blank">10.48550/arXiv.2210.11006</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -991,27 +1128,22 @@ Ghazal Danaee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="cortex parcellation,functional &amp; nested atlases,mri techniques &amp; modalities" data-listing-date-sort="1713153600000" data-listing-file-modified-sort="1747083104815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+<div class="quarto-post image-right" data-index="25" data-categories="Y29ydGV4JTIwcGFyY2VsbGF0aW9uJTJDZnVuY3Rpb25hbCUyMCUyNiUyMG5lc3RlZCUyMGF0bGFzZXMlMkNtcmklMjB0ZWNobmlxdWVzJTIwJTI2JTIwbW9kYWxpdGllcw==" data-listing-date-sort="1713153600000" data-listing-file-modified-sort="1747083104815" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_04_15_BV_midb_atlas/index.html" class="no-external">Presentation of the MITB functional atlas of the cerebral cortex</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_04_15_BV_midb_atlas/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cortex parcellation'); return false;">
-cortex parcellation
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29ydGV4JTIwcGFyY2VsbGF0aW9u'); return false;">cortex parcellation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZnVuY3Rpb25hbCUyMCUyNiUyMG5lc3RlZCUyMGF0bGFzZXM='); return false;">functional &amp; nested atlases</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('functional &amp; nested atlases'); return false;">
-functional &amp; nested atlases
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_04_15_BV_midb_atlas/index.html" class="no-external">DOI: <span>10.1038/s41593-024-01596-5</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_04_15_BV_midb_atlas/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_04_15_BV_midb_atlas/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1038/s41593-024-01596-5" target="_blank">10.1038/s41593-024-01596-5</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1025,27 +1157,22 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="developmental brain imaging,mri techniques &amp; modalities,quality assurance &amp; control" data-listing-date-sort="1710129600000" data-listing-file-modified-sort="1747083104805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<div class="quarto-post image-right" data-index="26" data-categories="ZGV2ZWxvcG1lbnRhbCUyMGJyYWluJTIwaW1hZ2luZyUyQ21yaSUyMHRlY2huaXF1ZXMlMjAlMjYlMjBtb2RhbGl0aWVzJTJDcXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w=" data-listing-date-sort="1710129600000" data-listing-file-modified-sort="1747083104805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_03_11_CB_FetMRQC/index.html" class="no-external">Presentation of FET-MRQC</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_03_11_CB_FetMRQC/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('developmental brain imaging'); return false;">
-developmental brain imaging
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGV2ZWxvcG1lbnRhbCUyMGJyYWluJTIwaW1hZ2luZw=='); return false;">developmental brain imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w='); return false;">quality assurance &amp; control</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('quality assurance &amp; control'); return false;">
-quality assurance &amp; control
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_03_11_CB_FetMRQC/index.html" class="no-external">DOI: <span>10.48550/arXiv.2304.05879</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_03_11_CB_FetMRQC/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_03_11_CB_FetMRQC/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2304.05879" target="_blank">10.48550/arXiv.2304.05879</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1059,33 +1186,26 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="brain segmentation,cortical surface reconstruction,geometric deep learning,mri techniques &amp; modalities,registration techniques" data-listing-date-sort="1708923600000" data-listing-file-modified-sort="1747083104795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+<div class="quarto-post image-right" data-index="27" data-categories="YnJhaW4lMjBzZWdtZW50YXRpb24lMkNjb3J0aWNhbCUyMHN1cmZhY2UlMjByZWNvbnN0cnVjdGlvbiUyQ2dlb21ldHJpYyUyMGRlZXAlMjBsZWFybmluZyUyQ21yaSUyMHRlY2huaXF1ZXMlMjAlMjYlMjBtb2RhbGl0aWVzJTJDcmVnaXN0cmF0aW9uJTIwdGVjaG5pcXVlcw==" data-listing-date-sort="1708923600000" data-listing-file-modified-sort="1747083104795" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html" class="no-external">Presentation of the article ‘Neural deformation fields for template-based reconstruction of cortical surfaces from MRI’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('brain segmentation'); return false;">
-brain segmentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('YnJhaW4lMjBzZWdtZW50YXRpb24='); return false;">brain segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29ydGljYWwlMjBzdXJmYWNlJTIwcmVjb25zdHJ1Y3Rpb24='); return false;">cortical surface reconstruction</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VvbWV0cmljJTIwZGVlcCUyMGxlYXJuaW5n'); return false;">geometric deep learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVnaXN0cmF0aW9uJTIwdGVjaG5pcXVlcw=='); return false;">registration techniques</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('cortical surface reconstruction'); return false;">
-cortical surface reconstruction
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('geometric deep learning'); return false;">
-geometric deep learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('registration techniques'); return false;">
-registration techniques
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html" class="no-external">DOI: <span>10.48550/arXiv.2401.12938</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_02_26_KM_cortical_surface_reconstruction_neural_deformation_fields/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2401.12938" target="_blank">10.48550/arXiv.2401.12938</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1099,30 +1219,24 @@ Kaveh Moradkhani
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="developmental brain imaging,mri techniques &amp; modalities,registration techniques,structure-from-motion &amp; volumetric modeling" data-listing-date-sort="1707714000000" data-listing-file-modified-sort="1747083104808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308">
+<div class="quarto-post image-right" data-index="28" data-categories="ZGV2ZWxvcG1lbnRhbCUyMGJyYWluJTIwaW1hZ2luZyUyQ21yaSUyMHRlY2huaXF1ZXMlMjAlMjYlMjBtb2RhbGl0aWVzJTJDcmVnaXN0cmF0aW9uJTIwdGVjaG5pcXVlcyUyQ3N0cnVjdHVyZS1mcm9tLW1vdGlvbiUyMCUyNiUyMHZvbHVtZXRyaWMlMjBtb2RlbGluZw==" data-listing-date-sort="1707714000000" data-listing-file-modified-sort="1747083104808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html" class="no-external">Presentation of the article ‘Semi-automatic segmentation of the fetal brain from magnetic resonance imaging’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('developmental brain imaging'); return false;">
-developmental brain imaging
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGV2ZWxvcG1lbnRhbCUyMGJyYWluJTIwaW1hZ2luZw=='); return false;">developmental brain imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVnaXN0cmF0aW9uJTIwdGVjaG5pcXVlcw=='); return false;">registration techniques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RydWN0dXJlLWZyb20tbW90aW9uJTIwJTI2JTIwdm9sdW1ldHJpYyUyMG1vZGVsaW5n'); return false;">structure-from-motion &amp; volumetric modeling</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('registration techniques'); return false;">
-registration techniques
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('structure-from-motion &amp; volumetric modeling'); return false;">
-structure-from-motion &amp; volumetric modeling
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html" class="no-external">DOI: <span>10.3389/fnins.2022.1027084</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_02_12_GD_Semi_automatic_segmentation/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.3389/fnins.2022.1027084" target="_blank">10.3389/fnins.2022.1027084</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1136,27 +1250,22 @@ Ghazal Danaee
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="echo planar imaging &amp; artifacts,general deep learning,unsupervised learning" data-listing-date-sort="1707368400000" data-listing-file-modified-sort="1747083104817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="218">
+<div class="quarto-post image-right" data-index="29" data-categories="ZWNobyUyMHBsYW5hciUyMGltYWdpbmclMjAlMjYlMjBhcnRpZmFjdHMlMkNnZW5lcmFsJTIwZGVlcCUyMGxlYXJuaW5nJTJDdW5zdXBlcnZpc2VkJTIwbGVhcm5pbmc=" data-listing-date-sort="1707368400000" data-listing-file-modified-sort="1747083104817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="218">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html" class="no-external">Presentation of the FD-NET</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('echo planar imaging &amp; artifacts'); return false;">
-echo planar imaging &amp; artifacts
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWNobyUyMHBsYW5hciUyMGltYWdpbmclMjAlMjYlMjBhcnRpZmFjdHM='); return false;">echo planar imaging &amp; artifacts</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZw=='); return false;">general deep learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dW5zdXBlcnZpc2VkJTIwbGVhcm5pbmc='); return false;">unsupervised learning</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('general deep learning'); return false;">
-general deep learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('unsupervised learning'); return false;">
-unsupervised learning
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html" class="no-external">DOI: <span>10.1002/mrm.29851</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_02_08_SD_FD_Net_susceptibility_artifact_correction/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1002/mrm.29851" target="_blank">10.1002/mrm.29851</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1170,24 +1279,20 @@ Sedigheh Dargahi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="generative models,medical image segmentation" data-listing-date-sort="1707109200000" data-listing-file-modified-sort="1747083104799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+<div class="quarto-post image-right" data-index="30" data-categories="Z2VuZXJhdGl2ZSUyMG1vZGVscyUyQ21lZGljYWwlMjBpbWFnZSUyMHNlZ21lbnRhdGlvbg==" data-listing-date-sort="1707109200000" data-listing-file-modified-sort="1747083104799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_02_05_BV_MedSAM/index.html" class="no-external">Presentation of MedSAM</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_02_05_BV_MedSAM/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('generative models'); return false;">
-generative models
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuZXJhdGl2ZSUyMG1vZGVscw=='); return false;">generative models</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u'); return false;">medical image segmentation</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical image segmentation'); return false;">
-medical image segmentation
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_02_05_BV_MedSAM/index.html" class="no-external">DOI: <span>10.48550/arXiv.2304.12306</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_02_05_BV_MedSAM/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_02_05_BV_MedSAM/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2304.12306" target="_blank">10.48550/arXiv.2304.12306</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1201,30 +1306,24 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="3d medical imaging,open-source,preprocessing &amp; data sampling,programming libraries &amp; frameworks" data-listing-date-sort="1706504400000" data-listing-file-modified-sort="1747083104798" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="quarto-post image-right" data-index="31" data-categories="M2QlMjBtZWRpY2FsJTIwaW1hZ2luZyUyQ29wZW4tc291cmNlJTJDcHJlcHJvY2Vzc2luZyUyMCUyNiUyMGRhdGElMjBzYW1wbGluZyUyQ3Byb2dyYW1taW5nJTIwbGlicmFyaWVzJTIwJTI2JTIwZnJhbWV3b3Jrcw==" data-listing-date-sort="1706504400000" data-listing-file-modified-sort="1747083104798" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_01_29_CB_Torchio/index.html" class="no-external">Presentation of the python library TorchIO</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_01_29_CB_Torchio/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('3d medical imaging'); return false;">
-3d medical imaging
+
+<div class="listing-category" onclick="window.quartoListingCategory('M2QlMjBtZWRpY2FsJTIwaW1hZ2luZw=='); return false;">3d medical imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3Blbi1zb3VyY2U='); return false;">open-source</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJlcHJvY2Vzc2luZyUyMCUyNiUyMGRhdGElMjBzYW1wbGluZw=='); return false;">preprocessing &amp; data sampling</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJvZ3JhbW1pbmclMjBsaWJyYXJpZXMlMjAlMjYlMjBmcmFtZXdvcmtz'); return false;">programming libraries &amp; frameworks</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('open-source'); return false;">
-open-source
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('preprocessing &amp; data sampling'); return false;">
-preprocessing &amp; data sampling
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('programming libraries &amp; frameworks'); return false;">
-programming libraries &amp; frameworks
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_01_29_CB_Torchio/index.html" class="no-external">Website: <span>https://torchio.readthedocs.io/</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_01_29_CB_Torchio/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_01_29_CB_Torchio/index.html" class="no-external">Website: </a><a href="https://torchio.readthedocs.io/" target="_blank">https://torchio.readthedocs.io/</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1238,24 +1337,20 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="label quality &amp; robustness,medical image segmentation" data-listing-date-sort="1705899600000" data-listing-file-modified-sort="1747083104800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="quarto-post image-right" data-index="32" data-categories="bGFiZWwlMjBxdWFsaXR5JTIwJTI2JTIwcm9idXN0bmVzcyUyQ21lZGljYWwlMjBpbWFnZSUyMHNlZ21lbnRhdGlvbg==" data-listing-date-sort="1705899600000" data-listing-file-modified-sort="1747083104800" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_01_22_MG_robust_t_loss/index.html" class="no-external">Presentation of the article ‘Robust T-Loss for Medical Image Segmentation’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_01_22_MG_robust_t_loss/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('label quality &amp; robustness'); return false;">
-label quality &amp; robustness
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGFiZWwlMjBxdWFsaXR5JTIwJTI2JTIwcm9idXN0bmVzcw=='); return false;">label quality &amp; robustness</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u'); return false;">medical image segmentation</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical image segmentation'); return false;">
-medical image segmentation
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_01_22_MG_robust_t_loss/index.html" class="no-external">DOI: <span>10.48550/arXiv.2306.00753</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_01_22_MG_robust_t_loss/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_01_22_MG_robust_t_loss/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2306.00753" target="_blank">10.48550/arXiv.2306.00753</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1269,27 +1364,22 @@ Mélanie Gaillochet
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="diffusion imaging &amp; features,machine learning,nonparametric invariant representation" data-listing-date-sort="1705294800000" data-listing-file-modified-sort="1747083104806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="quarto-post image-right" data-index="33" data-categories="ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVzJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDbm9ucGFyYW1ldHJpYyUyMGludmFyaWFudCUyMHJlcHJlc2VudGF0aW9u" data-listing-date-sort="1705294800000" data-listing-file-modified-sort="1747083104806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html" class="no-external">Presentation of the conference paper ‘Learning Invariant Representations with a Nonparametric Nadaraya-Watson Head’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('diffusion imaging &amp; features'); return false;">
-diffusion imaging &amp; features
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVz'); return false;">diffusion imaging &amp; features</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">machine learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bm9ucGFyYW1ldHJpYyUyMGludmFyaWFudCUyMHJlcHJlc2VudGF0aW9u'); return false;">nonparametric invariant representation</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('nonparametric invariant representation'); return false;">
-nonparametric invariant representation
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html" class="no-external">DOI: <span>10.48550/arXiv.2309.13377</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2024_01_15_SA_Invaratiant_representation_nonparametric_Nadaraya_Watson_head/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2309.13377" target="_blank">10.48550/arXiv.2309.13377</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1303,27 +1393,22 @@ Sukesh Adiga
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="brain segmentation,mri techniques &amp; modalities,resolution &amp; distortion correction" data-listing-date-sort="1700629200000" data-listing-file-modified-sort="1747083104828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="218">
+<div class="quarto-post image-right" data-index="34" data-categories="YnJhaW4lMjBzZWdtZW50YXRpb24lMkNtcmklMjB0ZWNobmlxdWVzJTIwJTI2JTIwbW9kYWxpdGllcyUyQ3Jlc29sdXRpb24lMjAlMjYlMjBkaXN0b3J0aW9uJTIwY29ycmVjdGlvbg==" data-listing-date-sort="1700629200000" data-listing-file-modified-sort="1747083104828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="218">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html" class="no-external">Presentation of FastSurferVINN</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('brain segmentation'); return false;">
-brain segmentation
+
+<div class="listing-category" onclick="window.quartoListingCategory('YnJhaW4lMjBzZWdtZW50YXRpb24='); return false;">brain segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVzb2x1dGlvbiUyMCUyNiUyMGRpc3RvcnRpb24lMjBjb3JyZWN0aW9u'); return false;">resolution &amp; distortion correction</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('resolution &amp; distortion correction'); return false;">
-resolution &amp; distortion correction
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html" class="no-external">DOI: <span>10.1016/j.neuroimage.2022.118933</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_11_22_BV_FastSurfer_VINN/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1016/j.neuroimage.2022.118933" target="_blank">10.1016/j.neuroimage.2022.118933</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1337,33 +1422,26 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="3d medical imaging,image-based rendering,neural radiance &amp; view synthesis,structure-from-motion &amp; volumetric modeling,volume rendering" data-listing-date-sort="1700024400000" data-listing-file-modified-sort="1747083104819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<div class="quarto-post image-right" data-index="35" data-categories="M2QlMjBtZWRpY2FsJTIwaW1hZ2luZyUyQ2ltYWdlLWJhc2VkJTIwcmVuZGVyaW5nJTJDbmV1cmFsJTIwcmFkaWFuY2UlMjAlMjYlMjB2aWV3JTIwc3ludGhlc2lzJTJDc3RydWN0dXJlLWZyb20tbW90aW9uJTIwJTI2JTIwdm9sdW1ldHJpYyUyMG1vZGVsaW5nJTJDdm9sdW1lJTIwcmVuZGVyaW5n" data-listing-date-sort="1700024400000" data-listing-file-modified-sort="1747083104819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_11_15_CB_NeRF/index.html" class="no-external">Presentation of NeRF</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_11_15_CB_NeRF/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('3d medical imaging'); return false;">
-3d medical imaging
+
+<div class="listing-category" onclick="window.quartoListingCategory('M2QlMjBtZWRpY2FsJTIwaW1hZ2luZw=='); return false;">3d medical imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW1hZ2UtYmFzZWQlMjByZW5kZXJpbmc='); return false;">image-based rendering</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cmFsJTIwcmFkaWFuY2UlMjAlMjYlMjB2aWV3JTIwc3ludGhlc2lz'); return false;">neural radiance &amp; view synthesis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3RydWN0dXJlLWZyb20tbW90aW9uJTIwJTI2JTIwdm9sdW1ldHJpYyUyMG1vZGVsaW5n'); return false;">structure-from-motion &amp; volumetric modeling</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dm9sdW1lJTIwcmVuZGVyaW5n'); return false;">volume rendering</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('image-based rendering'); return false;">
-image-based rendering
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('neural radiance &amp; view synthesis'); return false;">
-neural radiance &amp; view synthesis
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('structure-from-motion &amp; volumetric modeling'); return false;">
-structure-from-motion &amp; volumetric modeling
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('volume rendering'); return false;">
-volume rendering
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_11_15_CB_NeRF/index.html" class="no-external">DOI: <span>10.48550/arXiv.2003.08934</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_11_15_CB_NeRF/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_11_15_CB_NeRF/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2003.08934" target="_blank">10.48550/arXiv.2003.08934</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1377,27 +1455,22 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="machine learning,supervised learning,workflow management &amp; platforms" data-listing-date-sort="1699419600000" data-listing-file-modified-sort="1747083104802" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="quarto-post image-right" data-index="36" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDc3VwZXJ2aXNlZCUyMGxlYXJuaW5nJTJDd29ya2Zsb3clMjBtYW5hZ2VtZW50JTIwJTI2JTIwcGxhdGZvcm1z" data-listing-date-sort="1699419600000" data-listing-file-modified-sort="1747083104802" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_11_08_MG_Comet_platform/index.html" class="no-external">Presentation of Comet</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_11_08_MG_Comet_platform/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
-machine learning
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">machine learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3VwZXJ2aXNlZCUyMGxlYXJuaW5n'); return false;">supervised learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d29ya2Zsb3clMjBtYW5hZ2VtZW50JTIwJTI2JTIwcGxhdGZvcm1z'); return false;">workflow management &amp; platforms</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('supervised learning'); return false;">
-supervised learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('workflow management &amp; platforms'); return false;">
-workflow management &amp; platforms
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_11_08_MG_Comet_platform/index.html" class="no-external">Website: <span>https://www.comet.com/site/</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_11_08_MG_Comet_platform/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_11_08_MG_Comet_platform/index.html" class="no-external">Website: </a><a href="https://www.comet.com/site/" target="_blank">https://www.comet.com/site/</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1411,30 +1484,24 @@ Mélanie Gaillochet
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="34" data-categories="diffusion imaging &amp; features,echo planar imaging &amp; artifacts,generative models,image synthesis &amp; inpainting" data-listing-date-sort="1698811200000" data-listing-file-modified-sort="1747083104794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
+<div class="quarto-post image-right" data-index="37" data-categories="ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVzJTJDZWNobyUyMHBsYW5hciUyMGltYWdpbmclMjAlMjYlMjBhcnRpZmFjdHMlMkNnZW5lcmF0aXZlJTIwbW9kZWxzJTJDaW1hZ2UlMjBzeW50aGVzaXMlMjAlMjYlMjBpbnBhaW50aW5n" data-listing-date-sort="1698811200000" data-listing-file-modified-sort="1747083104794" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html" class="no-external">Presentation of Synb0-DisCo</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('diffusion imaging &amp; features'); return false;">
-diffusion imaging &amp; features
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGlmZnVzaW9uJTIwaW1hZ2luZyUyMCUyNiUyMGZlYXR1cmVz'); return false;">diffusion imaging &amp; features</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZWNobyUyMHBsYW5hciUyMGltYWdpbmclMjAlMjYlMjBhcnRpZmFjdHM='); return false;">echo planar imaging &amp; artifacts</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuZXJhdGl2ZSUyMG1vZGVscw=='); return false;">generative models</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('aW1hZ2UlMjBzeW50aGVzaXMlMjAlMjYlMjBpbnBhaW50aW5n'); return false;">image synthesis &amp; inpainting</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('echo planar imaging &amp; artifacts'); return false;">
-echo planar imaging &amp; artifacts
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('generative models'); return false;">
-generative models
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('image synthesis &amp; inpainting'); return false;">
-image synthesis &amp; inpainting
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html" class="no-external">DOI: <span>10.1016/j.mri.2019.05.008</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_11_01_SD_Synthesized_b0_dMRI/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1016/j.mri.2019.05.008" target="_blank">10.1016/j.mri.2019.05.008</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1448,27 +1515,22 @@ Sedigheh Dargahi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="35" data-categories="calibration &amp; standardization,consistency regularization techniques,medical image segmentation" data-listing-date-sort="1698206400000" data-listing-file-modified-sort="1747083104821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<div class="quarto-post image-right" data-index="38" data-categories="Y2FsaWJyYXRpb24lMjAlMjYlMjBzdGFuZGFyZGl6YXRpb24lMkNjb25zaXN0ZW5jeSUyMHJlZ3VsYXJpemF0aW9uJTIwdGVjaG5pcXVlcyUyQ21lZGljYWwlMjBpbWFnZSUyMHNlZ21lbnRhdGlvbg==" data-listing-date-sort="1698206400000" data-listing-file-modified-sort="1747083104821" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html" class="no-external">Presentation of the article ‘Boundary-weighted logit consistency improves calibration of segmentation networks’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('calibration &amp; standardization'); return false;">
-calibration &amp; standardization
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2FsaWJyYXRpb24lMjAlMjYlMjBzdGFuZGFyZGl6YXRpb24='); return false;">calibration &amp; standardization</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29uc2lzdGVuY3klMjByZWd1bGFyaXphdGlvbiUyMHRlY2huaXF1ZXM='); return false;">consistency regularization techniques</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u'); return false;">medical image segmentation</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('consistency regularization techniques'); return false;">
-consistency regularization techniques
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical image segmentation'); return false;">
-medical image segmentation
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html" class="no-external">DOI: <span>10.48550/arXiv.2307.08163</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_10_25_SA_Boundary_weighted_logit_consistency/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2307.08163" target="_blank">10.48550/arXiv.2307.08163</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1482,27 +1544,22 @@ Sukesh Adiga
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="36" data-categories="cortical surface reconstruction,geometric deep learning,mri techniques &amp; modalities" data-listing-date-sort="1697601600000" data-listing-file-modified-sort="1747083104820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<div class="quarto-post image-right" data-index="39" data-categories="Y29ydGljYWwlMjBzdXJmYWNlJTIwcmVjb25zdHJ1Y3Rpb24lMkNnZW9tZXRyaWMlMjBkZWVwJTIwbGVhcm5pbmclMkNtcmklMjB0ZWNobmlxdWVzJTIwJTI2JTIwbW9kYWxpdGllcw==" data-listing-date-sort="1697601600000" data-listing-file-modified-sort="1747083104820" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html" class="no-external">Presentation of Vox2Cortex</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cortical surface reconstruction'); return false;">
-cortical surface reconstruction
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29ydGljYWwlMjBzdXJmYWNlJTIwcmVjb25zdHJ1Y3Rpb24='); return false;">cortical surface reconstruction</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VvbWV0cmljJTIwZGVlcCUyMGxlYXJuaW5n'); return false;">geometric deep learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('geometric deep learning'); return false;">
-geometric deep learning
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html" class="no-external">DOI: <span>10.48550/arXiv.2203.09446</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_10_18_KM_Vox2Cortex/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2203.09446" target="_blank">10.48550/arXiv.2203.09446</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1516,27 +1573,22 @@ Kaveh Moradkhani
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="37" data-categories="general deep learning,quality assurance &amp; control,registration techniques" data-listing-date-sort="1696392000000" data-listing-file-modified-sort="1747083104793" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
+<div class="quarto-post image-right" data-index="40" data-categories="Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZyUyQ3F1YWxpdHklMjBhc3N1cmFuY2UlMjAlMjYlMjBjb250cm9sJTJDcmVnaXN0cmF0aW9uJTIwdGVjaG5pcXVlcw==" data-listing-date-sort="1696392000000" data-listing-file-modified-sort="1747083104793" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_10_04_CB_DARQ/index.html" class="no-external">Presentation of DARQ</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_10_04_CB_DARQ/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('general deep learning'); return false;">
-general deep learning
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VuZXJhbCUyMGRlZXAlMjBsZWFybmluZw=='); return false;">general deep learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w='); return false;">quality assurance &amp; control</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVnaXN0cmF0aW9uJTIwdGVjaG5pcXVlcw=='); return false;">registration techniques</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('quality assurance &amp; control'); return false;">
-quality assurance &amp; control
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('registration techniques'); return false;">
-registration techniques
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_10_04_CB_DARQ/index.html" class="no-external">DOI: <span>10.1016/j.neuroimage.2022.119266</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_10_04_CB_DARQ/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_10_04_CB_DARQ/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.1016/j.neuroimage.2022.119266" target="_blank">10.1016/j.neuroimage.2022.119266</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1550,36 +1602,28 @@ Charles Bricout
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="38" data-categories="developmental brain imaging,freesurfer &amp; ecosystem tools,mri techniques &amp; modalities,neurodevelopmental disorders,quality assurance &amp; control,study design &amp; methodology &amp; scalability" data-listing-date-sort="1695614400000" data-listing-file-modified-sort="1747083104813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+<div class="quarto-post image-right" data-index="41" data-categories="ZGV2ZWxvcG1lbnRhbCUyMGJyYWluJTIwaW1hZ2luZyUyQ2ZyZWVzdXJmZXIlMjAlMjYlMjBlY29zeXN0ZW0lMjB0b29scyUyQ21yaSUyMHRlY2huaXF1ZXMlMjAlMjYlMjBtb2RhbGl0aWVzJTJDbmV1cm9kZXZlbG9wbWVudGFsJTIwZGlzb3JkZXJzJTJDcXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2wlMkNzdHVkeSUyMGRlc2lnbiUyMCUyNiUyMG1ldGhvZG9sb2d5JTIwJTI2JTIwc2NhbGFiaWxpdHk=" data-listing-date-sort="1695614400000" data-listing-file-modified-sort="1747083104813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html" class="no-external">Presentation of the review article ‘Best Practices in Structural Neuroimaging of Neurodevelopmental Disorders’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('developmental brain imaging'); return false;">
-developmental brain imaging
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZGV2ZWxvcG1lbnRhbCUyMGJyYWluJTIwaW1hZ2luZw=='); return false;">developmental brain imaging</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZnJlZXN1cmZlciUyMCUyNiUyMGVjb3N5c3RlbSUyMHRvb2xz'); return false;">freesurfer &amp; ecosystem tools</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bXJpJTIwdGVjaG5pcXVlcyUyMCUyNiUyMG1vZGFsaXRpZXM='); return false;">mri techniques &amp; modalities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cm9kZXZlbG9wbWVudGFsJTIwZGlzb3JkZXJz'); return false;">neurodevelopmental disorders</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cXVhbGl0eSUyMGFzc3VyYW5jZSUyMCUyNiUyMGNvbnRyb2w='); return false;">quality assurance &amp; control</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3R1ZHklMjBkZXNpZ24lMjAlMjYlMjBtZXRob2RvbG9neSUyMCUyNiUyMHNjYWxhYmlsaXR5'); return false;">study design &amp; methodology &amp; scalability</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('freesurfer &amp; ecosystem tools'); return false;">
-freesurfer &amp; ecosystem tools
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('mri techniques &amp; modalities'); return false;">
-mri techniques &amp; modalities
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('neurodevelopmental disorders'); return false;">
-neurodevelopmental disorders
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('quality assurance &amp; control'); return false;">
-quality assurance &amp; control
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('study design &amp; methodology &amp; scalability'); return false;">
-study design &amp; methodology &amp; scalability
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html" class="no-external">DOI: <span>10.1007/s11065-021-09496-2</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_09_25_BV_Best_practices_sMRI_studies/index.html" class="no-external">DOI: </a><a href="https://doi.org/%2010.1007/s11065-021-09496-2" target="_blank">10.1007/s11065-021-09496-2</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1593,27 +1637,22 @@ Benoît Verreman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="39" data-categories="cnns &amp; fully convolutional networks,medical image segmentation,supervised learning" data-listing-date-sort="1695182400000" data-listing-file-modified-sort="1747083104790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
+<div class="quarto-post image-right" data-index="42" data-categories="Y25ucyUyMCUyNiUyMGZ1bGx5JTIwY29udm9sdXRpb25hbCUyMG5ldHdvcmtzJTJDbWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9uJTJDc3VwZXJ2aXNlZCUyMGxlYXJuaW5n" data-listing-date-sort="1695182400000" data-listing-file-modified-sort="1747083104790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../journalclub/posts/2023_09_20_MG_disentangling_human_error_from_GT/index.html" class="no-external">Presentation of the article ‘Disentangling Human Error from the Ground Truth in Segmentation of Medical Images’</a>
 </h3>
-<div class="listing-subtitle">
-<a href="../journalclub/posts/2023_09_20_MG_disentangling_human_error_from_GT/index.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cnns &amp; fully convolutional networks'); return false;">
-cnns &amp; fully convolutional networks
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y25ucyUyMCUyNiUyMGZ1bGx5JTIwY29udm9sdXRpb25hbCUyMG5ldHdvcmtz'); return false;">cnns &amp; fully convolutional networks</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdlJTIwc2VnbWVudGF0aW9u'); return false;">medical image segmentation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3VwZXJ2aXNlZCUyMGxlYXJuaW5n'); return false;">supervised learning</div>
+
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('medical image segmentation'); return false;">
-medical image segmentation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('supervised learning'); return false;">
-supervised learning
-</div>
-</div>
-<div class="listing-description">
-<a href="../journalclub/posts/2023_09_20_MG_disentangling_human_error_from_GT/index.html" class="no-external">DOI: <span>10.48550/arXiv.2007.15963</span></a>
+<div class="delink listing-description"><a href="../journalclub/posts/2023_09_20_MG_disentangling_human_error_from_GT/index.html" class="no-external">
+</a><p><a href="../journalclub/posts/2023_09_20_MG_disentangling_human_error_from_GT/index.html" class="no-external">DOI: </a><a href="https://doi.org/10.48550/arXiv.2007.15963" target="_blank">10.48550/arXiv.2007.15963</a></p>
 </div>
 </div>
 <div class="metadata">
@@ -1628,380 +1667,261 @@ Mélanie Gaillochet
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 <nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/neuro-ix\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
       });
     }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/neuro-ix\.github\.io");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
         }
-        return container.innerHTML
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -2009,185 +1929,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 
 

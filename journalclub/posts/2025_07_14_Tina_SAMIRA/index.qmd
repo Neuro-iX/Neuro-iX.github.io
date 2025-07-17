@@ -1,0 +1,18 @@
+---
+title: "Presentation of the article 'Towards user-centered interactive medical image segmentation in VR with an assistive AI agent'"
+description: "DOI: [10.48550/arXiv.2505.07214](https://doi.org/10.48550/arXiv.2505.07214){target='_blank'}"
+author: Tina Nantenaina
+date: "2025-07-14"
+categories: [vr, ai agent, interactive segmentation]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Crucial in disease analysis and surgical planning, manual segmentation of volumetric medical scans (e.g. MRI, CT) is laborious, error-prone, and challenging to master, while fully automatic algorithms can benefit from user feedback. Therefore, with the complementary power of the latest radiological AI foundation models and virtual reality (VR)'s intuitive data interaction, we propose SAMIRA, a novel conversational AI agent for medical VR that assists users with localizing, segmenting, and visualizing 3D medical concepts. Through speech-based interaction, the agent helps users understand radiological features, locate clinical targets, and generate segmentation masks that can be refined with just a few point prompts. The system also supports true-to-scale 3D visualization of segmented pathology to enhance patient-specific anatomical understanding. Furthermore, to determine the optimal interaction paradigm under near-far attention-switching for refining segmentation masks in an immersive, human-in-the-loop workflow, we compare VR controller pointing, head pointing, and eye tracking as input modes. With a user study, evaluations demonstrated a high usability score (SUS=90.0   9.0), low overall task load, as well as strong support for the proposed VR system's guidance, training potential, and integration of AI in radiological segmentation tasks. 
+
+![](../../../journalclub/pdfs/2025_07_14_Tina_SAMIRA.pdf){width=100% height=400}

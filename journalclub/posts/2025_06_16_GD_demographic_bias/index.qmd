@@ -1,0 +1,22 @@
+---
+title: "Presentation of submitted article 'Investigating Demographic Bias in Brain MRI Segmentation: A Comparative Study of Deep-Learning and Non-Deep-Learning Methods'"
+description: "Submitted article"
+author: Ghazal Danaee
+date: "2025-06-16"
+categories: [demographic bias]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Conclusion:
+- Results of UNesT and ANTs showed race matching improves segmentation accuracy
+- nnU-net the only model that its performance is indifferent to the race-matching and sex-matching of training set and test set
+- Sex differences observed with manual segmentation on the volumes can also be observed with biased models, whereas the race
+differences disappear in all but one model
+- Most models show a lower overall Dice coefﬁcient score and ESSP when trained on datasets from black demographic groups than
+those trained on white demographic groups.
+
+![](../../../journalclub/pdfs/2025_06_16_GD_demographic_bias.pdf){width=100% height=400}
