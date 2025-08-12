@@ -4,10 +4,12 @@ jupyter: python3
 ---
 
 ## Software
+* [Agitation: Deep learning-based tool to quantify subject motion in T1-weighted brain MRI](https://github.com/Neuro-iX/agitation)
+* [MotionScore: Tool used to filter data before generating synthetic motion](https://github.com/Neuro-iX/MotionScore)
 * [Neuroimaging tools](https://github.com/pnlbwh/)
 * [Neuroinformatics for AMP-SCZ](https://github.com/orgs/AMP-SCZ)
 * [SlicerNeuroSegmentation](https://github.com/HOA-2/SlicerNeuroSegmentation)
 
 ## Data
 * [Human Connectome for Early Psychosis](https://nda.nih.gov/general-query.html?q=query=featured-datasets:Connectomes%20Related%20to%20Human%20Disease)
-* [Harvard-Oxford Atlas 2.0: Subcortical parcellations](https://github.com/HOA-2/SubcorticalParcellations)
+* [Harvard-Oxford Atlas 2.0](https://zenodo.org/communities/cma/records?q=&l=list&p=1&s=10&sort=newest)
