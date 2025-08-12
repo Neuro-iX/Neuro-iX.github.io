@@ -1,0 +1,17 @@
+---
+title: "Cognitive assessment in the Accelerating Medicines Partnership(r) Schizophrenia Program: harmonization priorities and strategies in a diverse international sample"
+description: "PMID: [40128256](https://pubmed.ncbi.nlm.nih.gov/40128256/){target='_blank'}    DOI: [10.1038/s41537-025-00578-1](https://doi.org/10.1038/s41537-025-00578-1){target='_blank'}"
+author: Kelly Allott, Walid Yassin, Luis Alameda, Tashrif Billah, Owen Borders, Kate Buccilli, Ricardo E Carrion, Rolando I Castillo-Passi, Kang Ik K Cho, Kota Chin, Michael J Coleman, Beau-Luke Colton, Sebastian Corral, Dominic Dwyer, Kristina Ballestad Gundersen, Ruben C Gur, Gil D Hoftman, Grace R Jacobs, Sinead Kelly, Kathryn E Lewandowski, Patricia J Marcy, Priya Matneja, Danielle McLaughlin, Angela R Nunez, Setari Parsa, ... ...
+date: "2025-03-24"
+categories: [clinical high risk, contributes unique variance, multivariate prediction models, Cognitive impairment occurs, Accelerating Medicines Partnership]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Cognitive impairment occurs at higher rates in individuals at clinical high risk (CHR) for psychosis relative to healthy peers, and it contributes unique variance to multivariate prediction models of transition to psychosis. Such impairment is considered a core biomarker of schizophrenia. Thus, cognition is a key domain measured in the Accelerating Medicines Partnership(r) program for Schizophrenia (AMP SCZ initiative). The aim of this paper is to describe the rationale, processes, considerations, and final harmonization of the cognitive battery used in AMP SCZ across the two data collection networks. This battery comprises tests of general intellect and specific cognitive domains. We estimate premorbid intelligence at baseline and measure current intelligence at baseline and 2 years. Eight tests from the Penn Computerized Neurocognitive Battery (PennCNB), which measure verbal learning and memory, sensorimotor ability, attention, emotion recognition, working memory, processing speed, verbal memory, visual memory, and motor speed are administered repeatedly at baseline, and four follow-up timepoints over 2 years.(c) 2025. The Author(s).
+        

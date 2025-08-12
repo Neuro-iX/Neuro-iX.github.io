@@ -1,0 +1,17 @@
+---
+title: "Body fluid biomarkers and psychosis risk in The Accelerating Medicines Partnership(r) Schizophrenia Program: design considerations"
+description: "PMID: [40399418](https://pubmed.ncbi.nlm.nih.gov/40399418/){target='_blank'}    DOI: [10.1038/s41537-025-00610-4](https://doi.org/10.1038/s41537-025-00610-4){target='_blank'}"
+author: Diana O Perkins, Clark D Jeffries, Scott R Clark, Rachel Upthegrove, Cassandra M J Wannan, Naomi R Wray, Qingqin S Li, Kim Q Do, Elaine Walker, G Paul Amminger, Alan Anticevic, David Cotter, Lauren M Ellman, David Mongan, Christina Phassouliotis, Jenna Barbee, Sharin Roth, Tashrif Billah, Cheryl Corcoran, Monica E Calkins, Felecia Cerrato, Ines Khadimallah, Paul Klauser, Inge Winter-van Rossum, Angela R Nunez, ... ...
+date: "2025-05-21"
+categories: [proteomic assay methodologies, Accelerating Medicines Partnership, assay methodologies, methodologies and genomics, genomics have significantly]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Advances in proteomic assay methodologies and genomics have significantly improved our understanding of the blood proteome. Schizophrenia and psychosis risk are linked to polygenic scores for schizophrenia and other mental disorders, as well as to altered blood and saliva levels of biomarkers involved in hormonal signaling, redox balance, and chronic systemic inflammation. The Accelerating Medicines Partnership(r) Schizophrenia (AMP(r)SCZ) aims to ascertain biomarkers that both predict clinical outcomes and provide insights into the biological processes driving clinical outcomes in persons meeting CHR criteria. AMP(r)SCZ will follow almost 2000 CHR and 640 community study participants for two years, assessing biomarkers at baseline and two-month follow-up including the collection of blood and saliva samples. The following provides the rationale and methods for plans to utilize polygenic risk scores for schizophrenia and other disorders, salivary cortisol levels, and a discovery-based proteomic platform for plasma analyses. We also provide details about the standardized methods used to collect and store these biological samples, as well as the study participant metadata and quality control measures related to preanalytical factors that could influence the values of the biomarkers. Finally, we discuss our plans for analyzing the results of blood- and saliva-based biomarkers. Watch Dr. Perkins discuss their work and this article: https://vimeo.com/1062879582?share=copy#t=0 .(c) 2025. The Author(s).
+        

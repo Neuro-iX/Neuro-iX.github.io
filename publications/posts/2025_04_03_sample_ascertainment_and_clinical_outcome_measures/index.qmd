@@ -1,0 +1,17 @@
+---
+title: "Sample ascertainment and clinical outcome measures in the Accelerating Medicines Partnership(r) Schizophrenia Program"
+description: "PMID: [40180953](https://pubmed.ncbi.nlm.nih.gov/40180953/){target='_blank'}    DOI: [10.1038/s41537-025-00556-7](https://doi.org/10.1038/s41537-025-00556-7){target='_blank'}"
+author: Jean Addington, Lu Liu, Amy Braun, Andrea Auther, Monica E Calkins, Barbara A Cornblatt, Cheryl M Corcoran, Paolo Fusar-Poli, Melissa J Kerr, Catalina V Mourgues-Codern, Angela R Nunez, Dominic Oliver, Gregory P Strauss, Barbara C Walsh, Luis K Alameda, Celso Arango, Nicholas J K Breitborde, Matthew R Broome, Kristin S Cadenhead, Ricardo E Carrion, Eric Yu Hai Chen, Jimmy Choi, Michael J Coleman, Philippe Conus, Covadonga M Diaz-Caneja, ... ...
+date: "2025-04-03"
+categories: [Accelerating Medicines Partnership, Outcome Measures Team, Clinical, AMP SCZ, AMP SCZ project]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Clinical ascertainment and clinical outcome are key features of any large multisite study. In the ProNET and PRESCIENT research networks, the Accelerating Medicines Partnership(r) Schizophrenia (AMP(r)SCZ) Clinical Ascertainment and Outcome Measures Team aimed to establish a harmonized clinical assessment protocol across these two research networks and to define ascertainment criteria and primary and secondary endpoints. In addition to developing the assessment protocol, the goals of this aspect of the AMP SCZ project were: (1) to implement and monitor clinical training, ascertainment of participants, and clinical assessments; (2) to provide expert clinical input to the Psychosis Risk Evaluation, Data Integration and Computational Technologies: Data Processing, Analysis, and Coordination Center (PREDICT-DPACC) for data collection, quality control, and preparation of data for the analysis of the clinical measures; and (3) to provide ongoing support to the collection, analysis, and reporting of clinical data. This paper describes the (1) protocol clinical endpoints and outcomes, (2) rationale for the selection of the clinical measures, (3) extensive training of clinical staff, (4) preparation of clinical measures for a multisite study which includes several sites where English is not the native language; and (5) the assessment of measure stability over time in the AMP SCZ observational study comparing clinical ratings at baseline and at the 2-month follow up. Watch Dr. Jean Addington discuss her work and this article: https://vimeo.com/1040425281 .(c) 2025. The Author(s).
+        

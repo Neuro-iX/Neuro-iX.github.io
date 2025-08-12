@@ -1,0 +1,23 @@
+---
+title: "Grip Strength as a Marker of Resting-State Network Integrity and Well-Being in Early Psychosis"
+description: "PMID: [40556454](https://pubmed.ncbi.nlm.nih.gov/40556454/){target='_blank'}    DOI: [10.1176/appi.ajp.20240780](https://doi.org/10.1176/appi.ajp.20240780){target='_blank'}"
+author: Heather Burrell Ward, Adam Beermann, Karlos Manzanarez Felix, Lipika Narisetti, Kathryn E Lewandowski, Michael Coleman, Sylvain Bouix, Daphne Holt, Dost Ongur, Alan Breier, Martha E Shenton, Roscoe O Brady, Alexandra B Moussa-Tooks
+date: "2025-06-25"
+categories: [Cognitive Neuroscience, Neuroimaging, Schizophrenia Spectrum and Other Psychotic Disorders]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVE: Psychomotor function is a critical marker of risk and outcome of psychosis. Grip strength is one aspect of psychomotor function that is known to be linked to structural neural integrity and well-being. This study sought to determine whether grip strength is a marker of alterations in resting-state connectivity and well-being in psychotic disorders in order to further clarify the mechanisms by which psychosis phenomenology is related to psychomotor processes.
+
+METHODS: The authors analyzed resting-state functional MRI and grip strength in 89 individuals with early psychosis and 51 control subjects without psychiatric disorders from the Human Connectome Project for Early Psychosis. Participants ranged in age from 16 to 35 years. Using multivariate pattern analysis of whole-connectome data, the authors identified brain correlates of grip strength and then replicated this analysis using the NIH Toolbox well-being measures and the Global Assessment of Functioning Scale (GAF).
+
+RESULTS: The psychosis group exhibited reduced grip strength, well-being, and GAF scores compared to the control group. Grip strength was linked to resting-state connectivity in the sensorimotor cortex, anterior cingulate cortex, and cerebellum. Connectivity correlated with the default mode network (DMN) (rsensorimotor=0.22, rcingulate=0.30, rcerebellum=0.24). When the analysis was repeated for GAF and well-being, overlapping regions in the sensorimotor cortex and cerebellum were connected to the DMN and related to GAF (rsensorimotor=0.17, rcerebellum=0.28) and well-being (rsensorimotor=0.16, rcerebellum=0.16). Relationships were driven by the psychosis group for cerebellum and cingulate nodes.
+
+CONCLUSIONS: Data-driven, connectome-wide analysis identified shared brain correlates of grip strength, overall function, and well-being in a sample of young adults with psychosis and healthy control subjects. This suggests that grip strength may be a marker of DMN connectivity, which may in turn be an important marker of overall health, even in young adult populations.
+        

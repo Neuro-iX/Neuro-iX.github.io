@@ -1,0 +1,17 @@
+---
+title: "Enabling FAIR data stewardship in complex international multi-site studies: Data Operations for the Accelerating Medicines Partnership(r) Schizophrenia Program"
+description: "PMID: [40180978](https://pubmed.ncbi.nlm.nih.gov/40180978/){target='_blank'}    DOI: [10.1038/s41537-025-00560-x](https://doi.org/10.1038/s41537-025-00560-x){target='_blank'}"
+author: Tashrif Billah, Kang Ik K Cho, Owen Borders, Yoonho Chung, Michaela Ennis, Grace R Jacobs, Einat Liebenthal, Daniel H Mathalon, Dheshan Mohandass, Spero C Nicholas, Ofer Pasternak, Nora Penzel, Habiballah Rahimi Eichi, Phillip Wolff, Alan Anticevic, Kristen Laulette, Angela R Nunez, Zailyn Tamayo, Kate Buccilli, Beau-Luke Colton, Dominic B Dwyer, Larry Hendricks, Hok Pan Yuen, Jessica Spark, Sophie Tod, ... ...
+date: "2025-04-03"
+categories: [Modern research management, publicly funded studies, data governance model, Modern research, data]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Modern research management, particularly for publicly funded studies, assumes a data governance model in which grantees are considered stewards rather than owners of important data sets. Thus, there is an expectation that collected data are shared as widely as possible with the general research community. This presents problems in complex studies that involve sensitive health information. The latter requires balancing participant privacy with the needs of the research community. Here, we report on the data operation ecosystem crafted for the Accelerating Medicines Partnership(r) Schizophrenia project, an international observational study of young individuals at clinical high risk for developing a psychotic disorder. We review data capture systems, data dictionaries, organization principles, data flow, security, quality control protocols, data visualization, monitoring, and dissemination through the NIMH Data Archive platform. We focus on the interconnectedness of these steps, where our goal is to design a seamless data flow and an alignment with the FAIR (Findability, Accessibility, Interoperability, and Reusability) principles while balancing local regulatory and ethical considerations. This process-oriented approach leverages automated pipelines for data flow to enhance data quality, speed, and collaboration, underscoring the project's contribution to advancing research practices involving multisite studies of sensitive mental health conditions. An important feature is the data's close-to-real-time quality assessment (QA) and quality control (QC). The focus on close-to-real-time QA/QC makes it possible for a subject to redo a testing session, as well as facilitate course corrections to prevent repeating errors in future data acquisition. Watch Dr. Sylvain Bouix discuss his work and this article: https://vimeo.com/1025555648 .(c) 2025. The Author(s).
+        

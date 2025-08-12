@@ -1,0 +1,17 @@
+---
+title: "The MR neuroimaging protocol for the Accelerating Medicines Partnership(r) Schizophrenia Program"
+description: "PMID: [40175382](https://pubmed.ncbi.nlm.nih.gov/40175382/){target='_blank'}    DOI: [10.1038/s41537-025-00581-6](https://doi.org/10.1038/s41537-025-00581-6){target='_blank'}"
+author: Michael P Harms, Kang-Ik K Cho, Alan Anticevic, Nicolas R Bolo, Sylvain Bouix, Dylan Campbell, Tyrone D Cannon, Guillermo Cecchi, Mathias Goncalves, Anastasia Haidar, Dylan E Hughes, Igor Izyurov, Omar John, Tina Kapur, Nicholas Kim, Elana Kotler, Marek Kubicki, Joshua M Kuperman, Kristen Laulette, Ulrich Lindberg, Christopher Markiewicz, Lipeng Ning, Russell A Poldrack, Yogesh Rathi, Paul A Romo, ... ...
+date: "2025-04-02"
+categories: [clinical high risk, forecast clinical outcomes, understanding potential brain, potential brain regions, studies involving MRI]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Neuroimaging with MRI has been a frequent component of studies of individuals at clinical high risk (CHR) for developing psychosis, with goals of understanding potential brain regions and systems impacted in the CHR state and identifying prognostic or predictive biomarkers that can enhance our ability to forecast clinical outcomes. To date, most studies involving MRI in CHR are likely not sufficiently powered to generate robust and generalizable neuroimaging results. Here, we describe the prospective, advanced, and modern neuroimaging protocol that was implemented in a complex multi-site, multi-vendor environment, as part of the large-scale Accelerating Medicines Partnership(r) Schizophrenia Program (AMP(r) SCZ), including the rationale for various choices. This protocol includes T1- and T2-weighted structural scans, resting-state fMRI, and diffusion-weighted imaging collected at two time points, approximately 2 months apart. We also present preliminary variance component analyses of several measures, such as signal- and contrast-to-noise ratio (SNR/CNR) and spatial smoothness, to provide quantitative data on the relative percentages of participant, site, and platform (i.e., scanner model) variance. Site-related variance is generally small (typically <10%). For the SNR/CNR measures from the structural and fMRI scans, participant variance is the largest component (as desired; 40-76%). However, for SNR/CNR in the diffusion scans, there is substantial platform-related variance (>55%) due to differences in the diffusion imaging hardware capabilities of the different scanners. Also, spatial smoothness generally has a large platform-related variance due to inherent, difficult to control, differences between vendors in their acquisitions and reconstructions. These results illustrate some of the factors that will need to be considered in analyses of the AMP SCZ neuroimaging data, which will be the largest CHR cohort to date.Watch Dr. Harms discuss this article at https://vimeo.com/1059777228?share=copy#t=0 .(c) 2025. The Author(s).
+        

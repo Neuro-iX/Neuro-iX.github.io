@@ -1,0 +1,17 @@
+---
+title: "Digital health technologies in the accelerating medicines Partnership(r) Schizophrenia Program"
+description: "PMID: [40461469](https://pubmed.ncbi.nlm.nih.gov/40461469/){target='_blank'}    DOI: [10.1038/s41537-025-00599-w](https://doi.org/10.1038/s41537-025-00599-w){target='_blank'}"
+author: Johanna T W Wigman, Ann Ee Ching, Yoonho Chung, Habiballah Rahimi Eichi, Erlend Lane, Carsten Langholm, Aditya Vaidyam, Andrew Jin Soo Byun, Anastasia Haidar, Jessica Hartmann, Angela Nunez, Dominic Dwyer, Adibah Amani Nasarudin, Owen Borders, Isabelle Scott, Zailyn Tamayo, Priya Matneja, Kang-Ik Cho, Jean Addington, Luis K Alameda, Celso Arango, Nicholas J K Breitborde, Matthew R Broome, Kristin S Cadenhead, Monica E Calkins, ... ...
+date: "2025-06-03"
+categories: [Clinical High Risk, Clinical High, High Risk, Digital, Digital phenotyping]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Although meta-analytic studies have shown that 25-33% of those at Clinical High Risk (CHR) for psychosis transition to a first episode of psychosis within three years, less is known about estimating the risk of transition at an individual level. Digital phenotyping offers a novel approach to explore the nature of CHR and may help to improve personalized risk prediction. Specifically, digital data enable detailed mapping of experiences, moods and behaviors during longer periods of time (e.g., weeks, months) and offer more insight into patterns over time at the individual level across their routine daily life. However, while novel digital health technologies open up many new avenues of research, they also come with specific challenges, including replicability of results and the adherence of participants. This paper outlines the design of the digital component of the Accelerating Medicines Partnership(r) Schizophrenia Program (AMP SCZ) project, a large international collaborative project that follows individuals at CHR for psychosis over a period of two years. The digital component comprises one-year smartphone-based digital phenotyping and actigraphy. Smartphone-based digital phenotyping includes 30-item short daily self-report surveys and voice diaries as well as passive data capture (geolocation, on/off screen state, and accelerometer). Actigraphy data are collected via an Axivity wristwatch. The aim of this paper is to describe the design and the three goals of the digital measures used in AMP SCZ to: (i) better understand the symptoms, real-life experiences, and behaviors of those at CHR for psychosis, (ii) improve the prediction of transition to psychosis and other health outcomes in this population based on digital phenotyping and, (iii) serve as an example for replicable and ethical research across geographically diverse regions and cultures. Accordingly, we describe the rationale, protocol and implementation of these digital components of the AMP SCZ project. **Link to video interview: https://vimeo.com/1060935583 *.(c) 2025. The Author(s).
+        

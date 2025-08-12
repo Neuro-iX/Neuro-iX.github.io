@@ -1,0 +1,29 @@
+---
+title: "Incidence, Prevalence, and Stability of Remission in Individuals With Clinical High Risk for Psychosis"
+description: "PMID: [40762913](https://pubmed.ncbi.nlm.nih.gov/40762913/){target='_blank'}    DOI: [10.1001/jamanetworkopen.2025.25644](https://doi.org/10.1001/jamanetworkopen.2025.25644){target='_blank'}"
+author: Johanna Seitz-Holland, Grace R Jacobs, Jenna Reinen, Daniel Mathalon, Cheryl Corcoran, Abraham Reichenberg, Mark Vangel, Robert J Glynn, Nora Penzel, Kang-Ik K Cho, Eduardo Castro, Anastasia Haidar, Jean M Addington, Tina Kapur, Sylvain Bouix, Carrie E Bearden, John M Kane, Patrick D McGorry, Scott W Woods, Barnaby Nelson, Rene S Kahn, Martha E Shenton, Guillermo A Cecchi, Ofer Pasternak
+date: "2025-08-01"
+categories: [clinical high risk, North American Prodromal, American Prodromal Longitudinal, remission, symptoms]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+IMPORTANCE: While remission from clinical high risk (CHR) for psychosis is a favorable outcome, it is not well characterized over time.
+
+OBJECTIVE: To examine remission incidence, prevalence, and stability, and their association with demographic, clinical, medication, and cognitive variables, comparing 2 commonly used definitions.
+
+DESIGN, SETTING, AND PARTICIPANTS: This cohort study examined data from individuals aged 12 to 30 years at CHR in the North American Prodromal Longitudinal Study 3, collected from 9 sites across the US from February 2015 to November 2018. Statistical analyses were conducted between January 2023 and May 2025.
+
+EXPOSURE: CHR status using 2 definitions: (1) a symptoms-only definition based on the positive symptoms from the Scale of Prodromal Symptoms and (2) a symptoms-and-function definition based on positive symptoms and the modified Global Assessment of Functioning.
+
+MAIN OUTCOMES AND MEASURES: The primary outcomes were remission incidence, prevalence, and stability for 7 follow-up visits over 2 years. Associations of remission with age, sex at birth, race, antipsychotic and antidepressant medication, history of trauma, and cognitive performance were determined using mixed-effects logistic regression.
+
+RESULTS: The sample included 692 individuals (mean [SD] age, 18.7 [4.1] years; 319 female [46%]) at baseline, with 614 completing at least 1 follow-up. For the symptoms-only definition, 7% (95% CI, 5%-10%) met remission criteria after 2 months, 34% (95% CI, 31%-38%) met remission criteria at least once during the study, and 26% (95% CI, 22%-29%) met criteria at their last visit. The symptoms-and-function definition was associated with a lower remission incidence and prevalence, with 4% (95%CI, 2%-5%) meeting remission criteria after 2 months, 21% (95% CI, 18%-24%) meeting criteria at least once, and 15% (95% CI, 13%-18%) meeting criteria at their last visit. Under the symptoms-only definition, 83 of 153 individuals at CHR with at least 1 follow-up after remission (54%; 95% CI, 46%-62%) were stable remitters. Under the symptoms-and-function definition, 43 of 91 individuals (47%; 95% CI, 37%-58%) were stable remitters. The chance of staying in remission rose drastically once a person had more than 1 previous recorded remission visit. Higher functioning was associated with higher likelihood of remission (current score for symptoms only: OR, 1.04; 95% CI, 1.01-1.08; current score for symptoms and function: OR, 1.08; 95% CI, 1.02-1.14). More symptoms at baseline was associated with a lower likelihood of remission (general symptoms for symptoms only: OR, 0.77; 95% CI, 0.70-0.84; general symptoms for symptoms and function: OR, 0.80; 95% CI, 0.69-0.92).
+
+CONCLUSIONS AND RELEVANCE: These findings suggest that CHR status is a dynamic state and that vulnerability can persist even after functional remission. Hence, continued follow-up and facilitated reengagement with clinical services after remission are essential.
+        

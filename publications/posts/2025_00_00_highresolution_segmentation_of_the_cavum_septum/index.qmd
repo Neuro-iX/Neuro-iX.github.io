@@ -1,0 +1,17 @@
+---
+title: "High-resolution segmentation of the cavum septum pellucidum in young adult human brains"
+description: "PMID: [40464003](https://pubmed.ncbi.nlm.nih.gov/40464003/){target='_blank'}    DOI: [10.3389/fnana.2025.1566762](https://doi.org/10.3389/fnana.2025.1566762){target='_blank'}"
+author: Andrew Rios, Achok Alier, Mihir Aneja, Farah Nimeri, Kayla Lavery, Jack Fisher, Rochana Wiyathunge, Marek Kubicki, Edward Yeterian, Sylvain Bouix, Nikos Makris, Hector Arciniega, R Jarrett Rushmore
+date: "2025-00-00"
+categories: [cavum septum pellucidum, fifth ventricle, high-resolution MRI, sex differences, volumetric]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+The cavum septum pellucidum (CSP) is a small cerebrospinal fluid-filled space found between the lateral ventricles of the forebrain that is often used as a biomarker for neurological disease and brain injury. The incidence of the CSP varies widely in different studies, with many reports finding that the CSP is frequently absent in healthy brains. Variables such as race, age and sex are typically not well-reported in CSP studies, presenting a challenge to understanding the normal distribution of the CSP in adult human brains. Moreover, the small size and frequently indistinct borders present a challenge for automated segmentation of the CSP. To address these issues, we developed a novel manual parcelation approach to volumetrically segment the CSP in high-resolution T1-weighted structural MRIs from male and female participants in the young adult dataset of the Human Connectome Project (HCP). We identified the CSP in 95.6% of subjects, compared to 57.1% when the automated segmentation approach was used on the same subjects. The CSP volume was significantly larger in male than female brains, both in terms of raw volume and volumes normalized for intracranial volume. To our knowledge, this study is the first to develop and validate a segmentation protocol for CSP volume, and to evaluate both the incidence and volume of the CSP in a representative population of young adults. Overall, these results provide a more accurate representation of the CSP in control populations, laying an improved foundation for its potential use as a biomarker for various disorders.Copyright (c) 2025 Rios, Alier, Aneja, Nimeri, Lavery, Fisher, Wiyathunge, Kubicki, Yeterian, Bouix, Makris, Arciniega and Rushmore.
+        
