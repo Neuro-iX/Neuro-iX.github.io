@@ -30,7 +30,7 @@
         "title-block-banner: false\n",
         "---"
       ],
-      "id": "bff168ef"
+      "id": "842b6dc1"
     }
   ],
   "metadata": {
@@ -38,7 +38,7 @@
       "name": "python3",
       "language": "python",
       "display_name": "Python 3 (ipykernel)",
-      "path": "/home/bverreman/miniconda3/envs/rpy/share/jupyter/kernels/python3"
+      "path": "/home/bverreman/miniconda3/envs/website/share/jupyter/kernels/python3"
     }
   },
   "nbformat": 4,

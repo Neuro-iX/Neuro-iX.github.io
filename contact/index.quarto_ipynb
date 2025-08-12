@@ -14,7 +14,7 @@
         "\n",
         "For all other enquiries email [Sylvain Bouix](mailto:sylvain.bouix@etsmtl.ca){target=\"_blank\"}."
       ],
-      "id": "819dcab1"
+      "id": "90ab34a0"
     }
   ],
   "metadata": {
@@ -22,7 +22,7 @@
       "name": "python3",
       "language": "python",
       "display_name": "Python 3 (ipykernel)",
-      "path": "/home/bverreman/miniconda3/envs/rpy/share/jupyter/kernels/python3"
+      "path": "/home/bverreman/miniconda3/envs/website/share/jupyter/kernels/python3"
     }
   },
   "nbformat": 4,

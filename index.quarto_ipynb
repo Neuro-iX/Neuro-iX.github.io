@@ -15,7 +15,7 @@
         "    css: styles.css\n",
         "---"
       ],
-      "id": "53eb24eb"
+      "id": "602bff4c"
     },
     {
       "cell_type": "markdown",
@@ -23,7 +23,7 @@
       "source": [
         "<!-- "
       ],
-      "id": "4d81e4b5"
+      "id": "e33c607b"
     },
     {
       "cell_type": "raw",
@@ -57,7 +57,7 @@
         "    #  target: _blank\n",
         "---"
       ],
-      "id": "f490cd97"
+      "id": "e7c2cf49"
     },
     {
       "cell_type": "markdown",
@@ -103,10 +103,10 @@
         "<!--\n",
         "# Recruitment\n",
         "\n",
-        "We are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high school students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform){target=\"_blank\"}.\n",
+        "We are currently recruiting talented applicants for MSc, PhD, postdocs positions. Undergraduate and high schooldta students are also welcome for short- and medium- term internships. We are committed to building a diverse environment. If you’re interested in working with us, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSfUGxxQXknK1EXk4omb1Iyi5yVZHz5zsrpesy027biK0POcrg/viewform){target=\"_blank\"}.\n",
         "-->\n"
       ],
-      "id": "2bde3575"
+      "id": "925ae74d"
     }
   ],
   "metadata": {
@@ -114,7 +114,7 @@
       "name": "python3",
       "language": "python",
       "display_name": "Python 3 (ipykernel)",
-      "path": "/home/bverreman/miniconda3/envs/rpy/share/jupyter/kernels/python3"
+      "path": "/home/bverreman/miniconda3/envs/website/share/jupyter/kernels/python3"
     }
   },
   "nbformat": 4,
