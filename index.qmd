@@ -3,7 +3,10 @@ title: Neuro-iX
 filters:
   - remove_title
 jupyter: python3
-    
+
+execute:
+  python: "/home/bverreman/miniconda3/envs/website/bin/python"
+
 format:
   html:
     toc: false #Table of content

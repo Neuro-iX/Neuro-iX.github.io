@@ -186,7 +186,7 @@ Image processing, Medical Imaging, Deep learning, Computer Vision
 ::::
 ----
 
-[**Alumnis**]{.text-style-1}
+[**Alumni**]{.text-style-1}
 
 ![](../images/people_faces/CB_round.png){width=200}
 
@@ -197,10 +197,8 @@ Image processing, Medical Imaging, Deep learning, Computer Vision
 [{{< bi globe size=1em color=cornflowerblue label="Thumbs up" >}}](https://chbricout.github.io/){target="_blank"} 
 
 
-Graduate M.S.
-<!-- Will start a PhD in informatics at the University of Edimburgh -->
-
-Department of Software and IT Engineering, ETS, Montréal
+Graduated from M.S. at Neuro-iX at ETS
+Will start a PhD in informatics at the University of Edinburgh, Scotland <!---->
 
 Medical Imaging, Neuroimaging, Computer Vision, Deep Learning
 

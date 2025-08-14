@@ -51,7 +51,7 @@ import os
 from tkinter import * # Create GUI
 #import tkinter as tk
 import tkinter.ttk as ttk
-from tktooltip import ToolTip
+from ttktooltip import ToolTip #2025-08-14: was tktooltip before
 
 import pandas as pd # Open source data analysis and manipulation tool
 import requests # Standard for making HTTP requests 

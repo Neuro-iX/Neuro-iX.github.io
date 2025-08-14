@@ -3,7 +3,7 @@ project:
   pre-render: 
     - pre_render/posts_generator.py
   output-dir: docs
-
+  
 website:
   title: "Neuro-iX"
   site-url: https://neuro-ix.github.io
