@@ -1,0 +1,18 @@
+---
+title: "Presentation of the article 'DDM^2: Self-Supervised Diffusion MRI Denoising with Generative Diffusion Models'"
+description: "DOI: [10.48550/arXiv.2302.03018](https://doi.org/10.48550/arXiv.2302.03018){target='_blank'}"
+author: Ahmed Rekik
+date: "2025-09-22"
+categories: [generative model, denoising, diffusion mri]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Magnetic resonance imaging (MRI) is a common and life-saving medical imaging technique. However, acquiring high signal-to-noise ratio MRI scans requires long scan times, resulting in increased costs and patient discomfort, and decreased throughput. Thus, there is great interest in denoising MRI scans, especially for the subtype of diffusion MRI scans that are severely SNR-limited. While most prior MRI denoising methods are supervised in nature, acquiring supervised training datasets for the multitude of anatomies, MRI scanners, and scan parameters proves impractical. Here, we propose Denoising Diffusion Models for Denoising Diffusion MRI (DDM   ), a self-supervised denoising method for MRI denoising using diffusion denoising generative models. Our three-stage framework integrates statistic-based denoising theory into diffusion models and performs denoising through conditional generation. During inference, we represent input noisy measurements as a sample from an intermediate posterior distribution within the diffusion Markov chain. We conduct experiments on 4 real-world in-vivo diffusion MRI datasets and show that our DDM    demonstrates superior denoising performances ascertained with clinically-relevant visual qualitative and quantitative metrics. 
+
+![](../../../journalclub/pdfs/2025_09_14_Ahmed_DDM2.pdf){width=100% height=400}
