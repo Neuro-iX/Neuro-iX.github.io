@@ -1,5 +1,6 @@
 ---
 title: Contact
+pagetitle: "Contact"
 jupyter: python3
 ---
 

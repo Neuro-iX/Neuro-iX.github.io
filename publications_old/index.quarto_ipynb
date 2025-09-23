@@ -1,0 +1,46 @@
+{
+  "cells": [
+    {
+      "cell_type": "raw",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Publications\n",
+        "filters:\n",
+        "  - remove_title\n",
+        "listing:\n",
+        "  contents: posts\n",
+        "  sort:\n",
+        "    - date desc\n",
+        "    - title desc\n",
+        "  type: default\n",
+        "  categories: true\n",
+        "  sort-ui: true\n",
+        "  filter-ui: true\n",
+        "  fields:\n",
+        "    - date\n",
+        "    - title\n",
+        "    - author\n",
+        "    - categories\n",
+        "    - description\n",
+        "  date-format: YYYY-MM-DD\n",
+        "toc: false\n",
+        "toc-location: body\n",
+        "page-layout: full\n",
+        "title-block-banner: false\n",
+        "---"
+      ],
+      "id": "5ac2506e"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/home/bverreman/miniconda3/envs/website/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

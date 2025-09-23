@@ -1,5 +1,6 @@
 ---
 title: Tools
+pagetitle: "Tools - Neuro-iX"
 jupyter: python3
 ---
 

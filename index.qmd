@@ -1,5 +1,6 @@
 ---
 title: Neuro-iX
+pagetitle: "Neuro-iX"
 filters:
   - remove_title
 jupyter: python3

@@ -1,5 +1,6 @@
 ---
 title: "Journal Club"
+pagetitle: "Journal Club"
 filters:
   - remove_title
 listing:
