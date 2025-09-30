@@ -198,14 +198,15 @@ Image processing, Medical Imaging, Deep learning, Computer Vision
 [{{< bi globe size=1em color=cornflowerblue label="Thumbs up" >}}](https://chbricout.github.io/){target="_blank"} 
 
 
-Graduate with a M.S. at Neuro-iX, ETS
+Finished his M.S. degree, with distinction from the jury
 
-Will start a PhD about the impact of probabilistic generative models
+Will start a PhD about the impact of probabilistic generative models 
+
 University of Edinburgh, Scotland 
 
 <!---->
 
-Medical Imaging, Neuroimaging, Computer Vision, Deep Learning
+Medical Imaging, Neuroimaging, Computer Vision, Deep Learning, Quality Check, Movement Artifacts
 
 
 

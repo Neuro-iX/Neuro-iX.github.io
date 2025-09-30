@@ -1,59 +1,47 @@
 {
- "cells": [
-  {
-   "cell_type": "raw",
-   "id": "dc48b761",
-   "metadata": {},
-   "source": [
-    "---\n",
-    "title: Publications\n",
-    "pagetitle: Publications\n",
-    "filters:\n",
-    "  - remove_title\n",
-    "listing:\n",
-    "  contents: posts\n",
-    "  sort:\n",
-    "    - date desc\n",
-    "    - title desc\n",
-    "  type: default\n",
-    "  categories: true\n",
-    "  sort-ui: true\n",
-    "  filter-ui: true\n",
-    "  fields:\n",
-    "    - date\n",
-    "    - title\n",
-    "    - author\n",
-    "    - categories\n",
-    "    - description\n",
-    "  date-format: YYYY-MM-DD\n",
-    "toc: false\n",
-    "toc-location: body\n",
-    "page-layout: full\n",
-    "title-block-banner: false\n",
-    "---"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3",
-   "path": "/home/bverreman/miniconda3/envs/website/share/jupyter/kernels/python3"
+  "cells": [
+    {
+      "cell_type": "raw",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Publications\n",
+        "pagetitle: Publications\n",
+        "filters:\n",
+        "  - remove_title\n",
+        "listing:\n",
+        "  contents: posts\n",
+        "  sort:\n",
+        "    - date desc\n",
+        "    - title desc\n",
+        "  type: default\n",
+        "  categories: true\n",
+        "  sort-ui: true\n",
+        "  filter-ui: true\n",
+        "  fields:\n",
+        "    - date\n",
+        "    - title\n",
+        "    - author\n",
+        "    - categories\n",
+        "    - description\n",
+        "  date-format: YYYY-MM-DD\n",
+        "toc: false\n",
+        "toc-location: body\n",
+        "page-layout: full\n",
+        "title-block-banner: false\n",
+        "---"
+      ],
+      "id": "f2789599"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/home/bverreman/miniconda3/envs/website/share/jupyter/kernels/python3"
+    }
   },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.10.18"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
+  "nbformat": 4,
+  "nbformat_minor": 5
 }
