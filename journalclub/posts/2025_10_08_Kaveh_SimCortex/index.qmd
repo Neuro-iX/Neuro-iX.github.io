@@ -1,0 +1,18 @@
+---
+title: "Presentation of SimCortex: Collision-Free Simultaneous Cortical Surfaces Reconstruction"
+description: "DOI: [10.1007/978-3-032-06774-6_26](https://doi.org/10.1007/978-3-032-06774-6_26){target='_blank'}"
+author: Kaveh Moradkhani
+date: "2025-10-08"
+categories: [cortical surface reconstruction, brain segmentation, geometric deep learning, brain MRI, 3d deep learning]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Accurate cortical surface reconstruction from magnetic resonance imaging (MRI) data is crucial for reliable neuroanatomical analyses. Current methods have to contend with complex cortical geometries, strict topological requirements, and often produce surfaces with overlaps, self-intersections, and topological defects. To overcome these shortcomings, we introduce SimCortex, a deep learning framework that simultaneously reconstructs all brain surfaces (left/right white-matter and pial) from T1-weighted(T1w) MRI volumes while preserving topological properties. Our method first segments the T1w image into a nine-class tissue label map. From these segmentations, we generate subject-specific, collision-free initial surface meshes. These surfaces serve as precise initializations for subsequent multiscale diffeomorphic deformations. Employing stationary velocity fields (SVFs) integrated via scaling-and-squaring, our approach ensures smooth, topology-preserving transformations with significantly reduced surface collisions and self-intersections. Evaluations on standard datasets demonstrate that SimCortex dramatically reduces surface overlaps and self-intersections, surpassing current methods while maintaining state-of-the-art geometric accuracy.
+
+![](../../../journalclub/pdfs/2025_10_08_Kaveh_SimCortex.pdf){width=100% height=400}
