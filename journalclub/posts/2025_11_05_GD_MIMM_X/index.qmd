@@ -1,0 +1,18 @@
+---
+title: "Presentation of MIMM-X: Disentangling Spurious Correlations for Medical Image Analysis"
+description: "DOI: [10.1007/978-3-032-05870-6_10](https://doi.org/10.1007/978-3-032-05870-6_10){target='_blank'}"
+author: Ghazal Danaee
+date: "2025-11-05"
+categories: [multiple spurious correlations, mri, ct scan, deep learning]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Deep learning models can excel on medical tasks, yet often experience spurious correlations, known as shortcut learning, leading to poor generalization in new environments. Particularly in medical imaging, where multiple spurious correlations can coexist, misclassifications can have severe consequences. We propose MIMM-X, a framework that disentangles causal features from multiple spurious correlations by minimizing their mutual information. It enables predictions based on true underlying causal relationships rather than dataset-specific shortcuts. We evaluate MIMM-X on three datasets (UK Biobank, NAKO, CheXpert) across two imaging modalities (MRI and X-ray). Results demonstrate that MIMM-X effectively mitigates shortcut learning of multiple spurious correlations.
+
+![](../../../journalclub/pdfs/2025_11_5_Ghazal_Danaee_MIMM.pdf){width=100% height=400}

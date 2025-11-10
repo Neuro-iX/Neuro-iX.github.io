@@ -1,0 +1,18 @@
+---
+title: "Presentation of TRUST: Test-Time Refinement using Uncertainty-Guided SSM Traverses"
+description: "DOI: [10.48550/arXiv.2509.22813](https://doi.org/10.48550/arXiv.2509.22813){target='_blank'}"
+author: Sahar Dastani
+date: "2025-10-29"
+categories: [state space model, vmamba, distribution shift, test-time adaptation]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+State Space Models (SSMs) have emerged as efficient alternatives to Vision Transformers (ViTs), with VMamba standing out as a pioneering architecture designed for vision tasks. However, their generalization performance degrades significantly under distribution shifts. To address this limitation, we propose TRUST (Test-Time Refinement using Uncertainty-Guided SSM Traverses), a novel test-time adaptation (TTA) method that leverages diverse traversal permutations to generate multiple causal perspectives of the input image. Model predictions serve as pseudo-labels to guide updates of the Mamba-specific parameters, and the adapted weights are averaged to integrate the learned information across traversal scans. Altogether, TRUST is the first approach that explicitly leverages the unique architectural properties of SSMs for adaptation. Experiments on seven benchmarks show that TRUST consistently improves robustness and outperforms existing TTA methods.
+
+![](../../../journalclub/pdfs/2025_10_29_Sahar_Dastani_TRUST.pdf){width=100% height=400}
