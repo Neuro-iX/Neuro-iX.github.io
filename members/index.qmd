@@ -184,6 +184,26 @@ Department of Software and IT Engineering, ETS, Montréal
 
 Image processing, Medical Imaging, Deep learning, Computer Vision
 :::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+![](../images/people_faces/MW_round.png){width=200}
+
+[Mathilde Wilfart]https://www.linkedin.com/in/mathilde-wilfart){target="_blank"} 
+
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:mathilde.wilfart.1@ens.etsmtl.ca){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/mathilde-wilfart){target="_blank"}
+
+
+Graduate Researcher, M.S.
+
+Department of Software and IT Engineering, ETS, Montréal
+
+Medical Imaging, Neuroimaging, Deep Learning, Computer Vision
+:::
+
 ::::
 ----
 
