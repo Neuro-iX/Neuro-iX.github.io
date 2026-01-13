@@ -1,0 +1,23 @@
+---
+title: "Altered Cortical Gyrification Is Associated with Cortical and White Matter Microstructure in Individuals with Early Psychosis: A Multimodal Neuroimaging Study"
+description: "PMID: [41104693](https://pubmed.ncbi.nlm.nih.gov/41104693/){target='_blank'}    DOI: [10.1093/schbul/sbaf172](https://doi.org/10.1093/schbul/sbaf172){target='_blank'}"
+author: Daiki Sasabayashi, Johanna Seitz-Holland, Yogesh Rathi, Nicholas Kim, Kang Ik K Cho, Dheshan Mohandass, Tashrif Billah, Anastasia Haidar, Elana Kotler, Suheyla Cetin-Karayumak, Grace R Jacobs, Cornelius Berberich, Kathryn E Lewandowski, Raquelle I Mesholam-Gately, Joanne Wojcik, Moritz Haaf, Shinsuke Koike, Yoji Hirano, Tsutomu Takahashi, Michio Suzuki, Ofer Pasternak, Matcheri S Keshavan, Daphne Holt, Dost Ongur, Alan Breier, ... ...
+date: "2025-10-17"
+categories: [early psychosis, fractional anisotropy, heterogeneity of fractional anisotropy, local gyrification index, magnetic resonance imaging, multimodal, tissue-specific fractional anisotropy]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND AND HYPOTHESIS: Deviated brain folding patterns in psychosis may reflect dysfunctional brain development, more specifically cortical growth and white matter myelination. However, mechanisms that underlie the cortical folding disturbances and their relationship to clinical phenotypes in psychosis remain unknown.
+
+STUDY DESIGN: This cross-sectional multimodal neuroimaging study combines structural and diffusion magnetic resonance imaging (MRI) in 203 individuals with early psychosis and 73 healthy individuals. The primary goal is to use local gyrification index (LGI), which quantifies cortical folding, to assess possible cortical abnormalities in subjects with early psychosis. The secondary goal is to combine gyrification measures with advanced diffusion MRI indices, namely, heterogeneity of fractional anisotropy (FA), a proxy for cortical cytoarchitecture, and free-water corrected FA, the latter associated with the tissue-related white matter microstructure. Finally, the relationship between these imaging measures with psychiatric symptoms and cognitive abilities are examined.
+
+STUDY RESULTS: Compared to healthy individuals, the early psychosis group exhibited a significant LGI reduction, potentially reflecting sulcal widening and shallowing in the left temporo-parietal region. Local gyrification index was significantly associated with heterogeneity of FA in the corresponding region. Lower LGI was also associated with reduced FA in the white matter tracts connecting this region to the frontal lobe. Finally, lower LGI at the temporo-parietal junction was associated with more severe negative symptoms.
+
+CONCLUSIONS: We present the first in vivo evidence that anomalies in cortical folding may be linked to alterations in both the underlying cortical cytoarchitecture and associated microstructure of ipsilateral long-range white matter connections in psychosis.
+        

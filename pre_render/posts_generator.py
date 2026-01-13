@@ -426,7 +426,7 @@ class ArticlesFinder:
         maxi_b = Button(mainframe, text = "Maximum number", disabledforeground = "black")
         maxi_b["state"]="disable"
         maxi_b.grid(column = 1, row = self.n_widget, sticky = (W, E))
-        ToolTip(maxi_b, msg="Maximum number of articles to search for")
+        ToolTip(maxi_b, "Maximum number of articles to search for") #2nd argument: msg=
         maxi_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable=self.maxi)
         maxi_entry.grid(column = 2, row = self.n_widget, sticky = (W, E))
         
@@ -436,7 +436,7 @@ class ArticlesFinder:
         maxi_b = Button(mainframe, text = "PMIDs", disabledforeground = "black")
         maxi_b["state"]="disable"
         maxi_b.grid(column = 1, row = self.n_widget, sticky = (W, E))
-        ToolTip(maxi_b, msg = "List of article PMIDs on Pubmed")
+        ToolTip(maxi_b, "List of article PMIDs on Pubmed") #2nd argument: msg=
         pmid_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable = self.pmid)
         pmid_entry.grid(column = 2, row = self.n_widget, sticky = (W, E))
         
@@ -446,7 +446,7 @@ class ArticlesFinder:
         maxi_b = Button(mainframe, text = "Days", disabledforeground = "black")
         maxi_b["state"]="disable"
         maxi_b.grid(column = 1, row = self.n_widget, sticky = (W, E))
-        ToolTip(maxi_b, msg = "Maximum number of days since publishing date")
+        ToolTip(maxi_b, "Maximum number of days since publishing date") #2nd argument: msg=
         date_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable = self.date)
         date_entry.grid(column = 2, row = self.n_widget, sticky = (W, E))
 
@@ -456,7 +456,7 @@ class ArticlesFinder:
         maxi_b = Button(mainframe, text = "Terms", disabledforeground = "black")
         maxi_b["state"]="disable"
         maxi_b.grid(column = 1, row = self.n_widget, sticky = (W, E))
-        ToolTip(maxi_b, msg = "Special terms like Bouix[Author]")
+        ToolTip(maxi_b, "Special terms like Bouix[Author]") #2nd argument: msg=
         terms_entry = ttk.Entry(mainframe, width = WIDTH_ENTRY, textvariable = self.terms)
         terms_entry.grid(column = 2, row = self.n_widget, sticky = (W, E))
         

@@ -1,0 +1,23 @@
+---
+title: "Baseline Clinical Characterization of Participants in the Accelerating Medicines Partnership Schizophrenia Program"
+description: "PMID: [40861307](https://pubmed.ncbi.nlm.nih.gov/40861307/){target='_blank'}    DOI: [10.1093/schizbullopen/sgaf012](https://doi.org/10.1093/schizbullopen/sgaf012){target='_blank'}"
+author: Jean Addington, Lu Liu, Monica Chu, Karl Jungert, Nora Penzel, Ofer Pasternak, Emily Farina, Ricardo E Carrion, Cheryl M Corcoran, Vijay A Mittal, Gregory P Strauss, Alison R Yung, Luis Alameda, Celso Arango, Owen Borders, Sylvain Bouix, Nicholas J K Breitborde, Matthew R Broome, Kristin S Cadenhead, Rolando I Castillo-Passi, Eric Yu Hai Chen, Jimmy Choi, Michael J Coleman, Philippe Conus, Covadonga M Diaz-Caneja, ... ...
+date: "2025-01-00"
+categories: [AMP SCZ, assessments, clinical high risk, clinical outcomes, community controls, psychosis]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: This paper focuses on the baseline clinical characterization of the participants in the Accelerating Medicines Partnership Schizophrenia (AMP SCZ) program. The AMP SCZ program is designed to investigate a wide array of clinical variables and biomarkers in a total of 2040 clinical high-risk (CHR) participants and 652 community control (CC) participants.
+
+METHODS: The dataset analyzed includes 1642 individuals at clinical high risk for psychosis and 519 CCs. Key measures include the Positive Symptoms and Diagnostic Criteria for the Comprehensive Assessment of At-Risk Mental States Harmonized with the Structured Interview for Psychosis-Risk Syndromes, which determined CHR criteria and the severity of attenuated psychotic symptoms (APS). Other measures included the Structured Clinical Interview for DSM-5, scales to assess negative symptoms, depression, suicidal ideation, substance use, social and role functioning, and a selection of patient-reported outcomes.
+
+RESULTS: CHR participants presented with more severe ratings on all clinical measures and poorer functioning relative to the CC. There were a few significant small associations between measures of APS and other clinical measures.
+
+CONCLUSION: The results from this study support previous research indicating that CHR individuals face serious clinical challenges beyond the risk of developing psychosis. Findings indicate significant associations among various clinical measures, underscoring the complex nature of the CHR population. Limitations are acknowledged, including the preliminary nature of the data and the need for more in-depth analyses from AMP SCZ papers already in progress. Future work will focus on longitudinal data and further exploration of clinical variables and their relationship with biomarkers.
+        

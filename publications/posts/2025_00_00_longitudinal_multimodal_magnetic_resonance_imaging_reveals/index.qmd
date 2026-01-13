@@ -1,0 +1,17 @@
+---
+title: "Longitudinal Multimodal Magnetic Resonance Imaging Reveals Improvement in Verbal Fluency Over Time in Moderate-to-Severe Traumatic Brain Injury"
+description: "PMID: [40918995](https://pubmed.ncbi.nlm.nih.gov/40918995/){target='_blank'}    DOI: [10.1089/neur.2024.0149](https://doi.org/10.1089/neur.2024.0149){target='_blank'}"
+author: Ana Luiza Zaninotto, Fabiola Macruz, Fabricio S Feltrin, Celi S Andrade, Claudia C Leite, Vinicius Monteiro de Paula Guirado, Wellingson S Paiva, Sylvain Bouix
+date: "2025-00-00"
+categories: [cognition, diffuse axonal injury, language, magnetic resonance imaging, tractography, traumatic brain injury, verbal fluency]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Most individuals with moderate-to-severe diffuse axonal injury (DAI) have impaired verbal fluency (VF) capacity. Still, the relationship between brain and VF recovery post-DAI has remained mostly unknown. The aim was to assess brain changes in 13 cortical thickness regions of interest (ROIs), fractional anisotropy (FA), and free water (FW) in three language-related tracts; the VF performance at 6 and 12 months after the DAI; and whether brain changes from 3 to 6 months predict VF performance from 6- to 12-month post-DAI. Twenty-one adults with moderate and severe DAI were analyzed. Structural and diffusion data were acquired on a 3T system 3 and 6 months after the injury. The differences in cortical thickness, FA, and FW values over time were analyzed as factors for the phonemic and semantic VF scores between the 6th and 12th months following the DAI. All analyses were corrected for multiple comparisons. Cortical thickness increased over time in 7 of the 13 ROIs in the right hemisphere and 5 of the 13 ROIs in the left hemisphere. There was an increase in FA in the right arcuate fasciculus and the inferior longitudinal fasciculus over time. An increase in phonemic VF scores was detected between 6 and 12 months post-traumatic brain injury, but not in semantic VF scores over time. Cortical thickness changes in the left posterior inferior frontal pars opercularis and left anterior superior temporal sulcus from 3 to 6 months were associated with improved phonemic VF scores over time. There was no association between diffusion magnetic resonance imaging metrics and VF scores. Our findings suggest that brain plasticity plays a significant role in the initial year following traumatic brain injury, as evidenced by increased cortical thickness and white matter integrity. Improved VF is associated with increased thickness in cortical motor regions responsible for speech performance. However, a larger sample size is needed to confirm these findings.(c) The Author(s) 2025. Published by Mary Ann Liebert, Inc.
+        

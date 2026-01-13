@@ -1,0 +1,23 @@
+---
+title: "Sample Ascertainment and Recruitment Sources in the Accelerating Medicines Partnership Schizophrenia Program"
+description: "PMID: [40861306](https://pubmed.ncbi.nlm.nih.gov/40861306/){target='_blank'}    DOI: [10.1093/schizbullopen/sgaf013](https://doi.org/10.1093/schizbullopen/sgaf013){target='_blank'}"
+author: Jean Addington, Amy Shalev, Lu Liu, Cari Jahraus, Monica Chu, Emily Farina, Paolo Fusar Poli, Patricia J Marcy, Angela R Nunez, Monica E Calkins, Luis Alameda, Celso Arango, Owen Borders, Sylvain Bouix, Nicholas J K Breitborde, Matthew R Broome, Kristin S Cadenhead, Ricardo E Carrion, Rolando I Castillo-Passi, Eric Yu Hai Chen, Jimmy Choi, Michael J Coleman, Philippe Conus, Cheryl M Corcoran, Covadonga M Diaz-Caneja, ... ...
+date: "2025-01-00"
+categories: [AMP SCZ, ascertainment, clinical high risk, community controls, psychosis, recruitment]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND: This paper presents the recruitment sources of clinical high-risk (CHR) and community controls (CC) from the Accelerating Medicines Partnership Schizophrenia (AMP SCZ) program, which aims to study various clinical variables and biomarkers in 2040 CHR and 652 CC participants.
+
+METHODS: A total of 1640 CHR and 514 CC had recruitment source data. The Positive Symptoms and Diagnostic Criteria for the Comprehensive Assessment of At-Risk Mental States Harmonized with the SIPS was utilized to assess CHR criteria and severity of attenuated psychotic symptoms (APSs), and the Global Functioning: Social Scale was used for social functioning. Participants were recruited through various methods, including referrals from healthcare providers, schools, and community agencies, and self-referrals via outreach efforts and advertising.
+
+RESULTS: Participants were recruited from 13 different sources, with self-referral being the most common for both CHR and CC. Other notable sources included child and youth services and psychiatric hospitals and departments. Regional differences in recruitment patterns were observed across continents. Differences in age, APS, and social functioning for CHR participants were examined in the top 5 recruitment sources. Overall, self-referred individuals were typically older, with less severe APS and higher levels of functioning, whereas those from adult community mental health services had poorer functioning and more severe APS. The remaining recruitment groups fell between these 2 extremes.
+
+CONCLUSION: This paper highlights the diverse recruitment sources for the AMP SCZ program. Self-referral was a significant source, particularly in North America, reflecting changing help-seeking behaviors influenced by the internet and social media. The findings underscore the importance of understanding recruitment sources to optimize future CHR research.
+        

@@ -1,0 +1,17 @@
+---
+title: "Collecting language, speech acoustics, and facial expression to predict psychosis and other clinical outcomes: strategies from the AMP(r) SCZ initiative"
+description: "PMID: [41093845](https://pubmed.ncbi.nlm.nih.gov/41093845/){target='_blank'}    DOI: [10.1038/s41537-025-00669-z](https://doi.org/10.1038/s41537-025-00669-z){target='_blank'}"
+author: Zarina R Bilgrami, Eduardo Castro, Carla Agurto, Einat Liebenthal, Michaela Ennis, Justin T Baker, Isabelle Scott, Beau-Luke Colton, Kang Ik K Cho, Linying Li, Zailyn Tamayo, Mara Henecks, Habiballah Rahimi Eichi, Tae'lar Henry, Jean Addington, Luis K Alameda, Celso Arango, Nicholas J K Breitborde, Matthew R Broome, Kristin S Cadenhead, Monica E Calkins, Eric Yu Hai Chen, Jimmy Choi, Philippe Conus, Barbara A Cornblatt, ... ...
+date: "2025-10-15"
+categories: [Accelerating Medicines Partnership, rapid pace, reflect early psychosis, Speech-based detection, early psychosis]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Speech-based detection of early psychosis is progressing at a rapid pace. Within this evolving field, the Accelerating Medicines Partnership(r) in Schizophrenia (AMP(r) SCZ) is uniquely positioned to deepen our understanding of how language and related behaviors reflect early psychosis. We begin with detailed standard operating procedures (SOPs) that govern every stage of collection. These SOPs specify how to elicit speech, capture facial expressions, and record acoustics in synchronized audio-video files-both on-site and through remote platforms. We then explain how we chose our sampling tasks, hardware, and software, and how we built streamlined pipelines for data acquisition, aggregation, and processing. Robust quality-assurance and quality-control (QA/QC) routines, along with standardized interviewer training and certification, ensure data integrity across sites. Using natural language processing parsers, large language models, and machine-learning classifiers, we analyzed Data Release 3.0 to uncover systematic grammatical markers of psychosis risk. Speakers at clinical high risk (CHR) produced more referential language but fewer adjectives, adverbs, and nouns than community controls (CC), a pattern that replicated across sampling tasks. Some effects were task-specific: CHR participants showed elevated use of complex syntactic embeddings in two elicitation conditions but not the third, underscoring the importance of the language sampling task. Together, these results demonstrate how computational linguistics can turn everyday speech into a scalable, objective biomarker, paving the way for earlier and more precise detection of psychosis.Video Link: https://vimeo.com/1112291965?fl=pl&fe=sh.(c) 2025. The Author(s).
+        
