@@ -1,0 +1,28 @@
+---
+title: "Presentation of the article: Assessing the impact of virtual reality on surgeons’ mental models of complex congenital heart cases"
+description: "DOI: [10.1007/s11548-025-03542-7](https://doi.org/10.1007/s11548-025-03542-7){target='_blank'}"
+author: Tina Nantenaina
+date: "2025-12-03"
+categories: [cyberpsychology, medical education, virtual and augmented reality]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Purpose:
+Virtual reality (VR) has attracted attention in healthcare for many promising applications including pre-surgical planning. Currently, there exists a critical gap in comprehension of the impact of VR on physicians’ thinking. Self-reported data from surveys and metrics based on confidence and task completion may not yield sufficiently detailed understanding of the complex decision making and cognitive load experienced by surgeons during VR-based pre-surgical planning.
+
+Methods:
+Our research aims to address the gap in understanding the impact of VR on physicians’ mental models through a novel methodology of self-directed think-aloud protocols, offering deeper perspectives into physicians’ thought processes within the virtual 3D environment. We performed qualitative analysis of recorded verbalizations and actions in VR in addition to quantitative measures from the NASA task load index (NASA-TLX). Analysis was conducted to identify thematic sequences in VR which influenced clinical decision making when reviewing patient anatomy.
+
+Results:
+We find a significant increase in reported physician confidence in understanding of the patient anatomy from before VR to after (p = 0.012) and identified several common patterns of 3D exploration of the anatomy in VR. Physicians also reported low cognitive stress on the NASA-TLX.
+
+Conclusion:
+Our findings indicate VR has value beyond simulating surgery, helping physicians to confirm findings from conventional medical imaging, visualize approaches with detail, and help make complex decisions while mentally preparing for surgery. These findings provide evidence that VR and related 3D visualization are helpful for pre-surgical planning of complex cases.
+
+![](../../../journalclub/pdfs/2025_12_03_Tina_Impact_VR _surgeon_mental_models.pdf){width=100% height=400}
