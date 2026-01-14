@@ -1,0 +1,16 @@
+---
+title: "**Susceptibility Distortion Correction of Diffusion MRI with a single Phase-Encoding Direction**"
+description: "DOI: [10.48550/arXiv.2508.13340](https://doi.org/10.48550/arXiv.2508.13340){target='_blank'}"
+author: Sedigheh Dargahi, Sylvain Bouix, Christian Desrosiers
+date: "2025-08-18"
+categories: [diffusion mri, susceptibility distortions, deep learning]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Diffusion MRI (dMRI) is a valuable tool to map brain microstructure and connectivity by analyzing water molecule diffusion in tissue. However, acquiring dMRI data requires to capture multiple 3D brain volumes in a short time, often leading to trade-offs in image quality. One challenging artifact is susceptibility-induced distortion, which introduces significant geometric and intensity deformations. Traditional correction methods, such as topup, rely on having access to blip-up and blip-down image pairs, limiting their applicability to retrospective data acquired with a single phase encoding direction. In this work, we propose a deep learning-based approach to correct susceptibility distortions using only a single acquisition (either blip-up or blip-down), eliminating the need for paired acquisitions. Experimental results show that our method achieves performance comparable to topup, demonstrating its potential as an efficient and practical alternative for susceptibility distortion correction in dMRI.

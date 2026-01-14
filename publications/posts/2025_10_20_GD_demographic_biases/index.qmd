@@ -1,0 +1,17 @@
+---
+title: "**Investigating Demographic Bias in Brain MRI Segmentation: A Comparative Study of Deep-Learning and Non-Deep-Learning Methods**"
+description: "DOI: [10.48550/arXiv.2510.17999](https://doi.org/10.48550/arXiv.2510.17999){target='_blank'}"
+author: Ghazal Danaee, Marc Niethammer, Jarrett Rushmore, Sylvain Bouix
+date: "2025-10-20"
+categories: [bias, fairness, deep learning, multi-atlas label fusion segmentation, brain mri]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+Deep-learning-based segmentation algorithms have substantially advanced the field of medical image analysis, particularly in structural delineations in MRIs. However, an important consideration is the intrinsic bias in the data. Concerns about unfairness, such as performance disparities based on sensitive attributes like race and sex, are increasingly urgent. In this work, we evaluate the results of three different segmentation models (UNesT, nnU-Net, and CoTr) and a traditional atlas-based method (ANTs), applied to segment the left and right nucleus accumbens (NAc) in MRI images. We utilize a dataset including four demographic subgroups: black female, black male, white female, and white male. We employ manually labeled gold-standard segmentations to train and test segmentation models. This study consists of two parts: the first assesses the segmentation performance of models, while the second measures the volumes they produce to evaluate the effects of race, sex, and their interaction. Fairness is quantitatively measured using a metric designed to quantify fairness in segmentation performance. Additionally, linear mixed models analyze the impact of demographic variables on segmentation accuracy and derived volumes. Training on the same race as the test subjects leads to significantly better segmentation accuracy for some models. ANTs and UNesT show notable improvements in segmentation accuracy when trained and tested on race-matched data, unlike nnU-Net, which demonstrates robust performance independent of demographic matching. Finally, we examine sex and race effects on the volume of the NAc using segmentations from the manual rater and from our biased models. Results reveal that the sex effects observed with manual segmentation can also be observed with biased models, whereas the race effects disappear in all but one model. 
+        
