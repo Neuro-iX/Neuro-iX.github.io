@@ -1,0 +1,18 @@
+---
+title: "Presentation of Transductive Zero-Shot & Few-Shot Adaptation of Large Medical Vision Language Models"
+description: "DOI: [10.1007/978-3-031-72390-2_52](https://doi.org/10.1007/978-3-031-72390-2_52){target='_blank'}"
+author: Fereshteh Shakeri
+date: "2026-01-14"
+categories: [computer vision, language change, machine translation, machine learning, ophthalmology, predictive medicine]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Integrating image and text data through multi-modal learning has emerged as a new approach in medical imaging research, following its successful deployment in computer vision. While considerable efforts have been dedicated to establishing medical foundation models and their zero-shot transfer to downstream tasks, the popular few-shot setting remains relatively unexplored. Following on from the currently strong emergence of this setting in computer vision, we introduce the first structured benchmark for adapting medical vision-language models (VLMs) in a strict few-shot regime and investigate various adaptation strategies commonly used in the context of natural images. Furthermore, we evaluate a simple generalization of the linear-probe adaptation baseline, which seeks an optimal blending of the visual prototypes and text embeddings via learnable class-wise multipliers. Surprisingly, such a text-informed linear probe yields competitive performances in comparison to convoluted prompt-learning and adapter-based strategies, while running considerably faster and accommodating the black-box setting. Our extensive experiments span three different medical modalities and specialized foundation models, nine downstream tasks, and several state-of-the-art few-shot adaptation methods. We made our benchmark and code publicly available to trigger further developments in this emergent subject: https://github.com/FereshteShakeri/few-shot-MedVLMs.
+
+![](../../../journalclub/pdfs/2026_01_14_Fereshteh_ZeroShot_FewShot_MVLMs.pdf){width=100% height=400}
