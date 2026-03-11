@@ -1,6 +1,6 @@
 ---
 title: Prospective Students
-pagetitle: "Contact"
+pagetitle: "Prospective Students"
 jupyter: python3
 ---
 
