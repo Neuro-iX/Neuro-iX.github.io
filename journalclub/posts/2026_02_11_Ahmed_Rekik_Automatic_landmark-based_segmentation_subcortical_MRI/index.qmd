@@ -1,0 +1,20 @@
+---
+title: "Presentation of his paper: Automatic Landmark‑Based Segmentation of Human Subcortical Structures in MRI"
+description: "Submission: [EMBC2026](https://embc.embs.org/2026/){target='_blank'}"
+author: Ahmed Rekik
+date: "2026-02-11"
+categories: [landmark-based segmenation, atlas, deep learning]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Accurate segmentation of subcortical structures in MRI is essential for neuroimaging and clinical assessment. Manual segmentation is the gold standard for brain segmentation and parcellation, but it is time-consuming and hard to scale. Manual annotation follows neuroanatomical protocols to ensure consistency across experts and datasets. A neuroanatomical protocol defines standardized operational rules to delineate brain structures. Harvard–Oxford Atlas 2.0 (HOA2.0) consists of a new detailed manual segmentation
+protocol. Our goal is to develop a deeplearning-based segmentation tool, with beyond voxel-wise accuracy, folowing latter neuro-anatomical protocol rules, based on landmarks positioning.
+
+
+![](../../../journalclub/pdfs/2026_02_11_Ahmed_Rekik_Automatic_landmark-based_segmentation_subcortical_MRI.pdf){width=100% height=400}

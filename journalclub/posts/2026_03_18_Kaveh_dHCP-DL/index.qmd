@@ -1,0 +1,18 @@
+---
+title: "Presentation of the article: The Developing Human Connectome Project: A fast deep learning-based pipeline for neonatal cortical surface reconstruction"
+description: "DOI: [10.1016/j.media.2024.103394](https://doi.org/10.1016/j.media.2024.103394){target='_blank'}"
+author: Kaveh Moradkhani
+date: "2026-03-18"
+categories: [neuroimage pipeline, deep learning, neonatal brain mri, cortical surface reconstruction]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+The Developing Human Connectome Project (dHCP) aims to explore developmental patterns of the human brain during the perinatal period. An automated processing pipeline has been developed to extract high-quality cortical surfaces from structural brain magnetic resonance (MR) images for the dHCP neonatal dataset. However, the current implementation of the pipeline requires more than 6.5 h to process a single MRI scan, making it expensive for large-scale neuroimaging studies. In this paper, we propose a fast deep learning (DL) based pipeline for dHCP neonatal cortical surface reconstruction, incorporating DL-based brain extraction, cortical surface reconstruction and spherical projection, as well as GPU-accelerated cortical surface inflation and cortical feature estimation. We introduce a multiscale deformation network to learn diffeomorphic cortical surface reconstruction end-to-end from T2-weighted brain MRI. A fast unsupervised spherical mapping approach is integrated to minimize metric distortions between cortical surfaces and projected spheres. The entire workflow of our DL-based dHCP pipeline completes within only 24 s on a modern GPU, which is nearly 1000 times faster than the original dHCP pipeline. The qualitative assessment demonstrates that for 82.5% of the test samples, the cortical surfaces reconstructed by our DL-based pipeline achieve superior (54.2%) or equal (28.3%) surface quality compared to the original dHCP pipeline.
+
+![](../../../journalclub/pdfs/2026_03_18_Kaveh_dHCP-DL.pdf){width=100% height=400}
