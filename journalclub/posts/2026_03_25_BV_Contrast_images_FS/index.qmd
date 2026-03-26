@@ -1,0 +1,18 @@
+---
+title: "Presentation of the article: Contrast input and manual interventions significantly affect FreeSurfer morphometry and clinical correlations"
+description: "DOI: [10.1016/j.neuroimage.2026.121831](https://doi.org/10.1016/j.neuroimage.2026.121831){target='_blank'}"
+author: Benoît Verreman
+date: "2026-03-25"
+categories: [neuroimage pipeline, freesurfer, contrast image, cortical surface reconstruction]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+FreeSurfer is a widely used software for quantification of brain morphometrics in studies of neurodegeneration and aging. However, choice of input MRI contrast(s) and manual editing are variable across studies and their influence on clinically relevant outcomes remains unclear. Using non-demented, older-aged participant data from the Carotid and Mind study (CAM; N = 123) and Alzheimer’s Disease Neuroimaging Initiative (ADNI, N = 143), FreeSurfer morphometrics from T1-MPRAGE, T1+T2-FLAIR, and T1+T2-SPACE were assessed with and without manual edits. In CAM and ADNI cohorts, input contrast significantly affected cortical thickness, surface area, and volume estimates across lobar regions. T1+T2-SPACE and T1+T2-FLAIR consistently produced greater cortical thickness estimates and smaller surface areas than T1-MPRAGE alone. These systematic differences altered the detection of expected age- and smoking-related associations to cortical thickness. Expert ratings indicated that T1-MPRAGE produced the highest baseline segmentation quality, while manual editing reliably improved this quality and reduced contrast-related morphometric biases across contrast types. These results suggest that choice of input contrast may introduce non-biological variation into FreeSurfer morphometrics, with T1-MPRAGE alone and manual editing yielding the most reliable outcomes. This indicates that careful consideration and reporting of post-processing protocols is critical for reproducibility and interpretation of morphometric outcomes across cohorts.
+
+![](../../../journalclub/pdfs/2026_03_25_BV_Contrast_images_FS.pdf){width=100% height=400}
