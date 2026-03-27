@@ -1,0 +1,18 @@
+---
+title: "Presentation of the tool MedAbstain"
+description: "DOI: [10.48550/arXiv.2601.12471](https://doi.org/10.48550/arXiv.2601.12471){target='_blank'}"
+author: Ayoub Sassi
+date: "2026-03-11"
+categories: [llm, uncertainty bench, clinical uncertainty]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+
+Current evaluation of large language models (LLMs) overwhelmingly prioritizes accuracy; however, in real-world and safety-critical applications, the ability to abstain when uncertain is equally vital for trustworthy deployment. We introduce MedAbstain, a unified benchmark and evaluation protocol for abstention in medical multiple-choice question answering (MCQA) -- a discrete-choice setting that generalizes to agentic action selection -- integrating conformal prediction, adversarial question perturbations, and explicit abstention options. Our systematic evaluation of both open- and closed-source LLMs reveals that even state-of-the-art, high-accuracy models often fail to abstain with uncertain. Notably, providing explicit abstention options consistently increases model uncertainty and safer abstention, far more than input perturbations, while scaling model size or advanced prompting brings little improvement. These findings highlight the central role of abstention mechanisms for trustworthy LLM deployment and offer practical guidance for improving safety in high-stakes applications. 
+
+![](../../../journalclub/pdfs/2026_03_11_MedAbstain_AS.pdf){width=100% height=400}
