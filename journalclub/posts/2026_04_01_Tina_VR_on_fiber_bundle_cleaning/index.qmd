@@ -1,0 +1,18 @@
+---
+title: "Experimental study of the impact of virtual reality on fiber bundle cleaning and annotation"
+description: "Presentation only"
+author: Tina Nantenaina
+date: "2026-04-01"
+categories: [virtual reality, fiber cleaning, experimental study]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+dMRI tractography reconstructs 3D white-matter pathways. Automated bundle extraction remains imperfect and may include
+erroneous or missing fibers. Manual curation of fiber bundles is often required to improve anatomical accuracy. On a desktop display : this task is time-consuming and spatially demanding. This experimental study aims to compare VR and desktop for manual cleaning of fiber images in order to assess task efficiency, cleaning accuracy, reproducibility, and user satisfaction.
+
+![](../../../journalclub/pdfs/2026_04_01_Tina_Tractography VR.pdf){width=100% height=400}
