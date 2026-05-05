@@ -1,0 +1,23 @@
+---
+title: "Imaging the later-life white matter pathologies of repetitive head impacts: A novel pattern revealed through T2 FLAIR MRI"
+description: "PMID: [42002804](https://pubmed.ncbi.nlm.nih.gov/42002804/){target='_blank'}    DOI: [10.1002/alz.71351](https://doi.org/10.1002/alz.71351){target='_blank'}"
+author: Jenna R Groh, Annalise E Miner, Mohamad J Alshikho, Chad Farris, Anna Cui, Erika Pettway, Jacob Labonte, Sydney Mosaheb, Yorghos Tripodis, Charles H Adler, Laura J Balcer, Charles Bernick, Robert C Cantu, Michael J Coleman, David W Dodick, Nicholas J Ashton, Henrik Zetterberg, Kaj Blennow, Elaine R Peskind, Christopher Nowinski, Monica Ly, Caroline Altaras, Steven Lenio, Gil D Rabinovici, Breton Asken, ... ...
+date: "2026-04-00"
+categories: [CTE, head injury, repetitive head impacts, sports, white matter injury]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+INTRODUCTION: Repetitive head impacts (RHI) from contact sports may cause a unique pattern of white matter hyperintensities (WMH) on T2-weighted fluid-attenuated inversion recovery (FLAIR) magnetic resonance imaging (MRI), termed RHI-associated WMH (RHI-WMH). These lesions are punctate, circular, and located at the gray-white matter boundary, an area vulnerable to trauma-related damage.
+
+METHODS: We investigated the association of RHI with these lesions in two aging cohorts: (1) former American football players versus asymptomatic unexposed men and (2) individuals with RHI from various contact sports versus non-RHI participants. RHI-WMH were assessed using visual ratings and a novel automated quantification pipeline.
+
+RESULTS: Individuals with RHI had greater RHI-WMH by both detection methods in both cohorts. RHI-WMH were associated with plasma neurofilament light and p-tau231, and flortaucipir positron emission tomography (PET) uptake.
+
+DISCUSSION: RHI-WMH may represent a new supportive biomarker for the detection of RHI-related neuropathologies later in life.
+        

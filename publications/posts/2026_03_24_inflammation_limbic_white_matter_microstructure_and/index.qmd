@@ -1,0 +1,23 @@
+---
+title: "Inflammation, Limbic White Matter Microstructure, and Clinical Symptoms in Retired American Football Players With Repetitive Head Impacts"
+description: "PMID: [41740080](https://pubmed.ncbi.nlm.nih.gov/41740080/){target='_blank'}    DOI: [10.1212/WNL.0000000000214646](https://doi.org/10.1212/WNL.0000000000214646){target='_blank'}"
+author: Olivia M Emanuel, Annalise E Miner, Shannon Y Lee, Emily F Matusz, Jared J Tanner, Michael Marsiske, Allison Holgerson, Monica T Ly, Fatima Tuz-Zahra, Yorghos Tripodis, Charles H Adler, Laura J Balcer, Charles Bernick, Henrik Zetterberg, Kaj Blennow, Nicholas J Ashton, Elaine R Peskind, Sarah J Banks, William B Barr, Jennifer Voreis Wethe, Robert C Cantu, Michael J Coleman, David W Dodick, Michael D McClean, Jesse Mez, ... ...
+date: "2026-03-24"
+categories: [repetitive head impact, football players, later-life cognitive decline, football, CSF inflammatory biomarkers]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+BACKGROUND AND OBJECTIVES: The link between repetitive head impact (RHI) exposure, later-life cognitive decline, and neurobehavioral dysregulation (NBD) is not well understood. Recent work has implicated inflammation and limbic dysfunction as relevant RHI correlates. Our goal was to integrate plasma and CSF inflammatory biomarkers, structural brain imaging, and clinical measures in former elite American football players to better understand reasons for RHI-related cognitive and neurobehavioral changes.
+
+METHODS: Participants were from the Diagnostics, Imaging, and Genetics Network for the Objective Study and Evaluation of Chronic Traumatic Encephalopathy Research Project, which recruited male former college/professional football players with RHI and asymptomatic unexposed (UE) controls with no history of contact sports, military combat, or traumatic brain injury/concussion. Our study focused on plasma/CSF inflammatory biomarkers (interleukin [IL]-6, tumor necrosis factor [TNF]-a, glial fibrillary acidic protein), limbic white matter (WM) microstructure (diffusion tensor imaging: fractional anisotropy [FA], mean diffusivity [MD]), and clinical measures (memory, executive function, NBD). Hierarchical linear regressions assessed change in variance explained (DR2) among inflammation, WM, and clinical outcomes in former football players. Post hoc analyses tested whether associations differed by group (football vs UE; group interactions) or were stronger in football players considered at highest risk of CTE.
+
+RESULTS: Our sample included 223 men (n = 170 football players: age 57.2 +- 8.1 years, 33% non-Hispanic/Black; n = 53 UE participants: age 59.4 +- 8.6 years, 34% non-Hispanic/Black). In football players, higher inflammation was associated with lower limbic FA (plasma IL-6: DR2 = 0.03 [0.001-0.09], p = 0.03; CSF IL-6: DR2 = 0.03 [-0.01 to 0.11], p = 0.03; plasma TNF-a: DR2 = 0.05 [0.01-0.11], p = 0.003) and higher limbic MD (CSF IL-6: DR2 = 0.06 [0.007-0.15], p = 0.01). Inflammation was more strongly related to limbic WM microstructure in football players than in UE participants. Worse WM microstructure was associated with worse memory in football players (FA: DR2 = 0.05 [0.003-0.14], p = 0.007; MD: DR2 = 0.07, p = 0.003 [0.008-0.16]). Most of the observed associations were stronger in the CTE probable subgroup. There were no direct associations between plasma or CSF markers of inflammation and cognition.
+
+DISCUSSION: In former elite football players, elevated plasma and CSF inflammatory markers were associated with poorer limbic WM microstructure, which in turn related to worse cognition. Given the limbic system's role in cognition and behavior, inflammation may be a modifiable target for RHI-related neurodegeneration. Limitations include the cross-sectional design and limited generalizability to other contact sports, lower levels of play, female athletes, or other RHI sources.
+        

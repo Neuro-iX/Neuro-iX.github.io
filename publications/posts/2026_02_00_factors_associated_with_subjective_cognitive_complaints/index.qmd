@@ -1,0 +1,23 @@
+---
+title: "Factors associated with subjective cognitive complaints in former American football players"
+description: "PMID: [41738687](https://pubmed.ncbi.nlm.nih.gov/41738687/){target='_blank'}    DOI: [10.1017/S1355617726101866](https://doi.org/10.1017/S1355617726101866){target='_blank'}"
+author: Jennifer S Adler, Monica T Ly, Eukyung Yhang, Yorghos Tripodis, Charles H Adler, Laura J Balcer, Charles Bernick, Nicholas Ashton, Henrik Zetterberg, Kaj Blennow, Elaine Peskind, Sarah J Banks, William B Barr, Jennifer V Wethe, Mark W Bondi, Lisa Delano-Wood, Robert C Cantu, Michael J Coleman, David W Dodick, Daniel H Daneshvar, Michael D McClean, Jesse Mez, Joseph N Palmisano, Brett Martin, Alexander P Lin, ... ...
+date: "2026-02-00"
+categories: [Alzheimer’s disease, cerebrospinal fluid, chronic traumatic encephalopathy, cognition, neuropsychological testing, repetitive head impact]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+
+OBJECTIVE: Subjective cognitive complaints (SCC) can precede cognitive decline and are associated with demographic, exposure, lifestyle, and psychological factors. Prevalences of SCC and their correlates in individuals with repetitive head impacts (RHI) are poorly understood. This study characterized SCC in former elite American football players by frequency, mood and behavioral correlates, concordance with informant reports, and associations with neuropsychological test performance, cerebrospinal fluid (CSF), and magnetic resonance imaging (MRI) markers of neurodegeneration.
+
+METHOD: Former American football players (n = 180) completed measures of global and domain-specific SCC, neuropsychiatric symptom questionnaires, neuropsychological testing, lumbar puncture, and MRI. Elastic net regression evaluated the relative importance of potential SCC correlates. Intraclass correlation coefficients measured concordance between self and informant reports. Multiple linear regressions tested associations between SCC and verbal memory and executive functioning scores. CSF Ab1-42, p-tau181, t-tau, neurofilament light (NfL), hippocampal volume, and regional cortical thickness were examined for their potential associations with SCC.
+
+RESULTS: Rates of SCC ranged from 43 to 77% depending on the domain. Symptoms of depression, impulsivity, and anxiety were strongly associated with SCC. Self- and informant-reported SCC showed moderate inter-rater agreement. Adjusting for age, race, education, APOE 4 carrier status, and depressive symptoms, SCC were associated with lower objective verbal memory and executive functioning performance. SCC were associated with lower parahippocampal cortical thickness but not with hippocampal volume or any of the measured CSF tests.
+
+CONCLUSIONS: SCC are strongly associated with neuropsychiatric factors in former American football players. SCC may also be a marker of cognitive decline and neurodegeneration.
+        
