@@ -80,6 +80,25 @@ Generative AI, Computer Vision, Medical Imaging, Neuroimaging
 :::
 
 
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+![](../images/people_faces/GD_round.png){width=200}
+
+[Ghazal Danaee](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
+
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:ghazal.danaei99@gmail.com){target="_blank"} 
+[{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Ghazal-Danaei){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
+
+Graduate Researcher, M.S.
+
+Department of Software and IT Engineering, ETS, Montréal
+
+Image processing, Deep learning, Medical image processing, Artificial intelligence
+:::
+
 ::::
 
 ----
@@ -215,25 +234,6 @@ Research assistant
 Department of Software and IT Engineering, ETS, Montréal
 
 Medical Imaging, Neuroimaging, Anatomical and Diffusion MRI, Virtual Reality
-:::
-
-::: {.column width="10%"}
-:::
-
-::: {.column width="45%"}
-![](../images/people_faces/GD_round.png){width=200}
-
-[Ghazal Danaee](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
-
-[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:ghazal.danaei99@gmail.com){target="_blank"} 
-[{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/Ghazal-Danaei){target="_blank"} 
-[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/ghazal-danaei-7aa579193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app){target="_blank"} 
-
-Graduate Researcher, M.S.
-
-Department of Software and IT Engineering, ETS, Montréal
-
-Image processing, Deep learning, Medical image processing, Artificial intelligence
 :::
 
 ::::
