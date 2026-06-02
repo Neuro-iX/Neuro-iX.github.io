@@ -191,6 +191,32 @@ Medical Imaging, Neuroimaging, Deep Learning, Computer Vision
 
 ::::
 
+
+----
+
+[**Internship students**]{.text-style-1}
+
+:::: {.columns}
+
+::: {.column width="45%"}
+![](../images/people_faces/EK_round.png){width=200}
+
+[Dowoo Kim](https://github.com/dk1028){target="_blank"} 
+<!--https://jpswalsh.github.io/academicons/-->
+
+[{{< bi envelope size=1em color=cornflowerblue label="Thumbs up" >}}](mailto:dowoo.kim@mail.mcgill.ca){target="_blank"} 
+[{{< bi github size=1em color=cornflowerblue label="Thumbs up" >}}](https://github.com/dk1028){target="_blank"} 
+[{{< bi linkedin size=1em color=cornflowerblue label="Thumbs up" >}}](https://www.linkedin.com/in/dowoo-kim-805998250/){target="_blank"} 
+
+Internship, B.S.
+
+Department of Software and IT Engineering, ETS, Montréal
+
+Statistics, Medical Imaging, Bayesian Inference, Deep Learning, Computer Vision, Numerical Analysis
+:::
+
+::::
+
 ----
 
 [**Alumni**]{.text-style-1}

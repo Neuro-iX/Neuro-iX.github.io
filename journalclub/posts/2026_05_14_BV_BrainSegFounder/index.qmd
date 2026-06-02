@@ -1,0 +1,26 @@
+---
+title: "BrainSegFounder: Towards 3D foundation models for neuroimage segmentation"
+description: "DOI: [10.1016/j.media.2024.103301](https://doi.org/10.1016/j.media.2024.103301){target='_blank'}"
+author: Benoît Verreman
+date: "2026-05-14"
+categories: [3d foundation model, self-supervised learning, brain tumor segmentation, multi-modal MRI]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+The burgeoning field of brain health research increasingly leverages artificial intelligence (AI) to analyze and interpret neuroimaging data. Medical foundation models have shown
+promise of superior performance with better sample efficiency. This work introduces a novel approach towards creating 3-dimensional (3D) medical foundation models for multimodal
+neuroimage segmentation through self-supervised training. Our approach involves a novel two-stage pretraining approach using vision transformers. The first stage encodes anatomical structures
+in generally healthy brains from the large-scale unlabeled neuroimage dataset of multimodal brain magnetic resonance imaging (MRI) images from 41,400 participants. This stage of pertaining focuses on identifying key features such as shapes and sizes of different brain structures. The second pretraining stage identifies disease-specific attributes, such as geometric shapes of tumors
+and lesions and spatial placements within the brain. This dual-phase methodology significantly reduces the extensive data requirements usually necessary for AI model training in neuroimage
+segmentation with the flexibility to adapt to various imaging modalities. We rigorously evaluate our model, BrainSegFounder, using the Brain Tumor Segmentation (BraTS) challenge and
+Anatomical Tracings of Lesions After Stroke v2.0 (ATLAS v2.0) datasets. BrainSegFounder demonstrates a significant performance gain, surpassing the achievements of the previous winning
+solutions using fully supervised learning. Our findings underscore the impact of scaling up both the model complexity and the volume of unlabeled training data derived from generally healthy
+brains. Both of these factors enhance the accuracy and predictive capabilities of the model in neuroimage segmentation tasks. Our pretrained models and code are at https://github.com/lab-
+smile/BrainSegFounder.
+
+![](../../../journalclub/pdfs/2026_05_14_BV_BrainSegFounder.pdf){width=100% height=400}
