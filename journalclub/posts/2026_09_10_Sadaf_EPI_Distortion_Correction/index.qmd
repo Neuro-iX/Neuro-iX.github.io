@@ -1,0 +1,17 @@
+---
+title: "EPI Distortion Correction without Opposite Phase Encodings with Unsupervised INR-Based Deformable Registration"
+description: "[Openreview](https://openreview.net/forum?id=xrISwrfA0Y){target='_blank'}"
+author: Sedigheh Dargahi
+date: "2026-09-10"
+categories: [intermodal registration, implicit neural representation, susceptibility distortion correction]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the article:
+ Diffusion MRIs (dMRIs) provide a detailed look at the structure of the brain, but the acquired images come with many distortions. Echo planar imaging (EPI) sequences, nearly universal for dMRIs, are highly sensitive to inhomogeneities of the magnetic field in the scanner. This results in severe geometric distortion (up to tens of millimeters) in the phase encoding direction, particularly in areas with strong changes in tissue density such as the brainstem, temporal, and frontal regions. A common method for correcting EPI distortion is to collect an image with the opposite phase encoding (PE) direction and reconstruct the magnetic susceptibility field. However, many dMRI protocols, some still in use today, do not include this auxiliary acquisition. Other methods have attempted to register the distorted EPI to an anatomical reference, with less accurate results. In this work, we propose EPINR, an unsupervised implicit neural representation (INR) based registration model that builds on these previous works. EPINR learns the susceptibility field by warping a single b0 image to a T1w reference, without opposite PE acquisitions. EPINR also leverages its smooth and continuous representation to apply higher-order regularizations calculated analytically. We evaluate EPINR against several comparison methods, both traditional and learning-based, over two dMRI datasets. We perform further ablation analyses on the effect of different components in EPINR. Finally, we discuss the reasons for EPINR’s high performance, and how it can bring structural precision to previously compromised diffusion images. 
+
+![](../../../journalclub/pdfs/2026_09_10_Sadaf_EPI_Distortion_Correction_INR-Based_Deformable_Registration.pdf){width=100% height=400}

@@ -1,0 +1,17 @@
+---
+title: "Fixed-Template SimCortex: Investigating the Impact of Initial Surface Geometry on Cortical Reconstruction"
+description: ""
+author: Dowoo Kim
+date: "2026-08-27"
+categories: [fixed-template simcortex, cortical reconstruction]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Summary:
+Fixed-Template SimCortex: Investigating the Impact of Initial Surface Geometry on Cortical Reconstruction
+
+![](../../../journalclub/pdfs/2026_08_27_Dowoo_Kim_work.pdf){width=100% height=400}
