@@ -1,0 +1,17 @@
+---
+title: "Fairness Beyond Demographics: Optimizing Performance Across Appearance-Based Hidden Cohorts in Medical Imaging"
+description: "DOI: [10.1007/978-3-032-38079-1_27](https://doi.org/10.1007/978-3-032-38079-1_27){target='_blank'}"
+author: Ghazal Danaee
+date: "2026-10-22"
+categories: [applied demography, biases, social inequality, population screening]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract of the conference paper:
+Medical image analysis models can exhibit performance disparities across patient subgroups, threatening clinical safety and fairness. Existing methods typically address this issue by optimizing accuracy and fairness metrics for visible demographic attributes (e.g., sex or age) considered in isolation. This strategy not only overlooks potentially more informative latent stratifications, which may reveal deeper sources of model error and inequity, but also fails to scale when multiple demographic attributes are considered simultaneously due to the resulting sparsity of training data within each subgroup. We deal with these issues by introducing the label-free hidden-cohort fairness (LHCF) training paradigm that instead of maximizing fairness over visible demographic attributes, it optimizes fairness across latent subpopulations discovered  from image appearance. By clustering images into K appearance-based cohorts and applying fairness optimization over them, LHCF uncovers underlying sources of model error and avoids the combinatorial sparsity of multi-demographic attributes, reducing disparities across both single and multiple demographic attributes. We demonstrate on our proposed fairness benchmark, HIDFairBench, that LHCF provides state-of-the-art fairness results on single and multiple demographic attributes without requiring demographic labels for training, improving practicality in real-world clinical settings where metadata may be incomplete or unavailable. Our results position hidden-cohort fairness as a practical, scalable, and robust alternative to demographic-based fairness optimization for trustworthy medical image analysis. 
+
+![](../../../journalclub/pdfs/2026_10_22_GD_Fairness_Beyond_Demographics_LHCF.pdf){width=100% height=400}
