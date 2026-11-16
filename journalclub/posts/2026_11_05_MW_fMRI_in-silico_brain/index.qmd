@@ -1,0 +1,17 @@
+---
+title: "A foundation model of vision, audition, and language for in-silico neuroscience"
+description: "DOI: [10.48550/arXiv.2605.04326](https://doi.org/10.48550/arXiv.2605.04326){target='_blank'}"
+author: Mathilde Wilfart
+date: "2026-11-05"
+categories: [tribe. foundation model, human brain activity, in-silico brain]
+#image: map.jpg
+format:
+  html:
+    toc: false #No table of content
+engine: knitr
+---
+
+# Abstract:
+Cognitive neuroscience is fragmented into specialized models, each tailored to specific experimental paradigms, hence preventing a unified model of cognition in the human brain. Here, we introduce TRIBE v2, a tri-modal (video, audio and language) foundation model capable of predicting human brain activity in a variety of naturalistic and experimental conditions. Leveraging a unified dataset of over 1,000 hours of fMRI across 720 subjects, we demonstrate that our model accurately predicts high-resolution brain responses for novel stimuli, tasks and subjects, superseding traditional linear encoding models, delivering several-fold improvements in accuracy. Critically, TRIBE v2 enables in silico experimentation: tested on seminal visual and neuro-linguistic paradigms, it recovers a variety of results established by decades of empirical research. Finally, by extracting interpretable latent features, TRIBE v2 reveals the fine-grained topography of multisensory integration. These results establish artificial intelligence as a unifying framework for exploring the functional organization of the human brain. 
+
+![](../../../journalclub/pdfs/2026_11_05_TRIBE_v2_Presentation_Wilfart_Mathilde.pdf){width=100% height=400}
